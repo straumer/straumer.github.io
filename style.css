@@ -71,7 +71,7 @@ main div#main {
     padding: 0 12pt;
     max-width: 500pt;
 	font: 1em/1.5 sans-serif;
-    text-align: justify;
+    #text-align: justify;
     padding-top: 20pt;
     padding-bottom: 20pt;
 }
@@ -80,6 +80,9 @@ main div#main h1 {
 }
 main pre {
     overflow: scroll;
+}
+main hr {
+    color: #bebebe;
 }
 footer {
     font: 1.2em/1 monospace;
