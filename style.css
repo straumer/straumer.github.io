@@ -18,7 +18,7 @@ header a:visited {
     color: #bebebe;
     text-decoration: none;
 }
-header ul {
+header ul, nav ul, .nob {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -51,11 +51,6 @@ nav a:visited {
 }
 nav a:hover {
     background-color: #111;
-}
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
 }
 nav li {
     float: left;
