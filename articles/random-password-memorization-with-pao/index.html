@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/png" href="data:image/png;base64,">
+        <link rel="stylesheet" href="/style.css">
+        <title>Netveldi - Random password memorization with PAO</title>
+        <meta property="og:title" content="Random password memorization with PAO" />
+    </head>
+    <body>
+        <header>
+            <a href="/"><img id="header-img" src="/img/portrait.jpg"></a>
+            <div id="header-text">
+                <h3><a href="/">Netveldi</a></h3>
+                <ul>
+                    <li>Matthías Ragnarsson</li>
+                    <li><a href="mailto:matt@netveldi.com">matt@netveldi.com</a> (<a href="/netveldi_email_key.asc">PGP</a>)</li>
+                </ul>
+            </div>
+        </header>
+        <nav>
+            <div id="nav" class="center">
+                <ul>
+                    <li><a href="/services">Services</a></li>
+                    <li><a href="/articles">Articles</a></li>
+                    <li><a href="/updates">Updates</a></li>
+                    <li><a href="https://github.com/straumer">Code</a></li>
+                    <li><a href="/about">About</a></li>
+                </ul>
+                <ul id="langs">
+                    <li><a href="/es/articulos/memorizacion-de-contrasenas-aleatorias-con-pao">Español</a></li>
+                    <li><a href="/is/greinar/handahofskennd-lykilord-a-minnid-med-pao">Íslenska</a></li>
+                </ul>
+            </div>
+        </nav>
+        <main>
+            <div id="main" class="center">
+                <article>
+                    <h1>Random password memorization with PAO</h1>
+                    <code>Created: <time pubdate timedate="2024-11-11">2024-11-11</time></code>
+                    <p>As a person who's quite interested in information security, I like to play mental games that involve the imagination of threats and how one could establish and improve one's defenses against them in case they materialize. One important case to consider is: What would happen if one loses all one's possessions to the point of being practically naked in the street or wherever. In this case, all of our data outside of our minds, be they digital or written, would disappear. We want to make sure that the response to this question is that nothing would happen and that we would stoically continue on like a recently arrived Terminator. Normally it's possible to leave data backups with third parties, but here I talk in the context of individuals that want maximum security, where they are the only ones that should have the power to access the contained data. This case requires the encryption of the data with a random password that is difficult to remember without memory techniques. To this purpose I dedicate this article where I explain my application of the <a href="https://artofmemory.com/blog/pao-system/">PAO</a> memory technique for readable <a href="https://en.wikipedia.org/wiki/ASCII">ASCII</a> symbols.</p>
+                    <p>More than 10 years ago, when I was in the university, I became intrigued about the way memory works which was prompted by my initial interest in passing exams. I learned about <a href="https://en.wikipedia.org/wiki/Mind_map">mind maps</a>, but what I was impacted by the most was the book <i>You can have an Amazing Memory</i> by Dominic O'Brien. After reading it and acquiring the capability of memorizing exact sequences of two decks of cards in less than 10 minutes, I felt greatly empowered and I understood better the potential of human memory. It is rather weird that they didn't teach us such memory techniques at school seeing that they would have made many things easier.</p>
+                    <p>I'm now going to explain my use of the PAO technique. Following this technique, I have encoded all of the 94 readable symbols of ASCII of which my passwords consist:</p>
+                    <code>! " # $ % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; < = > ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] ^ _ ` a b c d e f g h i j k l m n o p q r s t u v w x y z { | } ~</code>
+                    <p>Every one of these symbols are encoded according to the PAO method: As a person, action and object. For example, the "H" is encoded as Harry Potter (person) flying mounted on (action) a broom (object). To more easily remember the alphabet, each letter is the first letter of the name of the person ("H" for Harry). There are uppercase and lowercase letters, and to differentiate between them I decided that the people linked to uppercase letters be men and the people linked to lowercase letters be women. This organization also helps with maintaining balance between the quantity of each gender. Each digit and symbol that is not a letter has a certain form that reminds me of the linked person, for example "8" looks like a "snowman". There are twin symbols that I often keep within the same theme, for example "{" is "Batman" and "}" is "Alfred", his assistant.</p>
+                    <p>It took me a good amount of time to create the encodings. To create 94 people, 94 actions and 94 objects requires certain creativity, and one also has to take care that each person, action and object are not too similar to other people, actions and objects. This is to not get confused in the moment of remembering what we have memorized. We must remember one specific thing and not have multiple possible interpretations of what the thing could be. It can appear more difficult to come up with unique actions, but it is good to remember that an action can be more complex than one verb. For example "beats" can become "beats with a plate". There is an object in that action in this case and we must try to not have other actions or objects include "plate" as well. In order to be able to mentally use the encoding requires some practice in memorizing sequences of symbols with it, and that way it will be possible to conclude more rapidly to what person, object and action a symbol refers and vice versa.</p>
+                    <p>To memorize sequences of symbols, according to PAO, I imagine every combination of three symbols in places that I visit in an imaginary journey. It is possible to use places that one knows from real life or purely fictional places. For example if I am going to memorize the sequence "H}pA=3", I have two scenes to memorize: Harry Potter (H) revealing on a waiter's tray (}: Alfred from Batman) dirty clothes (p: Penny from the Big Bang Theory) and Aladdin (A) eating (=: Garfield) a <a href="https://en.wikipedia.org/wiki/Cylon">cylon robot</a> (3: <a href="https://en.wikipedia.org/wiki/Number_Six_(Battlestar_Galactica)">Cylon number six</a>). I imagine the first scene in front of my house and the other in the street by the side of my house. Normally the passwords that we want to memorize are longer, maybe filling about 10 scenes. Sometimes the last scene only consists of one or two symbols and in that case I make the person stand on a hovering black disc when there is only one symbol and make the object be a black ball when there are just two symbols.</p>
+                    <p>Two years ago I made an encoding for pairs of digits from 00 to 99 where for example "86" is linked to "Homer Simpson". Each digit is linked with one letter, in the example "8" to "H" and "6" to "S", or "86" to "HS". "HS" becomes "Homer Simpson". Since it took me a while to fill up the 100 number pairs with people, objects and actions, I'm going to use that encoding in combination with the encoding that I explained before. That way the memorization becomes more compact for sequential digits, for example the sequence "adude54348976" with this encoding requires three combinations of person action and object (adu de54 348976) instead of five (adu de5 434 897 6). There are cases where it makes sense to use this shorter number encoding, but it is not necessary to use it of course.</p>
+                    <p>Using this memory technique to memorize random passwords is not enough to remember them long term. To do that it is necessary to mentally review and verify the password every once in a while. It is possible to use techniques like <a href="https://en.wikipedia.org/wiki/Spaced_repetition">spaced repetition</a> where the password is reviewed after one hour, later after 1 day, 1 week, 1 month, 3 months, 1 year and so on. It doesn't take much time to review it and thus one can do it more often without problems. It's good to remember that to memorize a password for the long term one should use an imaginary journey that will never be reused. In this case I prefer to use imaginary journeys through places where I haven't personally been to, even purely fictional places.</p>
+                    <p>The application of memory techniques is different for each person, but I hope that mine serves as an inspiration. It can seem like a lot of work to take up a technique, but I believe it is worth it for the long term for those that want to feel security within the uncertainty of the physical world. Of course we must keep in mind that this memory technique is only one of the necessary components to keep our data secure and recuperable at any time, but I believe it is one of the most important components. To practice memory techniques also has other benefits such as improved <a href="https://en.wikipedia.org/wiki/Fluid_and_crystallized_intelligence">fluid intelligence</a>. Personally I have noted improvement in my focus, mental clarity and I remember more of my dreams. Memory practice is also useful for memorizing other things aside from passwords since it is more generally applicable. I hope you enjoy if you decide to try it out.</p>
+                </article>
+            </div>
+        </main>
+    </body>
+</html>
