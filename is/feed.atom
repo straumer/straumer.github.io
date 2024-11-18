@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>Netveldi</title>
+  <link rel="self" href="/is/feed.atom"/>
+  <updated>2024-11-18T11:57:59Z</updated>
+  <author>
+    <name>Matthías Ragnarsson</name>
+    <email>matti@netveldi.com</email>
+    <uri>https://www.netveldi.com/is/um-mig</uri>
+  </author>
+  <id>https://www.netveldi.com/is/</id>
+  
+  <entry>
+    <title>Tíðindi #5</title>
+    <link rel="alternate" href="/is/tidindi/5"/>
+    <id>https://www.netveldi.com/is/tidindi/5</id>
+    <published>2024-11-18</published>
+    <updated>2024-11-18</updated>
+    <summary>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <ul>
+            <li>Bætti við atom feed fyrir forsíðu hverrar tungumálaútgáfu þessarrar síðu í fætinum.</li>
+        </ul>
+      </div>
+    </summary>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <ul>
+            <li>Bætti við atom feed fyrir forsíðu hverrar tungumálaútgáfu þessarrar síðu í fætinum.</li>
+        </ul>
+      </div>
+    </content>
+  </entry>
+  <entry>
+    <title>Handahófskennd lykilorð á minnið með PAO</title>
+    <link rel="alternate" href="/is/greinar/handahofskennd-lykilord-a-minnid-med-pao"/>
+    <id>https://www.netveldi.com/is/greinar/handahofskennd-lykilord-a-minnid-med-pao</id>
+    <published>2024-11-11</published>
+    <updated>2024-11-11</updated>
+    <summary>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <p>Sem maður með mikinn áhuga á upplýsingaöryggi, þá hef ég oft leik að því að ímynda mér ýmsar ógnir og leiðir til varnar gegn þeim ef að þær skyldu raungerast. Eitt mikilvægt tilfelli er: Hvað myndi gerast ef maður glatar öllum sínum áþreifanlegu eignum og endar á götunni eða álíka? Í þessu tilfelli þá glatast öll okkar gögn, jafnt stafræn sem skrifuð, nema þau sem við höfum lagt á minnið. Við viljum tryggja það að svarið við spurningunni sé að ekkert sérstakt myndi gerast og að við stóískt höldum lífinu áfram eins og ekkert hafi í skorist eins og Tortímandi sem var við það að birtast. Venjulega er hægt að geyma gögn í höndum þriðju aðila, en hérna tala ég í samhengi einstaklinga sem vilja hámarks öryggi þar sem þeir eru þeir einu sem geta haft aðgang að gögnunum. Þetta tilfelli kallar á dulkóðun gagnanna með handahófskenndu lykilorði sem er erfitt að muna án minnistækni. Ég tileinka þessarri grein þeim tilgangi þar sem ég útskýri mína útfærslu á <a href="https://artofmemory.com/blog/pao-system/">PAO</a> minnistækninni fyrir lesanleg <a href="https://en.wikipedia.org/wiki/ASCII">ASCII</a> tákn.</p>
+      </div>
+    </summary>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <p>Sem maður með mikinn áhuga á upplýsingaöryggi, þá hef ég oft leik að því að ímynda mér ýmsar ógnir og leiðir til varnar gegn þeim ef að þær skyldu raungerast. Eitt mikilvægt tilfelli er: Hvað myndi gerast ef maður glatar öllum sínum áþreifanlegu eignum og endar á götunni eða álíka? Í þessu tilfelli þá glatast öll okkar gögn, jafnt stafræn sem skrifuð, nema þau sem við höfum lagt á minnið. Við viljum tryggja það að svarið við spurningunni sé að ekkert sérstakt myndi gerast og að við stóískt höldum lífinu áfram eins og ekkert hafi í skorist eins og Tortímandi sem var við það að birtast. Venjulega er hægt að geyma gögn í höndum þriðju aðila, en hérna tala ég í samhengi einstaklinga sem vilja hámarks öryggi þar sem þeir eru þeir einu sem geta haft aðgang að gögnunum. Þetta tilfelli kallar á dulkóðun gagnanna með handahófskenndu lykilorði sem er erfitt að muna án minnistækni. Ég tileinka þessarri grein þeim tilgangi þar sem ég útskýri mína útfærslu á <a href="https://artofmemory.com/blog/pao-system/">PAO</a> minnistækninni fyrir lesanleg <a href="https://en.wikipedia.org/wiki/ASCII">ASCII</a> tákn.</p>
+        <p>Meira en 10 árum síðan þegar ég var í háskólanum, þá lá mér forvitni á því hvernig minnið virkar, með upphaflega markmiðið að standast próf. Ég lærði um <a href="https://en.wikipedia.org/wiki/Mind_map">hugarkort</a>, en það sem hafði mest áhrif á mig var bókin <i>You can have an Amazing Memory</i> eftir Dominic O'Brien. Eftir að ég las hana og náði æfingu í því að leggja á minnið röð spila tveggja spilastokka á minna en 10 mínútum þá fann ég til mikillar valdeflingar og aukins skilnings á raunverulegum möguleikum mannlegs minnis. Það er frekar skrítið að okkur hafi ekki verið kennd minnistækni alveg frá upphafi skólagöngu þegar ljóst er að hún myndi létta okkur ýmislegt.</p>
+        <p>Nú ætla ég að greina frá notkun minni á PAO minnistækninni. Í samræmi við þá tækni, þá hef ég kóðað öll þau 94 lesanleg ASCII tákn sem ég nota í lykilorðin mín:</p>
+        <code>! " # $ % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; < = > ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] ^ _ ` a b c d e f g h i j k l m n o p q r s t u v w x y z { | } ~</code>
+        <p>Hvert einasta þessarra tákna er kóðað samkvæmt PAO aðferðinni: Sem manneskja, atferli og hlutur. Til dæmis „H” er kóðað yfir í Harry Potter (manneskja) flýgur um á (atferli) kústi (hlutur). Til að auðvelda það að muna stafrófið, þá er hver bókstafur fyrsti bókstafur nafns manneskjunnar („H” fyrir Harry Potter). Það eru til staðar stórir og litlir stafir og til að greina á milli þeirra þá ákvað ég að manneskjur tengdar stórum stöfum séu karlar og manneskjur tengdar litlum stöfum séu konur. Þetta fyrirkomulag hjálpar líka með jöfnun á fjölda hvers kyns. Hver tölustafur og tákn sem ekki er bókstafur hefur ákveðna lögun sem minnir mig á manneskjuna sem hann er tengdur við, t.d. lítur „8” út eins og „snjókarl”. Það eru einnig til pöruð tákn sem oft eru tengd, sem dæmi „{” er „Batman” og „}” er „Alfreð”, aðstoðarmaður hans.</p>
+        <p>Það tók mig dágóðann tíma að búa til alla kóðunina. Að búa til 94 manneskjur, 94 atferli og 94 hluti þarfnast ákveðinnar sköpunargáfu og einnig þarf að passa að hver manneskja, atferli og hlutur séu ekki of lík öðrum manneskjum, atferlum og hlutum. Ástæða þess er að við ruglumst ekki þegar við reynum að muna það sem við höfum sett á minnið. Við þurfum að hafa bara eitt atriði sem við getum munað, en ekki mörg möguleg atriði. Það getur virst erfitt að finna einstök atferli, en gott er að hafa í huga að eitt atferli getur verið flóknara en eitt sagnorð. Sem dæmi getur sögnin „ber” orðið að „ber með diski”. Þarna er hlutur í atferlinu í þessu tilfelli og það þarf að passa það að ekki séu til önnur atferli eða hlutir sem innihalda „diskur”. Til að geta notað kóðunina í huganum þarfnast æfingar í að nota hana til að leggja raðir af táknum á minnið og eftir það á að vera hægt að fljótlega geta til um hvaða manneskju, atferlis og hlutar hvert tákn stendur fyrir og öfugt.</p>
+        <p>Til að leggja á minnið raðir tákna, samkvæmt PAO, þá ímynda ég mér þriggja tákna samsetningar á stöðum sem ég heimsæki í ímynduðu ferðalagi. Það er hægt að nota staði sem maður þekkir úr raunveruleikanum eða sem eru einfaldlega skáldaðir. Sem dæmi, ef ég ætla að leggja á minnið táknaröðina „H}pA=3” þá set ég á minnið tvær senur: Harry Potter (H) færir fram á veitingarplatta (}: Alfreð úr Batman) óhrein föt (p: Penny úr Big Bang Theory) og Aladín (A) borðandi (=: Kötturinn Grettir) <a href="https://es.wikipedia.org/wiki/Cylon">cylon vélmenni</a> (3: <a href="https://en.wikipedia.org/wiki/Number_Six_(Battlestar_Galactica)">Cylon númer sex</a>). Ég ímynda mér fyrstu senuna fyrir utan húsið mitt og aðra senuna við götuna við hliðina á húsinu. Venjulega eru þau lykilorð sem við viljum leggja á minnið lengri, kannski allt í 10 senur. Stundum samanstendur síðasta senan af aðeins einu tákni og í þeim tilfellum læt ég manneskjuna standa á svörtum diski sem flýgur í stað u.þ.b. hálfum metra yfir jörðinni og þegar senan samanstendur af tveimur táknum, þá læt ég hlutinn vera svartan bolta.</p>
+        <p>Fyrir nokkrum árum bjó ég til kóðun fyrir paraða tölustafi frá 00 til 99 þar sem til dæmis „86” er tengt „Homer Simpson”. Hver tölustafur er tengdur einum bókstaf, í dæminu er „8” tengt „H” og „6” tengt „S”, eða „HS” tengt „86”. „HS” verður að „Homer Simpson”. Fyrst að það tók mig langan tíma að kóða 100 pöruð númer yfir í manneskjur, atferli og hluti þá mun ég nota þá kóðun með kóðun hinna táknanna sem ég skýrði frá. Þannig er hægt að leggja á minnið styttri ferðalög fyrir táknaraðir sem innihalda númeraraðir. Til dæmis þá þarfnast táknaröðin „adude54348976” með þessarri kóðun bara þrjár samsetningar af manneskju, atferli og hlut (adu de54 348976) í stað fimm (adu de5 434 897 6). Í sumum tilfellum er meiri glóra í því að nota þessa styttri kóðun, en það er náttúrulega ekki nauðsynlegt að gera það.</p>
+        <p>Að nota þessa minnistækni til að leggja á minnið handahófskennd lykilorð er ekki nóg til að muna þau til lengri tíma. Til þess að gera það þarf að fara yfir þau í huganum og staðfesta að lykilorðið sé rétt af og til. Það er hægt að notast við minnistækni eins og <a href="https://en.wikipedia.org/wiki/Spaced_repetition">„spaced repetition”</a> þar sem lykilorðið er yfirfarið eftir eina klukkustund, síðar eftir 1 dag, 1 viku, 1 mánuð, 3 mánuði, 1 ár o.s.frv. Það tekur ekki langan tíma að fara yfir það og því er hægt að gera það oftar án mikillar fyrirhafnar. Hafa þarf í huga að til þess að leggja lykilorðið á minnið til lengri tíma þá þarf að nota ímyndað ferðalag sem við ætlum ekki að endurnota. Í þessu tilfelli finnst mér betra að nota staði þar sem ég hef ekki persónulega verið á og jafnvel staði sem eru skáldaðir.</p>
+        <p>Minnistækni er notuð á mismunandi hátt af hverjum og einum, en ég vona að mín notkun geti veitt innblástur. Það getur virst sem að notkunin þarfnist mikillar undirbúningsvinnu, en ég held að það sé þess virði til langs tíma fyrir þá sem vilja öryggistilfinningu í þeim hverfula raunveruleika sem við lifum í. Auðvitað þarf að hafa í huga að minnistækni er aðeins eitt af þeim tólum sem þarf til að halda gögnum okkar öruggum og aðgengilegum hvenær sem er, en ég held að hún sé ein af þeim mikilvægustu. Að æfa sig í minnistækni hefur einnig aðra kosti eins og betrumbætingu <a href="https://en.wikipedia.org/wiki/Fluid_and_crystallized_intelligence">fljótandi greindar</a>. Persónulega hef ég tekið eftir bættri einbeitingu, skýrari huga og ég man oftar eftir því sem ég dreymi. Æfing í tækninni er einnig nytsamleg til að leggja á minnið fleira en lykilorð þar sem hún hefur víðari notkunarsvið. Ég vona að þið hafið gaman af ef þið ákveðið að prófa.</p>
+      </div>
+    </content>
+  </entry>
+  <entry>
+    <title>Tíðindi #4</title>
+    <link rel="alternate" href="/is/tidindi/4"/>
+    <id>https://www.netveldi.com/is/tidindi/4</id>
+    <published>2024-10-28</published>
+    <updated>2024-10-28</updated>
+    <summary>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <ul>
+        <li>Mér finnst mikilvægt að gera betrumbætur á öryggi fartölvunar minnar með tímanum bæði fyrir mig og öryggi þeirra verkefna sem ég vinn að fyrir mína viðskiptavini. Nýlega hef ég verið að leita að nýrri fartölvu. Síðast þegar ég gerði það, árið 2021, þá endaði ég með <a href="https://en.wikipedia.org/wiki/ThinkPad_X_series#X200_and_X200s">Thinkpad X200</a> í höndunum. Ástæðan fyrir því er að hún er ein af þeim fáu <a href="https://ryf.fsf.org/index.php/categories/laptops">RYF vottuðu fartölvum</a> sem <a href="https://libreboot.org/">Libreboot</a> getur keyrt á, og þannig fartölvur eru án <a href="https://en.wikipedia.org/wiki/Intel_Management_Engine">Intel stjórnunarvélarinnar</a> (öryggisvandamál). Ein ástæða fyrir því að ég er að líta á aðra möguleika er að fartölvan slekkur á sér vegna ofhitunar eða frýs stundum þegar hún er að vinna mikið. Ég gæti gefið mér tíma í að laga þetta, en það væri erfitt að vera 100% viss um að tölvan slökkvi ekki á sér á mikilvægum fjarfundum. Önnur ástæða er að öðlast betri örgjörva, skjákort og minnisgetu til að geta þjálfað gervigreindarmódel beint í tölvunni. Ég á ennþá eina <a href="https://www.thinkwiki.org/wiki/Category:T440s">Thinkpad T440s</a> fartölvu sem ég get notað þegar tölvan má ekki krassa. Hún er hinsvegar ekki tilvalin í gervigreindarþjálfun, notar Intel stjórnunarvélina og fastbúnaður tölvunnar er læstur þannig ekki er hægt að skipta honum út fyrir frjálsa útgáfu. Í stuttu máli þá endaði leitin á <a href="https://novacustom.com/cat/custom-laptop/">NovaCustom</a>. Þessar fartölvur hafa möguleikann á því að slökkva á Intel stjórnunarvélinni og keyra <a href="https://www.coreboot.org/">Coreboot</a> sem virðist vera ásættanleg málamiðlun. Ég vil reyna að nota <a href="https://www.openbsd.org/">OpenBSD</a> sem aðal stýrikerfið mitt (ég nota núna <a href="https://www.parabola.nu/">Parabola</a>) og ég sá <a href="https://dataswamp.org/~solene/2024-01-03-laptop-review-novacustom-nv41.html#_OpenBSD">umfjöllun</a> um árangursríka notkun OpenBSD á NovaCustom NV41 fartölvunni, sem er góðs viti. Ég mun hugsa mig aðeins meira um áður en ég tek ákvörðun.</li>
+        </ul>
+      </div>
+    </summary>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <ul>
+        <li>Mér finnst mikilvægt að gera betrumbætur á öryggi fartölvunar minnar með tímanum bæði fyrir mig og öryggi þeirra verkefna sem ég vinn að fyrir mína viðskiptavini. Nýlega hef ég verið að leita að nýrri fartölvu. Síðast þegar ég gerði það, árið 2021, þá endaði ég með <a href="https://en.wikipedia.org/wiki/ThinkPad_X_series#X200_and_X200s">Thinkpad X200</a> í höndunum. Ástæðan fyrir því er að hún er ein af þeim fáu <a href="https://ryf.fsf.org/index.php/categories/laptops">RYF vottuðu fartölvum</a> sem <a href="https://libreboot.org/">Libreboot</a> getur keyrt á, og þannig fartölvur eru án <a href="https://en.wikipedia.org/wiki/Intel_Management_Engine">Intel stjórnunarvélarinnar</a> (öryggisvandamál). Ein ástæða fyrir því að ég er að líta á aðra möguleika er að fartölvan slekkur á sér vegna ofhitunar eða frýs stundum þegar hún er að vinna mikið. Ég gæti gefið mér tíma í að laga þetta, en það væri erfitt að vera 100% viss um að tölvan slökkvi ekki á sér á mikilvægum fjarfundum. Önnur ástæða er að öðlast betri örgjörva, skjákort og minnisgetu til að geta þjálfað gervigreindarmódel beint í tölvunni. Ég á ennþá eina <a href="https://www.thinkwiki.org/wiki/Category:T440s">Thinkpad T440s</a> fartölvu sem ég get notað þegar tölvan má ekki krassa. Hún er hinsvegar ekki tilvalin í gervigreindarþjálfun, notar Intel stjórnunarvélina og fastbúnaður tölvunnar er læstur þannig ekki er hægt að skipta honum út fyrir frjálsa útgáfu. Í stuttu máli þá endaði leitin á <a href="https://novacustom.com/cat/custom-laptop/">NovaCustom</a>. Þessar fartölvur hafa möguleikann á því að slökkva á Intel stjórnunarvélinni og keyra <a href="https://www.coreboot.org/">Coreboot</a> sem virðist vera ásættanleg málamiðlun. Ég vil reyna að nota <a href="https://www.openbsd.org/">OpenBSD</a> sem aðal stýrikerfið mitt (ég nota núna <a href="https://www.parabola.nu/">Parabola</a>) og ég sá <a href="https://dataswamp.org/~solene/2024-01-03-laptop-review-novacustom-nv41.html#_OpenBSD">umfjöllun</a> um árangursríka notkun OpenBSD á NovaCustom NV41 fartölvunni, sem er góðs viti. Ég mun hugsa mig aðeins meira um áður en ég tek ákvörðun.</li>
+        </ul>
+      </div>
+    </content>
+  </entry>
+  <entry>
+    <title>Tíðindi #3</title>
+    <link rel="alternate" href="/is/tidindi/3"/>
+    <id>https://www.netveldi.com/is/tidindi/3</id>
+    <published>2024-10-21</published>
+    <updated>2024-10-21</updated>
+    <summary>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <ul>
+            <li>Hef næstum klárað að skilgreina <a href="https://artofmemory.com/blog/pao-system/">PAO minnigarkerfið</a> mitt fyrir öll lesanleg <a href="https://en.wikipedia.org/wiki/ASCII">ASCII</a> letur. Ég mun nota það til að muna handahófskennd ASCII lykilorð fyrir dulkóðuð afrit af gögnunum mínum. Ég hef ætlað að gera það í nokkurn tíma, en meira um það síðar.</li>
+            <li>Las kafla 11 <a href="https://doc.rust-lang.org/book/">Rust bókarinnar</a>.</li>
+        </ul>
+      </div>
+    </summary>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <ul>
+            <li>Hef næstum klárað að skilgreina <a href="https://artofmemory.com/blog/pao-system/">PAO minnigarkerfið</a> mitt fyrir öll lesanleg <a href="https://en.wikipedia.org/wiki/ASCII">ASCII</a> letur. Ég mun nota það til að muna handahófskennd ASCII lykilorð fyrir dulkóðuð afrit af gögnunum mínum. Ég hef ætlað að gera það í nokkurn tíma, en meira um það síðar.</li>
+            <li>Las kafla 11 <a href="https://doc.rust-lang.org/book/">Rust bókarinnar</a>.</li>
+        </ul>
+      </div>
+    </content>
+  </entry>
+  <entry>
+    <title>Tíðindi #2</title>
+    <link rel="alternate" href="/is/tidindi/2"/>
+    <id>https://www.netveldi.com/is/tidindi/2</id>
+    <published>2024-10-14</published>
+    <updated>2024-10-14</updated>
+    <summary>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <ul>
+            <li>Fór á <a href="https://www.fjarskiptastofa.is/page/d50c3d79-28d3-4eee-8031-c92002c0db63">Netöryggisráðstefnu</a> <a href="https://www.fjarskiptastofa.is/english">Fjarskiptastofu</a>. Þar fékk ég að kynnast því sem að fyrirtæki á Íslandi standa frammi fyrir í þessum bransa nú til dags og einnig nýju <a href="https://nis2directive.eu/what-is-nis2/">NIS2 tilskipuninni</a> frá ES sem vænst er til að þau munu þurfa að fara eftir. Sambandsleysi milli stjórnar og upplýsingatæknideildar fyrirtækja var mikið talað um og einnig nauðsyn dýpri samskipta milli þeirra til að bæta net- og upplýsingaöryggi. Ég held að upplýsingatæknifólk hafi hag af vitneskju um fyrirtækjarekstur í þessu samhengi. Það gerir því kleift að þekkja ábyrgð og sjónarhorn stjórnarinnar til að koma upplýsingum um öryggisáhættur til hennar á áhrifaríkann hátt til að hún geti tekið ábyrgð á þeim.</li>
+            <li>Hef verið að vinna í "static site generator" að nafni <a href="https://github.com/straumer/makesite">makesite</a> samhliða því að ég uppfæri þessa síðu sem búin er til með því tóli. Meðal annars finnst mér þetta fínt verkefni til að fá dýpri þekkingu á make, m4 og skelinni. Þau tól eru mjög oft notuð í C/C++ hugbúnaðarsmíðarkerfum verkefna sem ég vil taka þátt í.</li>
+            <li>Las kafla 6-10 í <a href="https://doc.rust-lang.org/book/">Rust bókinni</a>. Mér finnst fínt að hún greinir frá öryggiseiginleikum Rust í samhengi forritunarmála eins og C, þar sem hún getur þá líka frætt mann um góðar öryggisvenjur í forritun almennt sem hægt er að tileinka sér handvirkt.</li>
+        </ul>
+      </div>
+    </summary>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <ul>
+            <li>Fór á <a href="https://www.fjarskiptastofa.is/page/d50c3d79-28d3-4eee-8031-c92002c0db63">Netöryggisráðstefnu</a> <a href="https://www.fjarskiptastofa.is/english">Fjarskiptastofu</a>. Þar fékk ég að kynnast því sem að fyrirtæki á Íslandi standa frammi fyrir í þessum bransa nú til dags og einnig nýju <a href="https://nis2directive.eu/what-is-nis2/">NIS2 tilskipuninni</a> frá ES sem vænst er til að þau munu þurfa að fara eftir. Sambandsleysi milli stjórnar og upplýsingatæknideildar fyrirtækja var mikið talað um og einnig nauðsyn dýpri samskipta milli þeirra til að bæta net- og upplýsingaöryggi. Ég held að upplýsingatæknifólk hafi hag af vitneskju um fyrirtækjarekstur í þessu samhengi. Það gerir því kleift að þekkja ábyrgð og sjónarhorn stjórnarinnar til að koma upplýsingum um öryggisáhættur til hennar á áhrifaríkann hátt til að hún geti tekið ábyrgð á þeim.</li>
+            <li>Hef verið að vinna í "static site generator" að nafni <a href="https://github.com/straumer/makesite">makesite</a> samhliða því að ég uppfæri þessa síðu sem búin er til með því tóli. Meðal annars finnst mér þetta fínt verkefni til að fá dýpri þekkingu á make, m4 og skelinni. Þau tól eru mjög oft notuð í C/C++ hugbúnaðarsmíðarkerfum verkefna sem ég vil taka þátt í.</li>
+            <li>Las kafla 6-10 í <a href="https://doc.rust-lang.org/book/">Rust bókinni</a>. Mér finnst fínt að hún greinir frá öryggiseiginleikum Rust í samhengi forritunarmála eins og C, þar sem hún getur þá líka frætt mann um góðar öryggisvenjur í forritun almennt sem hægt er að tileinka sér handvirkt.</li>
+        </ul>
+      </div>
+    </content>
+  </entry>
+  <entry>
+    <title>Tíðindi #1</title>
+    <link rel="alternate" href="/is/tidindi/1"/>
+    <id>https://www.netveldi.com/is/tidindi/1</id>
+    <published>2024-10-07</published>
+    <updated>2024-10-07</updated>
+    <summary>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <ul>
+            <li>Bætti við Þjónusta og Tíðindi flipum við vefsíðuna og uppfærði Um mig flipann.</li>
+            <li>Ákvað að læra <a href="https://www.rust-lang.org/">Rust</a> forritun fyrst það eru mörg forrit sem nota það sem ég vil taka þátt í að forrita. Kláraði að lesa kafla 1-5 í <a href="https://doc.rust-lang.org/book/">Rust bókinni</a>.</li>
+        </ul>
+      </div>
+    </summary>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <ul>
+            <li>Bætti við Þjónusta og Tíðindi flipum við vefsíðuna og uppfærði Um mig flipann.</li>
+            <li>Ákvað að læra <a href="https://www.rust-lang.org/">Rust</a> forritun fyrst það eru mörg forrit sem nota það sem ég vil taka þátt í að forrita. Kláraði að lesa kafla 1-5 í <a href="https://doc.rust-lang.org/book/">Rust bókinni</a>.</li>
+        </ul>
+      </div>
+    </content>
+  </entry>
+  <entry>
+    <title>Frjáls hugbúnaður er númer eitt</title>
+    <link rel="alternate" href="/is/greinar/frjals-hugbunadur-er-numer-eitt"/>
+    <id>https://www.netveldi.com/is/greinar/frjals-hugbunadur-er-numer-eitt</id>
+    <published>2024-09-18</published>
+    <updated>2024-09-18</updated>
+    <summary>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <p>Við notum öll margskonar stafræna tækni til að hafa samskipti og höfum gagn að þessu aukna upplýsingaflæði á milli okkar. Því meir sem við reiðum okkur á þessa tækni í athöfnum okkar, því mikilvægara er að skilja nokkur grunnatriði hins stafræna heims til valdeflingar okkar til lengri tíma. Eitt grunnatriði sem ég tala um í þessarri grein hefur með val á hugbúnaði að gera með tilliti til hugbúnaðarleyfis og aðgangi að frumkóða hans. Hugbúnaður getur verið ýmis öpp, forrit, stýrikerfi og önnur hugbúnaðartól. þegar við erum orðin meðvituð um mannlega þáttinn í gerð hugbúnaðar þá getum við sett okkur meginreglur og venjur okkur til valdeflingar. Þessi grein er fyrir notendur hugbúnaðar en ekki forritara, en samt sem áður er mikilvægt að nefna nokkur einföld atriði frá sjónarhorni þeirra til að geta valið hugbúnað okkar betur.</p>
+      </div>
+    </summary>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <p>Við notum öll margskonar stafræna tækni til að hafa samskipti og höfum gagn að þessu aukna upplýsingaflæði á milli okkar. Því meir sem við reiðum okkur á þessa tækni í athöfnum okkar, því mikilvægara er að skilja nokkur grunnatriði hins stafræna heims til valdeflingar okkar til lengri tíma. Eitt grunnatriði sem ég tala um í þessarri grein hefur með val á hugbúnaði að gera með tilliti til hugbúnaðarleyfis og aðgangi að frumkóða hans. Hugbúnaður getur verið ýmis öpp, forrit, stýrikerfi og önnur hugbúnaðartól. þegar við erum orðin meðvituð um mannlega þáttinn í gerð hugbúnaðar þá getum við sett okkur meginreglur og venjur okkur til valdeflingar. Þessi grein er fyrir notendur hugbúnaðar en ekki forritara, en samt sem áður er mikilvægt að nefna nokkur einföld atriði frá sjónarhorni þeirra til að geta valið hugbúnað okkar betur.</p>
+        <p>Þegar við höfum í höndunum stafræn raftæki eins og fartölvu eða farsíma, þá köllum við efnislegan part þeirra vélbúnað. Vélbúnaðurinn geymir og vinnur með gögn á ýmsa vegu og hver grunneining gagnanna getur verið í tveim mismunandi ástöndum sem við venjulega köllum 1 og 0. Hugbúnaður er gögn sem ákvarðar hegðun vélbúnaðar. Einn mikilvægur munur á milli vélbúnaðar og hugbúnaðar er að hægt er að afrita hugbúnað og dreifa afritum af honum nánast án neins kostnaðar á meðan vélbúnaður er efnislegur og óafritanlegur nema með miklum orku- og efniskostnaði.</p>
+        <p>Venjulega hefur hugbúnaðurinn ákveðið hugbúnaðarleyfi sem er lagatexti sem segir hvað er hægt að gera með hugbúnaðinn og hvað ekki. Séð er svo til þess að hugbúnaðarleyfum sé fylgt í gegnum stjórnvöld. Þegar hugbúnaðarleyfi takmarka notkun hugbúnaðar þá takmarka þau venjulega fólk sem vill uppfæra eða endurnota hugbúnaðinn. Sem dæmi þá gæti verið skrifað í hugbúnaðarleyfi að engir nema eigendur hugbúnaðarins geti uppfært, dreift eða sett í endurdreifingu uppfærðar útgáfur af hugbúnaðinum. Venjulegir notendur hugbúnaðarins verða venjulega ekki beint fyrir áhrifum slíkra takmarkana, en geta orðið fyrir áhrifum óbeint. Þegar notendur velja hugbúnað eru þeir að velja hvaða forritarar geta uppfært og endurnotað hugbúnaðinn í framtíðinni, á hvaða hátt, í hvaða kringumstæðum, í hvaða tilgangi o.s.frv.</p>
+        <p>Hugbúnaður hefur tvö form: frumkóða sem er skrifaður á máli sem auðvelt er fyrir mannfólk að skilja og vélakóða sem eru leiðbeiningar fyrir vélbúnað. Frumkóði fer í gegnum þýðingarferli sem umbreytir honum í vélakóða. Það er mögulegt að skilja og uppfæra vélakóða, en það ferli er vandasamt og það eru fáir sem geta gert það vel. Ennfremur keyrir það form hugbúnaðar á aðeins einni tegund af örgjörva og vélbúnaður getur innihaldið mismunandi tegundir af örgjörvum. Aftur á móti er hægt að þýða frumkóða fyrir alla örgjörva þar sem tiltekinn hugbúnaður á að keyra. Stundum er hugbúnaður útvegaður sem vefþjónusta þar sem hann keyrir aðeins á vélbúnaði þriðja aðila og er aðgengilegur með vafra eða öðrum forritum. Í því tilfelli er ómögulegt fyrir forritara sem ekki eru sjálfir þriðju aðilarnir að uppfæra eða endurnota hugbúnaðinn ef þriðji aðilinn deilir ekki frumkóða eða vélakóða hans. Niðurstaðan er að forritarar sem hafa í höndunum frumkóða hugbúnaðar eru þeir sem geta útfært breytingar á honum, skilið hann og þýtt fyrir mismunandi tegundir örgjörva.</p>
+        <p>Þá komum við að spurningunni hverskonar hugbúnaður er meira valdeflandi fyrir notendur ef við tökum til greina hugbúnaðarleyfi hans og hver hefur aðgang að frumkóða hans. Hugbúnaðarleyfi og aðgangur að frumkóða ákvarðar hvaða forritarar geta gert hvað með hugbúnaðinn. Eðli hugbúnaðarins og framtíðaruppfærslur hans ákvarðast af því hverjir forrita hann. Þá verður spurningin hverskonar forritarar með hvaða hvatir valdefla okkur meira með forritun sinni á hugbúnaðinum í dag og til framtíðar.</p>
+        <p>Tökum sem dæmi forritara sem búa til hugbúnaðarleyfi sem leyfir engum nema þeim sjálfum að forrita hugbúnaðinn og leyfa engum öðrum að sjá eða breyta frumkóða hans. Þó að það kosti nánast ekkert að leyfa öðrum að forrita eða endurnota hugbúnaðinn með hugbúnaðarleyfi sem leyfir það og aðgangi að frumkóða hans, þá er algengasti hvatinn til að gera það ekki hagfræðilegur. Þegar forritarar halda eftir öllum réttindum til að forrita eða endurnota hugbúnaðinn, þá geta þeir haft hann nákvæmlega eins og þeir vilja, og geta þannig skikkað notendur hans til að borga fyrir afrit af honum og til að nota hann. Meiri glóra er í svona hegðun þegar taka þarf afrit af vélbúnaði þar sem það kostar að gera það, en það kostar nánast ekkert að afrita hugbúnað. Einnig er hægt að láta notendur borga óbeint, til dæmis með því að láta hugbúnaðinn sýna auglýsingar eða afla upplýsinga um notandann (einfaldlega sagt njósnir). Ef frumkóða er ekki deilt er einnig einfaldara að fela vírusa í hugbúnaðinum og oft gera forritarar hugbúnaðinn flóknari og afkastaminni til að koma í veg fyrir ólöglegar afritanir á honum. Hugbúnaður með svona hugbúnaðarleyfi með óaðgengilegum frumkóða er kallaður einkahugbúnaður.</p>
+        <p>Tökum aftur á móti dæmi forritara sem deila frumkóða hugbúnaðarins og nota frjálsari hugbúnaðarleyfi sem leyfa öllum einfaldlega að forrita og endurnota hugbúnaðinn skilyrðislaust. Þannig forritarar gera sér grein fyrir kostnaðarleysi þess að deila afritum af frumkóðanum og búa ekki til gervihindranir til hagnaðar. Oft forrita þeir hugbúnað í sjálfboðavinnu fyrir aðra eða þá fyrir þá sjálfa sem notendur hugbúnaðarins. Stundum vinna þeir í fyrirtækjum sem hafa þörf á því að hugbúnaðurinn virki vel og vegna þess forrita þeir hann. Þeir geta líka tekið við þóknun fyrir að uppfæra hugbúnaðinn. Hugbúnaður með svona hugbúnaðarleyfi og aðgengilegan frumkóða er kallaður frjáls hugbúnaður.</p>
+        <p>Segjum sé svo að við værum að velja á milli einkahugbúnaðar og frjáls hugbúnaðar fyrir ákveðin verkefni og að frjálsi hugbúnaðurinn geti leyst þau nægilega vel. Segjum líka að við ætlum að setja mikinn tíma í það að læra að nota hugbúnaðinn eins og sérfræðingar. Valkosturinn sem eflir okkur meira er tvímælalaust frjálsi hugbúnaðurinn vegna þess að hann þarfnast ekki eins mikils trausts á höfunda hugbúnaðarins. Við þurfum ekki að treysta því að þeir hækki ekki verðið á hugbúnaðinum eða að þeir breyti honum á einhvern hátt vegna hagfræðilegra hvata til að sanka að sér meiri verðmæti frá notendum hans þar sem hvatinn er ekki fyrir hendi. Hann þarfnast minni trausts á því að forritarinn feli ekki vírusa í hugbúnaðinum vegna þess að frumkóðinn útvegar gegnsæi og aðrir forritarar og tæknifólk geta skoðað hann. Einnig er minni áhætta á vondri fjárfestingu í það að læra á hugbúnaðinn vegna þess að við þurfum ekki að treysta því að hagfræðilegir hvatar forritaranna geri hugbúnaðinn verri eða dýrari. Síðasti punkturinn er að frjáls hugbúnaður er meira okkar eign. Við notendurnir stjórnum hugbúnaðinum sem forritarar hans búa til en ekki öfugt. Kannski forritum við hann ekki sjálf, en við höfum valdið til að gera það eða til að fá einhvern sem kann til að gera það ef þess er þörf.</p>
+        <p>Niðurstaðan er að leiðin til valdeflingar í hugbúnaðarvali með tilliti til hugbúnaðarleyfis og aðgengi að frumkóða er að hafa frjálsan hugbúnað í forgangi, svo hugbúnað með fáar takmarkanir og síðast einkahugbúnað.</p>
+      </div>
+    </content>
+  </entry>
+
+</feed>

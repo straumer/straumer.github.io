@@ -1,5 +1,8 @@
 body {
     margin: 0;
+    min-height: 110vh;
+    display: flex;
+    flex-direction: column;
 }
 header {
     display: flex;
@@ -18,7 +21,7 @@ header a:visited {
     color: #bebebe;
     text-decoration: none;
 }
-header ul, nav ul, .nob {
+header ul, nav ul, footer ul, .nob {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -62,11 +65,13 @@ nav div#nav {
     display: flex;
     max-width: 512pt;
 }
+main {
+    flex: 1;
+}
 main div#main {
     padding: 0 12pt;
     max-width: 500pt;
 	font: 1em/1.5 sans-serif;
-    #text-align: justify;
     padding-top: 20pt;
     padding-bottom: 20pt;
 }
@@ -80,10 +85,21 @@ main hr {
     color: #bebebe;
 }
 footer {
+    background-color: #000000;
+}
+footer div#footer {
+    padding: 12pt;
+    max-width: 500pt;
     font: 1.2em/1 monospace;
-    color: grey;
-    text-align: center;
-    border-top: thin solid #bebebe;
+    color: #bebebe;
+}
+footer a:link {
+    color: #bebebe;
+    text-decoration: none;
+}
+footer a:visited {
+    color: #bebebe;
+    text-decoration: none;
 }
 div.center {
 	margin: 0 auto;
