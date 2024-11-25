@@ -3,7 +3,7 @@
 
   <title>Netveldi</title>
   <link rel="self" href="/feed.atom"/>
-  <updated>2024-11-18T11:57:58Z</updated>
+  <updated>2024-11-25T13:29:42Z</updated>
   <author>
     <name>Matthías Ragnarsson</name>
     <email>matt@netveldi.com</email>
@@ -11,6 +11,27 @@
   </author>
   <id>https://www.netveldi.com/</id>
   
+  <entry>
+    <title>Update #6</title>
+    <link rel="alternate" href="/updates/6"/>
+    <id>https://www.netveldi.com/updates/6</id>
+    <published>2024-11-25</published>
+    <updated>2024-11-25</updated>
+    <summary>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <ul>
+            <li>Following up on <a href="/updates/4">Update #4</a>, I ended up getting one of those <a href="https://novacustom.com/product/v54-series/">V54</a> NovaCustom laptops. I had 4 possible OSes in mind for this laptop, ordered by priority as OpenBSD > Void Linux > Parabola Linux > Archlinux. The hardware is newer than that of NV41, so there was a good chance some of those OSes wouldn't run on it, but I was sure at least Archlinux would, which I consider good enough until the others catch up. The OpenBSD installer froze on startup and Void and Parabola have their officially supported kernel versions below the required version of 6.9, so Archlinux, which I've used since 2011 is the choice for now.</li>
+        </ul>
+      </div>
+    </summary>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <ul>
+            <li>Following up on <a href="/updates/4">Update #4</a>, I ended up getting one of those <a href="https://novacustom.com/product/v54-series/">V54</a> NovaCustom laptops. I had 4 possible OSes in mind for this laptop, ordered by priority as OpenBSD > Void Linux > Parabola Linux > Archlinux. The hardware is newer than that of NV41, so there was a good chance some of those OSes wouldn't run on it, but I was sure at least Archlinux would, which I consider good enough until the others catch up. The OpenBSD installer froze on startup and Void and Parabola have their officially supported kernel versions below the required version of 6.9, so Archlinux, which I've used since 2011 is the choice for now.</li>
+        </ul>
+      </div>
+    </content>
+  </entry>
   <entry>
     <title>Update #5</title>
     <link rel="alternate" href="/updates/5"/>

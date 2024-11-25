@@ -3,7 +3,7 @@
 
   <title>Netveldi</title>
   <link rel="self" href="/es/feed.atom"/>
-  <updated>2024-11-18T11:57:58Z</updated>
+  <updated>2024-11-25T13:29:42Z</updated>
   <author>
     <name>Matthías Ragnarsson</name>
     <email>matt@netveldi.com</email>
@@ -11,6 +11,27 @@
   </author>
   <id>https://www.netveldi.com/es/</id>
   
+  <entry>
+    <title>Novedades #6</title>
+    <link rel="alternate" href="/es/novedades/6"/>
+    <id>https://www.netveldi.com/es/novedades/6</id>
+    <published>2024-11-25</published>
+    <updated>2024-11-25</updated>
+    <summary>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <ul>
+            <li>Siguiendo <a href="/es/novedades/4">Novedades #4</a>, terminé con unos de esos portátiles NovaCustom <a href="https://novacustom.com/product/v54-series/">V54</a>. Tenía 4 posibles sistemas operativas en mente para este portátil, organizados por prioridad como OpenBSD > Void Linux > Parabola Linux > Archlinux. El hardware es más reciente que lo del NV41, lo que significa que había buena probabilidad de que esos sistemas operativas no correrían en ello, pero sabía que Archlinux lo haría, lo que considero suficiente hasta que los otros lo alcanzan. El instalador de OpenBSD se congeló al iniciar y los núcleos de Void y Parabola aún no están de versión 6.9 o más, entonces elegí Archlinux, lo que he usado desde 2011, por ahora.</li>
+        </ul>
+      </div>
+    </summary>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <ul>
+            <li>Siguiendo <a href="/es/novedades/4">Novedades #4</a>, terminé con unos de esos portátiles NovaCustom <a href="https://novacustom.com/product/v54-series/">V54</a>. Tenía 4 posibles sistemas operativas en mente para este portátil, organizados por prioridad como OpenBSD > Void Linux > Parabola Linux > Archlinux. El hardware es más reciente que lo del NV41, lo que significa que había buena probabilidad de que esos sistemas operativas no correrían en ello, pero sabía que Archlinux lo haría, lo que considero suficiente hasta que los otros lo alcanzan. El instalador de OpenBSD se congeló al iniciar y los núcleos de Void y Parabola aún no están de versión 6.9 o más, entonces elegí Archlinux, lo que he usado desde 2011, por ahora.</li>
+        </ul>
+      </div>
+    </content>
+  </entry>
   <entry>
     <title>Novedades #5</title>
     <link rel="alternate" href="/es/novedades/5"/>

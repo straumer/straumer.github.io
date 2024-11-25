@@ -3,7 +3,7 @@
 
   <title>Netveldi</title>
   <link rel="self" href="/is/feed.atom"/>
-  <updated>2024-11-18T11:57:59Z</updated>
+  <updated>2024-11-25T13:29:43Z</updated>
   <author>
     <name>Matthías Ragnarsson</name>
     <email>matti@netveldi.com</email>
@@ -11,6 +11,27 @@
   </author>
   <id>https://www.netveldi.com/is/</id>
   
+  <entry>
+    <title>Tíðindi #6</title>
+    <link rel="alternate" href="/is/tidindi/6"/>
+    <id>https://www.netveldi.com/is/tidindi/6</id>
+    <published>2024-11-25</published>
+    <updated>2024-11-25</updated>
+    <summary>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <ul>
+            <li>Haldandi áfram með <a href="/is/tidindi/4">Tíðindi #4</a>, þá endaði ég með eina <a href="https://novacustom.com/product/v54-series/">V54</a> NovaCustom fartölvu. Ég hafði 4 möguleg stýrikerfi í huga fyrir hana, í forgangsröð OpenBSD > Void Linux > Parabola Linux > Archlinux. Vélbúnaðurinn er nýrri en hjá NV41, þannig það var góður möguleiki á því að einhver þessarra stýrikerfa myndu ekki keyra á honum, en ég var viss um að Archlinux myndi gera það sem mér finnst ásættanlegt val þangað hin eru tilbúin. Uppsetningin á OpenBSD fraus og kjarnar Void og Parabola eru ekki enn komnir í útgáfu 6.9 eða hærra, þannig Archlinux sem ég hef notað síðan 2011 er valið í bili.</li>
+        </ul>
+      </div>
+    </summary>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <ul>
+            <li>Haldandi áfram með <a href="/is/tidindi/4">Tíðindi #4</a>, þá endaði ég með eina <a href="https://novacustom.com/product/v54-series/">V54</a> NovaCustom fartölvu. Ég hafði 4 möguleg stýrikerfi í huga fyrir hana, í forgangsröð OpenBSD > Void Linux > Parabola Linux > Archlinux. Vélbúnaðurinn er nýrri en hjá NV41, þannig það var góður möguleiki á því að einhver þessarra stýrikerfa myndu ekki keyra á honum, en ég var viss um að Archlinux myndi gera það sem mér finnst ásættanlegt val þangað hin eru tilbúin. Uppsetningin á OpenBSD fraus og kjarnar Void og Parabola eru ekki enn komnir í útgáfu 6.9 eða hærra, þannig Archlinux sem ég hef notað síðan 2011 er valið í bili.</li>
+        </ul>
+      </div>
+    </content>
+  </entry>
   <entry>
     <title>Tíðindi #5</title>
     <link rel="alternate" href="/is/tidindi/5"/>
@@ -20,14 +41,14 @@
     <summary>
       <div xmlns="http://www.w3.org/1999/xhtml">
         <ul>
-            <li>Bætti við atom feed fyrir forsíðu hverrar tungumálaútgáfu þessarrar síðu í fætinum.</li>
+            <li>Bætti við atom feed fyrir forsíðu hverrar tungumálaútgáfu þessarrar síðu í fótinn.</li>
         </ul>
       </div>
     </summary>
     <content type="xhtml">
       <div xmlns="http://www.w3.org/1999/xhtml">
         <ul>
-            <li>Bætti við atom feed fyrir forsíðu hverrar tungumálaútgáfu þessarrar síðu í fætinum.</li>
+            <li>Bætti við atom feed fyrir forsíðu hverrar tungumálaútgáfu þessarrar síðu í fótinn.</li>
         </ul>
       </div>
     </content>
