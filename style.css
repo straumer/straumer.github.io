@@ -9,16 +9,16 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     padding: 5pt 0;
-    background-color: #000000;
-    color: #bebebe;
+    background-color: #ffffff;
+    color: #000000;
     font: 1.2em/1 monospace;
 }
 header a:link {
-    color: #bebebe;
+    color: #000000;
     text-decoration: none;
 }
 header a:visited {
-    color: #bebebe;
+    color: #000000;
     text-decoration: none;
 }
 header ul, nav ul, footer ul, .nob {
@@ -32,38 +32,6 @@ div#header-text {
 img#header-img {
     border-radius: 30%;
     height: 60pt;
-}
-nav {
-    background: #222222;
-    color: #bebebe;
-    font: 1.2em/1 monospace;
-}
-nav a {
-    display: block;
-    padding: 8pt;
-    background-color: #222222;
-    text-align: center;
-}
-nav a:link {
-    color: #bebebe;
-    text-decoration: none;
-}
-nav a:visited {
-    color: #bebebe;
-    text-decoration: none;
-}
-nav a:hover {
-    background-color: #111;
-}
-nav li {
-    float: left;
-}
-nav ul#langs {
-    margin-left: auto;
-}
-nav div#nav {
-    display: flex;
-    max-width: 512pt;
 }
 main {
     flex: 1;
@@ -83,23 +51,6 @@ main pre {
 }
 main hr {
     color: #bebebe;
-}
-footer {
-    background-color: #000000;
-}
-footer div#footer {
-    padding: 12pt;
-    max-width: 500pt;
-    font: 1.2em/1 monospace;
-    color: #bebebe;
-}
-footer a:link {
-    color: #bebebe;
-    text-decoration: none;
-}
-footer a:visited {
-    color: #bebebe;
-    text-decoration: none;
 }
 div.center {
 	margin: 0 auto;

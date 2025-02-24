@@ -5,109 +5,32 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" type="image/png" href="data:image/png;base64,">
         <link rel="stylesheet" href="/style.css">
-        <link rel="alternative" type="application/atom+xml" href="/feed.atom" title="Netveldi">
         <title>Netveldi</title>
-        <meta property="og:title" content="Netveldi" />
     </head>
     <body>
         <header>
-            <a href="/"><img id="header-img" src="/img/portrait.jpg"></a>
+            <a href="/"><img id="header-img" src="/img/avatar.webp"></a>
             <div id="header-text">
                 <h3><a href="/">Netveldi</a></h3>
                 <ul>
                     <li>Matthías Ragnarsson</li>
-                    <li><a href="mailto:matt@netveldi.com">matt@netveldi.com</a> (<a href="/netveldi_email_key.asc">PGP</a>)</li>
+                    <li><a href="mailto:matt@netveldi.com">matt@netveldi.com</a></li>
                 </ul>
             </div>
         </header>
-        <nav>
-            <div id="nav" class="center">
-                <ul>
-                    <li><a href="/services">Services</a></li>
-                    <li><a href="/articles">Articles</a></li>
-                    <li><a href="/updates">Updates</a></li>
-                    <li><a href="https://github.com/straumer">Code</a></li>
-                    <li><a href="/about">About</a></li>
-                </ul>
-                <ul id="langs">
-                    <li><a href="/es/">Español</a></li>
-                    <li><a href="/is/">Íslenska</a></li>
-                </ul>
-            </div>
-        </nav>
         <main>
             <div id="main" class="center">
                 <article>
-                    <h3><a href="/updates/6">Update #6</a></h3>
-                    <code>Created: <time pubdate timedate="2024-11-25">2024-11-25</time></code>
-                    <ul>
-                        <li>Following up on <a href="/updates/4">Update #4</a>, I ended up getting one of those <a href="https://novacustom.com/product/v54-series/">V54</a> NovaCustom laptops. I had 4 possible OSes in mind for this laptop, ordered by priority as OpenBSD > Void Linux > Parabola Linux > Archlinux. The hardware is newer than that of NV41, so there was a good chance some of those OSes wouldn't run on it, but I was sure at least Archlinux would, which I consider good enough until the others catch up. The OpenBSD installer froze on startup and Void and Parabola have their officially supported kernel versions below the required version of 6.9, so Archlinux, which I've used since 2011 is the choice for now.</li>
-                    </ul>
-                </article>
-<hr/>
-                <article>
-                    <h3><a href="/updates/5">Update #5</a></h3>
-                    <code>Created: <time pubdate timedate="2024-11-18">2024-11-18</time></code>
-                    <ul>
-                        <li>Added an atom feed for the frontpage of each language version of this page in the footer.</li>
-                    </ul>
-                </article>
-<hr/>
-                <article>
-                    <h3><a href="/articles/random-password-memorization-with-pao">Random password memorization with PAO</a></h3>
-                    <code>Created: <time pubdate timedate="2024-11-11">2024-11-11</time></code>
-                    <p>As a person who's quite interested in information security, I like to play mental games that involve the imagination of threats and how one could establish and improve one's defenses against them in case they materialize. One important case to consider is: What would happen if one loses all one's possessions to the point of being practically naked in the street or wherever. In this case, all of our data outside of our minds, be they digital or written, would disappear. We want to make sure that the response to this question is that nothing would happen and that we would stoically continue on like a recently arrived Terminator. Normally it's possible to leave data backups with third parties, but here I talk in the context of individuals that want maximum security, where they are the only ones that should have the power to access the contained data. This case requires the encryption of the data with a random password that is difficult to remember without memory techniques. To this purpose I dedicate this article where I explain my application of the <a href="https://artofmemory.com/blog/pao-system/">PAO</a> memory technique for readable <a href="https://en.wikipedia.org/wiki/ASCII">ASCII</a> symbols...</p>
-                </article>
-<hr/>
-                <article>
-                    <h3><a href="/updates/4">Update #4</a></h3>
-                    <code>Created: <time pubdate timedate="2024-10-28">2024-10-28</time></code>
-                    <ul>
-                    <li>I find it important to continuously refine my laptop's security posture for myself and by extent the security of the projects that I work on for my clients. Recently I've been keeping an eye out for a new laptop. Last time I did so, in 2021, I ended up with a <a href="https://en.wikipedia.org/wiki/ThinkPad_X_series#X200_and_X200s">Thinkpad X200</a>. The reason I did was that it was one of the few available <a href="https://ryf.fsf.org/index.php/categories/laptops">RYF certified laptops</a> that <a href="https://libreboot.org/">Libreboot</a> could run on, and those laptops don't have any <a href="https://en.wikipedia.org/wiki/Intel_Management_Engine">Intel Management Engine</a> (a security concern) on their chips. One reason to look at other options is that the laptop shuts down due to overheating or freezes sometimes when it's working hard. I could put in time to try to fix it, but it'll be hard to reach 100% confidence that it doesn't turn off in important video calls. Another reason is to get a higher end CPU, GPU and RAM capacity for local AI training that I may want to do. I still got my <a href="https://www.thinkwiki.org/wiki/Category:T440s">Thinkpad T440s</a> for when it's important the computer doesn't crash. It's however not ideal for AI workloads, contains working IME and its firmware is locked with Intel Boot Guard so I can't replace it with a free alternative. Long-story short, I narrowed my laptop search down to <a href="https://novacustom.com/cat/custom-laptop/">NovaCustom</a>. They have the option of disabling the IME and run <a href="https://www.coreboot.org/">Coreboot</a> which seems like it could be an acceptable compromise. I want to try running <a href="https://www.openbsd.org/">OpenBSD</a> as my main OS (I'm currently on <a href="https://www.parabola.nu/">Parabola</a>) and I saw a positive <a href="https://dataswamp.org/~solene/2024-01-03-laptop-review-novacustom-nv41.html#_OpenBSD">review</a> on running OpenBSD on the NovaCustom NV41 laptop which bodes well. I'll mull this over some more before making a decision.</li>
-                    </ul>
-                </article>
-<hr/>
-                <article>
-                    <h3><a href="/updates/3">Update #3</a></h3>
-                    <code>Created: <time pubdate timedate="2024-10-21">2024-10-21</time></code>
-                    <ul>
-                        <li>Almost finished defining my <a href="https://artofmemory.com/blog/pao-system/">PAO memory system</a> for all readable <a href="https://en.wikipedia.org/wiki/ASCII">ASCII</a> characters. I'll use it to remember random ASCII passwords for my encrypted data backups. Been meaning to complete that for a while now. More on that later.</li>
-                        <li>Read chapter 11 of the <a href="https://doc.rust-lang.org/book/">Rust book</a>.</li>
-                    </ul>
-                </article>
-<hr/>
-                <article>
-                    <h3><a href="/updates/2">Update #2</a></h3>
-                    <code>Created: <time pubdate timedate="2024-10-14">2024-10-14</time></code>
-                    <ul>
-                        <li>I went to a <a href="https://www.fjarskiptastofa.is/page/d50c3d79-28d3-4eee-8031-c92002c0db63">network security conference</a> of the <a href="https://www.fjarskiptastofa.is/english">Electronic Communications Office of Iceland</a>. I got some insight into what companies in Iceland are dealing with in that area nowadays as well as the new <a href="https://nis2directive.eu/what-is-nis2/">NIS2 EU directive</a> that they are expected to need to comply with. Disconnect between company leadership and their IT departments was a big topic and the need for deeper collaboration between them to improve the company's information security posture. I think IT people really benefit from knowledge of business administration in this regard. It lets them recognize the responsibilities and perspective of the leadership in order to effectively communicate security risks and lets the leadership take responsibility for them.</li>
-                        <li>I've been working more on my <a href="https://github.com/straumer/makesite">makesite</a> static site generator alongside the updating of this site which is generated with it. Among the reasons of making it is that I thought it would be a nice project to cement my knowledge of make, m4 and the shell. Those are pretty commonly used in C/C++ build systems of projects I'd like to participate in.</li>
-                        <li>I read chapters 6-10 of the <a href="https://doc.rust-lang.org/book/">Rust book</a>. I like that the book explains Rust's safety features in the context of languages like C, so it also can teach us how to manually apply similar safety practices when coding in those languages.</li>
-                    </ul>
-                </article>
-<hr/>
-                <article>
-                    <h3><a href="/updates/1">Update #1</a></h3>
-                    <code>Created: <time pubdate timedate="2024-10-07">2024-10-07</time></code>
-                    <ul>
-                        <li>Added Services and Updates sections to this site and updated the About section.</li>
-                        <li>I decided to learn <a href="https://www.rust-lang.org/">Rust</a> programming, since I would like to participate in various projects that use it. Finished reading chapters 1-5 of the <a href="https://doc.rust-lang.org/book/">Rust book</a>.</li>
-                    </ul>
-                </article>
-<hr/>
-                <article>
-                    <h3><a href="/articles/free-software-comes-first">Free software comes first</a></h3>
-                    <code>Created: <time pubdate timedate="2024-09-18">2024-09-18</time></code>
-                    <p>All of us use electronic equipment to interact and let information flow between us for our benefit. The more we depend on that equipment in our activities, the more important it is to understand some fundamental aspects of the digital world in order to stay empowered in the long run. One very important aspect, the one I talk about in this article, has to do with our choice of software with respect to its license and the accessibility of its source code. Software includes applications, operating systems and other digital tools. Once we are concious of certain human dynamics in the creation of software, we can adopt principles and practices to live more empowered. This article is for users of software, not software developers, but it is necessary to mention important points from the perspective of the software developer in order to better choose our software...</p>
+					<p>I'm an engineer of software and systems, with a focus on free and open source software, security, privacy and overall technology that empowers people. 😎</p>
+					<p>I provide services or consultations in those areas. 🔨</p>
+					<p>I also appreciate all donations for my work. 💛</p>
+					<p>Nostr: <a href="https://primal.net/p/npub1wukm87rrl4jh680jk0h0ceup27z2dpa0y9kwl4dvpa8g2696dz6qauayfa">npub1wukm87rrl4jh680jk0h0ceup27z2dpa0y9kwl4dvpa8g2696dz6qauayfa</a></p>
+					<p>Github: <a href="https://github.com/straumer">https://github.com/straumer</a></p>
+					<p>PGP: 363B 3042 0A3D 122B D4A1  A1EB 8FBE BF65 81C5 B286</p>
                 </article>
             </div>
         </main>
         <footer>
-            <div id="footer" class="center">
-                <ul>
-                    <li><a href="/feed.atom">Atom/RSS</a></ul></li>
-                </ul>
-            </div>
         </footer>
     </body>
 </html>
