@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rust on Netveldi</title>
+    <link>http://localhost:1313/es/tags/rust/</link>
+    <description>Recent content in Rust on Netveldi</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 21 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/es/tags/rust/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Novedades: note1u4d:rqcwcwsw</title>
+      <link>http://localhost:1313/es/postes/note1u4dffzruremkyvmltumcn0xtx7kusksvxhprenv4muyedl054vrqcwcwsw/</link>
+      <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/postes/note1u4dffzruremkyvmltumcn0xtx7kusksvxhprenv4muyedl054vrqcwcwsw/</guid>
+      <description>&lt;p&gt;Casi completé definir mi Sistema de memoria PAO por todas las letras legibles de ASCII. Lo usaré para memorizar contraseñas aleatorias de ASCII por mi copia cifrada de seguridad de mis datos. He querido hacer eso ya por bastante tiempo. Contaré más sobre eso más adelante.&lt;/p&gt;&#xA;&lt;p&gt;Leí capítulo 11 del libro Rust.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Novedades: note1hpz:zsatt7vl</title>
+      <link>http://localhost:1313/es/postes/note1hpz7jgecmgamfa8v8vnnp4jt24p0rynaxnr2gvv9ef2zm2mca9zsatt7vl/</link>
+      <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/postes/note1hpz7jgecmgamfa8v8vnnp4jt24p0rynaxnr2gvv9ef2zm2mca9zsatt7vl/</guid>
+      <description>&lt;p&gt;Me fui a la conferencia de la seguridad de red por parte de la Oficina de Comunicaciones Electrónicas de Islandia. Recibí ideas sobre las cosas que las compañías en Islandia están experimentando dentro del rubro hoy en día y también sobre la nueva directiva NIS2 de la UE con cuál se espera que necesitan cumplir. Una desconexión entre el liderazgo y el departamento TI dentro de las compañías fue un tema grande y la necesidad de una cooperación más profunda entre ellos para mejorar su seguridad de información. Creo que la gente TI se benefician mucho de conocimiento de administración de negocios. Les permite reconocer las responsabilidades y perspectiva del liderazgo para más efectivamente comunicar riesgos de seguridad y permite que el liderazgo tome la responsabilidad de ellos.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Novedades: note1nx5:eszdga6l</title>
+      <link>http://localhost:1313/es/postes/note1nx5xy3ezn5h743jq8m84g7h6acrsrxrd2gxu22gv9g2eyp0k0veszdga6l/</link>
+      <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/postes/note1nx5xy3ezn5h743jq8m84g7h6acrsrxrd2gxu22gv9g2eyp0k0veszdga6l/</guid>
+      <description>&lt;p&gt;Sumé las Servicios y Novedades secciones a esta página y actualicé la Sobre mí sección.&lt;/p&gt;&#xA;&lt;p&gt;Decidí aprender programar en Rust, ya que quisiera poder participar en varios proyectos que los usan. Acabé de leer capítulos 1-5 en el libro Rust: &lt;a href=&#34;https://doc.rust-lang.org/book/&#34; title=&#34;&#34;&gt;https://doc.rust-lang.org/book/&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

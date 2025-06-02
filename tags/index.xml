@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Netveldi</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Netveldi</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Jun 2025 12:19:43 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gohugo</title>
+      <link>http://localhost:1313/tags/gohugo/</link>
+      <pubDate>Mon, 02 Jun 2025 12:19:43 +0000</pubDate>
+      <guid>http://localhost:1313/tags/gohugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>http://localhost:1313/tags/hugo/</link>
+      <pubDate>Mon, 02 Jun 2025 12:19:43 +0000</pubDate>
+      <guid>http://localhost:1313/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nostr</title>
+      <link>http://localhost:1313/tags/nostr/</link>
+      <pubDate>Mon, 02 Jun 2025 12:19:43 +0000</pubDate>
+      <guid>http://localhost:1313/tags/nostr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Laptop</title>
+      <link>http://localhost:1313/tags/laptop/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/laptop/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mnemotechnics</title>
+      <link>http://localhost:1313/tags/mnemotechnics/</link>
+      <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/mnemotechnics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>http://localhost:1313/tags/security/</link>
+      <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rust</title>
+      <link>http://localhost:1313/tags/rust/</link>
+      <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/rust/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Freesoftware</title>
+      <link>http://localhost:1313/tags/freesoftware/</link>
+      <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/freesoftware/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

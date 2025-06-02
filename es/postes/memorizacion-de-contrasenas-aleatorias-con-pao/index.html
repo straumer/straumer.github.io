@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>Memorización de contraseñas aleatorias con PAO | Netveldi</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+
+
+</head>
+<body>
+  <header>
+    <div>
+  
+  <a href="http://localhost:1313/es/"><img id="header-img" src="/img/533558c4e411dc97ebcfd07e9f078c64cac3d66d6c5a41b3f3abfd6f3b97262e.webp"></a>
+  <div id="header-text">
+    <h3><a href="http://localhost:1313/es/">Netveldi</a></h3>
+    <ul>
+      <li>Matthías Ragnarsson</li>
+      <li><a href="mailto:matt@netveldi.com">matt@netveldi.com</a> (<a href="/netveldi_email_key.asc">PGP</a>)</li>
+      
+        <li><a href="nostr:nprofile1qqs8wtdnlp3l6etarhet8mhuv7q40p9xs7hjzm806kkq7n59dzax3dqt4yuyj">nprofile:dqt4yuyj</a> / <a href="https://snort.social/nprofile1qqs8wtdnlp3l6etarhet8mhuv7q40p9xs7hjzm806kkq7n59dzax3dqt4yuyj">Snort</a></li>
+      
+    </ul>
+  </div>
+</div>
+
+  <nav>
+    <div id="nav" class="center">
+      <ul>
+    <li>
+      <a aria-current="true" class="ancestor" href="/es/postes/">Postes</a>
+    </li>
+    <li>
+      <a href="https://github.com/straumer">Código</a>
+    </li>
+    <li>
+      <a href="/es/sobre-mi/">Sobre mí</a>
+    </li>
+      </ul>
+      <ul id="langs">
+
+<li><a href="/is/faerslur/handahofskennd-lykilord-a-minnid-med-pao/">Íslenska</a></li>
+
+<li><a href="/posts/random-password-memorization-with-pao/">English</a></li>
+
+</ul>
+
+    </div>
+  </nav>
+
+
+  </header>
+  <main>
+    <div id="main" class="center">
+      
+  <h1>Memorización de contraseñas aleatorias con PAO</h1>
+  
+  
+  <code><time datetime="2024-11-12T00:00:00&#43;00:00">12 de noviembre de 2024</time></code>
+  
+    <p>Como una persona a quién le interesa mucho la seguridad de la información, me gusta jugar juegos en mi mente que involucran la imaginación de amenazas y cómo se podría establecer y mejorar defensas contra ellas si se materializan. Un caso muy importante de considerar es ¿qué pasaría si uno pierde todas sus posesiones hasta prácticamente quedarse cálato en la calle o dónde sea? En ese caso, todos nuestros datos fuera de nuestros mentes, sean digitales o escritos, desaparecen. Queremos asegurar que la respuesta a esa pregunta sea que nada pasaría y que seguiríamos estoicos adelante como un Terminator recién llegado. Normalmente se puede dejar copias de los datos con terceros, pero aquí hablo en el contexto de individuos que quieren una seguridad máxima, dónde ellos mismos son los únicos que deberían poder acceder a tales datos. Eso requiere el cifrado de los datos con una contraseña aleatoria que es difícil recordar sin técnicas de memorización. A este fin dedico el artículo dónde explico mi aplicación de la técnica de memorización de <a href="https://palaciodelamemoria.com/metodo-de-pao/" title="">PAO</a> de símbolos leíbles <a href="https://es.wikipedia.org/wiki/ASCII" title="">ASCII</a>.</p>
+  
+  <p>Hace más que 10 años cuándo estaba en la universidad, me empezó a intrigar el funcionamiento de la memoria por el interés inicial de pasar exámenes. Aprendí sobre <a href="https://es.wikipedia.org/wiki/Mapa_mental" title="">mapas mentales</a>, pero lo que me impactó más fue el libro <em>You can have an Amazing Memory</em> escrito por Dominic O&rsquo;Brien. Después de leerla y hacerme capaz de memorizar la secuencia exacta de las cartas de dos barajas en menos de 10 minutos, sentí un gran empoderamiento y entendí mejor la potencial de la memoria humana. Es muy raro que no nos enseñaron técnicas de memorización desde el principio en la escuela ya que hubiera facilitado muchas cosas.</p>
+<p>Ya voy a explicar mi uso de la técnica de PAO. Siguiendo esa técnica, he codificado todos los 94 símbolos leíbles de ASCII de cuales pueden consistir mis contraseñas:</p>
+<p><code>! &quot; # $ % &amp; ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; &lt; = &gt; ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] ^ _ ` a b c d e f g h i j k l m n o p q r s t u v w x y z { | } ~</code></p>
+<p>Cada uno de estos símbolos están codificados según el método PAO: Como una persona, acción y objeto. Por ejemplo, el &ldquo;H&rdquo; codifico como Harry Potter (persona) vuela sentado en (acción) una escoba (objeto). Para más fácilmente recordar el alfabeto, cada letra es la primera letra del nombre de la persona (&ldquo;H&rdquo; por Harry). Hay letras con mayúscula y con minúscula, y para diferenciar entre ellos decidí que las personas vinculadas a letras con mayúscula son hombres y las personas vinculadas a letras con minúscula son mujeres. Esa organización también ayuda con tener balance en la cantidad de cada género. Cada dígito y símbolo que no es una letra tiene cierta forma que me hace recordar a la persona vinculada, por ejemplo &ldquo;8&rdquo; parece a un &ldquo;muñeco de nieve&rdquo;. Hay símbolos parejas también que muy a menudo los hago relacionados, por ejemplo &ldquo;{&rdquo; es &ldquo;Batman&rdquo; y &ldquo;}&rdquo; es &ldquo;Alfred&rdquo;, su asistente.</p>
+<p>Me tomó buena cantidad de tiempo crear toda la codificación. Crear 94 personas, 94 acciones y 94 objetos requiere cierta creatividad, y también hay que cuidar de que cada persona, acción y objeto no sean demasiadamente similares a otras personas, acciones y objetos. Eso es para no confundirnos en el momento de recordar lo que hemos memorizado. Debemos recordar una cosa específica y no tener múltiples posibles interpretaciones de ella. Puede parecer más difícil encontrar acciones únicas, pero hay que recordar que una acción puede ser más complejo que un verbo. Por ejemplo &ldquo;pegar&rdquo; puede volverse &ldquo;pegar con un plato&rdquo;. Hay un objeto en la acción en este caso y hay que tratar de no tener otras acciones u objetos que incluyan &ldquo;plato&rdquo;. Para poder usar la codificación mentalmente requiere algo de práctica en memorizar secuencias de símbolos con ella, y así se puede rápidamente concluir a qué persona, objeto y acción un símbolo refiere y viceversa.</p>
+<p>Para memorizar secuencias de símbolos, según PAO, imagino cada combinación de tres símbolos en lugares que visito en un viaje imaginario. Se puede usar lugares que uno conoce de la vida real o lugares de pura ficción. Por ejemplo si voy a memorizar la secuencia &ldquo;H}pA=3&rdquo;, tengo dos escenas para memorizar: Harry Potter (H) revelando en bandeja del camarero (}: Alfred de Batman) ropa sucia (p: Penny de Big Bang Theory) y Aladdin (A) comiendo (=: Garfield) un <a href="https://es.wikipedia.org/wiki/Cylon" title="">robot cylon</a> (3: <a href="https://en.wikipedia.org/wiki/Number_Six_%28Battlestar_Galactica%29" title="">La cylon número seis</a>). Imagino la primera escena en frente de mi casa y la otra en la calle al lado de la casa. Normalmente las contraseñas que queremos memorizar son más largas, quizá llenando 10 escenas. A veces la última escena solo consiste de un o dos símbolos y en esos casos hago que la persona está de pie en un disco negro que se cierne cuándo haya un solo símbolo, o que el objeto sea una bola negra en el caso de que haya dos símbolos.</p>
+<p>Hace años construí una codificación para dígitos en pareja de 00 a 99 dónde por ejemplo &ldquo;86&rdquo; está vinculado a &ldquo;Homero Simpson&rdquo;. Se vincula cada dígito con una letra, en el ejemplo &ldquo;8&rdquo; a &ldquo;H&rdquo; y &ldquo;6&rdquo; a &ldquo;S&rdquo;, o &ldquo;86&rdquo; a &ldquo;HS&rdquo;. &ldquo;HS&rdquo; se vuelve &ldquo;Homero Simpson&rdquo;. Ya que me tomó bastante tiempo llenar los 100 números con personas, objetos y acciones, voy a usar esa codificación en combinación con la codificación que ya expliqué. Así la memorización se vuelve más compacta con dígitos secuenciales, por ejemplo la secuencia &ldquo;adude54348976&rdquo; con esta codificación requiere tres combinaciones de persona, acción y objeto (adu de54 348976) en vez de cinco (adu de5 434 897 6). Habrá casos dónde tiene sentido usar esta codificación de números más corta, pero no es necesario usarla por supuesto.</p>
+<p>Usar esta técnica de memorización para memorizar una contraseña aleatoria no es suficiente para recordarlo al largo plazo. Para hacer eso hay que mentalmente revisar y verificar la contraseña de vez en cuándo. Se puede utilizar técnicas como <a href="https://es.wikipedia.org/wiki/Repaso_espaciado" title="">repaso espaciado</a> dónde se revisa la contraseña de nuevo después de una hora, y luego 1 día, 1 semana, 1 mes, 3 meses, 1 año etcétera. No toma mucho tiempo revisarlo y por eso puede ser bueno hacerlo más seguido. Hay que recordar que para memorizar una contraseña a largo plazo se necesita un viaje imaginario que nunca vamos a reutilizar. En este caso prefiero usar viajes imaginarios basados en lugares dónde no he estado personalmente, hasta lugares de pura ficción.</p>
+<p>La técnica de memorización aplicada es distinta para cada persona, pero espero que la mía puede servir como inspiración. Puede parecer como mucho trabajo adoptar una técnica, pero creo que vale la pena al largo plazo para ellos que quieren sentirse seguros dentro todo del incertidumbre del mundo físico. Por supuesto hay que tener en mente que la técnica de memorización es solo uno de los componentes necesarios para mantener nuestros datos seguros y poder recuperarlos en cualquier momento, pero creo que es unos de los componentes más importantes. Practicar técnicas de memorización también tiene otros beneficios, como la mejora de la <a href="https://es.wikipedia.org/wiki/Inteligencias_fluida_y_cristalizada" title="">inteligencia fluida</a>. Personalmente he notado mejora en mi enfoque, claridad mental y recuerdo más de mis sueños. La práctica también desarrolla una habilidad útil de memorizar más que contraseñas ya que tiene una aplicación más general. Espero que lo disfruten si lo quieren probar.</p>
+
+  
+  <div class="push-down">
+    <ul class="nob horizontal-list">
+        <li>Etiquetas: </li>
+        <li><a href="/es/tags/mnemot%C3%A9cnicas/">Mnemotécnicas</a></li>
+        <li><a href="/es/tags/seguridad/">Seguridad</a></li>
+    </ul>
+  </div>
+
+  
+    </br>
+    <h4>Comentarios</h4>
+    <p>Accede a la sección de comentarios del post en Nostr con su <a href="nostr:note1844tadlzc70tay7lwcmj3224lsfn82qucvpccss3t8c3lfklde9q8ngquz">app por defecto</a> o <a href="https://snort.social/note1844tadlzc70tay7lwcmj3224lsfn82qucvpccss3t8c3lfklde9q8ngquz">Snort</a>.</p>
+  
+
+    </div>
+  </main>
+  <footer>
+    <div id="footer" class="center">
+      <ul>
+  <li><a href="http://localhost:1313/es/index.xml">RSS Feed</a></li>
+</ul>
+
+    </div>
+  </footer>
+</body>
+</html>

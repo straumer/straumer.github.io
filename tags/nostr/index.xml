@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nostr on Netveldi</title>
+    <link>http://localhost:1313/tags/nostr/</link>
+    <description>Recent content in Nostr on Netveldi</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Jun 2025 12:19:43 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/nostr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Update: note17g9:jszm6lgl</title>
+      <link>http://localhost:1313/posts/note17g9ptvpjdz5ukzydays4pdwc4wdhj3a62sctl7tpr6fjh9e57tjszm6lgl/</link>
+      <pubDate>Mon, 02 Jun 2025 12:19:43 +0000</pubDate>
+      <guid>http://localhost:1313/posts/note17g9ptvpjdz5ukzydays4pdwc4wdhj3a62sctl7tpr6fjh9e57tjszm6lgl/</guid>
+      <description>&lt;p&gt;About 6 months ago I had made my own rudimentary static site generator that generated my website with blogging functionality. Then I started learning more about Nostr and figured it would be more empowering to instead use Nostr as my single source of truth. I still needed a website, so I made some basic tooling and workflow to statically generate a website from my Nostr events. This time I opted to use Hugo for the site generation. Making my own generator was a nice learning experience though and definitely gives me more appreciation for the heavy lifting that Hugo can do for me now. I was also conscious that an easy and flexible way to generate a website from Nostr events is something that doesn&amp;rsquo;t exist yet, so I&amp;rsquo;m making a reusable Hugo module along with the development of my site: &lt;a href=&#34;https://github.com/straumer/hugo-nostr&#34; title=&#34;&#34;&gt;https://github.com/straumer/hugo-nostr&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

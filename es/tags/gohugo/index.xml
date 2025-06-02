@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gohugo on Netveldi</title>
+    <link>http://localhost:1313/es/tags/gohugo/</link>
+    <description>Recent content in Gohugo on Netveldi</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 02 Jun 2025 12:19:43 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/es/tags/gohugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Novedades: note1ls6:7s9jsar5</title>
+      <link>http://localhost:1313/es/postes/note1ls64rr4wmwpmwytdqnj0qgdng8a8fxdmsxelwcpcp9q0a37hnz7s9jsar5/</link>
+      <pubDate>Mon, 02 Jun 2025 12:19:43 +0000</pubDate>
+      <guid>http://localhost:1313/es/postes/note1ls64rr4wmwpmwytdqnj0qgdng8a8fxdmsxelwcpcp9q0a37hnz7s9jsar5/</guid>
+      <description>&lt;p&gt;Hace aproximadamente 6 meses hice mi propio generador estático de páginas web que generó mi página con funcionalidad de un blog. Luego empecé a aprender más sobre Nostr y discubrí que sería más empoderado usar Nostr como mi fuente única de verdad. Aún necesitaba mi página de web, y por eso hice algunas herramientas básicas y procesos para estáticamente generar una página de mis eventos de Nostr. Esta vez opté por usar Hugo para la generación de la página. Hacer mi propio generador fue una buena experiencia de aprendimiento a pesar de eso y definitivamente me da aprecio por el trabajo duro que Hugo ya puede hacer para mí. También estaba consciente de que todavía no existe una manera fácil y flexible para generar una página de web de eventos Nostr y por eso estoy creando un módulo Hugo reusable mientras que desarrollo mi página: &lt;a href=&#34;https://github.com/straumer/hugo-nostr&#34; title=&#34;&#34;&gt;https://github.com/straumer/hugo-nostr&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

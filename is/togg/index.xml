@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tögg on Netveldi</title>
+    <link>http://localhost:1313/is/togg/</link>
+    <description>Recent content in Tögg on Netveldi</description>
+    <generator>Hugo</generator>
+    <language>is</language>
+    <lastBuildDate>Mon, 02 Jun 2025 12:19:44 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/is/togg/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gohugo</title>
+      <link>http://localhost:1313/is/tags/gohugo/</link>
+      <pubDate>Mon, 02 Jun 2025 12:19:44 +0000</pubDate>
+      <guid>http://localhost:1313/is/tags/gohugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>http://localhost:1313/is/tags/hugo/</link>
+      <pubDate>Mon, 02 Jun 2025 12:19:44 +0000</pubDate>
+      <guid>http://localhost:1313/is/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nostr</title>
+      <link>http://localhost:1313/is/tags/nostr/</link>
+      <pubDate>Mon, 02 Jun 2025 12:19:44 +0000</pubDate>
+      <guid>http://localhost:1313/is/tags/nostr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fartölva</title>
+      <link>http://localhost:1313/is/tags/fart%C3%B6lva/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/is/tags/fart%C3%B6lva/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Minnistækni</title>
+      <link>http://localhost:1313/is/tags/minnist%C3%A6kni/</link>
+      <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/is/tags/minnist%C3%A6kni/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Öryggi</title>
+      <link>http://localhost:1313/is/tags/%C3%B6ryggi/</link>
+      <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/is/tags/%C3%B6ryggi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rust</title>
+      <link>http://localhost:1313/is/tags/rust/</link>
+      <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/is/tags/rust/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Frjálshugbúnaður</title>
+      <link>http://localhost:1313/is/tags/frj%C3%A1lshugb%C3%BAna%C3%B0ur/</link>
+      <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/is/tags/frj%C3%A1lshugb%C3%BAna%C3%B0ur/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

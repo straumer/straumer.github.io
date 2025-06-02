@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mnemotechnics on Netveldi</title>
+    <link>http://localhost:1313/tags/mnemotechnics/</link>
+    <description>Recent content in Mnemotechnics on Netveldi</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mnemotechnics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Random password memorization with PAO</title>
+      <link>http://localhost:1313/posts/random-password-memorization-with-pao/</link>
+      <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/random-password-memorization-with-pao/</guid>
+      <description>As a person who&amp;rsquo;s quite interested in information security, I like to play mental games that involve the imagination of threats and how one could establish and improve one&amp;rsquo;s defenses against them in case they materialize. One important case to consider is: What would happen if one loses all one&amp;rsquo;s possessions to the point of being practically naked in the street or wherever. In this case, all of our data outside of our minds, be they digital or written, would disappear. We want to make sure that the response to this question is that nothing would happen and that we would stoically continue on like a recently arrived Terminator. Normally it&amp;rsquo;s possible to leave data backups with third parties, but here I talk in the context of individuals that want maximum security, where they are the only ones that should have the power to access the contained data. This case requires the encryption of the data with a random password that is difficult to remember without memory techniques. To this purpose I dedicate this article where I explain my application of the &lt;a href=&#34;https://artofmemory.com/blog/pao-system/&#34; title=&#34;&#34;&gt;PAO&lt;/a&gt; memory technique for readable &lt;a href=&#34;https://en.wikipedia.org/wiki/ASCII&#34; title=&#34;&#34;&gt;ASCII&lt;/a&gt; symbols.</description>
+    </item>
+    <item>
+      <title>Update: note1kk5:nsf0tc6z</title>
+      <link>http://localhost:1313/posts/note1kk5vp30w05jw4c4rj5zy6ne2qgjah8nm9eyjw0tj6hrf9qyrqwnsf0tc6z/</link>
+      <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/note1kk5vp30w05jw4c4rj5zy6ne2qgjah8nm9eyjw0tj6hrf9qyrqwnsf0tc6z/</guid>
+      <description>&lt;p&gt;Almost finished defining my PAO memory system for all readable ASCII characters. I&amp;rsquo;ll use it to remember random ASCII passwords for my encrypted data backups. Been meaning to complete that for a while now. More on that later.&lt;/p&gt;&#xA;&lt;p&gt;Read chapter 11 of the Rust book.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
