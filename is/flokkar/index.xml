@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Flokkar on Netveldi</title>
-    <link>http://localhost:1313/is/flokkar/</link>
+    <link>https://www.netveldi.com/is/flokkar/</link>
     <description>Recent content in Flokkar on Netveldi</description>
     <generator>Hugo</generator>
     <language>is</language>
     <lastBuildDate>Mon, 02 Jun 2025 12:19:44 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/is/flokkar/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.netveldi.com/is/flokkar/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tíðindi</title>
-      <link>http://localhost:1313/is/flokkar/tidindi/</link>
+      <link>https://www.netveldi.com/is/flokkar/tidindi/</link>
       <pubDate>Mon, 02 Jun 2025 12:19:44 +0000</pubDate>
-      <guid>http://localhost:1313/is/flokkar/tidindi/</guid>
+      <guid>https://www.netveldi.com/is/flokkar/tidindi/</guid>
       <description></description>
     </item>
     <item>
       <title>Grein</title>
-      <link>http://localhost:1313/is/flokkar/grein/</link>
+      <link>https://www.netveldi.com/is/flokkar/grein/</link>
       <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/is/flokkar/grein/</guid>
+      <guid>https://www.netveldi.com/is/flokkar/grein/</guid>
       <description></description>
     </item>
   </channel>

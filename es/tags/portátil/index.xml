@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Portátil on Netveldi</title>
-    <link>http://localhost:1313/es/tags/port%C3%A1til/</link>
+    <link>https://www.netveldi.com/es/tags/port%C3%A1til/</link>
     <description>Recent content in Portátil on Netveldi</description>
     <generator>Hugo</generator>
     <language>es</language>
     <lastBuildDate>Mon, 25 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/es/tags/port%C3%A1til/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.netveldi.com/es/tags/port%C3%A1til/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Novedades: note103s:xsc6mql0</title>
-      <link>http://localhost:1313/es/postes/note103sanxz6md2pfajupjd2fylms30k6ftfdd3t3nzpxmdfhlmxemxsc6mql0/</link>
+      <link>https://www.netveldi.com/es/postes/note103sanxz6md2pfajupjd2fylms30k6ftfdd3t3nzpxmdfhlmxemxsc6mql0/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/postes/note103sanxz6md2pfajupjd2fylms30k6ftfdd3t3nzpxmdfhlmxemxsc6mql0/</guid>
+      <guid>https://www.netveldi.com/es/postes/note103sanxz6md2pfajupjd2fylms30k6ftfdd3t3nzpxmdfhlmxemxsc6mql0/</guid>
       <description>&lt;p&gt;Continuando con mi post hace un mes, terminé con unos de esos portátiles NovaCustom V54: &lt;a href=&#34;https://novacustom.com/product/v54-series/&#34; title=&#34;&#34;&gt;https://novacustom.com/product/v54-series/&lt;/a&gt;. Tenía 4 posibles sistemas operativas en mente para este portátil, organizados por prioridad como OpenBSD &amp;gt; Void Linux &amp;gt; Parabola Linux &amp;gt; Archlinux. El hardware es más reciente que lo del NV41, lo que significa que había buena probabilidad de que esos sistemas operativas no correrían en ello, pero sabía que Archlinux lo haría, lo que considero suficiente hasta que los otros lo alcanzan. El instalador de OpenBSD se congeló al iniciar y los núcleos de Void y Parabola aún no están de versión 6.9 o más, entonces elegí Archlinux, lo que he usado desde 2011, por ahora.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Novedades: note10kn:gq8yyf73</title>
-      <link>http://localhost:1313/es/postes/note10knxup733x7dms5vt9kjz3s46a80k0lw35wz6nztqlcs5sdujegq8yyf73/</link>
+      <link>https://www.netveldi.com/es/postes/note10knxup733x7dms5vt9kjz3s46a80k0lw35wz6nztqlcs5sdujegq8yyf73/</link>
       <pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/postes/note10knxup733x7dms5vt9kjz3s46a80k0lw35wz6nztqlcs5sdujegq8yyf73/</guid>
+      <guid>https://www.netveldi.com/es/postes/note10knxup733x7dms5vt9kjz3s46a80k0lw35wz6nztqlcs5sdujegq8yyf73/</guid>
       <description>&lt;p&gt;Creo que es importante refinar continuamente la postura de la seguridad de mi portátil por mí y por extensión la seguridad de los proyectos en cuáles trabajo por mis clientes. Recientemente he estado buscando un nuevo portátil. La última vez que lo hice, en 2021, terminé con un Thinkpad X200: &lt;a href=&#34;https://es.wikipedia.org/wiki/ThinkPad_X_series#X200_and_X200s&#34; title=&#34;&#34;&gt;https://es.wikipedia.org/wiki/ThinkPad_X_series#X200_and_X200s&lt;/a&gt;. La razón es que fue unos de los pocos portátiles RYF certificados dónde Libreboot puede correr, y esos portátiles no tienen el Intel Management Engine (preocupación para la seguridad) en sus chips. Una de las razones por ver otras opciones es que el portátil a veces se apaga por sobrecalentamiento o se congela cuándo trabaja duro. Podría poner tiempo en arreglarlo, pero sería difícil alcanzar 100% confianza de que no se apague mientras que atiendo videollamadas importantes. Otra razón es conseguir un CPU, GPU y capacidad de RAM de alta gama para poder entrenar IA localmente, que es algo en que podría querer meterme. Todavía tengo mi Thinkpad T440s para cuándo es importante que la computadora no falle. Sin embargo no es ideal por el entrenamiento de IA, contiene IME funcionando, y su firmware está cerrado con Intel Boot Guard para que no se puede reemplazar con una alternativa libre. En pocas palabras, reduje la búsqueda del portátil a NovaCustom: &lt;a href=&#34;https://novacustom.com/cat/custom-laptop/&#34; title=&#34;&#34;&gt;https://novacustom.com/cat/custom-laptop/&lt;/a&gt;. Tienen la opción de desactivar el IME y ejecutar Coreboot que me parece una solución intermedia aceptable. Quiero intentar usar OpenBSD como mi sistema operativa principal (actualmente uso Parabola) y vi una reseña positiva sobre usar OpenBSD con el portátil NovaCustom NV41 que es un buen presagio: &lt;a href=&#34;https://dataswamp.org/~solene/2024-01-03-laptop-review-novacustom-nv41.html#_OpenBSD&#34; title=&#34;&#34;&gt;https://dataswamp.org/~solene/2024-01-03-laptop-review-novacustom-nv41.html#_OpenBSD&lt;/a&gt;. Lo pensaré más a detalle antes de hacer una decisión.&lt;/p&gt;</description>
     </item>
   </channel>

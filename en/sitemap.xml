@@ -2,367 +2,367 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://www.netveldi.com/categories/</loc>
     <lastmod>2025-06-02T12:19:43+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="is"
-                href="http://localhost:1313/is/flokkar/"
+                href="https://www.netveldi.com/is/flokkar/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/categorias/"
+                href="https://www.netveldi.com/es/categorias/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/categories/"
+                href="https://www.netveldi.com/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/gohugo/</loc>
+    <loc>https://www.netveldi.com/tags/gohugo/</loc>
     <lastmod>2025-06-02T12:19:43+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="is"
-                href="http://localhost:1313/is/tags/gohugo/"
+                href="https://www.netveldi.com/is/tags/gohugo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/tags/gohugo/"
+                href="https://www.netveldi.com/es/tags/gohugo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/tags/gohugo/"
+                href="https://www.netveldi.com/tags/gohugo/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
+    <loc>https://www.netveldi.com/tags/hugo/</loc>
     <lastmod>2025-06-02T12:19:43+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="is"
-                href="http://localhost:1313/is/tags/hugo/"
+                href="https://www.netveldi.com/is/tags/hugo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/tags/hugo/"
+                href="https://www.netveldi.com/es/tags/hugo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/tags/hugo/"
+                href="https://www.netveldi.com/tags/hugo/"
                 />
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://www.netveldi.com/</loc>
     <lastmod>2025-06-02T12:19:43+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="is"
-                href="http://localhost:1313/is/"
+                href="https://www.netveldi.com/is/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/"
+                href="https://www.netveldi.com/es/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/"
+                href="https://www.netveldi.com/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/nostr/</loc>
+    <loc>https://www.netveldi.com/tags/nostr/</loc>
     <lastmod>2025-06-02T12:19:43+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="is"
-                href="http://localhost:1313/is/tags/nostr/"
+                href="https://www.netveldi.com/is/tags/nostr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/tags/nostr/"
+                href="https://www.netveldi.com/es/tags/nostr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/tags/nostr/"
+                href="https://www.netveldi.com/tags/nostr/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://www.netveldi.com/posts/</loc>
     <lastmod>2025-06-02T12:19:43+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="is"
-                href="http://localhost:1313/is/faerslur/"
+                href="https://www.netveldi.com/is/faerslur/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/postes/"
+                href="https://www.netveldi.com/es/postes/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/posts/"
+                href="https://www.netveldi.com/posts/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://www.netveldi.com/tags/</loc>
     <lastmod>2025-06-02T12:19:43+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="is"
-                href="http://localhost:1313/is/togg/"
+                href="https://www.netveldi.com/is/togg/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/etiquetas/"
+                href="https://www.netveldi.com/es/etiquetas/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/tags/"
+                href="https://www.netveldi.com/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/categories/update/</loc>
+    <loc>https://www.netveldi.com/categories/update/</loc>
     <lastmod>2025-06-02T12:19:43+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="is"
-                href="http://localhost:1313/is/flokkar/tidindi/"
+                href="https://www.netveldi.com/is/flokkar/tidindi/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/categorias/novedad/"
+                href="https://www.netveldi.com/es/categorias/novedad/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/categories/update/"
+                href="https://www.netveldi.com/categories/update/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/note17g9ptvpjdz5ukzydays4pdwc4wdhj3a62sctl7tpr6fjh9e57tjszm6lgl/</loc>
+    <loc>https://www.netveldi.com/posts/note17g9ptvpjdz5ukzydays4pdwc4wdhj3a62sctl7tpr6fjh9e57tjszm6lgl/</loc>
     <lastmod>2025-06-02T12:19:43+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="is"
-                href="http://localhost:1313/is/faerslur/note1r739vpz5cqxjl9zm7fzjqgncuhfu4l83h2mg04z0shp4rcpeu4sqd54unk/"
+                href="https://www.netveldi.com/is/faerslur/note1r739vpz5cqxjl9zm7fzjqgncuhfu4l83h2mg04z0shp4rcpeu4sqd54unk/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/postes/note1ls64rr4wmwpmwytdqnj0qgdng8a8fxdmsxelwcpcp9q0a37hnz7s9jsar5/"
+                href="https://www.netveldi.com/es/postes/note1ls64rr4wmwpmwytdqnj0qgdng8a8fxdmsxelwcpcp9q0a37hnz7s9jsar5/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/posts/note17g9ptvpjdz5ukzydays4pdwc4wdhj3a62sctl7tpr6fjh9e57tjszm6lgl/"
+                href="https://www.netveldi.com/posts/note17g9ptvpjdz5ukzydays4pdwc4wdhj3a62sctl7tpr6fjh9e57tjszm6lgl/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/laptop/</loc>
+    <loc>https://www.netveldi.com/tags/laptop/</loc>
     <lastmod>2024-11-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/note1c4eq7vmvhca02uxvdk4rnwlhjmev6t9m7rcypgahchr4fe68cmkqgcc460/</loc>
+    <loc>https://www.netveldi.com/posts/note1c4eq7vmvhca02uxvdk4rnwlhjmev6t9m7rcypgahchr4fe68cmkqgcc460/</loc>
     <lastmod>2024-11-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/postes/note103sanxz6md2pfajupjd2fylms30k6ftfdd3t3nzpxmdfhlmxemxsc6mql0/"
+                href="https://www.netveldi.com/es/postes/note103sanxz6md2pfajupjd2fylms30k6ftfdd3t3nzpxmdfhlmxemxsc6mql0/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="is"
-                href="http://localhost:1313/is/faerslur/note17y9fvectfwsl8lgd8pfnh0s687yqwpfl66mfzedhqlq7dgrhllks5uekx5/"
+                href="https://www.netveldi.com/is/faerslur/note17y9fvectfwsl8lgd8pfnh0s687yqwpfl66mfzedhqlq7dgrhllks5uekx5/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/posts/note1c4eq7vmvhca02uxvdk4rnwlhjmev6t9m7rcypgahchr4fe68cmkqgcc460/"
+                href="https://www.netveldi.com/posts/note1c4eq7vmvhca02uxvdk4rnwlhjmev6t9m7rcypgahchr4fe68cmkqgcc460/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/note1etn264rcsns8ec5jaursv9vq3p77s6yckfqts9gclapzqvjyfsmskpwt33/</loc>
+    <loc>https://www.netveldi.com/posts/note1etn264rcsns8ec5jaursv9vq3p77s6yckfqts9gclapzqvjyfsmskpwt33/</loc>
     <lastmod>2024-11-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/postes/note1vg0nl3pdfpfzclp0jz36a4ums9e6qehe9tmfteupj3s2l4hvedfq5ljjyn/"
+                href="https://www.netveldi.com/es/postes/note1vg0nl3pdfpfzclp0jz36a4ums9e6qehe9tmfteupj3s2l4hvedfq5ljjyn/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="is"
-                href="http://localhost:1313/is/faerslur/note1k6slzt2244pjhdy4x4mf2yetz7mza4wnv48v3g5lua2qa86deaaqgxlsp9/"
+                href="https://www.netveldi.com/is/faerslur/note1k6slzt2244pjhdy4x4mf2yetz7mza4wnv48v3g5lua2qa86deaaqgxlsp9/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/posts/note1etn264rcsns8ec5jaursv9vq3p77s6yckfqts9gclapzqvjyfsmskpwt33/"
+                href="https://www.netveldi.com/posts/note1etn264rcsns8ec5jaursv9vq3p77s6yckfqts9gclapzqvjyfsmskpwt33/"
                 />
   </url><url>
-    <loc>http://localhost:1313/categories/article/</loc>
+    <loc>https://www.netveldi.com/categories/article/</loc>
     <lastmod>2024-11-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/categorias/articulo/"
+                href="https://www.netveldi.com/es/categorias/articulo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="is"
-                href="http://localhost:1313/is/flokkar/grein/"
+                href="https://www.netveldi.com/is/flokkar/grein/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/categories/article/"
+                href="https://www.netveldi.com/categories/article/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/mnemotechnics/</loc>
+    <loc>https://www.netveldi.com/tags/mnemotechnics/</loc>
     <lastmod>2024-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/random-password-memorization-with-pao/</loc>
+    <loc>https://www.netveldi.com/posts/random-password-memorization-with-pao/</loc>
     <lastmod>2024-11-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="is"
-                href="http://localhost:1313/is/faerslur/handahofskennd-lykilord-a-minnid-med-pao/"
+                href="https://www.netveldi.com/is/faerslur/handahofskennd-lykilord-a-minnid-med-pao/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/postes/memorizacion-de-contrasenas-aleatorias-con-pao/"
+                href="https://www.netveldi.com/es/postes/memorizacion-de-contrasenas-aleatorias-con-pao/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/posts/random-password-memorization-with-pao/"
+                href="https://www.netveldi.com/posts/random-password-memorization-with-pao/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/security/</loc>
+    <loc>https://www.netveldi.com/tags/security/</loc>
     <lastmod>2024-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/note1snxzhmft0xnh7memv82juhxuuemx8v77khv8ztmrunu5u4dayk4s5mj40d/</loc>
+    <loc>https://www.netveldi.com/posts/note1snxzhmft0xnh7memv82juhxuuemx8v77khv8ztmrunu5u4dayk4s5mj40d/</loc>
     <lastmod>2024-10-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/postes/note10knxup733x7dms5vt9kjz3s46a80k0lw35wz6nztqlcs5sdujegq8yyf73/"
+                href="https://www.netveldi.com/es/postes/note10knxup733x7dms5vt9kjz3s46a80k0lw35wz6nztqlcs5sdujegq8yyf73/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="is"
-                href="http://localhost:1313/is/faerslur/note1ev2k0g23gexdgm53a8krcuapl3r2kxcs7z4vte0fvuvszyunasnsajkqfq/"
+                href="https://www.netveldi.com/is/faerslur/note1ev2k0g23gexdgm53a8krcuapl3r2kxcs7z4vte0fvuvszyunasnsajkqfq/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/posts/note1snxzhmft0xnh7memv82juhxuuemx8v77khv8ztmrunu5u4dayk4s5mj40d/"
+                href="https://www.netveldi.com/posts/note1snxzhmft0xnh7memv82juhxuuemx8v77khv8ztmrunu5u4dayk4s5mj40d/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/rust/</loc>
+    <loc>https://www.netveldi.com/tags/rust/</loc>
     <lastmod>2024-10-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/tags/rust/"
+                href="https://www.netveldi.com/es/tags/rust/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="is"
-                href="http://localhost:1313/is/tags/rust/"
+                href="https://www.netveldi.com/is/tags/rust/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/tags/rust/"
+                href="https://www.netveldi.com/tags/rust/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/note1kk5vp30w05jw4c4rj5zy6ne2qgjah8nm9eyjw0tj6hrf9qyrqwnsf0tc6z/</loc>
+    <loc>https://www.netveldi.com/posts/note1kk5vp30w05jw4c4rj5zy6ne2qgjah8nm9eyjw0tj6hrf9qyrqwnsf0tc6z/</loc>
     <lastmod>2024-10-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/postes/note1u4dffzruremkyvmltumcn0xtx7kusksvxhprenv4muyedl054vrqcwcwsw/"
+                href="https://www.netveldi.com/es/postes/note1u4dffzruremkyvmltumcn0xtx7kusksvxhprenv4muyedl054vrqcwcwsw/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="is"
-                href="http://localhost:1313/is/faerslur/note1gzn5s2rzmk8u7vx27datdsvcqvzdqhzq6p7gqgck6afr0djn8kyq9zqxyx/"
+                href="https://www.netveldi.com/is/faerslur/note1gzn5s2rzmk8u7vx27datdsvcqvzdqhzq6p7gqgck6afr0djn8kyq9zqxyx/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/posts/note1kk5vp30w05jw4c4rj5zy6ne2qgjah8nm9eyjw0tj6hrf9qyrqwnsf0tc6z/"
+                href="https://www.netveldi.com/posts/note1kk5vp30w05jw4c4rj5zy6ne2qgjah8nm9eyjw0tj6hrf9qyrqwnsf0tc6z/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/note1k2upscct4ha5nnm78q5ka5q47m53n92uvpnjsq777sfznvyxngxqgaed8v/</loc>
+    <loc>https://www.netveldi.com/posts/note1k2upscct4ha5nnm78q5ka5q47m53n92uvpnjsq777sfznvyxngxqgaed8v/</loc>
     <lastmod>2024-10-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/postes/note1hpz7jgecmgamfa8v8vnnp4jt24p0rynaxnr2gvv9ef2zm2mca9zsatt7vl/"
+                href="https://www.netveldi.com/es/postes/note1hpz7jgecmgamfa8v8vnnp4jt24p0rynaxnr2gvv9ef2zm2mca9zsatt7vl/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="is"
-                href="http://localhost:1313/is/faerslur/note17jam0p7nvwdgf0mehfjcey77zyq0897tj44cr2hup0j7j5r6x83q7ryq6h/"
+                href="https://www.netveldi.com/is/faerslur/note17jam0p7nvwdgf0mehfjcey77zyq0897tj44cr2hup0j7j5r6x83q7ryq6h/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/posts/note1k2upscct4ha5nnm78q5ka5q47m53n92uvpnjsq777sfznvyxngxqgaed8v/"
+                href="https://www.netveldi.com/posts/note1k2upscct4ha5nnm78q5ka5q47m53n92uvpnjsq777sfznvyxngxqgaed8v/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/note1dkyd2ylkzyexs96wun996d69enwplnypusycj5luh570ae0dpd3s4ykwsl/</loc>
+    <loc>https://www.netveldi.com/posts/note1dkyd2ylkzyexs96wun996d69enwplnypusycj5luh570ae0dpd3s4ykwsl/</loc>
     <lastmod>2024-10-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/postes/note1nx5xy3ezn5h743jq8m84g7h6acrsrxrd2gxu22gv9g2eyp0k0veszdga6l/"
+                href="https://www.netveldi.com/es/postes/note1nx5xy3ezn5h743jq8m84g7h6acrsrxrd2gxu22gv9g2eyp0k0veszdga6l/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="is"
-                href="http://localhost:1313/is/faerslur/note1ks9hlmzut33vp09a6ujuck38e76sffqetgkmzrla2wpm8daw8pqq2aj9xc/"
+                href="https://www.netveldi.com/is/faerslur/note1ks9hlmzut33vp09a6ujuck38e76sffqetgkmzrla2wpm8daw8pqq2aj9xc/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/posts/note1dkyd2ylkzyexs96wun996d69enwplnypusycj5luh570ae0dpd3s4ykwsl/"
+                href="https://www.netveldi.com/posts/note1dkyd2ylkzyexs96wun996d69enwplnypusycj5luh570ae0dpd3s4ykwsl/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/free-software-comes-first/</loc>
+    <loc>https://www.netveldi.com/posts/free-software-comes-first/</loc>
     <lastmod>2024-09-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="is"
-                href="http://localhost:1313/is/faerslur/frjals-hugbunadur-er-numer-eitt/"
+                href="https://www.netveldi.com/is/faerslur/frjals-hugbunadur-er-numer-eitt/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/postes/software-libre-es-numero-uno/"
+                href="https://www.netveldi.com/es/postes/software-libre-es-numero-uno/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/posts/free-software-comes-first/"
+                href="https://www.netveldi.com/posts/free-software-comes-first/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/freesoftware/</loc>
+    <loc>https://www.netveldi.com/tags/freesoftware/</loc>
     <lastmod>2024-09-20T00:00:00+00:00</lastmod>
   </url>
 </urlset>

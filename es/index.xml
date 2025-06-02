@@ -2,73 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Netveldi</title>
-    <link>http://localhost:1313/es/</link>
+    <link>https://www.netveldi.com/es/</link>
     <description>Recent content on Netveldi</description>
     <generator>Hugo</generator>
     <language>es</language>
     <lastBuildDate>Mon, 02 Jun 2025 12:19:43 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/es/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.netveldi.com/es/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Novedades: note1ls6:7s9jsar5</title>
-      <link>http://localhost:1313/es/postes/note1ls64rr4wmwpmwytdqnj0qgdng8a8fxdmsxelwcpcp9q0a37hnz7s9jsar5/</link>
+      <link>https://www.netveldi.com/es/postes/note1ls64rr4wmwpmwytdqnj0qgdng8a8fxdmsxelwcpcp9q0a37hnz7s9jsar5/</link>
       <pubDate>Mon, 02 Jun 2025 12:19:43 +0000</pubDate>
-      <guid>http://localhost:1313/es/postes/note1ls64rr4wmwpmwytdqnj0qgdng8a8fxdmsxelwcpcp9q0a37hnz7s9jsar5/</guid>
+      <guid>https://www.netveldi.com/es/postes/note1ls64rr4wmwpmwytdqnj0qgdng8a8fxdmsxelwcpcp9q0a37hnz7s9jsar5/</guid>
       <description>&lt;p&gt;Hace aproximadamente 6 meses hice mi propio generador estático de páginas web que generó mi página con funcionalidad de un blog. Luego empecé a aprender más sobre Nostr y discubrí que sería más empoderado usar Nostr como mi fuente única de verdad. Aún necesitaba mi página de web, y por eso hice algunas herramientas básicas y procesos para estáticamente generar una página de mis eventos de Nostr. Esta vez opté por usar Hugo para la generación de la página. Hacer mi propio generador fue una buena experiencia de aprendimiento a pesar de eso y definitivamente me da aprecio por el trabajo duro que Hugo ya puede hacer para mí. También estaba consciente de que todavía no existe una manera fácil y flexible para generar una página de web de eventos Nostr y por eso estoy creando un módulo Hugo reusable mientras que desarrollo mi página: &lt;a href=&#34;https://github.com/straumer/hugo-nostr&#34; title=&#34;&#34;&gt;https://github.com/straumer/hugo-nostr&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Novedades: note103s:xsc6mql0</title>
-      <link>http://localhost:1313/es/postes/note103sanxz6md2pfajupjd2fylms30k6ftfdd3t3nzpxmdfhlmxemxsc6mql0/</link>
+      <link>https://www.netveldi.com/es/postes/note103sanxz6md2pfajupjd2fylms30k6ftfdd3t3nzpxmdfhlmxemxsc6mql0/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/postes/note103sanxz6md2pfajupjd2fylms30k6ftfdd3t3nzpxmdfhlmxemxsc6mql0/</guid>
+      <guid>https://www.netveldi.com/es/postes/note103sanxz6md2pfajupjd2fylms30k6ftfdd3t3nzpxmdfhlmxemxsc6mql0/</guid>
       <description>&lt;p&gt;Continuando con mi post hace un mes, terminé con unos de esos portátiles NovaCustom V54: &lt;a href=&#34;https://novacustom.com/product/v54-series/&#34; title=&#34;&#34;&gt;https://novacustom.com/product/v54-series/&lt;/a&gt;. Tenía 4 posibles sistemas operativas en mente para este portátil, organizados por prioridad como OpenBSD &amp;gt; Void Linux &amp;gt; Parabola Linux &amp;gt; Archlinux. El hardware es más reciente que lo del NV41, lo que significa que había buena probabilidad de que esos sistemas operativas no correrían en ello, pero sabía que Archlinux lo haría, lo que considero suficiente hasta que los otros lo alcanzan. El instalador de OpenBSD se congeló al iniciar y los núcleos de Void y Parabola aún no están de versión 6.9 o más, entonces elegí Archlinux, lo que he usado desde 2011, por ahora.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Novedades: note1vg0:fq5ljjyn</title>
-      <link>http://localhost:1313/es/postes/note1vg0nl3pdfpfzclp0jz36a4ums9e6qehe9tmfteupj3s2l4hvedfq5ljjyn/</link>
+      <link>https://www.netveldi.com/es/postes/note1vg0nl3pdfpfzclp0jz36a4ums9e6qehe9tmfteupj3s2l4hvedfq5ljjyn/</link>
       <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/postes/note1vg0nl3pdfpfzclp0jz36a4ums9e6qehe9tmfteupj3s2l4hvedfq5ljjyn/</guid>
+      <guid>https://www.netveldi.com/es/postes/note1vg0nl3pdfpfzclp0jz36a4ums9e6qehe9tmfteupj3s2l4hvedfq5ljjyn/</guid>
       <description>&lt;p&gt;Añadí un feed atom para la página principal para cada versión linguistica de mi sitio de web en el pie.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Memorización de contraseñas aleatorias con PAO</title>
-      <link>http://localhost:1313/es/postes/memorizacion-de-contrasenas-aleatorias-con-pao/</link>
+      <link>https://www.netveldi.com/es/postes/memorizacion-de-contrasenas-aleatorias-con-pao/</link>
       <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/postes/memorizacion-de-contrasenas-aleatorias-con-pao/</guid>
+      <guid>https://www.netveldi.com/es/postes/memorizacion-de-contrasenas-aleatorias-con-pao/</guid>
       <description>Como una persona a quién le interesa mucho la seguridad de la información, me gusta jugar juegos en mi mente que involucran la imaginación de amenazas y cómo se podría establecer y mejorar defensas contra ellas si se materializan. Un caso muy importante de considerar es ¿qué pasaría si uno pierde todas sus posesiones hasta prácticamente quedarse cálato en la calle o dónde sea? En ese caso, todos nuestros datos fuera de nuestros mentes, sean digitales o escritos, desaparecen. Queremos asegurar que la respuesta a esa pregunta sea que nada pasaría y que seguiríamos estoicos adelante como un Terminator recién llegado. Normalmente se puede dejar copias de los datos con terceros, pero aquí hablo en el contexto de individuos que quieren una seguridad máxima, dónde ellos mismos son los únicos que deberían poder acceder a tales datos. Eso requiere el cifrado de los datos con una contraseña aleatoria que es difícil recordar sin técnicas de memorización. A este fin dedico el artículo dónde explico mi aplicación de la técnica de memorización de &lt;a href=&#34;https://palaciodelamemoria.com/metodo-de-pao/&#34; title=&#34;&#34;&gt;PAO&lt;/a&gt; de símbolos leíbles &lt;a href=&#34;https://es.wikipedia.org/wiki/ASCII&#34; title=&#34;&#34;&gt;ASCII&lt;/a&gt;.</description>
     </item>
     <item>
       <title>Novedades: note10kn:gq8yyf73</title>
-      <link>http://localhost:1313/es/postes/note10knxup733x7dms5vt9kjz3s46a80k0lw35wz6nztqlcs5sdujegq8yyf73/</link>
+      <link>https://www.netveldi.com/es/postes/note10knxup733x7dms5vt9kjz3s46a80k0lw35wz6nztqlcs5sdujegq8yyf73/</link>
       <pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/postes/note10knxup733x7dms5vt9kjz3s46a80k0lw35wz6nztqlcs5sdujegq8yyf73/</guid>
+      <guid>https://www.netveldi.com/es/postes/note10knxup733x7dms5vt9kjz3s46a80k0lw35wz6nztqlcs5sdujegq8yyf73/</guid>
       <description>&lt;p&gt;Creo que es importante refinar continuamente la postura de la seguridad de mi portátil por mí y por extensión la seguridad de los proyectos en cuáles trabajo por mis clientes. Recientemente he estado buscando un nuevo portátil. La última vez que lo hice, en 2021, terminé con un Thinkpad X200: &lt;a href=&#34;https://es.wikipedia.org/wiki/ThinkPad_X_series#X200_and_X200s&#34; title=&#34;&#34;&gt;https://es.wikipedia.org/wiki/ThinkPad_X_series#X200_and_X200s&lt;/a&gt;. La razón es que fue unos de los pocos portátiles RYF certificados dónde Libreboot puede correr, y esos portátiles no tienen el Intel Management Engine (preocupación para la seguridad) en sus chips. Una de las razones por ver otras opciones es que el portátil a veces se apaga por sobrecalentamiento o se congela cuándo trabaja duro. Podría poner tiempo en arreglarlo, pero sería difícil alcanzar 100% confianza de que no se apague mientras que atiendo videollamadas importantes. Otra razón es conseguir un CPU, GPU y capacidad de RAM de alta gama para poder entrenar IA localmente, que es algo en que podría querer meterme. Todavía tengo mi Thinkpad T440s para cuándo es importante que la computadora no falle. Sin embargo no es ideal por el entrenamiento de IA, contiene IME funcionando, y su firmware está cerrado con Intel Boot Guard para que no se puede reemplazar con una alternativa libre. En pocas palabras, reduje la búsqueda del portátil a NovaCustom: &lt;a href=&#34;https://novacustom.com/cat/custom-laptop/&#34; title=&#34;&#34;&gt;https://novacustom.com/cat/custom-laptop/&lt;/a&gt;. Tienen la opción de desactivar el IME y ejecutar Coreboot que me parece una solución intermedia aceptable. Quiero intentar usar OpenBSD como mi sistema operativa principal (actualmente uso Parabola) y vi una reseña positiva sobre usar OpenBSD con el portátil NovaCustom NV41 que es un buen presagio: &lt;a href=&#34;https://dataswamp.org/~solene/2024-01-03-laptop-review-novacustom-nv41.html#_OpenBSD&#34; title=&#34;&#34;&gt;https://dataswamp.org/~solene/2024-01-03-laptop-review-novacustom-nv41.html#_OpenBSD&lt;/a&gt;. Lo pensaré más a detalle antes de hacer una decisión.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Novedades: note1u4d:rqcwcwsw</title>
-      <link>http://localhost:1313/es/postes/note1u4dffzruremkyvmltumcn0xtx7kusksvxhprenv4muyedl054vrqcwcwsw/</link>
+      <link>https://www.netveldi.com/es/postes/note1u4dffzruremkyvmltumcn0xtx7kusksvxhprenv4muyedl054vrqcwcwsw/</link>
       <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/postes/note1u4dffzruremkyvmltumcn0xtx7kusksvxhprenv4muyedl054vrqcwcwsw/</guid>
+      <guid>https://www.netveldi.com/es/postes/note1u4dffzruremkyvmltumcn0xtx7kusksvxhprenv4muyedl054vrqcwcwsw/</guid>
       <description>&lt;p&gt;Casi completé definir mi Sistema de memoria PAO por todas las letras legibles de ASCII. Lo usaré para memorizar contraseñas aleatorias de ASCII por mi copia cifrada de seguridad de mis datos. He querido hacer eso ya por bastante tiempo. Contaré más sobre eso más adelante.&lt;/p&gt;&#xA;&lt;p&gt;Leí capítulo 11 del libro Rust.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Novedades: note1hpz:zsatt7vl</title>
-      <link>http://localhost:1313/es/postes/note1hpz7jgecmgamfa8v8vnnp4jt24p0rynaxnr2gvv9ef2zm2mca9zsatt7vl/</link>
+      <link>https://www.netveldi.com/es/postes/note1hpz7jgecmgamfa8v8vnnp4jt24p0rynaxnr2gvv9ef2zm2mca9zsatt7vl/</link>
       <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/postes/note1hpz7jgecmgamfa8v8vnnp4jt24p0rynaxnr2gvv9ef2zm2mca9zsatt7vl/</guid>
+      <guid>https://www.netveldi.com/es/postes/note1hpz7jgecmgamfa8v8vnnp4jt24p0rynaxnr2gvv9ef2zm2mca9zsatt7vl/</guid>
       <description>&lt;p&gt;Me fui a la conferencia de la seguridad de red por parte de la Oficina de Comunicaciones Electrónicas de Islandia. Recibí ideas sobre las cosas que las compañías en Islandia están experimentando dentro del rubro hoy en día y también sobre la nueva directiva NIS2 de la UE con cuál se espera que necesitan cumplir. Una desconexión entre el liderazgo y el departamento TI dentro de las compañías fue un tema grande y la necesidad de una cooperación más profunda entre ellos para mejorar su seguridad de información. Creo que la gente TI se benefician mucho de conocimiento de administración de negocios. Les permite reconocer las responsabilidades y perspectiva del liderazgo para más efectivamente comunicar riesgos de seguridad y permite que el liderazgo tome la responsabilidad de ellos.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Novedades: note1nx5:eszdga6l</title>
-      <link>http://localhost:1313/es/postes/note1nx5xy3ezn5h743jq8m84g7h6acrsrxrd2gxu22gv9g2eyp0k0veszdga6l/</link>
+      <link>https://www.netveldi.com/es/postes/note1nx5xy3ezn5h743jq8m84g7h6acrsrxrd2gxu22gv9g2eyp0k0veszdga6l/</link>
       <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/postes/note1nx5xy3ezn5h743jq8m84g7h6acrsrxrd2gxu22gv9g2eyp0k0veszdga6l/</guid>
+      <guid>https://www.netveldi.com/es/postes/note1nx5xy3ezn5h743jq8m84g7h6acrsrxrd2gxu22gv9g2eyp0k0veszdga6l/</guid>
       <description>&lt;p&gt;Sumé las Servicios y Novedades secciones a esta página y actualicé la Sobre mí sección.&lt;/p&gt;&#xA;&lt;p&gt;Decidí aprender programar en Rust, ya que quisiera poder participar en varios proyectos que los usan. Acabé de leer capítulos 1-5 en el libro Rust: &lt;a href=&#34;https://doc.rust-lang.org/book/&#34; title=&#34;&#34;&gt;https://doc.rust-lang.org/book/&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Software libre es número uno</title>
-      <link>http://localhost:1313/es/postes/software-libre-es-numero-uno/</link>
+      <link>https://www.netveldi.com/es/postes/software-libre-es-numero-uno/</link>
       <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/postes/software-libre-es-numero-uno/</guid>
+      <guid>https://www.netveldi.com/es/postes/software-libre-es-numero-uno/</guid>
       <description>Todos usamos varios dispositivos electrónicos para interactuar y hacer fluir información entre nosotros por nuestro beneficio. Lo más que dependemos de esos dispositivos por nuestras actividades, lo más importante es entender algunos aspectos fundamentales del mundo informático para seguir empoderado a largo plazo. Un aspecto muy importante, el que detallo en este artículo, tiene que ver con nuestra elección de software al respecto a su licencia y la accesibilidad de su código fuente. Software incluye aplicaciones, sistemas operativas y otras herramientas digitales. Una vez conscientes de ciertas dinamicas humanas en la creación de software, podemos adoptar principios y prácticas para vivir más empoderados. Este artículo es para usuarios de software, no los desarrolladores, pero es necesario mencionar puntos importantes sobre el lado del desarrollador para poder elegir nuestro software mejor.</description>
     </item>
   </channel>

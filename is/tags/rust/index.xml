@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rust on Netveldi</title>
-    <link>http://localhost:1313/is/tags/rust/</link>
+    <link>https://www.netveldi.com/is/tags/rust/</link>
     <description>Recent content in Rust on Netveldi</description>
     <generator>Hugo</generator>
     <language>is</language>
     <lastBuildDate>Mon, 21 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/is/tags/rust/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.netveldi.com/is/tags/rust/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tíðindi: note1gzn:yq9zqxyx</title>
-      <link>http://localhost:1313/is/faerslur/note1gzn5s2rzmk8u7vx27datdsvcqvzdqhzq6p7gqgck6afr0djn8kyq9zqxyx/</link>
+      <link>https://www.netveldi.com/is/faerslur/note1gzn5s2rzmk8u7vx27datdsvcqvzdqhzq6p7gqgck6afr0djn8kyq9zqxyx/</link>
       <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/is/faerslur/note1gzn5s2rzmk8u7vx27datdsvcqvzdqhzq6p7gqgck6afr0djn8kyq9zqxyx/</guid>
+      <guid>https://www.netveldi.com/is/faerslur/note1gzn5s2rzmk8u7vx27datdsvcqvzdqhzq6p7gqgck6afr0djn8kyq9zqxyx/</guid>
       <description>&lt;p&gt;Hef næstum klárað að skilgreina PAO minnigarkerfið mitt fyrir öll lesanleg ASCII letur. Ég mun nota það til að muna handahófskennd ASCII lykilorð fyrir dulkóðuð afrit af gögnunum mínum. Ég hef ætlað að gera það í nokkurn tíma, en meira um það síðar.&lt;/p&gt;&#xA;&lt;p&gt;Las kafla 11 Rust bókarinnar.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tíðindi: note17ja:3q7ryq6h</title>
-      <link>http://localhost:1313/is/faerslur/note17jam0p7nvwdgf0mehfjcey77zyq0897tj44cr2hup0j7j5r6x83q7ryq6h/</link>
+      <link>https://www.netveldi.com/is/faerslur/note17jam0p7nvwdgf0mehfjcey77zyq0897tj44cr2hup0j7j5r6x83q7ryq6h/</link>
       <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/is/faerslur/note17jam0p7nvwdgf0mehfjcey77zyq0897tj44cr2hup0j7j5r6x83q7ryq6h/</guid>
+      <guid>https://www.netveldi.com/is/faerslur/note17jam0p7nvwdgf0mehfjcey77zyq0897tj44cr2hup0j7j5r6x83q7ryq6h/</guid>
       <description>&lt;p&gt;Fór á Netöryggisráðstefnu Fjarskiptastofu. Þar fékk ég að kynnast því sem að fyrirtæki á Íslandi standa frammi fyrir í þessum bransa nú til dags og einnig nýju NIS2 tilskipuninni frá ES sem vænst er til að þau munu þurfa að fara eftir. Sambandsleysi milli stjórnar og upplýsingatæknideildar fyrirtækja var mikið talað um og einnig nauðsyn dýpri samskipta milli þeirra til að bæta net- og upplýsingaöryggi. Ég held að upplýsingatæknifólk hafi hag af vitneskju um fyrirtækjarekstur í þessu samhengi. Það gerir því kleift að þekkja ábyrgð og sjónarhorn stjórnarinnar til að koma upplýsingum um öryggisáhættur til hennar á áhrifaríkann hátt til að hún geti tekið ábyrgð á þeim.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tíðindi: note1ks9:qq2aj9xc</title>
-      <link>http://localhost:1313/is/faerslur/note1ks9hlmzut33vp09a6ujuck38e76sffqetgkmzrla2wpm8daw8pqq2aj9xc/</link>
+      <link>https://www.netveldi.com/is/faerslur/note1ks9hlmzut33vp09a6ujuck38e76sffqetgkmzrla2wpm8daw8pqq2aj9xc/</link>
       <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/is/faerslur/note1ks9hlmzut33vp09a6ujuck38e76sffqetgkmzrla2wpm8daw8pqq2aj9xc/</guid>
+      <guid>https://www.netveldi.com/is/faerslur/note1ks9hlmzut33vp09a6ujuck38e76sffqetgkmzrla2wpm8daw8pqq2aj9xc/</guid>
       <description>&lt;p&gt;Bætti við Þjónusta og Tíðindi flipum við vefsíðuna og uppfærði Um mig flipann.&lt;/p&gt;&#xA;&lt;p&gt;Ákvað að læra Rust forritun fyrst það eru mörg forrit sem nota það sem ég vil taka þátt í að forrita. Kláraði að lesa kafla 1-5 í Rust bókinni: &lt;a href=&#34;https://doc.rust-lang.org/book/&#34; title=&#34;&#34;&gt;https://doc.rust-lang.org/book/&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>

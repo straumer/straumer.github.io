@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Softwarelibre on Netveldi</title>
-    <link>http://localhost:1313/es/tags/softwarelibre/</link>
+    <link>https://www.netveldi.com/es/tags/softwarelibre/</link>
     <description>Recent content in Softwarelibre on Netveldi</description>
     <generator>Hugo</generator>
     <language>es</language>
     <lastBuildDate>Sat, 21 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/es/tags/softwarelibre/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.netveldi.com/es/tags/softwarelibre/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Software libre es número uno</title>
-      <link>http://localhost:1313/es/postes/software-libre-es-numero-uno/</link>
+      <link>https://www.netveldi.com/es/postes/software-libre-es-numero-uno/</link>
       <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/postes/software-libre-es-numero-uno/</guid>
+      <guid>https://www.netveldi.com/es/postes/software-libre-es-numero-uno/</guid>
       <description>Todos usamos varios dispositivos electrónicos para interactuar y hacer fluir información entre nosotros por nuestro beneficio. Lo más que dependemos de esos dispositivos por nuestras actividades, lo más importante es entender algunos aspectos fundamentales del mundo informático para seguir empoderado a largo plazo. Un aspecto muy importante, el que detallo en este artículo, tiene que ver con nuestra elección de software al respecto a su licencia y la accesibilidad de su código fuente. Software incluye aplicaciones, sistemas operativas y otras herramientas digitales. Una vez conscientes de ciertas dinamicas humanas en la creación de software, podemos adoptar principios y prácticas para vivir más empoderados. Este artículo es para usuarios de software, no los desarrolladores, pero es necesario mencionar puntos importantes sobre el lado del desarrollador para poder elegir nuestro software mejor.</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gohugo on Netveldi</title>
-    <link>http://localhost:1313/is/tags/gohugo/</link>
+    <link>https://www.netveldi.com/is/tags/gohugo/</link>
     <description>Recent content in Gohugo on Netveldi</description>
     <generator>Hugo</generator>
     <language>is</language>
     <lastBuildDate>Mon, 02 Jun 2025 12:19:44 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/is/tags/gohugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.netveldi.com/is/tags/gohugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tíðindi: note1r73:sqd54unk</title>
-      <link>http://localhost:1313/is/faerslur/note1r739vpz5cqxjl9zm7fzjqgncuhfu4l83h2mg04z0shp4rcpeu4sqd54unk/</link>
+      <link>https://www.netveldi.com/is/faerslur/note1r739vpz5cqxjl9zm7fzjqgncuhfu4l83h2mg04z0shp4rcpeu4sqd54unk/</link>
       <pubDate>Mon, 02 Jun 2025 12:19:44 +0000</pubDate>
-      <guid>http://localhost:1313/is/faerslur/note1r739vpz5cqxjl9zm7fzjqgncuhfu4l83h2mg04z0shp4rcpeu4sqd54unk/</guid>
+      <guid>https://www.netveldi.com/is/faerslur/note1r739vpz5cqxjl9zm7fzjqgncuhfu4l83h2mg04z0shp4rcpeu4sqd54unk/</guid>
       <description>&lt;p&gt;U.þ.b. 6 mánuðum síðan bjó ég til &amp;ldquo;static site generator&amp;rdquo; sem framleiddi vefsíðuna mína með blogg virkni. Síðan lærði ég meira um Nostr og hugsaði að það væri meira valdeflandi að nota frekar Nostr sem sem mína einu sannleiksuppsprettu. Ég þurfti samt vefsíðu líka þannig að ég bjó til einföld verkfæri og ferla til að framleiða vefsíðu með Nostr atburðina mína sem inntak. Í þetta skiptið notaði ég frekar Hugo til að framleiða síðuna. Það var samt lærdómsríkt að búa til minn eiginn framleiðanda og gerir mig þakklátari fyrir þyngri vinnuna sem Hugo getur gert fyrir mig núna. Ég var líka meðvitaður um að ekki er var til auðveld og sveigjanleg leið til að framleiða vefsíðu útfrá Nostr atburðum, þannig ég er að búa til endurnýtanlega Hugo einingu samleiðis þróunar minnar á síðunni: &lt;a href=&#34;https://github.com/straumer/hugo-nostr&#34; title=&#34;&#34;&gt;https://github.com/straumer/hugo-nostr&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categorías on Netveldi</title>
-    <link>http://localhost:1313/es/categorias/</link>
+    <link>https://www.netveldi.com/es/categorias/</link>
     <description>Recent content in Categorías on Netveldi</description>
     <generator>Hugo</generator>
     <language>es</language>
     <lastBuildDate>Mon, 02 Jun 2025 12:19:43 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/es/categorias/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.netveldi.com/es/categorias/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Novedad</title>
-      <link>http://localhost:1313/es/categorias/novedad/</link>
+      <link>https://www.netveldi.com/es/categorias/novedad/</link>
       <pubDate>Mon, 02 Jun 2025 12:19:43 +0000</pubDate>
-      <guid>http://localhost:1313/es/categorias/novedad/</guid>
+      <guid>https://www.netveldi.com/es/categorias/novedad/</guid>
       <description></description>
     </item>
     <item>
       <title>Artículo</title>
-      <link>http://localhost:1313/es/categorias/articulo/</link>
+      <link>https://www.netveldi.com/es/categorias/articulo/</link>
       <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/categorias/articulo/</guid>
+      <guid>https://www.netveldi.com/es/categorias/articulo/</guid>
       <description></description>
     </item>
   </channel>

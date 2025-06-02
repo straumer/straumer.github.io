@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Laptop on Netveldi</title>
-    <link>http://localhost:1313/tags/laptop/</link>
+    <link>https://www.netveldi.com/tags/laptop/</link>
     <description>Recent content in Laptop on Netveldi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 25 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/laptop/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.netveldi.com/tags/laptop/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Update: note1c4e:kqgcc460</title>
-      <link>http://localhost:1313/posts/note1c4eq7vmvhca02uxvdk4rnwlhjmev6t9m7rcypgahchr4fe68cmkqgcc460/</link>
+      <link>https://www.netveldi.com/posts/note1c4eq7vmvhca02uxvdk4rnwlhjmev6t9m7rcypgahchr4fe68cmkqgcc460/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/note1c4eq7vmvhca02uxvdk4rnwlhjmev6t9m7rcypgahchr4fe68cmkqgcc460/</guid>
+      <guid>https://www.netveldi.com/posts/note1c4eq7vmvhca02uxvdk4rnwlhjmev6t9m7rcypgahchr4fe68cmkqgcc460/</guid>
       <description>&lt;p&gt;Following up on my update from a month ago, I ended up getting one of those V54 NovaCustom laptops: &lt;a href=&#34;https://novacustom.com/product/v54-series/&#34; title=&#34;&#34;&gt;https://novacustom.com/product/v54-series/&lt;/a&gt;. I had 4 possible OSes in mind for this laptop, ordered by priority as OpenBSD &amp;gt; Void Linux &amp;gt; Parabola Linux &amp;gt; Archlinux. The hardware is newer than that of NV41, so there was a good chance some of those OSes wouldn&amp;rsquo;t run on it, but I was sure at least Archlinux would, which I consider good enough until the others catch up. The OpenBSD installer froze on startup and Void and Parabola have their officially supported kernel versions below the required version of 6.9, so Archlinux, which I&amp;rsquo;ve used since 2011 is the choice for now.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Update: note1snx:4s5mj40d</title>
-      <link>http://localhost:1313/posts/note1snxzhmft0xnh7memv82juhxuuemx8v77khv8ztmrunu5u4dayk4s5mj40d/</link>
+      <link>https://www.netveldi.com/posts/note1snxzhmft0xnh7memv82juhxuuemx8v77khv8ztmrunu5u4dayk4s5mj40d/</link>
       <pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/note1snxzhmft0xnh7memv82juhxuuemx8v77khv8ztmrunu5u4dayk4s5mj40d/</guid>
+      <guid>https://www.netveldi.com/posts/note1snxzhmft0xnh7memv82juhxuuemx8v77khv8ztmrunu5u4dayk4s5mj40d/</guid>
       <description>&lt;p&gt;I find it important to continuously refine my laptop&amp;rsquo;s security posture for myself and by extent the security of the projects that I work on for my clients. Recently I&amp;rsquo;ve been keeping an eye out for a new laptop. Last time I did so, in 2021, I ended up with a Thinkpad X200: &lt;a href=&#34;https://en.wikipedia.org/wiki/ThinkPad_X_series#X200_and_X200s&#34; title=&#34;&#34;&gt;https://en.wikipedia.org/wiki/ThinkPad_X_series#X200_and_X200s&lt;/a&gt;. The reason I did was that it was one of the few available RYF certified laptops that Libreboot could run on, and those laptops don&amp;rsquo;t have any Intel Management Engine (a security concern) on their chips. One reason to look at other options is that the laptop shuts down due to overheating or freezes sometimes when it&amp;rsquo;s working hard. I could put in time to try to fix it, but it&amp;rsquo;ll be hard to reach 100% confidence that it doesn&amp;rsquo;t turn off in important video calls. Another reason is to get a higher end CPU, GPU and RAM capacity for local AI training that I may want to do. I still got my Thinkpad T440s for when it&amp;rsquo;s important the computer doesn&amp;rsquo;t crash. It&amp;rsquo;s however not ideal for AI workloads, contains working IME and its firmware is locked with Intel Boot Guard so I can&amp;rsquo;t replace it with a free alternative. Long-story short, I narrowed my laptop search down to NovaCustom: &lt;a href=&#34;https://novacustom.com/cat/custom-laptop/&#34; title=&#34;&#34;&gt;https://novacustom.com/cat/custom-laptop/&lt;/a&gt;. They have the option of disabling the IME and run Coreboot which seems like it could be an acceptable compromise. I want to try running OpenBSD as my main OS (I&amp;rsquo;m currently on Parabola) and I saw a positive review on running OpenBSD on the NovaCustom NV41 laptop which bodes well: &lt;a href=&#34;https://dataswamp.org/~solene/2024-01-03-laptop-review-novacustom-nv41.html#_OpenBSD&#34; title=&#34;&#34;&gt;https://dataswamp.org/~solene/2024-01-03-laptop-review-novacustom-nv41.html#_OpenBSD&lt;/a&gt;. I&amp;rsquo;ll mull this over some more before making a decision.&lt;/p&gt;</description>
     </item>
   </channel>

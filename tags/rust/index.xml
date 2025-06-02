@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rust on Netveldi</title>
-    <link>http://localhost:1313/tags/rust/</link>
+    <link>https://www.netveldi.com/tags/rust/</link>
     <description>Recent content in Rust on Netveldi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 21 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/rust/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.netveldi.com/tags/rust/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Update: note1kk5:nsf0tc6z</title>
-      <link>http://localhost:1313/posts/note1kk5vp30w05jw4c4rj5zy6ne2qgjah8nm9eyjw0tj6hrf9qyrqwnsf0tc6z/</link>
+      <link>https://www.netveldi.com/posts/note1kk5vp30w05jw4c4rj5zy6ne2qgjah8nm9eyjw0tj6hrf9qyrqwnsf0tc6z/</link>
       <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/note1kk5vp30w05jw4c4rj5zy6ne2qgjah8nm9eyjw0tj6hrf9qyrqwnsf0tc6z/</guid>
+      <guid>https://www.netveldi.com/posts/note1kk5vp30w05jw4c4rj5zy6ne2qgjah8nm9eyjw0tj6hrf9qyrqwnsf0tc6z/</guid>
       <description>&lt;p&gt;Almost finished defining my PAO memory system for all readable ASCII characters. I&amp;rsquo;ll use it to remember random ASCII passwords for my encrypted data backups. Been meaning to complete that for a while now. More on that later.&lt;/p&gt;&#xA;&lt;p&gt;Read chapter 11 of the Rust book.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Update: note1k2u:xqgaed8v</title>
-      <link>http://localhost:1313/posts/note1k2upscct4ha5nnm78q5ka5q47m53n92uvpnjsq777sfznvyxngxqgaed8v/</link>
+      <link>https://www.netveldi.com/posts/note1k2upscct4ha5nnm78q5ka5q47m53n92uvpnjsq777sfznvyxngxqgaed8v/</link>
       <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/note1k2upscct4ha5nnm78q5ka5q47m53n92uvpnjsq777sfznvyxngxqgaed8v/</guid>
+      <guid>https://www.netveldi.com/posts/note1k2upscct4ha5nnm78q5ka5q47m53n92uvpnjsq777sfznvyxngxqgaed8v/</guid>
       <description>&lt;p&gt;I went to a network security conference of the Electronic Communications Office of Iceland. I got some insight into what companies in Iceland are dealing with in that area nowadays as well as the new NIS2 EU directive that they are expected to need to comply with. Disconnect between company leadership and their IT departments was a big topic and the need for deeper collaboration between them to improve the company&amp;rsquo;s information security posture. I think IT people really benefit from knowledge of business administration in this regard. It lets them recognize the responsibilities and perspective of the leadership in order to effectively communicate security risks and lets the leadership take responsibility for them.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Update: note1dky:3s4ykwsl</title>
-      <link>http://localhost:1313/posts/note1dkyd2ylkzyexs96wun996d69enwplnypusycj5luh570ae0dpd3s4ykwsl/</link>
+      <link>https://www.netveldi.com/posts/note1dkyd2ylkzyexs96wun996d69enwplnypusycj5luh570ae0dpd3s4ykwsl/</link>
       <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/note1dkyd2ylkzyexs96wun996d69enwplnypusycj5luh570ae0dpd3s4ykwsl/</guid>
+      <guid>https://www.netveldi.com/posts/note1dkyd2ylkzyexs96wun996d69enwplnypusycj5luh570ae0dpd3s4ykwsl/</guid>
       <description>&lt;p&gt;Added Services and Updates sections to this site and updated the About section.&lt;/p&gt;&#xA;&lt;p&gt;I decided to learn Rust programming, since I would like to participate in various projects that use it. Finished reading chapters 1-5 of the Rust book: &lt;a href=&#34;https://doc.rust-lang.org/book/&#34; title=&#34;&#34;&gt;https://doc.rust-lang.org/book/&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>

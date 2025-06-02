@@ -2,73 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Netveldi</title>
-    <link>http://localhost:1313/is/</link>
+    <link>https://www.netveldi.com/is/</link>
     <description>Recent content on Netveldi</description>
     <generator>Hugo</generator>
     <language>is</language>
     <lastBuildDate>Mon, 02 Jun 2025 12:19:44 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/is/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.netveldi.com/is/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tíðindi: note1r73:sqd54unk</title>
-      <link>http://localhost:1313/is/faerslur/note1r739vpz5cqxjl9zm7fzjqgncuhfu4l83h2mg04z0shp4rcpeu4sqd54unk/</link>
+      <link>https://www.netveldi.com/is/faerslur/note1r739vpz5cqxjl9zm7fzjqgncuhfu4l83h2mg04z0shp4rcpeu4sqd54unk/</link>
       <pubDate>Mon, 02 Jun 2025 12:19:44 +0000</pubDate>
-      <guid>http://localhost:1313/is/faerslur/note1r739vpz5cqxjl9zm7fzjqgncuhfu4l83h2mg04z0shp4rcpeu4sqd54unk/</guid>
+      <guid>https://www.netveldi.com/is/faerslur/note1r739vpz5cqxjl9zm7fzjqgncuhfu4l83h2mg04z0shp4rcpeu4sqd54unk/</guid>
       <description>&lt;p&gt;U.þ.b. 6 mánuðum síðan bjó ég til &amp;ldquo;static site generator&amp;rdquo; sem framleiddi vefsíðuna mína með blogg virkni. Síðan lærði ég meira um Nostr og hugsaði að það væri meira valdeflandi að nota frekar Nostr sem sem mína einu sannleiksuppsprettu. Ég þurfti samt vefsíðu líka þannig að ég bjó til einföld verkfæri og ferla til að framleiða vefsíðu með Nostr atburðina mína sem inntak. Í þetta skiptið notaði ég frekar Hugo til að framleiða síðuna. Það var samt lærdómsríkt að búa til minn eiginn framleiðanda og gerir mig þakklátari fyrir þyngri vinnuna sem Hugo getur gert fyrir mig núna. Ég var líka meðvitaður um að ekki er var til auðveld og sveigjanleg leið til að framleiða vefsíðu útfrá Nostr atburðum, þannig ég er að búa til endurnýtanlega Hugo einingu samleiðis þróunar minnar á síðunni: &lt;a href=&#34;https://github.com/straumer/hugo-nostr&#34; title=&#34;&#34;&gt;https://github.com/straumer/hugo-nostr&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tíðindi: note17y9:ks5uekx5</title>
-      <link>http://localhost:1313/is/faerslur/note17y9fvectfwsl8lgd8pfnh0s687yqwpfl66mfzedhqlq7dgrhllks5uekx5/</link>
+      <link>https://www.netveldi.com/is/faerslur/note17y9fvectfwsl8lgd8pfnh0s687yqwpfl66mfzedhqlq7dgrhllks5uekx5/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/is/faerslur/note17y9fvectfwsl8lgd8pfnh0s687yqwpfl66mfzedhqlq7dgrhllks5uekx5/</guid>
+      <guid>https://www.netveldi.com/is/faerslur/note17y9fvectfwsl8lgd8pfnh0s687yqwpfl66mfzedhqlq7dgrhllks5uekx5/</guid>
       <description>&lt;p&gt;Haldandi áfram með póstinn minn frá síðasta mánuði, þá endaði ég með eina V54 NovaCustom fartölvu: &lt;a href=&#34;https://novacustom.com/product/v54-series/&#34; title=&#34;&#34;&gt;https://novacustom.com/product/v54-series/&lt;/a&gt;. Ég hafði 4 möguleg stýrikerfi í huga fyrir hana, í forgangsröð OpenBSD &amp;gt; Void Linux &amp;gt; Parabola Linux &amp;gt; Archlinux. Vélbúnaðurinn er nýrri en hjá NV41, þannig það var góður möguleiki á því að einhver þessarra stýrikerfa myndu ekki keyra á honum, en ég var viss um að Archlinux myndi gera það sem mér finnst ásættanlegt val þangað hin eru tilbúin. Uppsetningin á OpenBSD fraus og kjarnar Void og Parabola eru ekki enn komnir í útgáfu 6.9 eða hærra, þannig Archlinux sem ég hef notað síðan 2011 er valið í bili.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tíðindi: note1k6s:aqgxlsp9</title>
-      <link>http://localhost:1313/is/faerslur/note1k6slzt2244pjhdy4x4mf2yetz7mza4wnv48v3g5lua2qa86deaaqgxlsp9/</link>
+      <link>https://www.netveldi.com/is/faerslur/note1k6slzt2244pjhdy4x4mf2yetz7mza4wnv48v3g5lua2qa86deaaqgxlsp9/</link>
       <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/is/faerslur/note1k6slzt2244pjhdy4x4mf2yetz7mza4wnv48v3g5lua2qa86deaaqgxlsp9/</guid>
+      <guid>https://www.netveldi.com/is/faerslur/note1k6slzt2244pjhdy4x4mf2yetz7mza4wnv48v3g5lua2qa86deaaqgxlsp9/</guid>
       <description>&lt;p&gt;Bætti við atom feed fyrir forsíðu hverrar tungumálaútgáfu vefsíðunnar minnar í fótinn.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Handahófskennd lykilorð á minnið með PAO</title>
-      <link>http://localhost:1313/is/faerslur/handahofskennd-lykilord-a-minnid-med-pao/</link>
+      <link>https://www.netveldi.com/is/faerslur/handahofskennd-lykilord-a-minnid-med-pao/</link>
       <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/is/faerslur/handahofskennd-lykilord-a-minnid-med-pao/</guid>
+      <guid>https://www.netveldi.com/is/faerslur/handahofskennd-lykilord-a-minnid-med-pao/</guid>
       <description>Sem maður með mikinn áhuga á upplýsingaöryggi, þá hef ég oft leik að því að ímynda mér ýmsar ógnir og leiðir til varnar gegn þeim ef að þær skyldu raungerast. Eitt mikilvægt tilfelli er: Hvað myndi gerast ef maður glatar öllum sínum áþreifanlegu eignum og endar á götunni eða álíka? Í þessu tilfelli þá glatast öll okkar gögn, jafnt stafræn sem skrifuð, nema þau sem við höfum lagt á minnið. Við viljum tryggja það að svarið við spurningunni sé að ekkert sérstakt myndi gerast og að við stóískt höldum lífinu áfram eins og ekkert hafi í skorist eins og Tortímandi sem var við það að birtast. Venjulega er hægt að geyma gögn í höndum þriðju aðila, en hérna tala ég í samhengi einstaklinga sem vilja hámarks öryggi þar sem þeir eru þeir einu sem geta haft aðgang að gögnunum. Þetta tilfelli kallar á dulkóðun gagnanna með handahófskenndu lykilorði sem er erfitt að muna án minnistækni. Ég tileinka þessarri grein þeim tilgangi þar sem ég útskýri mína útfærslu á &lt;a href=&#34;https://artofmemory.com/blog/pao-system/&#34; title=&#34;&#34;&gt;PAO&lt;/a&gt; minnistækninni fyrir lesanleg &lt;a href=&#34;https://en.wikipedia.org/wiki/ASCII&#34; title=&#34;&#34;&gt;ASCII&lt;/a&gt; tákn.</description>
     </item>
     <item>
       <title>Tíðindi: note1ev2:nsajkqfq</title>
-      <link>http://localhost:1313/is/faerslur/note1ev2k0g23gexdgm53a8krcuapl3r2kxcs7z4vte0fvuvszyunasnsajkqfq/</link>
+      <link>https://www.netveldi.com/is/faerslur/note1ev2k0g23gexdgm53a8krcuapl3r2kxcs7z4vte0fvuvszyunasnsajkqfq/</link>
       <pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/is/faerslur/note1ev2k0g23gexdgm53a8krcuapl3r2kxcs7z4vte0fvuvszyunasnsajkqfq/</guid>
+      <guid>https://www.netveldi.com/is/faerslur/note1ev2k0g23gexdgm53a8krcuapl3r2kxcs7z4vte0fvuvszyunasnsajkqfq/</guid>
       <description>&lt;p&gt;Mér finnst mikilvægt að gera betrumbætur á öryggi fartölvunar minnar með tímanum bæði fyrir mig og öryggi þeirra verkefna sem ég vinn að fyrir mína viðskiptavini. Nýlega hef ég verið að leita að nýrri fartölvu. Síðast þegar ég gerði það, árið 2021, þá endaði ég með Thinkpad X200 í höndunum: &lt;a href=&#34;https://en.wikipedia.org/wiki/ThinkPad_X_series#X200_and_X200s&#34; title=&#34;&#34;&gt;https://en.wikipedia.org/wiki/ThinkPad_X_series#X200_and_X200s&lt;/a&gt;. Ástæðan fyrir því er að hún er ein af þeim fáu RYF vottuðu fartölvum sem Libreboot getur keyrt á, og þannig fartölvur eru án Intel stjórnunarvélarinnar (öryggisvandamál). Ein ástæða fyrir því að ég er að líta á aðra möguleika er að fartölvan slekkur á sér vegna ofhitunar eða frýs stundum þegar hún er að vinna mikið. Ég gæti gefið mér tíma í að laga þetta, en það væri erfitt að vera 100% viss um að tölvan slökkvi ekki á sér á mikilvægum fjarfundum. Önnur ástæða er að öðlast betri örgjörva, skjákort og minnisgetu til að geta þjálfað gervigreindarmódel beint í tölvunni. Ég á ennþá eina Thinkpad T440s fartölvu sem ég get notað þegar tölvan má ekki krassa. Hún er hinsvegar ekki tilvalin í gervigreindarþjálfun, notar Intel stjórnunarvélina og fastbúnaður tölvunnar er læstur þannig ekki er hægt að skipta honum út fyrir frjálsa útgáfu. Í stuttu máli þá endaði leitin á NovaCustom: &lt;a href=&#34;https://novacustom.com/cat/custom-laptop/&#34; title=&#34;&#34;&gt;https://novacustom.com/cat/custom-laptop/&lt;/a&gt;. Þessar fartölvur hafa möguleikann á því að slökkva á Intel stjórnunarvélinni og keyra Coreboot sem virðist vera ásættanleg málamiðlun. Ég vil reyna að nota OpenBSD sem aðal stýrikerfið mitt (ég nota núna Parabola) og ég sá umfjöllun um árangursríka notkun OpenBSD á NovaCustom NV41 fartölvunni, sem er góðs viti: &lt;a href=&#34;https://dataswamp.org/~solene/2024-01-03-laptop-review-novacustom-nv41.html#_OpenBSD&#34; title=&#34;&#34;&gt;https://dataswamp.org/~solene/2024-01-03-laptop-review-novacustom-nv41.html#_OpenBSD&lt;/a&gt;. Ég mun hugsa mig aðeins meira um áður en ég tek ákvörðun.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tíðindi: note1gzn:yq9zqxyx</title>
-      <link>http://localhost:1313/is/faerslur/note1gzn5s2rzmk8u7vx27datdsvcqvzdqhzq6p7gqgck6afr0djn8kyq9zqxyx/</link>
+      <link>https://www.netveldi.com/is/faerslur/note1gzn5s2rzmk8u7vx27datdsvcqvzdqhzq6p7gqgck6afr0djn8kyq9zqxyx/</link>
       <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/is/faerslur/note1gzn5s2rzmk8u7vx27datdsvcqvzdqhzq6p7gqgck6afr0djn8kyq9zqxyx/</guid>
+      <guid>https://www.netveldi.com/is/faerslur/note1gzn5s2rzmk8u7vx27datdsvcqvzdqhzq6p7gqgck6afr0djn8kyq9zqxyx/</guid>
       <description>&lt;p&gt;Hef næstum klárað að skilgreina PAO minnigarkerfið mitt fyrir öll lesanleg ASCII letur. Ég mun nota það til að muna handahófskennd ASCII lykilorð fyrir dulkóðuð afrit af gögnunum mínum. Ég hef ætlað að gera það í nokkurn tíma, en meira um það síðar.&lt;/p&gt;&#xA;&lt;p&gt;Las kafla 11 Rust bókarinnar.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tíðindi: note17ja:3q7ryq6h</title>
-      <link>http://localhost:1313/is/faerslur/note17jam0p7nvwdgf0mehfjcey77zyq0897tj44cr2hup0j7j5r6x83q7ryq6h/</link>
+      <link>https://www.netveldi.com/is/faerslur/note17jam0p7nvwdgf0mehfjcey77zyq0897tj44cr2hup0j7j5r6x83q7ryq6h/</link>
       <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/is/faerslur/note17jam0p7nvwdgf0mehfjcey77zyq0897tj44cr2hup0j7j5r6x83q7ryq6h/</guid>
+      <guid>https://www.netveldi.com/is/faerslur/note17jam0p7nvwdgf0mehfjcey77zyq0897tj44cr2hup0j7j5r6x83q7ryq6h/</guid>
       <description>&lt;p&gt;Fór á Netöryggisráðstefnu Fjarskiptastofu. Þar fékk ég að kynnast því sem að fyrirtæki á Íslandi standa frammi fyrir í þessum bransa nú til dags og einnig nýju NIS2 tilskipuninni frá ES sem vænst er til að þau munu þurfa að fara eftir. Sambandsleysi milli stjórnar og upplýsingatæknideildar fyrirtækja var mikið talað um og einnig nauðsyn dýpri samskipta milli þeirra til að bæta net- og upplýsingaöryggi. Ég held að upplýsingatæknifólk hafi hag af vitneskju um fyrirtækjarekstur í þessu samhengi. Það gerir því kleift að þekkja ábyrgð og sjónarhorn stjórnarinnar til að koma upplýsingum um öryggisáhættur til hennar á áhrifaríkann hátt til að hún geti tekið ábyrgð á þeim.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tíðindi: note1ks9:qq2aj9xc</title>
-      <link>http://localhost:1313/is/faerslur/note1ks9hlmzut33vp09a6ujuck38e76sffqetgkmzrla2wpm8daw8pqq2aj9xc/</link>
+      <link>https://www.netveldi.com/is/faerslur/note1ks9hlmzut33vp09a6ujuck38e76sffqetgkmzrla2wpm8daw8pqq2aj9xc/</link>
       <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/is/faerslur/note1ks9hlmzut33vp09a6ujuck38e76sffqetgkmzrla2wpm8daw8pqq2aj9xc/</guid>
+      <guid>https://www.netveldi.com/is/faerslur/note1ks9hlmzut33vp09a6ujuck38e76sffqetgkmzrla2wpm8daw8pqq2aj9xc/</guid>
       <description>&lt;p&gt;Bætti við Þjónusta og Tíðindi flipum við vefsíðuna og uppfærði Um mig flipann.&lt;/p&gt;&#xA;&lt;p&gt;Ákvað að læra Rust forritun fyrst það eru mörg forrit sem nota það sem ég vil taka þátt í að forrita. Kláraði að lesa kafla 1-5 í Rust bókinni: &lt;a href=&#34;https://doc.rust-lang.org/book/&#34; title=&#34;&#34;&gt;https://doc.rust-lang.org/book/&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Frjáls hugbúnaður er númer eitt</title>
-      <link>http://localhost:1313/is/faerslur/frjals-hugbunadur-er-numer-eitt/</link>
+      <link>https://www.netveldi.com/is/faerslur/frjals-hugbunadur-er-numer-eitt/</link>
       <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/is/faerslur/frjals-hugbunadur-er-numer-eitt/</guid>
+      <guid>https://www.netveldi.com/is/faerslur/frjals-hugbunadur-er-numer-eitt/</guid>
       <description>Við notum öll margskonar stafræna tækni til að hafa samskipti og höfum gagn að þessu aukna upplýsingaflæði á milli okkar. Því meir sem við reiðum okkur á þessa tækni í athöfnum okkar, því mikilvægara er að skilja nokkur grunnatriði hins stafræna heims til valdeflingar okkar til lengri tíma. Eitt grunnatriði sem ég tala um í þessarri grein hefur með val á hugbúnaði að gera með tilliti til hugbúnaðarleyfis og aðgangi að frumkóða hans. Hugbúnaður getur verið ýmis öpp, forrit, stýrikerfi og önnur hugbúnaðartól. þegar við erum orðin meðvituð um mannlega þáttinn í gerð hugbúnaðar þá getum við sett okkur meginreglur og venjur okkur til valdeflingar. Þessi grein er fyrir notendur hugbúnaðar en ekki forritara, en samt sem áður er mikilvægt að nefna nokkur einföld atriði frá sjónarhorni þeirra til að geta valið hugbúnað okkar betur.</description>
     </item>
   </channel>

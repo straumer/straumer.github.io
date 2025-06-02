@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Seguridad on Netveldi</title>
-    <link>http://localhost:1313/es/tags/seguridad/</link>
+    <link>https://www.netveldi.com/es/tags/seguridad/</link>
     <description>Recent content in Seguridad on Netveldi</description>
     <generator>Hugo</generator>
     <language>es</language>
     <lastBuildDate>Tue, 12 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/es/tags/seguridad/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.netveldi.com/es/tags/seguridad/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Memorización de contraseñas aleatorias con PAO</title>
-      <link>http://localhost:1313/es/postes/memorizacion-de-contrasenas-aleatorias-con-pao/</link>
+      <link>https://www.netveldi.com/es/postes/memorizacion-de-contrasenas-aleatorias-con-pao/</link>
       <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/postes/memorizacion-de-contrasenas-aleatorias-con-pao/</guid>
+      <guid>https://www.netveldi.com/es/postes/memorizacion-de-contrasenas-aleatorias-con-pao/</guid>
       <description>Como una persona a quién le interesa mucho la seguridad de la información, me gusta jugar juegos en mi mente que involucran la imaginación de amenazas y cómo se podría establecer y mejorar defensas contra ellas si se materializan. Un caso muy importante de considerar es ¿qué pasaría si uno pierde todas sus posesiones hasta prácticamente quedarse cálato en la calle o dónde sea? En ese caso, todos nuestros datos fuera de nuestros mentes, sean digitales o escritos, desaparecen. Queremos asegurar que la respuesta a esa pregunta sea que nada pasaría y que seguiríamos estoicos adelante como un Terminator recién llegado. Normalmente se puede dejar copias de los datos con terceros, pero aquí hablo en el contexto de individuos que quieren una seguridad máxima, dónde ellos mismos son los únicos que deberían poder acceder a tales datos. Eso requiere el cifrado de los datos con una contraseña aleatoria que es difícil recordar sin técnicas de memorización. A este fin dedico el artículo dónde explico mi aplicación de la técnica de memorización de &lt;a href=&#34;https://palaciodelamemoria.com/metodo-de-pao/&#34; title=&#34;&#34;&gt;PAO&lt;/a&gt; de símbolos leíbles &lt;a href=&#34;https://es.wikipedia.org/wiki/ASCII&#34; title=&#34;&#34;&gt;ASCII&lt;/a&gt;.</description>
     </item>
     <item>
       <title>Novedades: note1hpz:zsatt7vl</title>
-      <link>http://localhost:1313/es/postes/note1hpz7jgecmgamfa8v8vnnp4jt24p0rynaxnr2gvv9ef2zm2mca9zsatt7vl/</link>
+      <link>https://www.netveldi.com/es/postes/note1hpz7jgecmgamfa8v8vnnp4jt24p0rynaxnr2gvv9ef2zm2mca9zsatt7vl/</link>
       <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/postes/note1hpz7jgecmgamfa8v8vnnp4jt24p0rynaxnr2gvv9ef2zm2mca9zsatt7vl/</guid>
+      <guid>https://www.netveldi.com/es/postes/note1hpz7jgecmgamfa8v8vnnp4jt24p0rynaxnr2gvv9ef2zm2mca9zsatt7vl/</guid>
       <description>&lt;p&gt;Me fui a la conferencia de la seguridad de red por parte de la Oficina de Comunicaciones Electrónicas de Islandia. Recibí ideas sobre las cosas que las compañías en Islandia están experimentando dentro del rubro hoy en día y también sobre la nueva directiva NIS2 de la UE con cuál se espera que necesitan cumplir. Una desconexión entre el liderazgo y el departamento TI dentro de las compañías fue un tema grande y la necesidad de una cooperación más profunda entre ellos para mejorar su seguridad de información. Creo que la gente TI se benefician mucho de conocimiento de administración de negocios. Les permite reconocer las responsabilidades y perspectiva del liderazgo para más efectivamente comunicar riesgos de seguridad y permite que el liderazgo tome la responsabilidad de ellos.&lt;/p&gt;</description>
     </item>
   </channel>

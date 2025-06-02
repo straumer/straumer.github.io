@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Grein on Netveldi</title>
-    <link>http://localhost:1313/is/flokkar/grein/</link>
+    <link>https://www.netveldi.com/is/flokkar/grein/</link>
     <description>Recent content in Grein on Netveldi</description>
     <generator>Hugo</generator>
     <language>is</language>
     <lastBuildDate>Tue, 12 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/is/flokkar/grein/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.netveldi.com/is/flokkar/grein/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Handahófskennd lykilorð á minnið með PAO</title>
-      <link>http://localhost:1313/is/faerslur/handahofskennd-lykilord-a-minnid-med-pao/</link>
+      <link>https://www.netveldi.com/is/faerslur/handahofskennd-lykilord-a-minnid-med-pao/</link>
       <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/is/faerslur/handahofskennd-lykilord-a-minnid-med-pao/</guid>
+      <guid>https://www.netveldi.com/is/faerslur/handahofskennd-lykilord-a-minnid-med-pao/</guid>
       <description>Sem maður með mikinn áhuga á upplýsingaöryggi, þá hef ég oft leik að því að ímynda mér ýmsar ógnir og leiðir til varnar gegn þeim ef að þær skyldu raungerast. Eitt mikilvægt tilfelli er: Hvað myndi gerast ef maður glatar öllum sínum áþreifanlegu eignum og endar á götunni eða álíka? Í þessu tilfelli þá glatast öll okkar gögn, jafnt stafræn sem skrifuð, nema þau sem við höfum lagt á minnið. Við viljum tryggja það að svarið við spurningunni sé að ekkert sérstakt myndi gerast og að við stóískt höldum lífinu áfram eins og ekkert hafi í skorist eins og Tortímandi sem var við það að birtast. Venjulega er hægt að geyma gögn í höndum þriðju aðila, en hérna tala ég í samhengi einstaklinga sem vilja hámarks öryggi þar sem þeir eru þeir einu sem geta haft aðgang að gögnunum. Þetta tilfelli kallar á dulkóðun gagnanna með handahófskenndu lykilorði sem er erfitt að muna án minnistækni. Ég tileinka þessarri grein þeim tilgangi þar sem ég útskýri mína útfærslu á &lt;a href=&#34;https://artofmemory.com/blog/pao-system/&#34; title=&#34;&#34;&gt;PAO&lt;/a&gt; minnistækninni fyrir lesanleg &lt;a href=&#34;https://en.wikipedia.org/wiki/ASCII&#34; title=&#34;&#34;&gt;ASCII&lt;/a&gt; tákn.</description>
     </item>
     <item>
       <title>Frjáls hugbúnaður er númer eitt</title>
-      <link>http://localhost:1313/is/faerslur/frjals-hugbunadur-er-numer-eitt/</link>
+      <link>https://www.netveldi.com/is/faerslur/frjals-hugbunadur-er-numer-eitt/</link>
       <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/is/faerslur/frjals-hugbunadur-er-numer-eitt/</guid>
+      <guid>https://www.netveldi.com/is/faerslur/frjals-hugbunadur-er-numer-eitt/</guid>
       <description>Við notum öll margskonar stafræna tækni til að hafa samskipti og höfum gagn að þessu aukna upplýsingaflæði á milli okkar. Því meir sem við reiðum okkur á þessa tækni í athöfnum okkar, því mikilvægara er að skilja nokkur grunnatriði hins stafræna heims til valdeflingar okkar til lengri tíma. Eitt grunnatriði sem ég tala um í þessarri grein hefur með val á hugbúnaði að gera með tilliti til hugbúnaðarleyfis og aðgangi að frumkóða hans. Hugbúnaður getur verið ýmis öpp, forrit, stýrikerfi og önnur hugbúnaðartól. þegar við erum orðin meðvituð um mannlega þáttinn í gerð hugbúnaðar þá getum við sett okkur meginreglur og venjur okkur til valdeflingar. Þessi grein er fyrir notendur hugbúnaðar en ekki forritara, en samt sem áður er mikilvægt að nefna nokkur einföld atriði frá sjónarhorni þeirra til að geta valið hugbúnað okkar betur.</description>
     </item>
   </channel>

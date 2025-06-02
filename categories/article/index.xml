@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Article on Netveldi</title>
-    <link>http://localhost:1313/categories/article/</link>
+    <link>https://www.netveldi.com/categories/article/</link>
     <description>Recent content in Article on Netveldi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 12 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/article/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.netveldi.com/categories/article/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Random password memorization with PAO</title>
-      <link>http://localhost:1313/posts/random-password-memorization-with-pao/</link>
+      <link>https://www.netveldi.com/posts/random-password-memorization-with-pao/</link>
       <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/random-password-memorization-with-pao/</guid>
+      <guid>https://www.netveldi.com/posts/random-password-memorization-with-pao/</guid>
       <description>As a person who&amp;rsquo;s quite interested in information security, I like to play mental games that involve the imagination of threats and how one could establish and improve one&amp;rsquo;s defenses against them in case they materialize. One important case to consider is: What would happen if one loses all one&amp;rsquo;s possessions to the point of being practically naked in the street or wherever. In this case, all of our data outside of our minds, be they digital or written, would disappear. We want to make sure that the response to this question is that nothing would happen and that we would stoically continue on like a recently arrived Terminator. Normally it&amp;rsquo;s possible to leave data backups with third parties, but here I talk in the context of individuals that want maximum security, where they are the only ones that should have the power to access the contained data. This case requires the encryption of the data with a random password that is difficult to remember without memory techniques. To this purpose I dedicate this article where I explain my application of the &lt;a href=&#34;https://artofmemory.com/blog/pao-system/&#34; title=&#34;&#34;&gt;PAO&lt;/a&gt; memory technique for readable &lt;a href=&#34;https://en.wikipedia.org/wiki/ASCII&#34; title=&#34;&#34;&gt;ASCII&lt;/a&gt; symbols.</description>
     </item>
     <item>
       <title>Free software comes first</title>
-      <link>http://localhost:1313/posts/free-software-comes-first/</link>
+      <link>https://www.netveldi.com/posts/free-software-comes-first/</link>
       <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/free-software-comes-first/</guid>
+      <guid>https://www.netveldi.com/posts/free-software-comes-first/</guid>
       <description>All of us use electronic equipment to interact and let information flow between us for our benefit. The more we depend on that equipment in our activities, the more important it is to understand some fundamental aspects of the digital world in order to stay empowered in the long run. One very important aspect, the one I talk about in this article, has to do with our choice of software with respect to its license and the accessibility of its source code. Software includes applications, operating systems and other digital tools. Once we are concious of certain human dynamics in the creation of software, we can adopt principles and practices to live more empowered. This article is for users of software, not software developers, but it is necessary to mention important points from the perspective of the software developer in order to better choose our software.</description>
     </item>
   </channel>
