@@ -6,8 +6,15 @@
     <description>Recent content on Netveldi</description>
     <generator>Hugo</generator>
     <language>is</language>
-    <lastBuildDate>Mon, 02 Jun 2025 12:19:44 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Jun 2025 12:36:27 +0000</lastBuildDate>
     <atom:link href="https://www.netveldi.com/is/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tíðindi: note1qmk:hqzu7jlz</title>
+      <link>https://www.netveldi.com/is/faerslur/note1qmkvqvr9dne88yr3zqpc7men8wyy566zfvneflqqczjxddy25jhqzu7jlz/</link>
+      <pubDate>Sun, 15 Jun 2025 12:36:27 +0000</pubDate>
+      <guid>https://www.netveldi.com/is/faerslur/note1qmkvqvr9dne88yr3zqpc7men8wyy566zfvneflqqczjxddy25jhqzu7jlz/</guid>
+      <description>&lt;p&gt;Ég bjó til nec sem er lítið tól til að breyta á milli json og bech32 forma á NIP-19 Nostr einingum. Það er fullkomnara en key-convertr sem ég notaði áður fyrr. Ég notaði nec í skriftu til að búa til nytsamlegri Nostr hlekki á síðunni minni: &lt;a href=&#34;https://github.com/straumer/nec&#34; title=&#34;&#34;&gt;https://github.com/straumer/nec&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Tíðindi: note1r73:sqd54unk</title>
       <link>https://www.netveldi.com/is/faerslur/note1r739vpz5cqxjl9zm7fzjqgncuhfu4l83h2mg04z0shp4rcpeu4sqd54unk/</link>

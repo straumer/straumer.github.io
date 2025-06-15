@@ -3,16 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.netveldi.com/es/categorias/</loc>
-    <lastmod>2025-06-02T12:19:43+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="is"
-                href="https://www.netveldi.com/is/flokkar/"
-                />
+    <lastmod>2025-06-15T12:36:27+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
                 href="https://www.netveldi.com/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="is"
+                href="https://www.netveldi.com/is/flokkar/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -21,12 +21,7 @@
                 />
   </url><url>
     <loc>https://www.netveldi.com/es/etiquetas/</loc>
-    <lastmod>2025-06-02T12:19:43+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="is"
-                href="https://www.netveldi.com/is/togg/"
-                />
+    <lastmod>2025-06-15T12:36:27+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -34,8 +29,122 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="is"
+                href="https://www.netveldi.com/is/togg/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="es"
                 href="https://www.netveldi.com/es/etiquetas/"
+                />
+  </url><url>
+    <loc>https://www.netveldi.com/es/</loc>
+    <lastmod>2025-06-15T12:36:27+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://www.netveldi.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="is"
+                href="https://www.netveldi.com/is/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://www.netveldi.com/es/"
+                />
+  </url><url>
+    <loc>https://www.netveldi.com/es/tags/nostr/</loc>
+    <lastmod>2025-06-15T12:36:27+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://www.netveldi.com/tags/nostr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="is"
+                href="https://www.netveldi.com/is/tags/nostr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://www.netveldi.com/es/tags/nostr/"
+                />
+  </url><url>
+    <loc>https://www.netveldi.com/es/categorias/novedad/</loc>
+    <lastmod>2025-06-15T12:36:27+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="is"
+                href="https://www.netveldi.com/is/flokkar/tidindi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://www.netveldi.com/categories/update/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://www.netveldi.com/es/categorias/novedad/"
+                />
+  </url><url>
+    <loc>https://www.netveldi.com/es/postes/note16lu0mlky56f5jykr0u7mj2qaqs6ng9heqmf8twj534n6dzhkafgqwrntsk/</loc>
+    <lastmod>2025-06-15T12:36:27+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="is"
+                href="https://www.netveldi.com/is/faerslur/note1qmkvqvr9dne88yr3zqpc7men8wyy566zfvneflqqczjxddy25jhqzu7jlz/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://www.netveldi.com/posts/note13ktpk94wry5nr7rratryfw8ncgnzdk9uteqmqrxrw8mazg85yv7q5kj69r/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://www.netveldi.com/es/postes/note16lu0mlky56f5jykr0u7mj2qaqs6ng9heqmf8twj534n6dzhkafgqwrntsk/"
+                />
+  </url><url>
+    <loc>https://www.netveldi.com/es/postes/</loc>
+    <lastmod>2025-06-15T12:36:27+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="is"
+                href="https://www.netveldi.com/is/faerslur/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://www.netveldi.com/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://www.netveldi.com/es/postes/"
+                />
+  </url><url>
+    <loc>https://www.netveldi.com/es/tags/rust/</loc>
+    <lastmod>2025-06-15T12:36:27+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://www.netveldi.com/tags/rust/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="is"
+                href="https://www.netveldi.com/is/tags/rust/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://www.netveldi.com/es/tags/rust/"
                 />
   </url><url>
     <loc>https://www.netveldi.com/es/tags/gohugo/</loc>
@@ -74,60 +183,6 @@
                 href="https://www.netveldi.com/es/tags/hugo/"
                 />
   </url><url>
-    <loc>https://www.netveldi.com/es/</loc>
-    <lastmod>2025-06-02T12:19:43+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="is"
-                href="https://www.netveldi.com/is/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://www.netveldi.com/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.netveldi.com/es/"
-                />
-  </url><url>
-    <loc>https://www.netveldi.com/es/tags/nostr/</loc>
-    <lastmod>2025-06-02T12:19:43+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="is"
-                href="https://www.netveldi.com/is/tags/nostr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://www.netveldi.com/tags/nostr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.netveldi.com/es/tags/nostr/"
-                />
-  </url><url>
-    <loc>https://www.netveldi.com/es/categorias/novedad/</loc>
-    <lastmod>2025-06-02T12:19:43+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="is"
-                href="https://www.netveldi.com/is/flokkar/tidindi/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://www.netveldi.com/categories/update/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.netveldi.com/es/categorias/novedad/"
-                />
-  </url><url>
     <loc>https://www.netveldi.com/es/postes/note1ls64rr4wmwpmwytdqnj0qgdng8a8fxdmsxelwcpcp9q0a37hnz7s9jsar5/</loc>
     <lastmod>2025-06-02T12:19:43+00:00</lastmod>
     <priority>0</priority>
@@ -145,24 +200,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="https://www.netveldi.com/es/postes/note1ls64rr4wmwpmwytdqnj0qgdng8a8fxdmsxelwcpcp9q0a37hnz7s9jsar5/"
-                />
-  </url><url>
-    <loc>https://www.netveldi.com/es/postes/</loc>
-    <lastmod>2025-06-02T12:19:43+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="is"
-                href="https://www.netveldi.com/is/faerslur/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://www.netveldi.com/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.netveldi.com/es/postes/"
                 />
   </url><url>
     <loc>https://www.netveldi.com/es/postes/note103sanxz6md2pfajupjd2fylms30k6ftfdd3t3nzpxmdfhlmxemxsc6mql0/</loc>
@@ -285,24 +322,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="https://www.netveldi.com/es/postes/note1u4dffzruremkyvmltumcn0xtx7kusksvxhprenv4muyedl054vrqcwcwsw/"
-                />
-  </url><url>
-    <loc>https://www.netveldi.com/es/tags/rust/</loc>
-    <lastmod>2024-10-21T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://www.netveldi.com/tags/rust/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="is"
-                href="https://www.netveldi.com/is/tags/rust/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.netveldi.com/es/tags/rust/"
                 />
   </url><url>
     <loc>https://www.netveldi.com/es/postes/note1hpz7jgecmgamfa8v8vnnp4jt24p0rynaxnr2gvv9ef2zm2mca9zsatt7vl/</loc>
