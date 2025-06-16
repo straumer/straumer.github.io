@@ -6,13 +6,13 @@
     <description>Recent content in Update on Netveldi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Jun 2025 12:36:27 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Jun 2025 18:36:35 +0000</lastBuildDate>
     <atom:link href="https://www.netveldi.com/categories/update/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Update: note13kt:7q5kj69r</title>
-      <link>https://www.netveldi.com/posts/note13ktpk94wry5nr7rratryfw8ncgnzdk9uteqmqrxrw8mazg85yv7q5kj69r/</link>
-      <pubDate>Sun, 15 Jun 2025 12:36:27 +0000</pubDate>
-      <guid>https://www.netveldi.com/posts/note13ktpk94wry5nr7rratryfw8ncgnzdk9uteqmqrxrw8mazg85yv7q5kj69r/</guid>
+      <title>Update: note18km:esdhjsat</title>
+      <link>https://www.netveldi.com/posts/note18kmf44plt2c957ccu68pkd0p0fkn93nr7rj6u8nnl5ye6uyt6pesdhjsat/</link>
+      <pubDate>Mon, 16 Jun 2025 18:36:35 +0000</pubDate>
+      <guid>https://www.netveldi.com/posts/note18kmf44plt2c957ccu68pkd0p0fkn93nr7rj6u8nnl5ye6uyt6pesdhjsat/</guid>
       <description>&lt;p&gt;I made nec, a small cli tool to convert between json and bech32 representations of NIP-19 Nostr entities. It&amp;rsquo;s a more complete alternative to the key-convertr tool that I was using before. I used nec in a script to create more useful Nostr links on my website: &lt;a href=&#34;https://github.com/straumer/nec&#34; title=&#34;&#34;&gt;https://github.com/straumer/nec&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>

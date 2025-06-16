@@ -6,13 +6,13 @@
     <description>Recent content in Postes on Netveldi</description>
     <generator>Hugo</generator>
     <language>es</language>
-    <lastBuildDate>Sun, 15 Jun 2025 12:36:27 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Jun 2025 18:36:35 +0000</lastBuildDate>
     <atom:link href="https://www.netveldi.com/es/postes/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Novedades: note16lu:gqwrntsk</title>
-      <link>https://www.netveldi.com/es/postes/note16lu0mlky56f5jykr0u7mj2qaqs6ng9heqmf8twj534n6dzhkafgqwrntsk/</link>
-      <pubDate>Sun, 15 Jun 2025 12:36:27 +0000</pubDate>
-      <guid>https://www.netveldi.com/es/postes/note16lu0mlky56f5jykr0u7mj2qaqs6ng9heqmf8twj534n6dzhkafgqwrntsk/</guid>
+      <title>Novedades: note10j6:vqdhrhtj</title>
+      <link>https://www.netveldi.com/es/postes/note10j609ut5x2mvrqdxydnjst2296s4m6p470wd9p3n2wcw6an396vqdhrhtj/</link>
+      <pubDate>Mon, 16 Jun 2025 18:36:35 +0000</pubDate>
+      <guid>https://www.netveldi.com/es/postes/note10j609ut5x2mvrqdxydnjst2296s4m6p470wd9p3n2wcw6an396vqdhrhtj/</guid>
       <description>&lt;p&gt;Creé nec, una pequeña herramienta cli para convertir entre representaciones json y bech32 de entidades Nostr NIP-19. Es una alternativa más completa a key-convertr que solía usar. Usé nec en un script para crear enlaces más utiles para mi página de web: &lt;a href=&#34;https://github.com/straumer/nec&#34; title=&#34;&#34;&gt;https://github.com/straumer/nec&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
