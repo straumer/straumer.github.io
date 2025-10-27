@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Netveldi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Jun 2025 12:58:46 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Oct 2025 18:19:03 +0000</lastBuildDate>
     <atom:link href="https://www.netveldi.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Update: note10k8:mqmwy39q</title>
+      <link>https://www.netveldi.com/posts/note10k83lh5w6ry2rkv9gyed6sqc63r4avk524f7gj50hnsmel0kacmqmwy39q/</link>
+      <pubDate>Mon, 27 Oct 2025 18:19:03 +0000</pubDate>
+      <guid>https://www.netveldi.com/posts/note10k83lh5w6ry2rkv9gyed6sqc63r4avk524f7gj50hnsmel0kacmqmwy39q/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve had a bit of a pause getting updates in since I&amp;rsquo;ve been moving, improving my home office/lab setup among other things. Feeling comfy now clickity clacking on my good old planck keyboard now that I got a proper monitor again.&lt;/p&gt;&#xA;&lt;p&gt;OpenBSD version 7.8 came out recently with preliminary support for Raspberry Pi 5. For now there&amp;rsquo;s limited HDMI support, so I&amp;rsquo;ll need to access the serial console port on my Pi 5 instead. I&amp;rsquo;m waiting for the USB to TTL cable to arrive which supposedly will allow me to do that. I figured it could be useful later also for any embedded stuff that I might want to do. I really want to see how far I can push this OS to do what I want.&lt;/p&gt;&#xA;&lt;p&gt;Another thing I want to link again, just cause I&amp;rsquo;m happy about it, is the first proper video that I&amp;rsquo;ve seen that explains Bitcoin in Icelandic: &lt;a href=&#34;https://youtu.be/TrnKcg-3mgM&#34; title=&#34;&#34;&gt;https://youtu.be/TrnKcg-3mgM&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Update: note1urv:6skyheem</title>
       <link>https://www.netveldi.com/posts/note1urvqkm2qeanwhcr469v260w80thqjgqwdza3m8x0253em65vj26skyheem/</link>
@@ -27,7 +34,7 @@
       <link>https://www.netveldi.com/posts/note17g9ptvpjdz5ukzydays4pdwc4wdhj3a62sctl7tpr6fjh9e57tjszm6lgl/</link>
       <pubDate>Mon, 02 Jun 2025 12:19:43 +0000</pubDate>
       <guid>https://www.netveldi.com/posts/note17g9ptvpjdz5ukzydays4pdwc4wdhj3a62sctl7tpr6fjh9e57tjszm6lgl/</guid>
-      <description>&lt;p&gt;About 6 months ago I had made my own rudimentary static site generator that generated my website with blogging functionality. Then I started learning more about Nostr and figured it would be more empowering to instead use Nostr as my single source of truth. I still needed a website, so I made some basic tooling and workflow to statically generate a website from my Nostr events. This time I opted to use Hugo for the site generation. Making my own generator was a nice learning experience though and definitely gives me more appreciation for the heavy lifting that Hugo can do for me now. I was also conscious that an easy and flexible way to generate a website from Nostr events is something that doesn&amp;rsquo;t exist yet, so I&amp;rsquo;m making a reusable Hugo module along with the development of my site: &lt;a href=&#34;https://github.com/straumer/hugo-nostr&#34; title=&#34;&#34;&gt;https://github.com/straumer/hugo-nostr&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;About 6 months ago I had made my own rudimentary static site generator that generated my website with blogging functionality. Then I started learning more about Nostr and figured it would be more empowering to instead use Nostr as my single source of truth. I still needed a website, so I made some basic tooling and workflow to statically generate a website from my Nostr events. This time I opted to use Hugo for the site generation. Making my own generator was a nice learning experience though and definitely gives me more appreciation for the heavy lifting that Hugo can do for me now. I was also conscious that an easy and flexible way to generate a website from Nostr events is something that doesn&amp;rsquo;t exist yet, so I&amp;rsquo;m making a reusable Hugo module along with the development of my site: &lt;a href=&#34;https://github.com/straumer/hugo-nostr&#34; title=&#34;&#34;&gt;https://github.com/straumer/hugo-nostr&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Happy to have my site up again. 😀&lt;/p&gt;</description>
     </item>
     <item>
       <title>Update: note1c4e:kqgcc460</title>
@@ -69,7 +76,7 @@
       <link>https://www.netveldi.com/posts/note1k2upscct4ha5nnm78q5ka5q47m53n92uvpnjsq777sfznvyxngxqgaed8v/</link>
       <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
       <guid>https://www.netveldi.com/posts/note1k2upscct4ha5nnm78q5ka5q47m53n92uvpnjsq777sfznvyxngxqgaed8v/</guid>
-      <description>&lt;p&gt;I went to a network security conference of the Electronic Communications Office of Iceland. I got some insight into what companies in Iceland are dealing with in that area nowadays as well as the new NIS2 EU directive that they are expected to need to comply with. Disconnect between company leadership and their IT departments was a big topic and the need for deeper collaboration between them to improve the company&amp;rsquo;s information security posture. I think IT people really benefit from knowledge of business administration in this regard. It lets them recognize the responsibilities and perspective of the leadership in order to effectively communicate security risks and lets the leadership take responsibility for them.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I went to a network security conference of the Electronic Communications Office of Iceland. I got some insight into what companies in Iceland are dealing with in that area nowadays as well as the new NIS2 EU directive that they are expected to need to comply with. Disconnect between company leadership and their IT departments was a big topic and the need for deeper collaboration between them to improve the company&amp;rsquo;s information security posture. I think IT people really benefit from knowledge of business administration in this regard. It lets them recognize the responsibilities and perspective of the leadership in order to effectively communicate security risks and lets the leadership take responsibility for them.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been working more on my makesite static site generator alongside the updating of this site which is generated with it. Among the reasons of making it is that I thought it would be a nice project to cement my knowledge of make, m4 and the shell. Those are pretty commonly used in C/C++ build systems of projects I&amp;rsquo;d like to participate in. The repo: &lt;a href=&#34;https://github.com/straumer/makesite&#34; title=&#34;&#34;&gt;https://github.com/straumer/makesite&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Update: note1dky:3s4ykwsl</title>

@@ -6,8 +6,29 @@
     <description>Recent content in Tags on Netveldi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Jun 2025 12:58:46 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Oct 2025 18:19:03 +0000</lastBuildDate>
     <atom:link href="https://www.netveldi.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bitcoin</title>
+      <link>https://www.netveldi.com/tags/bitcoin/</link>
+      <pubDate>Mon, 27 Oct 2025 18:19:03 +0000</pubDate>
+      <guid>https://www.netveldi.com/tags/bitcoin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Openbsd</title>
+      <link>https://www.netveldi.com/tags/openbsd/</link>
+      <pubDate>Mon, 27 Oct 2025 18:19:03 +0000</pubDate>
+      <guid>https://www.netveldi.com/tags/openbsd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Raspberrypi</title>
+      <link>https://www.netveldi.com/tags/raspberrypi/</link>
+      <pubDate>Mon, 27 Oct 2025 18:19:03 +0000</pubDate>
+      <guid>https://www.netveldi.com/tags/raspberrypi/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Nostr</title>
       <link>https://www.netveldi.com/tags/nostr/</link>
