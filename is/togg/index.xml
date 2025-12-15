@@ -6,27 +6,27 @@
     <description>Recent content in Tögg on Netveldi</description>
     <generator>Hugo</generator>
     <language>is</language>
-    <lastBuildDate>Mon, 27 Oct 2025 18:19:03 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Dec 2025 20:52:03 +0000</lastBuildDate>
     <atom:link href="https://www.netveldi.com/is/togg/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Bitcoin</title>
-      <link>https://www.netveldi.com/is/tags/bitcoin/</link>
-      <pubDate>Mon, 27 Oct 2025 18:19:03 +0000</pubDate>
-      <guid>https://www.netveldi.com/is/tags/bitcoin/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Openbsd</title>
       <link>https://www.netveldi.com/is/tags/openbsd/</link>
-      <pubDate>Mon, 27 Oct 2025 18:19:03 +0000</pubDate>
+      <pubDate>Mon, 15 Dec 2025 20:52:03 +0000</pubDate>
       <guid>https://www.netveldi.com/is/tags/openbsd/</guid>
       <description></description>
     </item>
     <item>
       <title>Raspberrypi</title>
       <link>https://www.netveldi.com/is/tags/raspberrypi/</link>
-      <pubDate>Mon, 27 Oct 2025 18:19:03 +0000</pubDate>
+      <pubDate>Mon, 15 Dec 2025 20:52:03 +0000</pubDate>
       <guid>https://www.netveldi.com/is/tags/raspberrypi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bitcoin</title>
+      <link>https://www.netveldi.com/is/tags/bitcoin/</link>
+      <pubDate>Mon, 27 Oct 2025 18:19:03 +0000</pubDate>
+      <guid>https://www.netveldi.com/is/tags/bitcoin/</guid>
       <description></description>
     </item>
     <item>

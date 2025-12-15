@@ -2,26 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.netveldi.com/es/tags/bitcoin/</loc>
-    <lastmod>2025-10-27T18:19:03+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://www.netveldi.com/tags/bitcoin/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="is"
-                href="https://www.netveldi.com/is/tags/bitcoin/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.netveldi.com/es/tags/bitcoin/"
-                />
-  </url><url>
     <loc>https://www.netveldi.com/es/categorias/</loc>
-    <lastmod>2025-10-27T18:19:03+00:00</lastmod>
+    <lastmod>2025-12-15T20:52:03+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -39,7 +21,7 @@
                 />
   </url><url>
     <loc>https://www.netveldi.com/es/etiquetas/</loc>
-    <lastmod>2025-10-27T18:19:03+00:00</lastmod>
+    <lastmod>2025-12-15T20:52:03+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -57,7 +39,7 @@
                 />
   </url><url>
     <loc>https://www.netveldi.com/es/</loc>
-    <lastmod>2025-10-27T18:19:03+00:00</lastmod>
+    <lastmod>2025-12-15T20:52:03+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -75,7 +57,7 @@
                 />
   </url><url>
     <loc>https://www.netveldi.com/es/categorias/novedad/</loc>
-    <lastmod>2025-10-27T18:19:03+00:00</lastmod>
+    <lastmod>2025-12-15T20:52:03+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="is"
@@ -90,6 +72,97 @@
                 rel="alternate"
                 hreflang="es"
                 href="https://www.netveldi.com/es/categorias/novedad/"
+                />
+  </url><url>
+    <loc>https://www.netveldi.com/es/postes/note1eellr9ssa6zsvmh8h593ksxcc0a0uwk90w3pca57kem0cfrfda9qz20hw2/</loc>
+    <lastmod>2025-12-15T20:52:03+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="is"
+                href="https://www.netveldi.com/is/faerslur/note1dj2r0hyh2p2vq6qzmwcz8nfc4ng98heku2ug4yjsk8whcsxv787s22gvhw/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://www.netveldi.com/posts/note19vlcfne9pv6wkv92nn783q2tu90v0dvtqnry7rpjcrpm63n6z8fqpj4auu/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://www.netveldi.com/es/postes/note1eellr9ssa6zsvmh8h593ksxcc0a0uwk90w3pca57kem0cfrfda9qz20hw2/"
+                />
+  </url><url>
+    <loc>https://www.netveldi.com/es/tags/openbsd/</loc>
+    <lastmod>2025-12-15T20:52:03+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://www.netveldi.com/tags/openbsd/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="is"
+                href="https://www.netveldi.com/is/tags/openbsd/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://www.netveldi.com/es/tags/openbsd/"
+                />
+  </url><url>
+    <loc>https://www.netveldi.com/es/postes/</loc>
+    <lastmod>2025-12-15T20:52:03+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="is"
+                href="https://www.netveldi.com/is/faerslur/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://www.netveldi.com/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://www.netveldi.com/es/postes/"
+                />
+  </url><url>
+    <loc>https://www.netveldi.com/es/tags/raspberrypi/</loc>
+    <lastmod>2025-12-15T20:52:03+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://www.netveldi.com/tags/raspberrypi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="is"
+                href="https://www.netveldi.com/is/tags/raspberrypi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://www.netveldi.com/es/tags/raspberrypi/"
+                />
+  </url><url>
+    <loc>https://www.netveldi.com/es/tags/bitcoin/</loc>
+    <lastmod>2025-10-27T18:19:03+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://www.netveldi.com/tags/bitcoin/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="is"
+                href="https://www.netveldi.com/is/tags/bitcoin/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://www.netveldi.com/es/tags/bitcoin/"
                 />
   </url><url>
     <loc>https://www.netveldi.com/es/postes/note1ah9pr2qndgysxqwlky84vuap4tdef65dez3mwjw2y42waf4zr6rqfkp7kx/</loc>
@@ -111,58 +184,23 @@
                 href="https://www.netveldi.com/es/postes/note1ah9pr2qndgysxqwlky84vuap4tdef65dez3mwjw2y42waf4zr6rqfkp7kx/"
                 />
   </url><url>
-    <loc>https://www.netveldi.com/es/tags/openbsd/</loc>
+    <loc>https://www.netveldi.com/es/postes/note1ah9pr2qndgysxqwlky84vuap4tdef65dez3mwjw2y42waf4zr6rqfkp7kx/</loc>
     <lastmod>2025-10-27T18:19:03+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://www.netveldi.com/tags/openbsd/"
-                />
+    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="is"
-                href="https://www.netveldi.com/is/tags/openbsd/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.netveldi.com/es/tags/openbsd/"
-                />
-  </url><url>
-    <loc>https://www.netveldi.com/es/postes/</loc>
-    <lastmod>2025-10-27T18:19:03+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="is"
-                href="https://www.netveldi.com/is/faerslur/"
+                href="https://www.netveldi.com/is/faerslur/note1kj955qew6wpdtuqgqx4fyul0t25d0t0pgy8fnfprvr3wl8e9rr7q5e6gvn/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://www.netveldi.com/posts/"
+                href="https://www.netveldi.com/posts/note10k83lh5w6ry2rkv9gyed6sqc63r4avk524f7gj50hnsmel0kacmqmwy39q/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.netveldi.com/es/postes/"
-                />
-  </url><url>
-    <loc>https://www.netveldi.com/es/tags/raspberrypi/</loc>
-    <lastmod>2025-10-27T18:19:03+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://www.netveldi.com/tags/raspberrypi/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="is"
-                href="https://www.netveldi.com/is/tags/raspberrypi/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.netveldi.com/es/tags/raspberrypi/"
+                href="https://www.netveldi.com/es/postes/note1ah9pr2qndgysxqwlky84vuap4tdef65dez3mwjw2y42waf4zr6rqfkp7kx/"
                 />
   </url><url>
     <loc>https://www.netveldi.com/es/tags/nostr/</loc>

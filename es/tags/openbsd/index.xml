@@ -6,8 +6,22 @@
     <description>Recent content in Openbsd on Netveldi</description>
     <generator>Hugo</generator>
     <language>es</language>
-    <lastBuildDate>Mon, 27 Oct 2025 18:19:03 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Dec 2025 20:52:03 +0000</lastBuildDate>
     <atom:link href="https://www.netveldi.com/es/tags/openbsd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Novedades: note1eel:9qz20hw2</title>
+      <link>https://www.netveldi.com/es/postes/note1eellr9ssa6zsvmh8h593ksxcc0a0uwk90w3pca57kem0cfrfda9qz20hw2/</link>
+      <pubDate>Mon, 15 Dec 2025 20:52:03 +0000</pubDate>
+      <guid>https://www.netveldi.com/es/postes/note1eellr9ssa6zsvmh8h593ksxcc0a0uwk90w3pca57kem0cfrfda9qz20hw2/</guid>
+      <description>&lt;p&gt;Resulta que OpenBSD 7.8 se tiene que instalar en el Raspberry Pi 5 por la consola serie por el conector de depuración y no los pines GPIO, algo que no descubrí hasta buscar bien en las listas de correo de OpenBSD cuándo la consola no apareció al iniciar. Por eso pedí una Sonda de Depuración Rpi que se conecta al conector de depuración del Rpi5 y a mi portátil por USB. Hubiera podido adquirir un adaptador para el cable USB a TTL que adquirí anteriormente, pero pensaba que podría servir tener una colección de características más completa para desarrollo integrado en el caso de querer meterme más en eso. Tendré que esperar algunas semanas hasta que llegue ya que parece que la gente no lo importan a mi país de hielo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Novedades: note1ah9:rqfkp7kx</title>
+      <link>https://www.netveldi.com/es/postes/note1ah9pr2qndgysxqwlky84vuap4tdef65dez3mwjw2y42waf4zr6rqfkp7kx/</link>
+      <pubDate>Mon, 27 Oct 2025 18:19:03 +0000</pubDate>
+      <guid>https://www.netveldi.com/es/postes/note1ah9pr2qndgysxqwlky84vuap4tdef65dez3mwjw2y42waf4zr6rqfkp7kx/</guid>
+      <description>&lt;p&gt;He tenido una pausa en publicar actualizaciones por mudanza y el mejoramiento de mi oficina/laboratorio de casa entre otras cosas. Ya me siento confortable tecleando en mi viejo y buen teclado planck ya que tengo una pantalla de nuevo.&lt;/p&gt;&#xA;&lt;p&gt;Versión 7.8 de OpenBSD recién estrenó con soporte preliminar para Raspberry Pi 5. Por ahora tiene soporte limitado para HDMI, y por eso tengo que acceder el puerto de consola serie de mi Pi 5. Estoy esperando que el cable USB a TTL llegue que supuestamente me permite hacer eso. Pensé que podría también ser útil adelante cuándo quisiera hacer más cosas con computadoras integradas. Quiero ver cuánto puedo empujar este SO para que haga lo que quiero.&lt;/p&gt;&#xA;&lt;p&gt;Otra cosa que quiero enlazar de nuevo, solo porque me hace feliz, es el primer video que he visto que explica bien Bitcoin en islandés: &lt;a href=&#34;https://youtu.be/TrnKcg-3mgM&#34; title=&#34;&#34;&gt;https://youtu.be/TrnKcg-3mgM&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Novedades: note1ah9:rqfkp7kx</title>
       <link>https://www.netveldi.com/es/postes/note1ah9pr2qndgysxqwlky84vuap4tdef65dez3mwjw2y42waf4zr6rqfkp7kx/</link>

@@ -6,8 +6,22 @@
     <description>Recent content on Netveldi</description>
     <generator>Hugo</generator>
     <language>is</language>
-    <lastBuildDate>Mon, 27 Oct 2025 18:19:03 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Dec 2025 20:52:03 +0000</lastBuildDate>
     <atom:link href="https://www.netveldi.com/is/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tíðindi: note1dj2:7s22gvhw</title>
+      <link>https://www.netveldi.com/is/faerslur/note1dj2r0hyh2p2vq6qzmwcz8nfc4ng98heku2ug4yjsk8whcsxv787s22gvhw/</link>
+      <pubDate>Mon, 15 Dec 2025 20:52:03 +0000</pubDate>
+      <guid>https://www.netveldi.com/is/faerslur/note1dj2r0hyh2p2vq6qzmwcz8nfc4ng98heku2ug4yjsk8whcsxv787s22gvhw/</guid>
+      <description>&lt;p&gt;Það er víst bara hægt að setja upp OpenBSD 7.8 á Raspberry Pi 5 með því að tengja við kembitengilinn (debug connector) en ekki GPIO pinnana sem ég komst ekki að fyrr en ég skimaði í gegnum tölvupóstlista OpenBSD eftir að ég sá að stjórnborðið birtist ekki við ræsingu tölvunnar. Þannig ég pantaði kembikanna (debug probe) sem tengist við kembitengil Rpi5 og tengist við fartölvuna mína með USB. Ég hefði getað útvegað mér breytistykki fyrir USB í TTL kapalinn sem ég hafði keypti áður, en ég hugsaði að það gæti verið nytsamlegt að hafa fleirri fítusa ef ég skyldi vilja fikta eitthvað meira í ígreiptum kerfum. Ég þarf að bíða í einhverjar vikur eftir að það komi fyrst það virðist sem að fólk sé ekkert að flytja þetta inn á klakann.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tíðindi: note1kj9:7q5e6gvn</title>
+      <link>https://www.netveldi.com/is/faerslur/note1kj955qew6wpdtuqgqx4fyul0t25d0t0pgy8fnfprvr3wl8e9rr7q5e6gvn/</link>
+      <pubDate>Mon, 27 Oct 2025 18:19:03 +0000</pubDate>
+      <guid>https://www.netveldi.com/is/faerslur/note1kj955qew6wpdtuqgqx4fyul0t25d0t0pgy8fnfprvr3wl8e9rr7q5e6gvn/</guid>
+      <description>&lt;p&gt;Ég hef verið í smá pásu frá því að setja inn færslur fyrst ég var að flytja og betrumbæta heimaskrifstofuna mína ásamt öðru. Hér skrifa ég á gamla góða planck lyklaborðið mitt í góðu yfirlæti nú þegar ég er kominn aftur með afmennilegan tölvuskjá.&lt;/p&gt;&#xA;&lt;p&gt;OpenBSD 7.8 kom út nýlega með stuðning við Raspberry Pi 5. Eins og stendur er ekki stuðningur við HDMI þannig ég verð að tengjast stjórnborðinu með raðtengi á mínu Pi 5. Ég er að bíða eftir að USB í TTL kapall komi til mín sem virðist eiga að gera mér það kleift. Ég hugsaði að það gæti líka komið mér að gagni síðar meir ef ég vil gera eitthvað meira með ígreipt kerfi. Mig langar virkilega að sjá hversu mikið þetta stýrikerfi getur gert af því sem ég hef í huga.&lt;/p&gt;&#xA;&lt;p&gt;Hér er einn hlekkur sem mig langar að sýna aftur, bara af því að ég er ánægður með myndbandið sem hann leiðir á, en það er það fyrsta sinnar tegundar sem útskýrir vel Bitcoin á íslensku: &lt;a href=&#34;https://youtu.be/TrnKcg-3mgM&#34; title=&#34;&#34;&gt;https://youtu.be/TrnKcg-3mgM&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Tíðindi: note1kj9:7q5e6gvn</title>
       <link>https://www.netveldi.com/is/faerslur/note1kj955qew6wpdtuqgqx4fyul0t25d0t0pgy8fnfprvr3wl8e9rr7q5e6gvn/</link>
