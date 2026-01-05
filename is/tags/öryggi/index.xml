@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Öryggi on Netveldi</title>
-    <link>https://www.netveldi.com/is/tags/%C3%B6ryggi/</link>
-    <description>Recent content in Öryggi on Netveldi</description>
+    <title>Öryggi on veldi</title>
+    <link>https://veldi.net/is/tags/%C3%B6ryggi/</link>
+    <description>Recent content in Öryggi on veldi</description>
     <generator>Hugo</generator>
     <language>is</language>
     <lastBuildDate>Tue, 12 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.netveldi.com/is/tags/%C3%B6ryggi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://veldi.net/is/tags/%C3%B6ryggi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Handahófskennd lykilorð á minnið með PAO</title>
-      <link>https://www.netveldi.com/is/faerslur/handahofskennd-lykilord-a-minnid-med-pao/</link>
+      <link>https://veldi.net/is/faerslur/handahofskennd-lykilord-a-minnid-med-pao/</link>
       <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.netveldi.com/is/faerslur/handahofskennd-lykilord-a-minnid-med-pao/</guid>
+      <guid>https://veldi.net/is/faerslur/handahofskennd-lykilord-a-minnid-med-pao/</guid>
       <description>Sem maður með mikinn áhuga á upplýsingaöryggi, þá hef ég oft leik að því að ímynda mér ýmsar ógnir og leiðir til varnar gegn þeim ef að þær skyldu raungerast. Eitt mikilvægt tilfelli er: Hvað myndi gerast ef maður glatar öllum sínum áþreifanlegu eignum og endar á götunni eða álíka? Í þessu tilfelli þá glatast öll okkar gögn, jafnt stafræn sem skrifuð, nema þau sem við höfum lagt á minnið. Við viljum tryggja það að svarið við spurningunni sé að ekkert sérstakt myndi gerast og að við stóískt höldum lífinu áfram eins og ekkert hafi í skorist eins og Tortímandi sem var við það að birtast. Venjulega er hægt að geyma gögn í höndum þriðju aðila, en hérna tala ég í samhengi einstaklinga sem vilja hámarks öryggi þar sem þeir eru þeir einu sem geta haft aðgang að gögnunum. Þetta tilfelli kallar á dulkóðun gagnanna með handahófskenndu lykilorði sem er erfitt að muna án minnistækni. Ég tileinka þessarri grein þeim tilgangi þar sem ég útskýri mína útfærslu á &lt;a href=&#34;https://artofmemory.com/blog/pao-system/&#34; title=&#34;&#34;&gt;PAO&lt;/a&gt; minnistækninni fyrir lesanleg &lt;a href=&#34;https://en.wikipedia.org/wiki/ASCII&#34; title=&#34;&#34;&gt;ASCII&lt;/a&gt; tákn.</description>
     </item>
     <item>
       <title>Tíðindi: note17ja:3q7ryq6h</title>
-      <link>https://www.netveldi.com/is/faerslur/note17jam0p7nvwdgf0mehfjcey77zyq0897tj44cr2hup0j7j5r6x83q7ryq6h/</link>
+      <link>https://veldi.net/is/faerslur/note17jam0p7nvwdgf0mehfjcey77zyq0897tj44cr2hup0j7j5r6x83q7ryq6h/</link>
       <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.netveldi.com/is/faerslur/note17jam0p7nvwdgf0mehfjcey77zyq0897tj44cr2hup0j7j5r6x83q7ryq6h/</guid>
+      <guid>https://veldi.net/is/faerslur/note17jam0p7nvwdgf0mehfjcey77zyq0897tj44cr2hup0j7j5r6x83q7ryq6h/</guid>
       <description>&lt;p&gt;Fór á Netöryggisráðstefnu Fjarskiptastofu. Þar fékk ég að kynnast því sem að fyrirtæki á Íslandi standa frammi fyrir í þessum bransa nú til dags og einnig nýju NIS2 tilskipuninni frá ES sem vænst er til að þau munu þurfa að fara eftir. Sambandsleysi milli stjórnar og upplýsingatæknideildar fyrirtækja var mikið talað um og einnig nauðsyn dýpri samskipta milli þeirra til að bæta net- og upplýsingaöryggi. Ég held að upplýsingatæknifólk hafi hag af vitneskju um fyrirtækjarekstur í þessu samhengi. Það gerir því kleift að þekkja ábyrgð og sjónarhorn stjórnarinnar til að koma upplýsingum um öryggisáhættur til hennar á áhrifaríkann hátt til að hún geti tekið ábyrgð á þeim.&lt;/p&gt;&#xA;&lt;p&gt;Hef verið að vinna í &amp;ldquo;static site generator&amp;rdquo; að nafni makesite samhliða því að ég uppfæri þessa síðu sem búin er til með því tóli. Meðal annars finnst mér þetta fínt verkefni til að fá dýpri þekkingu á make, m4 og skelinni. Þau tól eru mjög oft notuð í C/C++ hugbúnaðarsmíðarkerfum verkefna sem ég vil taka þátt í. Repoið: &lt;a href=&#34;https://github.com/straumer/makesite&#34; title=&#34;&#34;&gt;https://github.com/straumer/makesite&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>

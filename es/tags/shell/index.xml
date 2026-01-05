@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Shell on Netveldi</title>
-    <link>https://www.netveldi.com/es/tags/shell/</link>
-    <description>Recent content in Shell on Netveldi</description>
+    <title>Shell on veldi</title>
+    <link>https://veldi.net/es/tags/shell/</link>
+    <description>Recent content in Shell on veldi</description>
     <generator>Hugo</generator>
     <language>es</language>
     <lastBuildDate>Mon, 23 Jun 2025 12:58:46 +0000</lastBuildDate>
-    <atom:link href="https://www.netveldi.com/es/tags/shell/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://veldi.net/es/tags/shell/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Novedades: note1ual:wq2xtk8k</title>
-      <link>https://www.netveldi.com/es/postes/note1ualsyath022l7k2htgnjkhelkcl5s2ysdk5640qqwyetf37xcywq2xtk8k/</link>
+      <link>https://veldi.net/es/postes/note1ualsyath022l7k2htgnjkhelkcl5s2ysdk5640qqwyetf37xcywq2xtk8k/</link>
       <pubDate>Mon, 23 Jun 2025 12:58:46 +0000</pubDate>
-      <guid>https://www.netveldi.com/es/postes/note1ualsyath022l7k2htgnjkhelkcl5s2ysdk5640qqwyetf37xcywq2xtk8k/</guid>
+      <guid>https://veldi.net/es/postes/note1ualsyath022l7k2htgnjkhelkcl5s2ysdk5640qqwyetf37xcywq2xtk8k/</guid>
       <description>&lt;p&gt;Espero que todos tuvieron una buena semana. Una actividad que hice fue publicar actualizaciones de pubstr, lo que incluye la opción de usar SOCKS5 proxy y la generación de entidades NIP-19 para eventos. Sí, es el script que mencioné en mi actualización previa: &lt;a href=&#34;https://github.com/straumer/pubstr&#34; title=&#34;&#34;&gt;https://github.com/straumer/pubstr&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>

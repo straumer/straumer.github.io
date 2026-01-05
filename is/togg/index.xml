@@ -1,95 +1,95 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tögg on Netveldi</title>
-    <link>https://www.netveldi.com/is/togg/</link>
-    <description>Recent content in Tögg on Netveldi</description>
+    <title>Tögg on veldi</title>
+    <link>https://veldi.net/is/togg/</link>
+    <description>Recent content in Tögg on veldi</description>
     <generator>Hugo</generator>
     <language>is</language>
     <lastBuildDate>Mon, 15 Dec 2025 20:52:03 +0000</lastBuildDate>
-    <atom:link href="https://www.netveldi.com/is/togg/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://veldi.net/is/togg/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Openbsd</title>
-      <link>https://www.netveldi.com/is/tags/openbsd/</link>
+      <link>https://veldi.net/is/tags/openbsd/</link>
       <pubDate>Mon, 15 Dec 2025 20:52:03 +0000</pubDate>
-      <guid>https://www.netveldi.com/is/tags/openbsd/</guid>
+      <guid>https://veldi.net/is/tags/openbsd/</guid>
       <description></description>
     </item>
     <item>
       <title>Raspberrypi</title>
-      <link>https://www.netveldi.com/is/tags/raspberrypi/</link>
+      <link>https://veldi.net/is/tags/raspberrypi/</link>
       <pubDate>Mon, 15 Dec 2025 20:52:03 +0000</pubDate>
-      <guid>https://www.netveldi.com/is/tags/raspberrypi/</guid>
+      <guid>https://veldi.net/is/tags/raspberrypi/</guid>
       <description></description>
     </item>
     <item>
       <title>Bitcoin</title>
-      <link>https://www.netveldi.com/is/tags/bitcoin/</link>
+      <link>https://veldi.net/is/tags/bitcoin/</link>
       <pubDate>Mon, 27 Oct 2025 18:19:03 +0000</pubDate>
-      <guid>https://www.netveldi.com/is/tags/bitcoin/</guid>
+      <guid>https://veldi.net/is/tags/bitcoin/</guid>
       <description></description>
     </item>
     <item>
       <title>Nostr</title>
-      <link>https://www.netveldi.com/is/tags/nostr/</link>
+      <link>https://veldi.net/is/tags/nostr/</link>
       <pubDate>Mon, 23 Jun 2025 12:58:46 +0000</pubDate>
-      <guid>https://www.netveldi.com/is/tags/nostr/</guid>
+      <guid>https://veldi.net/is/tags/nostr/</guid>
       <description></description>
     </item>
     <item>
       <title>Shell</title>
-      <link>https://www.netveldi.com/is/tags/shell/</link>
+      <link>https://veldi.net/is/tags/shell/</link>
       <pubDate>Mon, 23 Jun 2025 12:58:46 +0000</pubDate>
-      <guid>https://www.netveldi.com/is/tags/shell/</guid>
+      <guid>https://veldi.net/is/tags/shell/</guid>
       <description></description>
     </item>
     <item>
       <title>Rust</title>
-      <link>https://www.netveldi.com/is/tags/rust/</link>
+      <link>https://veldi.net/is/tags/rust/</link>
       <pubDate>Mon, 16 Jun 2025 18:36:35 +0000</pubDate>
-      <guid>https://www.netveldi.com/is/tags/rust/</guid>
+      <guid>https://veldi.net/is/tags/rust/</guid>
       <description></description>
     </item>
     <item>
       <title>Gohugo</title>
-      <link>https://www.netveldi.com/is/tags/gohugo/</link>
+      <link>https://veldi.net/is/tags/gohugo/</link>
       <pubDate>Mon, 02 Jun 2025 12:19:44 +0000</pubDate>
-      <guid>https://www.netveldi.com/is/tags/gohugo/</guid>
+      <guid>https://veldi.net/is/tags/gohugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>https://www.netveldi.com/is/tags/hugo/</link>
+      <link>https://veldi.net/is/tags/hugo/</link>
       <pubDate>Mon, 02 Jun 2025 12:19:44 +0000</pubDate>
-      <guid>https://www.netveldi.com/is/tags/hugo/</guid>
+      <guid>https://veldi.net/is/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Fartölva</title>
-      <link>https://www.netveldi.com/is/tags/fart%C3%B6lva/</link>
+      <link>https://veldi.net/is/tags/fart%C3%B6lva/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.netveldi.com/is/tags/fart%C3%B6lva/</guid>
+      <guid>https://veldi.net/is/tags/fart%C3%B6lva/</guid>
       <description></description>
     </item>
     <item>
       <title>Minnistækni</title>
-      <link>https://www.netveldi.com/is/tags/minnist%C3%A6kni/</link>
+      <link>https://veldi.net/is/tags/minnist%C3%A6kni/</link>
       <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.netveldi.com/is/tags/minnist%C3%A6kni/</guid>
+      <guid>https://veldi.net/is/tags/minnist%C3%A6kni/</guid>
       <description></description>
     </item>
     <item>
       <title>Öryggi</title>
-      <link>https://www.netveldi.com/is/tags/%C3%B6ryggi/</link>
+      <link>https://veldi.net/is/tags/%C3%B6ryggi/</link>
       <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.netveldi.com/is/tags/%C3%B6ryggi/</guid>
+      <guid>https://veldi.net/is/tags/%C3%B6ryggi/</guid>
       <description></description>
     </item>
     <item>
       <title>Frjálshugbúnaður</title>
-      <link>https://www.netveldi.com/is/tags/frj%C3%A1lshugb%C3%BAna%C3%B0ur/</link>
+      <link>https://veldi.net/is/tags/frj%C3%A1lshugb%C3%BAna%C3%B0ur/</link>
       <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.netveldi.com/is/tags/frj%C3%A1lshugb%C3%BAna%C3%B0ur/</guid>
+      <guid>https://veldi.net/is/tags/frj%C3%A1lshugb%C3%BAna%C3%B0ur/</guid>
       <description></description>
     </item>
   </channel>

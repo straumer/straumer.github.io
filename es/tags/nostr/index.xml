@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nostr on Netveldi</title>
-    <link>https://www.netveldi.com/es/tags/nostr/</link>
-    <description>Recent content in Nostr on Netveldi</description>
+    <title>Nostr on veldi</title>
+    <link>https://veldi.net/es/tags/nostr/</link>
+    <description>Recent content in Nostr on veldi</description>
     <generator>Hugo</generator>
     <language>es</language>
     <lastBuildDate>Mon, 23 Jun 2025 12:58:46 +0000</lastBuildDate>
-    <atom:link href="https://www.netveldi.com/es/tags/nostr/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://veldi.net/es/tags/nostr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Novedades: note1ual:wq2xtk8k</title>
-      <link>https://www.netveldi.com/es/postes/note1ualsyath022l7k2htgnjkhelkcl5s2ysdk5640qqwyetf37xcywq2xtk8k/</link>
+      <link>https://veldi.net/es/postes/note1ualsyath022l7k2htgnjkhelkcl5s2ysdk5640qqwyetf37xcywq2xtk8k/</link>
       <pubDate>Mon, 23 Jun 2025 12:58:46 +0000</pubDate>
-      <guid>https://www.netveldi.com/es/postes/note1ualsyath022l7k2htgnjkhelkcl5s2ysdk5640qqwyetf37xcywq2xtk8k/</guid>
+      <guid>https://veldi.net/es/postes/note1ualsyath022l7k2htgnjkhelkcl5s2ysdk5640qqwyetf37xcywq2xtk8k/</guid>
       <description>&lt;p&gt;Espero que todos tuvieron una buena semana. Una actividad que hice fue publicar actualizaciones de pubstr, lo que incluye la opción de usar SOCKS5 proxy y la generación de entidades NIP-19 para eventos. Sí, es el script que mencioné en mi actualización previa: &lt;a href=&#34;https://github.com/straumer/pubstr&#34; title=&#34;&#34;&gt;https://github.com/straumer/pubstr&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Novedades: note10j6:vqdhrhtj</title>
-      <link>https://www.netveldi.com/es/postes/note10j609ut5x2mvrqdxydnjst2296s4m6p470wd9p3n2wcw6an396vqdhrhtj/</link>
+      <link>https://veldi.net/es/postes/note10j609ut5x2mvrqdxydnjst2296s4m6p470wd9p3n2wcw6an396vqdhrhtj/</link>
       <pubDate>Mon, 16 Jun 2025 18:36:35 +0000</pubDate>
-      <guid>https://www.netveldi.com/es/postes/note10j609ut5x2mvrqdxydnjst2296s4m6p470wd9p3n2wcw6an396vqdhrhtj/</guid>
+      <guid>https://veldi.net/es/postes/note10j609ut5x2mvrqdxydnjst2296s4m6p470wd9p3n2wcw6an396vqdhrhtj/</guid>
       <description>&lt;p&gt;Creé nec, una pequeña herramienta cli para convertir entre representaciones json y bech32 de entidades Nostr NIP-19. Es una alternativa más completa a key-convertr que solía usar. Usé nec en un script para crear enlaces más utiles para mi página de web: &lt;a href=&#34;https://github.com/straumer/nec&#34; title=&#34;&#34;&gt;https://github.com/straumer/nec&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Novedades: note1ls6:7s9jsar5</title>
-      <link>https://www.netveldi.com/es/postes/note1ls64rr4wmwpmwytdqnj0qgdng8a8fxdmsxelwcpcp9q0a37hnz7s9jsar5/</link>
+      <link>https://veldi.net/es/postes/note1ls64rr4wmwpmwytdqnj0qgdng8a8fxdmsxelwcpcp9q0a37hnz7s9jsar5/</link>
       <pubDate>Mon, 02 Jun 2025 12:19:43 +0000</pubDate>
-      <guid>https://www.netveldi.com/es/postes/note1ls64rr4wmwpmwytdqnj0qgdng8a8fxdmsxelwcpcp9q0a37hnz7s9jsar5/</guid>
+      <guid>https://veldi.net/es/postes/note1ls64rr4wmwpmwytdqnj0qgdng8a8fxdmsxelwcpcp9q0a37hnz7s9jsar5/</guid>
       <description>&lt;p&gt;Hace aproximadamente 6 meses hice mi propio generador estático de páginas web que generó mi página con funcionalidad de un blog. Luego empecé a aprender más sobre Nostr y discubrí que sería más empoderado usar Nostr como mi fuente única de verdad. Aún necesitaba mi página de web, y por eso hice algunas herramientas básicas y procesos para estáticamente generar una página de mis eventos de Nostr. Esta vez opté por usar Hugo para la generación de la página. Hacer mi propio generador fue una buena experiencia de aprendimiento a pesar de eso y definitivamente me da aprecio por el trabajo duro que Hugo ya puede hacer para mí. También estaba consciente de que todavía no existe una manera fácil y flexible para generar una página de web de eventos Nostr y por eso estoy creando un módulo Hugo reusable mientras que desarrollo mi página: &lt;a href=&#34;https://github.com/straumer/hugo-nostr&#34; title=&#34;&#34;&gt;https://github.com/straumer/hugo-nostr&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Estoy feliz tener mi página en vivo de nuevo. 😀&lt;/p&gt;</description>
     </item>
   </channel>

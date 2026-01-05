@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rust on Netveldi</title>
-    <link>https://www.netveldi.com/is/tags/rust/</link>
-    <description>Recent content in Rust on Netveldi</description>
+    <title>Rust on veldi</title>
+    <link>https://veldi.net/is/tags/rust/</link>
+    <description>Recent content in Rust on veldi</description>
     <generator>Hugo</generator>
     <language>is</language>
     <lastBuildDate>Mon, 16 Jun 2025 18:36:35 +0000</lastBuildDate>
-    <atom:link href="https://www.netveldi.com/is/tags/rust/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://veldi.net/is/tags/rust/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tíðindi: note15wa:8qsrj3f2</title>
-      <link>https://www.netveldi.com/is/faerslur/note15wa5y26a2wrp0zrq2nkv7t09luskvajvk5t4e029hdeyy96h8v8qsrj3f2/</link>
+      <link>https://veldi.net/is/faerslur/note15wa5y26a2wrp0zrq2nkv7t09luskvajvk5t4e029hdeyy96h8v8qsrj3f2/</link>
       <pubDate>Mon, 16 Jun 2025 18:36:35 +0000</pubDate>
-      <guid>https://www.netveldi.com/is/faerslur/note15wa5y26a2wrp0zrq2nkv7t09luskvajvk5t4e029hdeyy96h8v8qsrj3f2/</guid>
+      <guid>https://veldi.net/is/faerslur/note15wa5y26a2wrp0zrq2nkv7t09luskvajvk5t4e029hdeyy96h8v8qsrj3f2/</guid>
       <description>&lt;p&gt;Ég bjó til nec sem er lítið tól til að breyta á milli json og bech32 forma á NIP-19 Nostr einingum. Það er fullkomnara en key-convertr sem ég notaði áður fyrr. Ég notaði nec í skriftu til að búa til nytsamlegri Nostr hlekki á síðunni minni: &lt;a href=&#34;https://github.com/straumer/nec&#34; title=&#34;&#34;&gt;https://github.com/straumer/nec&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tíðindi: note1gzn:yq9zqxyx</title>
-      <link>https://www.netveldi.com/is/faerslur/note1gzn5s2rzmk8u7vx27datdsvcqvzdqhzq6p7gqgck6afr0djn8kyq9zqxyx/</link>
+      <link>https://veldi.net/is/faerslur/note1gzn5s2rzmk8u7vx27datdsvcqvzdqhzq6p7gqgck6afr0djn8kyq9zqxyx/</link>
       <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.netveldi.com/is/faerslur/note1gzn5s2rzmk8u7vx27datdsvcqvzdqhzq6p7gqgck6afr0djn8kyq9zqxyx/</guid>
+      <guid>https://veldi.net/is/faerslur/note1gzn5s2rzmk8u7vx27datdsvcqvzdqhzq6p7gqgck6afr0djn8kyq9zqxyx/</guid>
       <description>&lt;p&gt;Hef næstum klárað að skilgreina PAO minnigarkerfið mitt fyrir öll lesanleg ASCII letur. Ég mun nota það til að muna handahófskennd ASCII lykilorð fyrir dulkóðuð afrit af gögnunum mínum. Ég hef ætlað að gera það í nokkurn tíma, en meira um það síðar.&lt;/p&gt;&#xA;&lt;p&gt;Las kafla 11 Rust bókarinnar.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tíðindi: note17ja:3q7ryq6h</title>
-      <link>https://www.netveldi.com/is/faerslur/note17jam0p7nvwdgf0mehfjcey77zyq0897tj44cr2hup0j7j5r6x83q7ryq6h/</link>
+      <link>https://veldi.net/is/faerslur/note17jam0p7nvwdgf0mehfjcey77zyq0897tj44cr2hup0j7j5r6x83q7ryq6h/</link>
       <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.netveldi.com/is/faerslur/note17jam0p7nvwdgf0mehfjcey77zyq0897tj44cr2hup0j7j5r6x83q7ryq6h/</guid>
+      <guid>https://veldi.net/is/faerslur/note17jam0p7nvwdgf0mehfjcey77zyq0897tj44cr2hup0j7j5r6x83q7ryq6h/</guid>
       <description>&lt;p&gt;Fór á Netöryggisráðstefnu Fjarskiptastofu. Þar fékk ég að kynnast því sem að fyrirtæki á Íslandi standa frammi fyrir í þessum bransa nú til dags og einnig nýju NIS2 tilskipuninni frá ES sem vænst er til að þau munu þurfa að fara eftir. Sambandsleysi milli stjórnar og upplýsingatæknideildar fyrirtækja var mikið talað um og einnig nauðsyn dýpri samskipta milli þeirra til að bæta net- og upplýsingaöryggi. Ég held að upplýsingatæknifólk hafi hag af vitneskju um fyrirtækjarekstur í þessu samhengi. Það gerir því kleift að þekkja ábyrgð og sjónarhorn stjórnarinnar til að koma upplýsingum um öryggisáhættur til hennar á áhrifaríkann hátt til að hún geti tekið ábyrgð á þeim.&lt;/p&gt;&#xA;&lt;p&gt;Hef verið að vinna í &amp;ldquo;static site generator&amp;rdquo; að nafni makesite samhliða því að ég uppfæri þessa síðu sem búin er til með því tóli. Meðal annars finnst mér þetta fínt verkefni til að fá dýpri þekkingu á make, m4 og skelinni. Þau tól eru mjög oft notuð í C/C++ hugbúnaðarsmíðarkerfum verkefna sem ég vil taka þátt í. Repoið: &lt;a href=&#34;https://github.com/straumer/makesite&#34; title=&#34;&#34;&gt;https://github.com/straumer/makesite&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tíðindi: note1ks9:qq2aj9xc</title>
-      <link>https://www.netveldi.com/is/faerslur/note1ks9hlmzut33vp09a6ujuck38e76sffqetgkmzrla2wpm8daw8pqq2aj9xc/</link>
+      <link>https://veldi.net/is/faerslur/note1ks9hlmzut33vp09a6ujuck38e76sffqetgkmzrla2wpm8daw8pqq2aj9xc/</link>
       <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.netveldi.com/is/faerslur/note1ks9hlmzut33vp09a6ujuck38e76sffqetgkmzrla2wpm8daw8pqq2aj9xc/</guid>
+      <guid>https://veldi.net/is/faerslur/note1ks9hlmzut33vp09a6ujuck38e76sffqetgkmzrla2wpm8daw8pqq2aj9xc/</guid>
       <description>&lt;p&gt;Bætti við Þjónusta og Tíðindi flipum við vefsíðuna og uppfærði Um mig flipann.&lt;/p&gt;&#xA;&lt;p&gt;Ákvað að læra Rust forritun fyrst það eru mörg forrit sem nota það sem ég vil taka þátt í að forrita. Kláraði að lesa kafla 1-5 í Rust bókinni: &lt;a href=&#34;https://doc.rust-lang.org/book/&#34; title=&#34;&#34;&gt;https://doc.rust-lang.org/book/&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>

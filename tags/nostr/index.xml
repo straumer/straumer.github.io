@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nostr on Netveldi</title>
-    <link>https://www.netveldi.com/tags/nostr/</link>
-    <description>Recent content in Nostr on Netveldi</description>
+    <title>Nostr on veldi</title>
+    <link>https://veldi.net/tags/nostr/</link>
+    <description>Recent content in Nostr on veldi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 23 Jun 2025 12:58:46 +0000</lastBuildDate>
-    <atom:link href="https://www.netveldi.com/tags/nostr/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://veldi.net/tags/nostr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Update: note1urv:6skyheem</title>
-      <link>https://www.netveldi.com/posts/note1urvqkm2qeanwhcr469v260w80thqjgqwdza3m8x0253em65vj26skyheem/</link>
+      <link>https://veldi.net/posts/note1urvqkm2qeanwhcr469v260w80thqjgqwdza3m8x0253em65vj26skyheem/</link>
       <pubDate>Mon, 23 Jun 2025 12:58:46 +0000</pubDate>
-      <guid>https://www.netveldi.com/posts/note1urvqkm2qeanwhcr469v260w80thqjgqwdza3m8x0253em65vj26skyheem/</guid>
+      <guid>https://veldi.net/posts/note1urvqkm2qeanwhcr469v260w80thqjgqwdza3m8x0253em65vj26skyheem/</guid>
       <description>&lt;p&gt;Hope you all had a good week. One activity that I did was to publish my updates on pubstr, which includes a SOCKS5 proxy option and the generation of NIP-19 entities for events. Yes, it&amp;rsquo;s the script I mentioned in my previous update: &lt;a href=&#34;https://github.com/straumer/pubstr&#34; title=&#34;&#34;&gt;https://github.com/straumer/pubstr&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Update: note18km:esdhjsat</title>
-      <link>https://www.netveldi.com/posts/note18kmf44plt2c957ccu68pkd0p0fkn93nr7rj6u8nnl5ye6uyt6pesdhjsat/</link>
+      <link>https://veldi.net/posts/note18kmf44plt2c957ccu68pkd0p0fkn93nr7rj6u8nnl5ye6uyt6pesdhjsat/</link>
       <pubDate>Mon, 16 Jun 2025 18:36:35 +0000</pubDate>
-      <guid>https://www.netveldi.com/posts/note18kmf44plt2c957ccu68pkd0p0fkn93nr7rj6u8nnl5ye6uyt6pesdhjsat/</guid>
+      <guid>https://veldi.net/posts/note18kmf44plt2c957ccu68pkd0p0fkn93nr7rj6u8nnl5ye6uyt6pesdhjsat/</guid>
       <description>&lt;p&gt;I made nec, a small cli tool to convert between json and bech32 representations of NIP-19 Nostr entities. It&amp;rsquo;s a more complete alternative to the key-convertr tool that I was using before. I used nec in a script to create more useful Nostr links on my website: &lt;a href=&#34;https://github.com/straumer/nec&#34; title=&#34;&#34;&gt;https://github.com/straumer/nec&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Update: note17g9:jszm6lgl</title>
-      <link>https://www.netveldi.com/posts/note17g9ptvpjdz5ukzydays4pdwc4wdhj3a62sctl7tpr6fjh9e57tjszm6lgl/</link>
+      <link>https://veldi.net/posts/note17g9ptvpjdz5ukzydays4pdwc4wdhj3a62sctl7tpr6fjh9e57tjszm6lgl/</link>
       <pubDate>Mon, 02 Jun 2025 12:19:43 +0000</pubDate>
-      <guid>https://www.netveldi.com/posts/note17g9ptvpjdz5ukzydays4pdwc4wdhj3a62sctl7tpr6fjh9e57tjszm6lgl/</guid>
+      <guid>https://veldi.net/posts/note17g9ptvpjdz5ukzydays4pdwc4wdhj3a62sctl7tpr6fjh9e57tjszm6lgl/</guid>
       <description>&lt;p&gt;About 6 months ago I had made my own rudimentary static site generator that generated my website with blogging functionality. Then I started learning more about Nostr and figured it would be more empowering to instead use Nostr as my single source of truth. I still needed a website, so I made some basic tooling and workflow to statically generate a website from my Nostr events. This time I opted to use Hugo for the site generation. Making my own generator was a nice learning experience though and definitely gives me more appreciation for the heavy lifting that Hugo can do for me now. I was also conscious that an easy and flexible way to generate a website from Nostr events is something that doesn&amp;rsquo;t exist yet, so I&amp;rsquo;m making a reusable Hugo module along with the development of my site: &lt;a href=&#34;https://github.com/straumer/hugo-nostr&#34; title=&#34;&#34;&gt;https://github.com/straumer/hugo-nostr&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Happy to have my site up again. 😀&lt;/p&gt;</description>
     </item>
   </channel>

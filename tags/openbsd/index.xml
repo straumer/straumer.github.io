@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Openbsd on Netveldi</title>
-    <link>https://www.netveldi.com/tags/openbsd/</link>
-    <description>Recent content in Openbsd on Netveldi</description>
+    <title>Openbsd on veldi</title>
+    <link>https://veldi.net/tags/openbsd/</link>
+    <description>Recent content in Openbsd on veldi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 15 Dec 2025 20:52:03 +0000</lastBuildDate>
-    <atom:link href="https://www.netveldi.com/tags/openbsd/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://veldi.net/tags/openbsd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Update: note19vl:fqpj4auu</title>
-      <link>https://www.netveldi.com/posts/note19vlcfne9pv6wkv92nn783q2tu90v0dvtqnry7rpjcrpm63n6z8fqpj4auu/</link>
+      <link>https://veldi.net/posts/note19vlcfne9pv6wkv92nn783q2tu90v0dvtqnry7rpjcrpm63n6z8fqpj4auu/</link>
       <pubDate>Mon, 15 Dec 2025 20:52:03 +0000</pubDate>
-      <guid>https://www.netveldi.com/posts/note19vlcfne9pv6wkv92nn783q2tu90v0dvtqnry7rpjcrpm63n6z8fqpj4auu/</guid>
+      <guid>https://veldi.net/posts/note19vlcfne9pv6wkv92nn783q2tu90v0dvtqnry7rpjcrpm63n6z8fqpj4auu/</guid>
       <description>&lt;p&gt;Turns out OpenBSD 7.8 must be installed on the Raspberry Pi 5 over the serial console via the debug connector and not the GPIO pins, which I didn&amp;rsquo;t find out until I rummaged through the OpenBSD mailing lists after the console wouldn&amp;rsquo;t show up on boot. I thus ordered a Rpi Debug Probe which connects to the debug connector of the Rpi5 and connects to my laptop via USB. I could&amp;rsquo;ve gotten an adaptor for the USB to TTL cable I had previously gotten, but I figured it could serve to have a more complete feature set for embedded development for possible future tinkering. I&amp;rsquo;ll need to wait some weeks for it to arrive since people don&amp;rsquo;t seem to be importing it to my tiny land of ice.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Update: note10k8:mqmwy39q</title>
-      <link>https://www.netveldi.com/posts/note10k83lh5w6ry2rkv9gyed6sqc63r4avk524f7gj50hnsmel0kacmqmwy39q/</link>
+      <link>https://veldi.net/posts/note10k83lh5w6ry2rkv9gyed6sqc63r4avk524f7gj50hnsmel0kacmqmwy39q/</link>
       <pubDate>Mon, 27 Oct 2025 18:19:03 +0000</pubDate>
-      <guid>https://www.netveldi.com/posts/note10k83lh5w6ry2rkv9gyed6sqc63r4avk524f7gj50hnsmel0kacmqmwy39q/</guid>
+      <guid>https://veldi.net/posts/note10k83lh5w6ry2rkv9gyed6sqc63r4avk524f7gj50hnsmel0kacmqmwy39q/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve had a bit of a pause getting updates in since I&amp;rsquo;ve been moving, improving my home office/lab setup among other things. Feeling comfy now clickity clacking on my good old planck keyboard now that I got a proper monitor again.&lt;/p&gt;&#xA;&lt;p&gt;OpenBSD version 7.8 came out recently with preliminary support for Raspberry Pi 5. For now there&amp;rsquo;s limited HDMI support, so I&amp;rsquo;ll need to access the serial console port on my Pi 5 instead. I&amp;rsquo;m waiting for the USB to TTL cable to arrive which supposedly will allow me to do that. I figured it could be useful later also for any embedded stuff that I might want to do. I really want to see how far I can push this OS to do what I want.&lt;/p&gt;&#xA;&lt;p&gt;Another thing I want to link again, just cause I&amp;rsquo;m happy about it, is the first proper video that I&amp;rsquo;ve seen that explains Bitcoin in Icelandic: &lt;a href=&#34;https://youtu.be/TrnKcg-3mgM&#34; title=&#34;&#34;&gt;https://youtu.be/TrnKcg-3mgM&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Update: note10k8:mqmwy39q</title>
-      <link>https://www.netveldi.com/posts/note10k83lh5w6ry2rkv9gyed6sqc63r4avk524f7gj50hnsmel0kacmqmwy39q/</link>
+      <link>https://veldi.net/posts/note10k83lh5w6ry2rkv9gyed6sqc63r4avk524f7gj50hnsmel0kacmqmwy39q/</link>
       <pubDate>Mon, 27 Oct 2025 18:19:03 +0000</pubDate>
-      <guid>https://www.netveldi.com/posts/note10k83lh5w6ry2rkv9gyed6sqc63r4avk524f7gj50hnsmel0kacmqmwy39q/</guid>
+      <guid>https://veldi.net/posts/note10k83lh5w6ry2rkv9gyed6sqc63r4avk524f7gj50hnsmel0kacmqmwy39q/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve had a bit of a pause getting updates in since I&amp;rsquo;ve been moving, improving my home office/lab setup among other things. Feeling comfy now clickity clacking on my good old planck keyboard now that I got a proper monitor again.&lt;/p&gt;&#xA;&lt;p&gt;OpenBSD version 7.8 came out recently with preliminary support for Raspberry Pi 5. For now there&amp;rsquo;s limited HDMI support, so I&amp;rsquo;ll need to access the serial console port on my Pi 5 instead. I&amp;rsquo;m waiting for the USB to TTL cable to arrive which supposedly will allow me to do that. I figured it could be useful later also for any embedded stuff that I might want to do. I really want to see how far I can push this OS to do what I want.&lt;/p&gt;&#xA;&lt;p&gt;Another thing I want to link again, just cause I&amp;rsquo;m happy about it, is the first proper video that I&amp;rsquo;ve seen that explains Bitcoin in Icelandic: &lt;a href=&#34;https://youtu.be/TrnKcg-3mgM&#34; title=&#34;&#34;&gt;https://youtu.be/TrnKcg-3mgM&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>

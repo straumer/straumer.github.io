@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Freesoftware on Netveldi</title>
-    <link>https://www.netveldi.com/tags/freesoftware/</link>
-    <description>Recent content in Freesoftware on Netveldi</description>
+    <title>Freesoftware on veldi</title>
+    <link>https://veldi.net/tags/freesoftware/</link>
+    <description>Recent content in Freesoftware on veldi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 20 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.netveldi.com/tags/freesoftware/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://veldi.net/tags/freesoftware/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Free software comes first</title>
-      <link>https://www.netveldi.com/posts/free-software-comes-first/</link>
+      <link>https://veldi.net/posts/free-software-comes-first/</link>
       <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.netveldi.com/posts/free-software-comes-first/</guid>
+      <guid>https://veldi.net/posts/free-software-comes-first/</guid>
       <description>All of us use electronic equipment to interact and let information flow between us for our benefit. The more we depend on that equipment in our activities, the more important it is to understand some fundamental aspects of the digital world in order to stay empowered in the long run. One very important aspect, the one I talk about in this article, has to do with our choice of software with respect to its license and the accessibility of its source code. Software includes applications, operating systems and other digital tools. Once we are concious of certain human dynamics in the creation of software, we can adopt principles and practices to live more empowered. This article is for users of software, not software developers, but it is necessary to mention important points from the perspective of the software developer in order to better choose our software.</description>
     </item>
   </channel>

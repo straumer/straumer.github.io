@@ -1,95 +1,95 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Netveldi</title>
-    <link>https://www.netveldi.com/tags/</link>
-    <description>Recent content in Tags on Netveldi</description>
+    <title>Tags on veldi</title>
+    <link>https://veldi.net/tags/</link>
+    <description>Recent content in Tags on veldi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 15 Dec 2025 20:52:03 +0000</lastBuildDate>
-    <atom:link href="https://www.netveldi.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://veldi.net/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Openbsd</title>
-      <link>https://www.netveldi.com/tags/openbsd/</link>
+      <link>https://veldi.net/tags/openbsd/</link>
       <pubDate>Mon, 15 Dec 2025 20:52:03 +0000</pubDate>
-      <guid>https://www.netveldi.com/tags/openbsd/</guid>
+      <guid>https://veldi.net/tags/openbsd/</guid>
       <description></description>
     </item>
     <item>
       <title>Raspberrypi</title>
-      <link>https://www.netveldi.com/tags/raspberrypi/</link>
+      <link>https://veldi.net/tags/raspberrypi/</link>
       <pubDate>Mon, 15 Dec 2025 20:52:03 +0000</pubDate>
-      <guid>https://www.netveldi.com/tags/raspberrypi/</guid>
+      <guid>https://veldi.net/tags/raspberrypi/</guid>
       <description></description>
     </item>
     <item>
       <title>Bitcoin</title>
-      <link>https://www.netveldi.com/tags/bitcoin/</link>
+      <link>https://veldi.net/tags/bitcoin/</link>
       <pubDate>Mon, 27 Oct 2025 18:19:03 +0000</pubDate>
-      <guid>https://www.netveldi.com/tags/bitcoin/</guid>
+      <guid>https://veldi.net/tags/bitcoin/</guid>
       <description></description>
     </item>
     <item>
       <title>Nostr</title>
-      <link>https://www.netveldi.com/tags/nostr/</link>
+      <link>https://veldi.net/tags/nostr/</link>
       <pubDate>Mon, 23 Jun 2025 12:58:46 +0000</pubDate>
-      <guid>https://www.netveldi.com/tags/nostr/</guid>
+      <guid>https://veldi.net/tags/nostr/</guid>
       <description></description>
     </item>
     <item>
       <title>Shell</title>
-      <link>https://www.netveldi.com/tags/shell/</link>
+      <link>https://veldi.net/tags/shell/</link>
       <pubDate>Mon, 23 Jun 2025 12:58:46 +0000</pubDate>
-      <guid>https://www.netveldi.com/tags/shell/</guid>
+      <guid>https://veldi.net/tags/shell/</guid>
       <description></description>
     </item>
     <item>
       <title>Rust</title>
-      <link>https://www.netveldi.com/tags/rust/</link>
+      <link>https://veldi.net/tags/rust/</link>
       <pubDate>Mon, 16 Jun 2025 18:36:35 +0000</pubDate>
-      <guid>https://www.netveldi.com/tags/rust/</guid>
+      <guid>https://veldi.net/tags/rust/</guid>
       <description></description>
     </item>
     <item>
       <title>Gohugo</title>
-      <link>https://www.netveldi.com/tags/gohugo/</link>
+      <link>https://veldi.net/tags/gohugo/</link>
       <pubDate>Mon, 02 Jun 2025 12:19:43 +0000</pubDate>
-      <guid>https://www.netveldi.com/tags/gohugo/</guid>
+      <guid>https://veldi.net/tags/gohugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>https://www.netveldi.com/tags/hugo/</link>
+      <link>https://veldi.net/tags/hugo/</link>
       <pubDate>Mon, 02 Jun 2025 12:19:43 +0000</pubDate>
-      <guid>https://www.netveldi.com/tags/hugo/</guid>
+      <guid>https://veldi.net/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Laptop</title>
-      <link>https://www.netveldi.com/tags/laptop/</link>
+      <link>https://veldi.net/tags/laptop/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.netveldi.com/tags/laptop/</guid>
+      <guid>https://veldi.net/tags/laptop/</guid>
       <description></description>
     </item>
     <item>
       <title>Mnemotechnics</title>
-      <link>https://www.netveldi.com/tags/mnemotechnics/</link>
+      <link>https://veldi.net/tags/mnemotechnics/</link>
       <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.netveldi.com/tags/mnemotechnics/</guid>
+      <guid>https://veldi.net/tags/mnemotechnics/</guid>
       <description></description>
     </item>
     <item>
       <title>Security</title>
-      <link>https://www.netveldi.com/tags/security/</link>
+      <link>https://veldi.net/tags/security/</link>
       <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.netveldi.com/tags/security/</guid>
+      <guid>https://veldi.net/tags/security/</guid>
       <description></description>
     </item>
     <item>
       <title>Freesoftware</title>
-      <link>https://www.netveldi.com/tags/freesoftware/</link>
+      <link>https://veldi.net/tags/freesoftware/</link>
       <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.netveldi.com/tags/freesoftware/</guid>
+      <guid>https://veldi.net/tags/freesoftware/</guid>
       <description></description>
     </item>
   </channel>

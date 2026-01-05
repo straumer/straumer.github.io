@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Minnistækni on Netveldi</title>
-    <link>https://www.netveldi.com/is/tags/minnist%C3%A6kni/</link>
-    <description>Recent content in Minnistækni on Netveldi</description>
+    <title>Minnistækni on veldi</title>
+    <link>https://veldi.net/is/tags/minnist%C3%A6kni/</link>
+    <description>Recent content in Minnistækni on veldi</description>
     <generator>Hugo</generator>
     <language>is</language>
     <lastBuildDate>Tue, 12 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.netveldi.com/is/tags/minnist%C3%A6kni/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://veldi.net/is/tags/minnist%C3%A6kni/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Handahófskennd lykilorð á minnið með PAO</title>
-      <link>https://www.netveldi.com/is/faerslur/handahofskennd-lykilord-a-minnid-med-pao/</link>
+      <link>https://veldi.net/is/faerslur/handahofskennd-lykilord-a-minnid-med-pao/</link>
       <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.netveldi.com/is/faerslur/handahofskennd-lykilord-a-minnid-med-pao/</guid>
+      <guid>https://veldi.net/is/faerslur/handahofskennd-lykilord-a-minnid-med-pao/</guid>
       <description>Sem maður með mikinn áhuga á upplýsingaöryggi, þá hef ég oft leik að því að ímynda mér ýmsar ógnir og leiðir til varnar gegn þeim ef að þær skyldu raungerast. Eitt mikilvægt tilfelli er: Hvað myndi gerast ef maður glatar öllum sínum áþreifanlegu eignum og endar á götunni eða álíka? Í þessu tilfelli þá glatast öll okkar gögn, jafnt stafræn sem skrifuð, nema þau sem við höfum lagt á minnið. Við viljum tryggja það að svarið við spurningunni sé að ekkert sérstakt myndi gerast og að við stóískt höldum lífinu áfram eins og ekkert hafi í skorist eins og Tortímandi sem var við það að birtast. Venjulega er hægt að geyma gögn í höndum þriðju aðila, en hérna tala ég í samhengi einstaklinga sem vilja hámarks öryggi þar sem þeir eru þeir einu sem geta haft aðgang að gögnunum. Þetta tilfelli kallar á dulkóðun gagnanna með handahófskenndu lykilorði sem er erfitt að muna án minnistækni. Ég tileinka þessarri grein þeim tilgangi þar sem ég útskýri mína útfærslu á &lt;a href=&#34;https://artofmemory.com/blog/pao-system/&#34; title=&#34;&#34;&gt;PAO&lt;/a&gt; minnistækninni fyrir lesanleg &lt;a href=&#34;https://en.wikipedia.org/wiki/ASCII&#34; title=&#34;&#34;&gt;ASCII&lt;/a&gt; tákn.</description>
     </item>
     <item>
       <title>Tíðindi: note1gzn:yq9zqxyx</title>
-      <link>https://www.netveldi.com/is/faerslur/note1gzn5s2rzmk8u7vx27datdsvcqvzdqhzq6p7gqgck6afr0djn8kyq9zqxyx/</link>
+      <link>https://veldi.net/is/faerslur/note1gzn5s2rzmk8u7vx27datdsvcqvzdqhzq6p7gqgck6afr0djn8kyq9zqxyx/</link>
       <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.netveldi.com/is/faerslur/note1gzn5s2rzmk8u7vx27datdsvcqvzdqhzq6p7gqgck6afr0djn8kyq9zqxyx/</guid>
+      <guid>https://veldi.net/is/faerslur/note1gzn5s2rzmk8u7vx27datdsvcqvzdqhzq6p7gqgck6afr0djn8kyq9zqxyx/</guid>
       <description>&lt;p&gt;Hef næstum klárað að skilgreina PAO minnigarkerfið mitt fyrir öll lesanleg ASCII letur. Ég mun nota það til að muna handahófskennd ASCII lykilorð fyrir dulkóðuð afrit af gögnunum mínum. Ég hef ætlað að gera það í nokkurn tíma, en meira um það síðar.&lt;/p&gt;&#xA;&lt;p&gt;Las kafla 11 Rust bókarinnar.&lt;/p&gt;</description>
     </item>
   </channel>

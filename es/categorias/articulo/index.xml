@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Artículo on Netveldi</title>
-    <link>https://www.netveldi.com/es/categorias/articulo/</link>
-    <description>Recent content in Artículo on Netveldi</description>
+    <title>Artículo on veldi</title>
+    <link>https://veldi.net/es/categorias/articulo/</link>
+    <description>Recent content in Artículo on veldi</description>
     <generator>Hugo</generator>
     <language>es</language>
     <lastBuildDate>Tue, 12 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.netveldi.com/es/categorias/articulo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://veldi.net/es/categorias/articulo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Memorización de contraseñas aleatorias con PAO</title>
-      <link>https://www.netveldi.com/es/postes/memorizacion-de-contrasenas-aleatorias-con-pao/</link>
+      <link>https://veldi.net/es/postes/memorizacion-de-contrasenas-aleatorias-con-pao/</link>
       <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.netveldi.com/es/postes/memorizacion-de-contrasenas-aleatorias-con-pao/</guid>
+      <guid>https://veldi.net/es/postes/memorizacion-de-contrasenas-aleatorias-con-pao/</guid>
       <description>Como una persona a quién le interesa mucho la seguridad de la información, me gusta jugar juegos en mi mente que involucran la imaginación de amenazas y cómo se podría establecer y mejorar defensas contra ellas si se materializan. Un caso muy importante de considerar es ¿qué pasaría si uno pierde todas sus posesiones hasta prácticamente quedarse cálato en la calle o dónde sea? En ese caso, todos nuestros datos fuera de nuestros mentes, sean digitales o escritos, desaparecen. Queremos asegurar que la respuesta a esa pregunta sea que nada pasaría y que seguiríamos estoicos adelante como un Terminator recién llegado. Normalmente se puede dejar copias de los datos con terceros, pero aquí hablo en el contexto de individuos que quieren una seguridad máxima, dónde ellos mismos son los únicos que deberían poder acceder a tales datos. Eso requiere el cifrado de los datos con una contraseña aleatoria que es difícil recordar sin técnicas de memorización. A este fin dedico el artículo dónde explico mi aplicación de la técnica de memorización de &lt;a href=&#34;https://palaciodelamemoria.com/metodo-de-pao/&#34; title=&#34;&#34;&gt;PAO&lt;/a&gt; de símbolos leíbles &lt;a href=&#34;https://es.wikipedia.org/wiki/ASCII&#34; title=&#34;&#34;&gt;ASCII&lt;/a&gt;.</description>
     </item>
     <item>
       <title>Software libre es número uno</title>
-      <link>https://www.netveldi.com/es/postes/software-libre-es-numero-uno/</link>
+      <link>https://veldi.net/es/postes/software-libre-es-numero-uno/</link>
       <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.netveldi.com/es/postes/software-libre-es-numero-uno/</guid>
+      <guid>https://veldi.net/es/postes/software-libre-es-numero-uno/</guid>
       <description>Todos usamos varios dispositivos electrónicos para interactuar y hacer fluir información entre nosotros por nuestro beneficio. Lo más que dependemos de esos dispositivos por nuestras actividades, lo más importante es entender algunos aspectos fundamentales del mundo informático para seguir empoderado a largo plazo. Un aspecto muy importante, el que detallo en este artículo, tiene que ver con nuestra elección de software al respecto a su licencia y la accesibilidad de su código fuente. Software incluye aplicaciones, sistemas operativas y otras herramientas digitales. Una vez conscientes de ciertas dinamicas humanas en la creación de software, podemos adoptar principios y prácticas para vivir más empoderados. Este artículo es para usuarios de software, no los desarrolladores, pero es necesario mencionar puntos importantes sobre el lado del desarrollador para poder elegir nuestro software mejor.</description>
     </item>
   </channel>
