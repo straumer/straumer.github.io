@@ -6,27 +6,41 @@
     <description>Recent content in Tags on veldi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Dec 2025 20:52:03 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Jan 2026 16:18:02 +0000</lastBuildDate>
     <atom:link href="https://veldi.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bitcoin</title>
+      <link>https://veldi.net/tags/bitcoin/</link>
+      <pubDate>Mon, 12 Jan 2026 16:18:02 +0000</pubDate>
+      <guid>https://veldi.net/tags/bitcoin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Freesoftware</title>
+      <link>https://veldi.net/tags/freesoftware/</link>
+      <pubDate>Mon, 12 Jan 2026 16:18:02 +0000</pubDate>
+      <guid>https://veldi.net/tags/freesoftware/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Openbsd</title>
       <link>https://veldi.net/tags/openbsd/</link>
-      <pubDate>Mon, 15 Dec 2025 20:52:03 +0000</pubDate>
+      <pubDate>Mon, 12 Jan 2026 16:18:02 +0000</pubDate>
       <guid>https://veldi.net/tags/openbsd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>https://veldi.net/tags/programming/</link>
+      <pubDate>Mon, 12 Jan 2026 16:18:02 +0000</pubDate>
+      <guid>https://veldi.net/tags/programming/</guid>
       <description></description>
     </item>
     <item>
       <title>Raspberrypi</title>
       <link>https://veldi.net/tags/raspberrypi/</link>
-      <pubDate>Mon, 15 Dec 2025 20:52:03 +0000</pubDate>
+      <pubDate>Mon, 12 Jan 2026 16:18:02 +0000</pubDate>
       <guid>https://veldi.net/tags/raspberrypi/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Bitcoin</title>
-      <link>https://veldi.net/tags/bitcoin/</link>
-      <pubDate>Mon, 27 Oct 2025 18:19:03 +0000</pubDate>
-      <guid>https://veldi.net/tags/bitcoin/</guid>
       <description></description>
     </item>
     <item>
@@ -83,13 +97,6 @@
       <link>https://veldi.net/tags/security/</link>
       <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
       <guid>https://veldi.net/tags/security/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Freesoftware</title>
-      <link>https://veldi.net/tags/freesoftware/</link>
-      <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://veldi.net/tags/freesoftware/</guid>
       <description></description>
     </item>
   </channel>

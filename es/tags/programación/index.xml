@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Softwarelibre on veldi</title>
-    <link>https://veldi.net/es/tags/softwarelibre/</link>
-    <description>Recent content in Softwarelibre on veldi</description>
+    <title>Programación on veldi</title>
+    <link>https://veldi.net/es/tags/programaci%C3%B3n/</link>
+    <description>Recent content in Programación on veldi</description>
     <generator>Hugo</generator>
     <language>es</language>
     <lastBuildDate>Mon, 12 Jan 2026 16:18:02 +0000</lastBuildDate>
-    <atom:link href="https://veldi.net/es/tags/softwarelibre/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://veldi.net/es/tags/programaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Novedades: note1ej7:xs3wrvux</title>
       <link>https://veldi.net/es/postes/note1ej7lpj7dvnvlskt3hjxys0tz2l0ndyad8q4nkp76nh24hrgl24xs3wrvux/</link>
       <pubDate>Mon, 12 Jan 2026 16:18:02 +0000</pubDate>
       <guid>https://veldi.net/es/postes/note1ej7lpj7dvnvlskt3hjxys0tz2l0ndyad8q4nkp76nh24hrgl24xs3wrvux/</guid>
       <description>&lt;p&gt;Empecé el año nuevo con exitosamente instalando la instantánea OpenBSD más reciente en Raspberry Pi 5 ya que tengo mi Sonda de Depuración Rpi. El instalador de OpenBSD 7.8 no se arrancó, lo que parece ser porque mi Pi es modelo B, y por eso usé la instantánea. Me agrada ver el progreso y presenciar el progreso del mismo OpenBSD. El gestor de arranque de OpenBSD, U-Boot, aún no parece ser compatible con el arranque por USB en la Pi5, entonces arranqué por el medio de instalación miniroot por tarjeta SD y lo usé para instalar OpenBSD en la misma tarjeta SD, lo que me parece genial que se puede hacer eso. Miniroot es suficientemente pequeño para cargar en memorias de muy baja capacidad y por eso puede sobreescribir la tarjeta SD justo en dónde se originó. Se adquirió la colección de archivos de una memoria USB con el medio de instalación completo. Entonces ya corre, pero no puedo conectarlo al Internet inalámbrico. Eso tiene algo que ver con dhcpleased que no funciona correctamente. Estaré monitoreando por más instantáneas para ver si se arregla.&lt;/p&gt;&#xA;&lt;p&gt;Por un rato he estado metiendo mi cabeza más profundamente en los detalles técnicos de Bitcoin ya que lo veo como el elefante en la habitación cuándo se trata de tecnologías empoderadoras hoy en día. Entonces cuándo vi el reto Bitcoin Open Source Software (BOSS), decidí tomar la oportunidad y participar. Está comenzando hoy: &lt;a href=&#34;https://bosschallenge.xyz/&#34; title=&#34;&#34;&gt;https://bosschallenge.xyz/&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Software libre es número uno</title>
-      <link>https://veldi.net/es/postes/software-libre-es-numero-uno/</link>
-      <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://veldi.net/es/postes/software-libre-es-numero-uno/</guid>
-      <description>Todos usamos varios dispositivos electrónicos para interactuar y hacer fluir información entre nosotros por nuestro beneficio. Lo más que dependemos de esos dispositivos por nuestras actividades, lo más importante es entender algunos aspectos fundamentales del mundo informático para seguir empoderado a largo plazo. Un aspecto muy importante, el que detallo en este artículo, tiene que ver con nuestra elección de software al respecto a su licencia y la accesibilidad de su código fuente. Software incluye aplicaciones, sistemas operativas y otras herramientas digitales. Una vez conscientes de ciertas dinamicas humanas en la creación de software, podemos adoptar principios y prácticas para vivir más empoderados. Este artículo es para usuarios de software, no los desarrolladores, pero es necesario mencionar puntos importantes sobre el lado del desarrollador para poder elegir nuestro software mejor.</description>
     </item>
   </channel>
 </rss>

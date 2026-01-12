@@ -2,8 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://veldi.net/is/tags/bitcoin/</loc>
+    <lastmod>2026-01-12T16:18:02+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://veldi.net/tags/bitcoin/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://veldi.net/es/tags/bitcoin/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="is"
+                href="https://veldi.net/is/tags/bitcoin/"
+                />
+  </url><url>
     <loc>https://veldi.net/is/flokkar/</loc>
-    <lastmod>2025-12-15T20:52:03+00:00</lastmod>
+    <lastmod>2026-01-12T16:18:02+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -20,8 +38,14 @@
                 href="https://veldi.net/is/flokkar/"
                 />
   </url><url>
+    <loc>https://veldi.net/is/tags/forritun/</loc>
+    <lastmod>2026-01-12T16:18:02+00:00</lastmod>
+  </url><url>
+    <loc>https://veldi.net/is/tags/frj%C3%A1lshugb%C3%BAna%C3%B0ur/</loc>
+    <lastmod>2026-01-12T16:18:02+00:00</lastmod>
+  </url><url>
     <loc>https://veldi.net/is/faerslur/</loc>
-    <lastmod>2025-12-15T20:52:03+00:00</lastmod>
+    <lastmod>2026-01-12T16:18:02+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -39,7 +63,7 @@
                 />
   </url><url>
     <loc>https://veldi.net/is/tags/openbsd/</loc>
-    <lastmod>2025-12-15T20:52:03+00:00</lastmod>
+    <lastmod>2026-01-12T16:18:02+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -57,7 +81,7 @@
                 />
   </url><url>
     <loc>https://veldi.net/is/tags/raspberrypi/</loc>
-    <lastmod>2025-12-15T20:52:03+00:00</lastmod>
+    <lastmod>2026-01-12T16:18:02+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -75,7 +99,7 @@
                 />
   </url><url>
     <loc>https://veldi.net/is/flokkar/tidindi/</loc>
-    <lastmod>2025-12-15T20:52:03+00:00</lastmod>
+    <lastmod>2026-01-12T16:18:02+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -90,6 +114,61 @@
                 rel="alternate"
                 hreflang="is"
                 href="https://veldi.net/is/flokkar/tidindi/"
+                />
+  </url><url>
+    <loc>https://veldi.net/is/faerslur/note12g7l7gkrg64ry83nv7d5l8mxe2t82mkr88szalk664vxfmrzur8sv5ap5m/</loc>
+    <lastmod>2026-01-12T16:18:02+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://veldi.net/es/postes/note1ej7lpj7dvnvlskt3hjxys0tz2l0ndyad8q4nkp76nh24hrgl24xs3wrvux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://veldi.net/posts/note1fvd02z5hr6uefryrh0t8e5tu48wral68e2s043e9au4nc952n56s9pn60e/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="is"
+                href="https://veldi.net/is/faerslur/note12g7l7gkrg64ry83nv7d5l8mxe2t82mkr88szalk664vxfmrzur8sv5ap5m/"
+                />
+  </url><url>
+    <loc>https://veldi.net/is/togg/</loc>
+    <lastmod>2026-01-12T16:18:02+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://veldi.net/es/etiquetas/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://veldi.net/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="is"
+                href="https://veldi.net/is/togg/"
+                />
+  </url><url>
+    <loc>https://veldi.net/is/</loc>
+    <lastmod>2026-01-12T16:18:02+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://veldi.net/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://veldi.net/es/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="is"
+                href="https://veldi.net/is/"
                 />
   </url><url>
     <loc>https://veldi.net/is/faerslur/note1dj2r0hyh2p2vq6qzmwcz8nfc4ng98heku2ug4yjsk8whcsxv787s22gvhw/</loc>
@@ -109,60 +188,6 @@
                 rel="alternate"
                 hreflang="is"
                 href="https://veldi.net/is/faerslur/note1dj2r0hyh2p2vq6qzmwcz8nfc4ng98heku2ug4yjsk8whcsxv787s22gvhw/"
-                />
-  </url><url>
-    <loc>https://veldi.net/is/togg/</loc>
-    <lastmod>2025-12-15T20:52:03+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://veldi.net/es/etiquetas/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://veldi.net/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="is"
-                href="https://veldi.net/is/togg/"
-                />
-  </url><url>
-    <loc>https://veldi.net/is/</loc>
-    <lastmod>2025-12-15T20:52:03+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://veldi.net/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://veldi.net/es/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="is"
-                href="https://veldi.net/is/"
-                />
-  </url><url>
-    <loc>https://veldi.net/is/tags/bitcoin/</loc>
-    <lastmod>2025-10-27T18:19:03+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://veldi.net/tags/bitcoin/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://veldi.net/es/tags/bitcoin/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="is"
-                href="https://veldi.net/is/tags/bitcoin/"
                 />
   </url><url>
     <loc>https://veldi.net/is/faerslur/note1kj955qew6wpdtuqgqx4fyul0t25d0t0pgy8fnfprvr3wl8e9rr7q5e6gvn/</loc>
@@ -528,8 +553,5 @@
                 hreflang="is"
                 href="https://veldi.net/is/faerslur/frjals-hugbunadur-er-numer-eitt/"
                 />
-  </url><url>
-    <loc>https://veldi.net/is/tags/frj%C3%A1lshugb%C3%BAna%C3%B0ur/</loc>
-    <lastmod>2024-09-21T00:00:00+00:00</lastmod>
   </url>
 </urlset>

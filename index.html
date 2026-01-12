@@ -63,6 +63,13 @@
   
     
     
+    <h2><a href="/posts/note1fvd02z5hr6uefryrh0t8e5tu48wral68e2s043e9au4nc952n56s9pn60e/">Update: note1fvd:6s9pn60e</a></h2>
+    <code><time datetime="2026-01-12T16:18:02&#43;00:00">January 12, 2026</time></code>
+    <p>I started the new year by successfully installing the most recent OpenBSD snapshot on Raspberry Pi 5 now that I have my Rpi Debug Probe. The OpenBSD 7.8 installer would not boot, which seems to be because my Pi is model B, so that&rsquo;s why the snapshot. I&rsquo;m happy to see progress and to witness the progress going on in OpenBSD itself. The bootloader for OpenBSD, U-Boot, does not support booting via USB yet on Pi5, so I booted via the miniroot install medium via sdcard and used it to install OpenBSD to that same sdcard, which I find pretty neat that you can do that. Miniroot is tiny enough to be loaded in its entirety into the smallest memory and thus it can overwrite the sdcard it just came from. The file sets were retrieved from a USB drive with the full install medium. So now it runs, but I can&rsquo;t connect it wirelessly to the internet. It has something to do with dhcpleased not working correctly. I&rsquo;ll be monitoring for further snapshots to see if it gets fixed.</p>
+<p>For a while now, I have been getting my head deeper into the technical details of Bitcoin since I see it as the elephant in the room when it comes to empowering technology nowadays. So when I saw the Bitcoin Open Source Software (BOSS) challenge I decided to take the opportunity and participate. It&rsquo;s kicking off today: <a href="https://bosschallenge.xyz/" title="">https://bosschallenge.xyz/</a></p>
+  
+    
+    
     <h2><a href="/posts/note19vlcfne9pv6wkv92nn783q2tu90v0dvtqnry7rpjcrpm63n6z8fqpj4auu/">Update: note19vl:fqpj4auu</a></h2>
     <code><time datetime="2025-12-15T20:52:03&#43;00:00">December 15, 2025</time></code>
     <p>Turns out OpenBSD 7.8 must be installed on the Raspberry Pi 5 over the serial console via the debug connector and not the GPIO pins, which I didn&rsquo;t find out until I rummaged through the OpenBSD mailing lists after the console wouldn&rsquo;t show up on boot. I thus ordered a Rpi Debug Probe which connects to the debug connector of the Rpi5 and connects to my laptop via USB. I could&rsquo;ve gotten an adaptor for the USB to TTL cable I had previously gotten, but I figured it could serve to have a more complete feature set for embedded development for possible future tinkering. I&rsquo;ll need to wait some weeks for it to arrive since people don&rsquo;t seem to be importing it to my tiny land of ice.</p>
@@ -139,6 +146,7 @@
     <code><time datetime="2024-10-14T00:00:00&#43;00:00">October 14, 2024</time></code>
     <p>I went to a network security conference of the Electronic Communications Office of Iceland. I got some insight into what companies in Iceland are dealing with in that area nowadays as well as the new NIS2 EU directive that they are expected to need to comply with. Disconnect between company leadership and their IT departments was a big topic and the need for deeper collaboration between them to improve the company&rsquo;s information security posture. I think IT people really benefit from knowledge of business administration in this regard. It lets them recognize the responsibilities and perspective of the leadership in order to effectively communicate security risks and lets the leadership take responsibility for them.</p>
 <p>I&rsquo;ve been working more on my makesite static site generator alongside the updating of this site which is generated with it. Among the reasons of making it is that I thought it would be a nice project to cement my knowledge of make, m4 and the shell. Those are pretty commonly used in C/C++ build systems of projects I&rsquo;d like to participate in. The repo: <a href="https://github.com/straumer/makesite" title="">https://github.com/straumer/makesite</a></p>
+<p>I read chapters 6-10 of the Rust book. I like that the book explains Rust&rsquo;s safety features in the context of languages like C, so it also can teach us how to manually apply similar safety practices when coding in those languages.</p>
   
     
     

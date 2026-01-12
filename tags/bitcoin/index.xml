@@ -6,8 +6,15 @@
     <description>Recent content in Bitcoin on veldi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Oct 2025 18:19:03 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Jan 2026 16:18:02 +0000</lastBuildDate>
     <atom:link href="https://veldi.net/tags/bitcoin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Update: note1fvd:6s9pn60e</title>
+      <link>https://veldi.net/posts/note1fvd02z5hr6uefryrh0t8e5tu48wral68e2s043e9au4nc952n56s9pn60e/</link>
+      <pubDate>Mon, 12 Jan 2026 16:18:02 +0000</pubDate>
+      <guid>https://veldi.net/posts/note1fvd02z5hr6uefryrh0t8e5tu48wral68e2s043e9au4nc952n56s9pn60e/</guid>
+      <description>&lt;p&gt;I started the new year by successfully installing the most recent OpenBSD snapshot on Raspberry Pi 5 now that I have my Rpi Debug Probe. The OpenBSD 7.8 installer would not boot, which seems to be because my Pi is model B, so that&amp;rsquo;s why the snapshot. I&amp;rsquo;m happy to see progress and to witness the progress going on in OpenBSD itself. The bootloader for OpenBSD, U-Boot, does not support booting via USB yet on Pi5, so I booted via the miniroot install medium via sdcard and used it to install OpenBSD to that same sdcard, which I find pretty neat that you can do that. Miniroot is tiny enough to be loaded in its entirety into the smallest memory and thus it can overwrite the sdcard it just came from. The file sets were retrieved from a USB drive with the full install medium. So now it runs, but I can&amp;rsquo;t connect it wirelessly to the internet. It has something to do with dhcpleased not working correctly. I&amp;rsquo;ll be monitoring for further snapshots to see if it gets fixed.&lt;/p&gt;&#xA;&lt;p&gt;For a while now, I have been getting my head deeper into the technical details of Bitcoin since I see it as the elephant in the room when it comes to empowering technology nowadays. So when I saw the Bitcoin Open Source Software (BOSS) challenge I decided to take the opportunity and participate. It&amp;rsquo;s kicking off today: &lt;a href=&#34;https://bosschallenge.xyz/&#34; title=&#34;&#34;&gt;https://bosschallenge.xyz/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Update: note10k8:mqmwy39q</title>
       <link>https://veldi.net/posts/note10k83lh5w6ry2rkv9gyed6sqc63r4avk524f7gj50hnsmel0kacmqmwy39q/</link>
