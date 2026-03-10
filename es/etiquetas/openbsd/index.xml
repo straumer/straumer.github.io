@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Openbsd on veldi</title>
+    <link>https://veldi.net/es/etiquetas/openbsd/</link>
+    <description>Recent content in Openbsd on veldi</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 12 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://veldi.net/es/etiquetas/openbsd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Novedad: 2026-01-12</title>
+      <link>https://veldi.net/es/postes/note1200n59ed5xurkhjs4sqrac3cw6h2excuk26ahy7vl3c3f85r8u6qls8mzj/</link>
+      <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/es/postes/note1200n59ed5xurkhjs4sqrac3cw6h2excuk26ahy7vl3c3f85r8u6qls8mzj/</guid>
+      <description>&lt;p&gt;Empecé el año nuevo con exitosamente instalando la instantánea OpenBSD más reciente en Raspberry Pi 5 ya que tengo mi Sonda de Depuración Rpi. El instalador de OpenBSD 7.8 no se arrancó, lo que parece ser porque mi Pi es modelo B, y por eso usé la instantánea. Me agrada ver el progreso y presenciar el progreso del mismo OpenBSD. El gestor de arranque de OpenBSD, U-Boot, aún no parece ser compatible con el arranque por USB en la Pi5, entonces arranqué por el medio de instalación miniroot por tarjeta SD y lo usé para instalar OpenBSD en la misma tarjeta SD, lo que me parece genial que se puede hacer eso. Miniroot es suficientemente pequeño para cargar en memorias de muy baja capacidad y por eso puede sobreescribir la tarjeta SD justo en dónde se originó. Se adquirió la colección de archivos de una memoria USB con el medio de instalación completo. Entonces ya corre, pero no puedo conectarlo al Internet inalámbrico. Eso tiene algo que ver con dhcpleased que no funciona correctamente. Estaré monitoreando por más instantáneas para ver si se arregla.&lt;/p&gt;&#xA;&lt;p&gt;Por un rato he estado metiendo mi cabeza más profundamente en los detalles técnicos de Bitcoin ya que lo veo como el elefante en la habitación cuándo se trata de tecnologías empoderadoras hoy en día. Entonces cuándo vi el reto Bitcoin Open Source Software (BOSS), decidí tomar la oportunidad y participar. Está comenzando hoy: &lt;a href=&#34;https://bosschallenge.xyz/&#34; title=&#34;&#34;&gt;https://bosschallenge.xyz/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Novedad: 2025-12-15</title>
+      <link>https://veldi.net/es/postes/note1rc74w36nwrzzufkaaup8xgn2vs42anr5zq20zf70r6c52xfpsm7qsn4q4m/</link>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/es/postes/note1rc74w36nwrzzufkaaup8xgn2vs42anr5zq20zf70r6c52xfpsm7qsn4q4m/</guid>
+      <description>&lt;p&gt;Resulta que OpenBSD 7.8 se tiene que instalar en el Raspberry Pi 5 por la consola serie por el conector de depuración y no los pines GPIO, algo que no descubrí hasta buscar bien en las listas de correo de OpenBSD cuándo la consola no apareció al iniciar. Por eso pedí una Sonda de Depuración Rpi que se conecta al conector de depuración del Rpi5 y a mi portátil por USB. Hubiera podido adquirir un adaptador para el cable USB a TTL que adquirí anteriormente, pero pensaba que podría servir tener una colección de características más completa para desarrollo integrado en el caso de querer meterme más en eso. Tendré que esperar algunas semanas hasta que llegue ya que parece que la gente no lo importan a mi país de hielo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Novedad: 2025-10-27</title>
+      <link>https://veldi.net/es/postes/note1l6qvz6mturxr529msatlkk3mh37czj4q0tck6pjgsllnfql2asssa7tl9z/</link>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/es/postes/note1l6qvz6mturxr529msatlkk3mh37czj4q0tck6pjgsllnfql2asssa7tl9z/</guid>
+      <description>&lt;p&gt;He tenido una pausa en publicar actualizaciones por mudanza y el mejoramiento de mi oficina/laboratorio de casa entre otras cosas. Ya me siento confortable tecleando en mi viejo y buen teclado planck ya que tengo una pantalla de nuevo.&lt;/p&gt;&#xA;&lt;p&gt;Versión 7.8 de OpenBSD recién estrenó con soporte preliminar para Raspberry Pi 5. Por ahora tiene soporte limitado para HDMI, y por eso tengo que acceder el puerto de consola serie de mi Pi 5. Estoy esperando que el cable USB a TTL llegue que supuestamente me permite hacer eso. Pensé que podría también ser útil adelante cuándo quisiera hacer más cosas con computadoras integradas. Quiero ver cuánto puedo empujar este SO para que haga lo que quiero.&lt;/p&gt;&#xA;&lt;p&gt;Otra cosa que quiero enlazar de nuevo, solo porque me hace feliz, es el primer video que he visto que explica bien Bitcoin en islandés: &lt;a href=&#34;https://youtu.be/TrnKcg-3mgM&#34; title=&#34;&#34;&gt;https://youtu.be/TrnKcg-3mgM&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C&#43;&#43; on veldi</title>
+    <link>https://veldi.net/is/togg/c&#43;&#43;/</link>
+    <description>Recent content in C&#43;&#43; on veldi</description>
+    <generator>Hugo</generator>
+    <language>is</language>
+    <lastBuildDate>Mon, 09 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://veldi.net/is/togg/c++/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tíðindi: 2026-03-09</title>
+      <link>https://veldi.net/is/faerslur/note1ka6qkj6ulf4qlr3suwl2eu7jhx773m5eff4fcrsukwaymy3qwpjqtg6hxr/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/is/faerslur/note1ka6qkj6ulf4qlr3suwl2eu7jhx773m5eff4fcrsukwaymy3qwpjqtg6hxr/</guid>
+      <description>&lt;p&gt;Það er búið að líða allt of langur tími, en hérna er ég með smá innlegg.&lt;/p&gt;&#xA;&lt;p&gt;Ég kláraði nokkrar kóðunarkáskoranir BOSS áskorunarinnar sem ég nefndi hér áður:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Láta aðeins eina Bitcoin Core einingaprufu falla (C++)&lt;/li&gt;&#xA;&lt;li&gt;Signet Veski 1: Reikna heildarupphæð í veski sem notar p2tr vistföng (Rust)&lt;/li&gt;&#xA;&lt;li&gt;Signet Veski 2: Búa til færslu sem sendir pening á 2-af-2 multisig og aðra sem sendir þann pening og býr til OP_RETURN (Rust)&lt;/li&gt;&#xA;&lt;li&gt;Velja myntir úr veski fyrir lista af færslum sem á að gera með sendingargjaldi undir ákveðnu lágmarki (Rust)&lt;/li&gt;&#xA;&lt;li&gt;Einföld lnd lightning uppsetning og prufun á að fjármagna og senda (Shell)&lt;/li&gt;&#xA;&lt;li&gt;Búa til lightning leið þar sem gjöld og CLTV tímaskeið eru hafð í huga (Rust)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Ég er bara sáttur við það sem ég lærði þarna. Síðari hluti þessarrar dagskrár innifelur frekari lærdóm með fólki innan þessa geira, en ég fór í að byrja tvö verkefni sem vonandi gerir fólki kleift að framleiða vefsíðu úr Nostr gögnunum sínum með Hugo &amp;ldquo;static site generator&amp;rdquo; á auðveldari hátt og forðast leiðinlegt javascript í vefvafranum, sem er eitthvað sem ég elska að hata. Ég nota þau núna til að framleiða vefsíðuna mína:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/straumer/huno&#34; title=&#34;&#34;&gt;https://github.com/straumer/huno&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/straumer/hugo-nostr&#34; title=&#34;&#34;&gt;https://github.com/straumer/hugo-nostr&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

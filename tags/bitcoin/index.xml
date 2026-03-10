@@ -6,27 +6,27 @@
     <description>Recent content in Bitcoin on veldi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Jan 2026 16:18:02 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://veldi.net/tags/bitcoin/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Update: note1fvd:6s9pn60e</title>
-      <link>https://veldi.net/posts/note1fvd02z5hr6uefryrh0t8e5tu48wral68e2s043e9au4nc952n56s9pn60e/</link>
-      <pubDate>Mon, 12 Jan 2026 16:18:02 +0000</pubDate>
-      <guid>https://veldi.net/posts/note1fvd02z5hr6uefryrh0t8e5tu48wral68e2s043e9au4nc952n56s9pn60e/</guid>
+      <title>Update: 2026-03-09</title>
+      <link>https://veldi.net/posts/note15ly04g3l694s2qsr2qptj68kxwywaamqqluccfw9g03j23krf7zszwq8es/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/posts/note15ly04g3l694s2qsr2qptj68kxwywaamqqluccfw9g03j23krf7zszwq8es/</guid>
+      <description>&lt;p&gt;It has been too long, but here I got a small update.&lt;/p&gt;&#xA;&lt;p&gt;I finished a few of the coding challenges of the BOSS challenge mentioned previously:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Make Bitcoin Core fail a singular unit test (C++)&lt;/li&gt;&#xA;&lt;li&gt;Signet Wallet 1: Calculate balance of a wallet using p2tr addresses (Rust)&lt;/li&gt;&#xA;&lt;li&gt;Signet Wallet 2: Create a transaction to spend to a 2-of-2 multisig, and another to spend from the multisig to an OP_RETURN (Rust)&lt;/li&gt;&#xA;&lt;li&gt;Select coins from a wallet for a list of transactions with a certain minimum fee efficiency (Rust)&lt;/li&gt;&#xA;&lt;li&gt;Basic lnd lightning setup and testing funding and sending (Shell)&lt;/li&gt;&#xA;&lt;li&gt;Build a lightning route, accounting for fees and CLTV deltas (Rust)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;I&amp;rsquo;m pretty satisfied with what I learned. The latter part of the program includes learning with cohorts and such, but I veered off to try to initiate two projects that can hopefully let people statically generate a website from their Nostr events with Hugo more easily and avoid pesky javascript in the browser, which I love to hate. I&amp;rsquo;m now using those to generate my site:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/straumer/huno&#34; title=&#34;&#34;&gt;https://github.com/straumer/huno&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/straumer/hugo-nostr&#34; title=&#34;&#34;&gt;https://github.com/straumer/hugo-nostr&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Update: 2026-01-12</title>
+      <link>https://veldi.net/posts/note1dvph9njqlnlt5rfx4e9fs92fyr5vs0lfaharpehr92egr3ylzuask4sj6m/</link>
+      <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/posts/note1dvph9njqlnlt5rfx4e9fs92fyr5vs0lfaharpehr92egr3ylzuask4sj6m/</guid>
       <description>&lt;p&gt;I started the new year by successfully installing the most recent OpenBSD snapshot on Raspberry Pi 5 now that I have my Rpi Debug Probe. The OpenBSD 7.8 installer would not boot, which seems to be because my Pi is model B, so that&amp;rsquo;s why the snapshot. I&amp;rsquo;m happy to see progress and to witness the progress going on in OpenBSD itself. The bootloader for OpenBSD, U-Boot, does not support booting via USB yet on Pi5, so I booted via the miniroot install medium via sdcard and used it to install OpenBSD to that same sdcard, which I find pretty neat that you can do that. Miniroot is tiny enough to be loaded in its entirety into the smallest memory and thus it can overwrite the sdcard it just came from. The file sets were retrieved from a USB drive with the full install medium. So now it runs, but I can&amp;rsquo;t connect it wirelessly to the internet. It has something to do with dhcpleased not working correctly. I&amp;rsquo;ll be monitoring for further snapshots to see if it gets fixed.&lt;/p&gt;&#xA;&lt;p&gt;For a while now, I have been getting my head deeper into the technical details of Bitcoin since I see it as the elephant in the room when it comes to empowering technology nowadays. So when I saw the Bitcoin Open Source Software (BOSS) challenge I decided to take the opportunity and participate. It&amp;rsquo;s kicking off today: &lt;a href=&#34;https://bosschallenge.xyz/&#34; title=&#34;&#34;&gt;https://bosschallenge.xyz/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Update: note10k8:mqmwy39q</title>
-      <link>https://veldi.net/posts/note10k83lh5w6ry2rkv9gyed6sqc63r4avk524f7gj50hnsmel0kacmqmwy39q/</link>
-      <pubDate>Mon, 27 Oct 2025 18:19:03 +0000</pubDate>
-      <guid>https://veldi.net/posts/note10k83lh5w6ry2rkv9gyed6sqc63r4avk524f7gj50hnsmel0kacmqmwy39q/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve had a bit of a pause getting updates in since I&amp;rsquo;ve been moving, improving my home office/lab setup among other things. Feeling comfy now clickity clacking on my good old planck keyboard now that I got a proper monitor again.&lt;/p&gt;&#xA;&lt;p&gt;OpenBSD version 7.8 came out recently with preliminary support for Raspberry Pi 5. For now there&amp;rsquo;s limited HDMI support, so I&amp;rsquo;ll need to access the serial console port on my Pi 5 instead. I&amp;rsquo;m waiting for the USB to TTL cable to arrive which supposedly will allow me to do that. I figured it could be useful later also for any embedded stuff that I might want to do. I really want to see how far I can push this OS to do what I want.&lt;/p&gt;&#xA;&lt;p&gt;Another thing I want to link again, just cause I&amp;rsquo;m happy about it, is the first proper video that I&amp;rsquo;ve seen that explains Bitcoin in Icelandic: &lt;a href=&#34;https://youtu.be/TrnKcg-3mgM&#34; title=&#34;&#34;&gt;https://youtu.be/TrnKcg-3mgM&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Update: note10k8:mqmwy39q</title>
-      <link>https://veldi.net/posts/note10k83lh5w6ry2rkv9gyed6sqc63r4avk524f7gj50hnsmel0kacmqmwy39q/</link>
-      <pubDate>Mon, 27 Oct 2025 18:19:03 +0000</pubDate>
-      <guid>https://veldi.net/posts/note10k83lh5w6ry2rkv9gyed6sqc63r4avk524f7gj50hnsmel0kacmqmwy39q/</guid>
+      <title>Update: 2025-10-27</title>
+      <link>https://veldi.net/posts/note1w4ck84rj9gx8mk2t4epacf2h4w3dkvarsdryw52shngnhe22kw8qytrahr/</link>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/posts/note1w4ck84rj9gx8mk2t4epacf2h4w3dkvarsdryw52shngnhe22kw8qytrahr/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve had a bit of a pause getting updates in since I&amp;rsquo;ve been moving, improving my home office/lab setup among other things. Feeling comfy now clickity clacking on my good old planck keyboard now that I got a proper monitor again.&lt;/p&gt;&#xA;&lt;p&gt;OpenBSD version 7.8 came out recently with preliminary support for Raspberry Pi 5. For now there&amp;rsquo;s limited HDMI support, so I&amp;rsquo;ll need to access the serial console port on my Pi 5 instead. I&amp;rsquo;m waiting for the USB to TTL cable to arrive which supposedly will allow me to do that. I figured it could be useful later also for any embedded stuff that I might want to do. I really want to see how far I can push this OS to do what I want.&lt;/p&gt;&#xA;&lt;p&gt;Another thing I want to link again, just cause I&amp;rsquo;m happy about it, is the first proper video that I&amp;rsquo;ve seen that explains Bitcoin in Icelandic: &lt;a href=&#34;https://youtu.be/TrnKcg-3mgM&#34; title=&#34;&#34;&gt;https://youtu.be/TrnKcg-3mgM&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>

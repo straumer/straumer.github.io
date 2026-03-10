@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rust on veldi</title>
+    <link>https://veldi.net/es/etiquetas/rust/</link>
+    <description>Recent content in Rust on veldi</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 09 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://veldi.net/es/etiquetas/rust/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Novedad: 2026-03-09</title>
+      <link>https://veldi.net/es/postes/note1w8z82fwpgkq5k6pukxq8qkqmh4nefcw6wdxzpvqjg2y9azdgdkzsgg0rw3/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/es/postes/note1w8z82fwpgkq5k6pukxq8qkqmh4nefcw6wdxzpvqjg2y9azdgdkzsgg0rw3/</guid>
+      <description>&lt;p&gt;Ha pasado demasiado tiempo, pero aquí tengo una pequeña novedad.&lt;/p&gt;&#xA;&lt;p&gt;Terminé algunos de los retos de codificación del reto BOSS que mencioné antes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Hacer Bitcoin Core fallar una sola prueba de unidad (C++)&lt;/li&gt;&#xA;&lt;li&gt;Cartera Signet 1: Calcular el balance de una cartera usando direcciones p2tr (Rust)&lt;/li&gt;&#xA;&lt;li&gt;Cartera Signet 2: Crear una transacción para pagar a 2-de-2 multifirma, y otra para pagar de la multifirma a OP_RETURN (Rust)&lt;/li&gt;&#xA;&lt;li&gt;Seleccionar monedas de una cartera de una lista de transacciones con cierta eficiencia mínima de la tasa (Rust)&lt;/li&gt;&#xA;&lt;li&gt;Setup básico de lightning con lnd y prueba de financiamiento y envío (Shell)&lt;/li&gt;&#xA;&lt;li&gt;Crear una ruta lightning, dando cuentas de las tasas y los periodos de tiempo CLTV (Rust)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Estoy relativamente satisfecho con lo que he aprendido. El segundo parte del programa incluye aprender con cohortes y tal, pero me fui para iniciar dos proyectos que ojalá permite a la gente estáticamente generar páginas de web de sus eventos Nostr con Hugo con más fácilidad y evitar javascript en el navegador, lo que me encanta odiar. Ya estoy usando esos para generar mi sitio:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/straumer/huno&#34; title=&#34;&#34;&gt;https://github.com/straumer/huno&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/straumer/hugo-nostr&#34; title=&#34;&#34;&gt;https://github.com/straumer/hugo-nostr&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Novedad: 2025-06-16</title>
+      <link>https://veldi.net/es/postes/note1n83vnpw6srq0aa230ntd8ujufm3ze8wrnv2yd9pspn2p3vsqklrq8z6ak6/</link>
+      <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/es/postes/note1n83vnpw6srq0aa230ntd8ujufm3ze8wrnv2yd9pspn2p3vsqklrq8z6ak6/</guid>
+      <description>&lt;p&gt;Creé nec, una pequeña herramienta cli para convertir entre representaciones json y bech32 de entidades Nostr NIP-19. Es una alternativa más completa a key-convertr que solía usar. Usé nec en un script para crear enlaces más utiles para mi página de web: &lt;a href=&#34;https://github.com/straumer/nec&#34; title=&#34;&#34;&gt;https://github.com/straumer/nec&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Novedad: 2024-10-21</title>
+      <link>https://veldi.net/es/postes/note1xuaph4z9utjck47jzmtyvy939ljfhtwgyly5a5ha0zweyprsh4ass5ktrn/</link>
+      <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/es/postes/note1xuaph4z9utjck47jzmtyvy939ljfhtwgyly5a5ha0zweyprsh4ass5ktrn/</guid>
+      <description>&lt;p&gt;Casi completé definir mi Sistema de memoria PAO por todas las letras legibles de ASCII. Lo usaré para memorizar contraseñas aleatorias de ASCII por mi copia cifrada de seguridad de mis datos. He querido hacer eso ya por bastante tiempo. Contaré más sobre eso más adelante.&lt;/p&gt;&#xA;&lt;p&gt;Leí capítulo 11 del libro Rust.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Novedad: 2024-10-14</title>
+      <link>https://veldi.net/es/postes/note1a2lae26rd5llrqn99p8q8jfpzmkxgt3wf3gctasqyg5gje4tvkeqg6fp03/</link>
+      <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/es/postes/note1a2lae26rd5llrqn99p8q8jfpzmkxgt3wf3gctasqyg5gje4tvkeqg6fp03/</guid>
+      <description>&lt;p&gt;Me fui a la conferencia de la seguridad de red por parte de la Oficina de Comunicaciones Electrónicas de Islandia. Recibí ideas sobre las cosas que las compañías en Islandia están experimentando dentro del rubro hoy en día y también sobre la nueva directiva NIS2 de la UE con cuál se espera que necesitan cumplir. Una desconexión entre el liderazgo y el departamento TI dentro de las compañías fue un tema grande y la necesidad de una cooperación más profunda entre ellos para mejorar su seguridad de información. Creo que la gente TI se benefician mucho de conocimiento de administración de negocios. Les permite reconocer las responsabilidades y perspectiva del liderazgo para más efectivamente comunicar riesgos de seguridad y permite que el liderazgo tome la responsabilidad de ellos.&lt;/p&gt;&#xA;&lt;p&gt;He estado trabajando más en mi generador estático de sitios makesite en mano con la actualización de este sitio con cuál está generado. Una de las razones por cuál lo hice es que pensaba que sería un proyecto chulo para cimentar mi conocimiento de make, m4, y el shell. Esos comúnmente están usados en la creación de software C/C++ en proyectos en cuáles quisiera participar. El repo: &lt;a href=&#34;https://github.com/straumer/makesite&#34; title=&#34;&#34;&gt;https://github.com/straumer/makesite&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Leí capítulos 6-10 del libro Rust. Me gusta que el libro explica la seguridad de Rust en el contexto de lenguajes como C, ya que también nos puede enseñar aplicar prácticas de seguridad para codificar seguramente con esos lenguajes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Novedad: 2024-10-07</title>
+      <link>https://veldi.net/es/postes/note1uwylxxt9cspstup2eulg2zjyjwjrpy42tuwhj04wydp6u37xclzq5l5urf/</link>
+      <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/es/postes/note1uwylxxt9cspstup2eulg2zjyjwjrpy42tuwhj04wydp6u37xclzq5l5urf/</guid>
+      <description>&lt;p&gt;Sumé las Servicios y Novedades secciones a esta página y actualicé la Sobre mí sección.&lt;/p&gt;&#xA;&lt;p&gt;Decidí aprender programar en Rust, ya que quisiera poder participar en varios proyectos que los usan. Acabé de leer capítulos 1-5 en el libro Rust: &lt;a href=&#34;https://doc.rust-lang.org/book/&#34; title=&#34;&#34;&gt;https://doc.rust-lang.org/book/&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

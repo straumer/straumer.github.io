@@ -6,97 +6,111 @@
     <description>Recent content in Tögg on veldi</description>
     <generator>Hugo</generator>
     <language>is</language>
-    <lastBuildDate>Mon, 12 Jan 2026 16:18:02 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://veldi.net/is/togg/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bitcoin</title>
-      <link>https://veldi.net/is/tags/bitcoin/</link>
-      <pubDate>Mon, 12 Jan 2026 16:18:02 +0000</pubDate>
-      <guid>https://veldi.net/is/tags/bitcoin/</guid>
+      <link>https://veldi.net/is/togg/bitcoin/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/is/togg/bitcoin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C&#43;&#43;</title>
+      <link>https://veldi.net/is/togg/c&#43;&#43;/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/is/togg/c&#43;&#43;/</guid>
       <description></description>
     </item>
     <item>
       <title>Forritun</title>
-      <link>https://veldi.net/is/tags/forritun/</link>
-      <pubDate>Mon, 12 Jan 2026 16:18:02 +0000</pubDate>
-      <guid>https://veldi.net/is/tags/forritun/</guid>
+      <link>https://veldi.net/is/togg/forritun/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/is/togg/forritun/</guid>
       <description></description>
     </item>
     <item>
       <title>Frjálshugbúnaður</title>
-      <link>https://veldi.net/is/tags/frj%C3%A1lshugb%C3%BAna%C3%B0ur/</link>
-      <pubDate>Mon, 12 Jan 2026 16:18:02 +0000</pubDate>
-      <guid>https://veldi.net/is/tags/frj%C3%A1lshugb%C3%BAna%C3%B0ur/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Openbsd</title>
-      <link>https://veldi.net/is/tags/openbsd/</link>
-      <pubDate>Mon, 12 Jan 2026 16:18:02 +0000</pubDate>
-      <guid>https://veldi.net/is/tags/openbsd/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Raspberrypi</title>
-      <link>https://veldi.net/is/tags/raspberrypi/</link>
-      <pubDate>Mon, 12 Jan 2026 16:18:02 +0000</pubDate>
-      <guid>https://veldi.net/is/tags/raspberrypi/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Nostr</title>
-      <link>https://veldi.net/is/tags/nostr/</link>
-      <pubDate>Mon, 23 Jun 2025 12:58:46 +0000</pubDate>
-      <guid>https://veldi.net/is/tags/nostr/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Shell</title>
-      <link>https://veldi.net/is/tags/shell/</link>
-      <pubDate>Mon, 23 Jun 2025 12:58:46 +0000</pubDate>
-      <guid>https://veldi.net/is/tags/shell/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Rust</title>
-      <link>https://veldi.net/is/tags/rust/</link>
-      <pubDate>Mon, 16 Jun 2025 18:36:35 +0000</pubDate>
-      <guid>https://veldi.net/is/tags/rust/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Gohugo</title>
-      <link>https://veldi.net/is/tags/gohugo/</link>
-      <pubDate>Mon, 02 Jun 2025 12:19:44 +0000</pubDate>
-      <guid>https://veldi.net/is/tags/gohugo/</guid>
+      <link>https://veldi.net/is/togg/frj%C3%A1lshugb%C3%BAna%C3%B0ur/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/is/togg/frj%C3%A1lshugb%C3%BAna%C3%B0ur/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>https://veldi.net/is/tags/hugo/</link>
-      <pubDate>Mon, 02 Jun 2025 12:19:44 +0000</pubDate>
-      <guid>https://veldi.net/is/tags/hugo/</guid>
+      <link>https://veldi.net/is/togg/hugo/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/is/togg/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lightning</title>
+      <link>https://veldi.net/is/togg/lightning/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/is/togg/lightning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nostr</title>
+      <link>https://veldi.net/is/togg/nostr/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/is/togg/nostr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rust</title>
+      <link>https://veldi.net/is/togg/rust/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/is/togg/rust/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shell</title>
+      <link>https://veldi.net/is/togg/shell/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/is/togg/shell/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Openbsd</title>
+      <link>https://veldi.net/is/togg/openbsd/</link>
+      <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/is/togg/openbsd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Raspberrypi</title>
+      <link>https://veldi.net/is/togg/raspberrypi/</link>
+      <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/is/togg/raspberrypi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gohugo</title>
+      <link>https://veldi.net/is/togg/gohugo/</link>
+      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/is/togg/gohugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Fartölva</title>
-      <link>https://veldi.net/is/tags/fart%C3%B6lva/</link>
+      <link>https://veldi.net/is/togg/fart%C3%B6lva/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://veldi.net/is/tags/fart%C3%B6lva/</guid>
+      <guid>https://veldi.net/is/togg/fart%C3%B6lva/</guid>
       <description></description>
     </item>
     <item>
       <title>Minnistækni</title>
-      <link>https://veldi.net/is/tags/minnist%C3%A6kni/</link>
+      <link>https://veldi.net/is/togg/minnist%C3%A6kni/</link>
       <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://veldi.net/is/tags/minnist%C3%A6kni/</guid>
+      <guid>https://veldi.net/is/togg/minnist%C3%A6kni/</guid>
       <description></description>
     </item>
     <item>
       <title>Öryggi</title>
-      <link>https://veldi.net/is/tags/%C3%B6ryggi/</link>
+      <link>https://veldi.net/is/togg/%C3%B6ryggi/</link>
       <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://veldi.net/is/tags/%C3%B6ryggi/</guid>
+      <guid>https://veldi.net/is/togg/%C3%B6ryggi/</guid>
       <description></description>
     </item>
   </channel>

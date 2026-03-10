@@ -6,13 +6,20 @@
     <description>Recent content in Categories on veldi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Jan 2026 16:18:02 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://veldi.net/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Update</title>
       <link>https://veldi.net/categories/update/</link>
-      <pubDate>Mon, 12 Jan 2026 16:18:02 +0000</pubDate>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://veldi.net/categories/update/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Note</title>
+      <link>https://veldi.net/categories/note/</link>
+      <pubDate>Wed, 22 Oct 2025 10:26:41 +0000</pubDate>
+      <guid>https://veldi.net/categories/note/</guid>
       <description></description>
     </item>
     <item>

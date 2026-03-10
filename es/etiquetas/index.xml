@@ -6,97 +6,111 @@
     <description>Recent content in Etiquetas on veldi</description>
     <generator>Hugo</generator>
     <language>es</language>
-    <lastBuildDate>Mon, 12 Jan 2026 16:18:02 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://veldi.net/es/etiquetas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bitcoin</title>
-      <link>https://veldi.net/es/tags/bitcoin/</link>
-      <pubDate>Mon, 12 Jan 2026 16:18:02 +0000</pubDate>
-      <guid>https://veldi.net/es/tags/bitcoin/</guid>
+      <link>https://veldi.net/es/etiquetas/bitcoin/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/es/etiquetas/bitcoin/</guid>
       <description></description>
     </item>
     <item>
-      <title>Openbsd</title>
-      <link>https://veldi.net/es/tags/openbsd/</link>
-      <pubDate>Mon, 12 Jan 2026 16:18:02 +0000</pubDate>
-      <guid>https://veldi.net/es/tags/openbsd/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Programación</title>
-      <link>https://veldi.net/es/tags/programaci%C3%B3n/</link>
-      <pubDate>Mon, 12 Jan 2026 16:18:02 +0000</pubDate>
-      <guid>https://veldi.net/es/tags/programaci%C3%B3n/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Raspberrypi</title>
-      <link>https://veldi.net/es/tags/raspberrypi/</link>
-      <pubDate>Mon, 12 Jan 2026 16:18:02 +0000</pubDate>
-      <guid>https://veldi.net/es/tags/raspberrypi/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Softwarelibre</title>
-      <link>https://veldi.net/es/tags/softwarelibre/</link>
-      <pubDate>Mon, 12 Jan 2026 16:18:02 +0000</pubDate>
-      <guid>https://veldi.net/es/tags/softwarelibre/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Nostr</title>
-      <link>https://veldi.net/es/tags/nostr/</link>
-      <pubDate>Mon, 23 Jun 2025 12:58:46 +0000</pubDate>
-      <guid>https://veldi.net/es/tags/nostr/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Shell</title>
-      <link>https://veldi.net/es/tags/shell/</link>
-      <pubDate>Mon, 23 Jun 2025 12:58:46 +0000</pubDate>
-      <guid>https://veldi.net/es/tags/shell/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Rust</title>
-      <link>https://veldi.net/es/tags/rust/</link>
-      <pubDate>Mon, 16 Jun 2025 18:36:35 +0000</pubDate>
-      <guid>https://veldi.net/es/tags/rust/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Gohugo</title>
-      <link>https://veldi.net/es/tags/gohugo/</link>
-      <pubDate>Mon, 02 Jun 2025 12:19:43 +0000</pubDate>
-      <guid>https://veldi.net/es/tags/gohugo/</guid>
+      <title>C&#43;&#43;</title>
+      <link>https://veldi.net/es/etiquetas/c&#43;&#43;/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/es/etiquetas/c&#43;&#43;/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>https://veldi.net/es/tags/hugo/</link>
-      <pubDate>Mon, 02 Jun 2025 12:19:43 +0000</pubDate>
-      <guid>https://veldi.net/es/tags/hugo/</guid>
+      <link>https://veldi.net/es/etiquetas/hugo/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/es/etiquetas/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lightning</title>
+      <link>https://veldi.net/es/etiquetas/lightning/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/es/etiquetas/lightning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nostr</title>
+      <link>https://veldi.net/es/etiquetas/nostr/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/es/etiquetas/nostr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programación</title>
+      <link>https://veldi.net/es/etiquetas/programaci%C3%B3n/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/es/etiquetas/programaci%C3%B3n/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rust</title>
+      <link>https://veldi.net/es/etiquetas/rust/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/es/etiquetas/rust/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shell</title>
+      <link>https://veldi.net/es/etiquetas/shell/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/es/etiquetas/shell/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Softwarelibre</title>
+      <link>https://veldi.net/es/etiquetas/softwarelibre/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/es/etiquetas/softwarelibre/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Openbsd</title>
+      <link>https://veldi.net/es/etiquetas/openbsd/</link>
+      <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/es/etiquetas/openbsd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Raspberrypi</title>
+      <link>https://veldi.net/es/etiquetas/raspberrypi/</link>
+      <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/es/etiquetas/raspberrypi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gohugo</title>
+      <link>https://veldi.net/es/etiquetas/gohugo/</link>
+      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/es/etiquetas/gohugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Portátil</title>
-      <link>https://veldi.net/es/tags/port%C3%A1til/</link>
+      <link>https://veldi.net/es/etiquetas/port%C3%A1til/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://veldi.net/es/tags/port%C3%A1til/</guid>
+      <guid>https://veldi.net/es/etiquetas/port%C3%A1til/</guid>
       <description></description>
     </item>
     <item>
       <title>Mnemotécnicas</title>
-      <link>https://veldi.net/es/tags/mnemot%C3%A9cnicas/</link>
+      <link>https://veldi.net/es/etiquetas/mnemot%C3%A9cnicas/</link>
       <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://veldi.net/es/tags/mnemot%C3%A9cnicas/</guid>
+      <guid>https://veldi.net/es/etiquetas/mnemot%C3%A9cnicas/</guid>
       <description></description>
     </item>
     <item>
       <title>Seguridad</title>
-      <link>https://veldi.net/es/tags/seguridad/</link>
+      <link>https://veldi.net/es/etiquetas/seguridad/</link>
       <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://veldi.net/es/tags/seguridad/</guid>
+      <guid>https://veldi.net/es/etiquetas/seguridad/</guid>
       <description></description>
     </item>
   </channel>

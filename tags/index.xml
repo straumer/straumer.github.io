@@ -6,76 +6,90 @@
     <description>Recent content in Tags on veldi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Jan 2026 16:18:02 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://veldi.net/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bitcoin</title>
       <link>https://veldi.net/tags/bitcoin/</link>
-      <pubDate>Mon, 12 Jan 2026 16:18:02 +0000</pubDate>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://veldi.net/tags/bitcoin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C&#43;&#43;</title>
+      <link>https://veldi.net/tags/c&#43;&#43;/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/tags/c&#43;&#43;/</guid>
       <description></description>
     </item>
     <item>
       <title>Freesoftware</title>
       <link>https://veldi.net/tags/freesoftware/</link>
-      <pubDate>Mon, 12 Jan 2026 16:18:02 +0000</pubDate>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://veldi.net/tags/freesoftware/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Openbsd</title>
-      <link>https://veldi.net/tags/openbsd/</link>
-      <pubDate>Mon, 12 Jan 2026 16:18:02 +0000</pubDate>
-      <guid>https://veldi.net/tags/openbsd/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Programming</title>
-      <link>https://veldi.net/tags/programming/</link>
-      <pubDate>Mon, 12 Jan 2026 16:18:02 +0000</pubDate>
-      <guid>https://veldi.net/tags/programming/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Raspberrypi</title>
-      <link>https://veldi.net/tags/raspberrypi/</link>
-      <pubDate>Mon, 12 Jan 2026 16:18:02 +0000</pubDate>
-      <guid>https://veldi.net/tags/raspberrypi/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Nostr</title>
-      <link>https://veldi.net/tags/nostr/</link>
-      <pubDate>Mon, 23 Jun 2025 12:58:46 +0000</pubDate>
-      <guid>https://veldi.net/tags/nostr/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Shell</title>
-      <link>https://veldi.net/tags/shell/</link>
-      <pubDate>Mon, 23 Jun 2025 12:58:46 +0000</pubDate>
-      <guid>https://veldi.net/tags/shell/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Rust</title>
-      <link>https://veldi.net/tags/rust/</link>
-      <pubDate>Mon, 16 Jun 2025 18:36:35 +0000</pubDate>
-      <guid>https://veldi.net/tags/rust/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Gohugo</title>
-      <link>https://veldi.net/tags/gohugo/</link>
-      <pubDate>Mon, 02 Jun 2025 12:19:43 +0000</pubDate>
-      <guid>https://veldi.net/tags/gohugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
       <link>https://veldi.net/tags/hugo/</link>
-      <pubDate>Mon, 02 Jun 2025 12:19:43 +0000</pubDate>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://veldi.net/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lightning</title>
+      <link>https://veldi.net/tags/lightning/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/tags/lightning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nostr</title>
+      <link>https://veldi.net/tags/nostr/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/tags/nostr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>https://veldi.net/tags/programming/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/tags/programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rust</title>
+      <link>https://veldi.net/tags/rust/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/tags/rust/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shell</title>
+      <link>https://veldi.net/tags/shell/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/tags/shell/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Openbsd</title>
+      <link>https://veldi.net/tags/openbsd/</link>
+      <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/tags/openbsd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Raspberrypi</title>
+      <link>https://veldi.net/tags/raspberrypi/</link>
+      <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/tags/raspberrypi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gohugo</title>
+      <link>https://veldi.net/tags/gohugo/</link>
+      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/tags/gohugo/</guid>
       <description></description>
     </item>
     <item>

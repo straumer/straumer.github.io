@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C&#43;&#43; on veldi</title>
+    <link>https://veldi.net/tags/c&#43;&#43;/</link>
+    <description>Recent content in C&#43;&#43; on veldi</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://veldi.net/tags/c++/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Update: 2026-03-09</title>
+      <link>https://veldi.net/posts/note15ly04g3l694s2qsr2qptj68kxwywaamqqluccfw9g03j23krf7zszwq8es/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/posts/note15ly04g3l694s2qsr2qptj68kxwywaamqqluccfw9g03j23krf7zszwq8es/</guid>
+      <description>&lt;p&gt;It has been too long, but here I got a small update.&lt;/p&gt;&#xA;&lt;p&gt;I finished a few of the coding challenges of the BOSS challenge mentioned previously:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Make Bitcoin Core fail a singular unit test (C++)&lt;/li&gt;&#xA;&lt;li&gt;Signet Wallet 1: Calculate balance of a wallet using p2tr addresses (Rust)&lt;/li&gt;&#xA;&lt;li&gt;Signet Wallet 2: Create a transaction to spend to a 2-of-2 multisig, and another to spend from the multisig to an OP_RETURN (Rust)&lt;/li&gt;&#xA;&lt;li&gt;Select coins from a wallet for a list of transactions with a certain minimum fee efficiency (Rust)&lt;/li&gt;&#xA;&lt;li&gt;Basic lnd lightning setup and testing funding and sending (Shell)&lt;/li&gt;&#xA;&lt;li&gt;Build a lightning route, accounting for fees and CLTV deltas (Rust)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;I&amp;rsquo;m pretty satisfied with what I learned. The latter part of the program includes learning with cohorts and such, but I veered off to try to initiate two projects that can hopefully let people statically generate a website from their Nostr events with Hugo more easily and avoid pesky javascript in the browser, which I love to hate. I&amp;rsquo;m now using those to generate my site:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/straumer/huno&#34; title=&#34;&#34;&gt;https://github.com/straumer/huno&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/straumer/hugo-nostr&#34; title=&#34;&#34;&gt;https://github.com/straumer/hugo-nostr&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

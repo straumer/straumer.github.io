@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bitcoin on veldi</title>
+    <link>https://veldi.net/is/togg/bitcoin/</link>
+    <description>Recent content in Bitcoin on veldi</description>
+    <generator>Hugo</generator>
+    <language>is</language>
+    <lastBuildDate>Mon, 09 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://veldi.net/is/togg/bitcoin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tíðindi: 2026-03-09</title>
+      <link>https://veldi.net/is/faerslur/note1ka6qkj6ulf4qlr3suwl2eu7jhx773m5eff4fcrsukwaymy3qwpjqtg6hxr/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/is/faerslur/note1ka6qkj6ulf4qlr3suwl2eu7jhx773m5eff4fcrsukwaymy3qwpjqtg6hxr/</guid>
+      <description>&lt;p&gt;Það er búið að líða allt of langur tími, en hérna er ég með smá innlegg.&lt;/p&gt;&#xA;&lt;p&gt;Ég kláraði nokkrar kóðunarkáskoranir BOSS áskorunarinnar sem ég nefndi hér áður:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Láta aðeins eina Bitcoin Core einingaprufu falla (C++)&lt;/li&gt;&#xA;&lt;li&gt;Signet Veski 1: Reikna heildarupphæð í veski sem notar p2tr vistföng (Rust)&lt;/li&gt;&#xA;&lt;li&gt;Signet Veski 2: Búa til færslu sem sendir pening á 2-af-2 multisig og aðra sem sendir þann pening og býr til OP_RETURN (Rust)&lt;/li&gt;&#xA;&lt;li&gt;Velja myntir úr veski fyrir lista af færslum sem á að gera með sendingargjaldi undir ákveðnu lágmarki (Rust)&lt;/li&gt;&#xA;&lt;li&gt;Einföld lnd lightning uppsetning og prufun á að fjármagna og senda (Shell)&lt;/li&gt;&#xA;&lt;li&gt;Búa til lightning leið þar sem gjöld og CLTV tímaskeið eru hafð í huga (Rust)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Ég er bara sáttur við það sem ég lærði þarna. Síðari hluti þessarrar dagskrár innifelur frekari lærdóm með fólki innan þessa geira, en ég fór í að byrja tvö verkefni sem vonandi gerir fólki kleift að framleiða vefsíðu úr Nostr gögnunum sínum með Hugo &amp;ldquo;static site generator&amp;rdquo; á auðveldari hátt og forðast leiðinlegt javascript í vefvafranum, sem er eitthvað sem ég elska að hata. Ég nota þau núna til að framleiða vefsíðuna mína:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/straumer/huno&#34; title=&#34;&#34;&gt;https://github.com/straumer/huno&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/straumer/hugo-nostr&#34; title=&#34;&#34;&gt;https://github.com/straumer/hugo-nostr&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tíðindi: 2026-01-12</title>
+      <link>https://veldi.net/is/faerslur/note1mtfnk2wpdq5r7wz99ay9pkytx78pylvyasfm66hc5dcn0p4aqsfq7kh609/</link>
+      <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/is/faerslur/note1mtfnk2wpdq5r7wz99ay9pkytx78pylvyasfm66hc5dcn0p4aqsfq7kh609/</guid>
+      <description>&lt;p&gt;Ég byrjaði nýja árið á að takast að setja upp síðustu OpenBSD skyndimyndina á Raspberry Pi 5 nú þegar ég er kominn með Rpi kembikanna. OpenBSD 7.8 uppsetningarforritið náði ekki að ræsa sig, sem virðist vera vegna þess að mín Pi er módel B og þessvegna notaði ég skyndimynd. Það er flott að þetta hófst loksins og að vera vitni af framförum í stýrikerfinu sjálfu. Ræsingarforrit OpenBSD, U-Boot, styður ekki við ræsingu með USB á Rpi5, þannig að ég ræsti það með miniroot uppsetningarforritinu á SD-korti og notaði það til að setja upp OpenBSD á þessu sama korti, en mér finnst nokkuð töff að hægt er að gera slíkt. Miniroot er tekur nógu lítið pláss til að passa í minnstu vinnsluminni og getur þessvegna yfirskrifað SD-kortið sem það kemur frá upprunalega. Skráarsöfnin voru tekin af USB lykli sem inniheldur fullbúið uppsetningarforrit. Þannig núna keyrir stýrikerfið en nær ekki að tengjast þráðlaust við internetið. Það hefur eitthvað með dhcpleased að gera en það er ekki að virka rétt. Ég mun fylgjast með frekari skyndimyndum til að sjá hvort það lagist.&lt;/p&gt;&#xA;&lt;p&gt;Ég hef verið að kafa dýpra í tæknilegu hlið Bitcoin fyrst að mér finnst það vera fíllinn í herberginu þegar kemur að veldiseflandi tækni. Þannig þegar ég sá Bitcoin Open Source Software áskorunina ákvað ég að taka tækifærið og taka þátt. Þetta er að byrja í dag: &lt;a href=&#34;https://bosschallenge.xyz/&#34; title=&#34;&#34;&gt;https://bosschallenge.xyz/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tíðindi: 2025-10-27</title>
+      <link>https://veldi.net/is/faerslur/note1kxvm8mcs7hufqs87v6drg5pqw24htttvf07jsq3v846mm3pewueqc559cw/</link>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/is/faerslur/note1kxvm8mcs7hufqs87v6drg5pqw24htttvf07jsq3v846mm3pewueqc559cw/</guid>
+      <description>&lt;p&gt;Ég hef verið í smá pásu frá því að setja inn færslur fyrst ég var að flytja og betrumbæta heimaskrifstofuna mína ásamt öðru. Hér skrifa ég á gamla góða planck lyklaborðið mitt í góðu yfirlæti nú þegar ég er kominn aftur með afmennilegan tölvuskjá.&lt;/p&gt;&#xA;&lt;p&gt;OpenBSD 7.8 kom út nýlega með stuðning við Raspberry Pi 5. Eins og stendur er ekki stuðningur við HDMI þannig ég verð að tengjast stjórnborðinu með raðtengi á mínu Pi 5. Ég er að bíða eftir að USB í TTL kapall komi til mín sem virðist eiga að gera mér það kleift. Ég hugsaði að það gæti líka komið mér að gagni síðar meir ef ég vil gera eitthvað meira með ígreipt kerfi. Mig langar virkilega að sjá hversu mikið þetta stýrikerfi getur gert af því sem ég hef í huga.&lt;/p&gt;&#xA;&lt;p&gt;Hér er einn hlekkur sem mig langar að sýna aftur, bara af því að ég er ánægður með myndbandið sem hann leiðir á, en það er það fyrsta sinnar tegundar sem útskýrir vel Bitcoin á íslensku: &lt;a href=&#34;https://youtu.be/TrnKcg-3mgM&#34; title=&#34;&#34;&gt;https://youtu.be/TrnKcg-3mgM&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

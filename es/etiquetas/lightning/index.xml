@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lightning on veldi</title>
+    <link>https://veldi.net/es/etiquetas/lightning/</link>
+    <description>Recent content in Lightning on veldi</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 09 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://veldi.net/es/etiquetas/lightning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Novedad: 2026-03-09</title>
+      <link>https://veldi.net/es/postes/note1w8z82fwpgkq5k6pukxq8qkqmh4nefcw6wdxzpvqjg2y9azdgdkzsgg0rw3/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/es/postes/note1w8z82fwpgkq5k6pukxq8qkqmh4nefcw6wdxzpvqjg2y9azdgdkzsgg0rw3/</guid>
+      <description>&lt;p&gt;Ha pasado demasiado tiempo, pero aquí tengo una pequeña novedad.&lt;/p&gt;&#xA;&lt;p&gt;Terminé algunos de los retos de codificación del reto BOSS que mencioné antes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Hacer Bitcoin Core fallar una sola prueba de unidad (C++)&lt;/li&gt;&#xA;&lt;li&gt;Cartera Signet 1: Calcular el balance de una cartera usando direcciones p2tr (Rust)&lt;/li&gt;&#xA;&lt;li&gt;Cartera Signet 2: Crear una transacción para pagar a 2-de-2 multifirma, y otra para pagar de la multifirma a OP_RETURN (Rust)&lt;/li&gt;&#xA;&lt;li&gt;Seleccionar monedas de una cartera de una lista de transacciones con cierta eficiencia mínima de la tasa (Rust)&lt;/li&gt;&#xA;&lt;li&gt;Setup básico de lightning con lnd y prueba de financiamiento y envío (Shell)&lt;/li&gt;&#xA;&lt;li&gt;Crear una ruta lightning, dando cuentas de las tasas y los periodos de tiempo CLTV (Rust)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Estoy relativamente satisfecho con lo que he aprendido. El segundo parte del programa incluye aprender con cohortes y tal, pero me fui para iniciar dos proyectos que ojalá permite a la gente estáticamente generar páginas de web de sus eventos Nostr con Hugo con más fácilidad y evitar javascript en el navegador, lo que me encanta odiar. Ya estoy usando esos para generar mi sitio:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/straumer/huno&#34; title=&#34;&#34;&gt;https://github.com/straumer/huno&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/straumer/hugo-nostr&#34; title=&#34;&#34;&gt;https://github.com/straumer/hugo-nostr&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

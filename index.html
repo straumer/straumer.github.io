@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
 <head>
-	<meta name="generator" content="Hugo 0.152.2">
+	<meta name="generator" content="Hugo 0.156.0">
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 
@@ -17,15 +17,13 @@
   <header>
     <div>
   
-  <a href="https://veldi.net/"><img id="header-img" src="/img/533558c4e411dc97ebcfd07e9f078c64cac3d66d6c5a41b3f3abfd6f3b97262e.webp"></a>
+  <a href="https://veldi.net/"><img id="header-img" src="/533558c4e411dc97ebcfd07e9f078c64cac3d66d6c5a41b3f3abfd6f3b97262e_18445979771300378060.webp"></a>
   <div id="header-text">
     <h3><a href="https://veldi.net/">veldi</a></h3>
     <ul>
       <li>Matthías Ragnarsson</li>
       <li><a href="mailto:matt@netveldi.com">matt@netveldi.com</a> (<a href="/netveldi_email_key.asc">PGP</a>)</li>
-      
-        <li><a href="nostr:nprofile1qqs8wtdnlp3l6etarhet8mhuv7q40p9xs7hjzm806kkq7n59dzax3dqpz3mhxue69uhkummnw3ezummcw3ezuer9wcqs6amnwvaz7tmwdaejumr0dsqs7amnwvaz7tmwdaehgu3wd4hk687a4pw">nprofile</a> / <a href="https://njump.me/nprofile1qqs8wtdnlp3l6etarhet8mhuv7q40p9xs7hjzm806kkq7n59dzax3dqpz3mhxue69uhkummnw3ezummcw3ezuer9wcqs6amnwvaz7tmwdaejumr0dsqs7amnwvaz7tmwdaehgu3wd4hk687a4pw">Njump</a></li>
-      
+        <li><a href="nostr:nprofile1qqs8wtdnlp3l6etarhet8mhuv7q40p9xs7hjzm806kkq7n59dzax3dqt4yuyj">nprofile</a> / <a href="https://njump.me/nprofile1qqs8wtdnlp3l6etarhet8mhuv7q40p9xs7hjzm806kkq7n59dzax3dqt4yuyj">Njump</a></li>
     </ul>
   </div>
 </div>
@@ -61,63 +59,74 @@
       
   
   
+  
     
     
-    <h2><a href="/posts/note1fvd02z5hr6uefryrh0t8e5tu48wral68e2s043e9au4nc952n56s9pn60e/">Update: note1fvd:6s9pn60e</a></h2>
-    <code><time datetime="2026-01-12T16:18:02&#43;00:00">January 12, 2026</time></code>
+    <h2><a href="/posts/note15ly04g3l694s2qsr2qptj68kxwywaamqqluccfw9g03j23krf7zszwq8es/">Update: 2026-03-09</a></h2>
+    <code><time datetime="2026-03-09T00:00:00&#43;00:00">March 9, 2026</time></code>
+    <p>It has been too long, but here I got a small update.</p>
+<p>I finished a few of the coding challenges of the BOSS challenge mentioned previously:</p>
+<ul>
+<li>Make Bitcoin Core fail a singular unit test (C++)</li>
+<li>Signet Wallet 1: Calculate balance of a wallet using p2tr addresses (Rust)</li>
+<li>Signet Wallet 2: Create a transaction to spend to a 2-of-2 multisig, and another to spend from the multisig to an OP_RETURN (Rust)</li>
+<li>Select coins from a wallet for a list of transactions with a certain minimum fee efficiency (Rust)</li>
+<li>Basic lnd lightning setup and testing funding and sending (Shell)</li>
+<li>Build a lightning route, accounting for fees and CLTV deltas (Rust)</li>
+</ul>
+<p>I&rsquo;m pretty satisfied with what I learned. The latter part of the program includes learning with cohorts and such, but I veered off to try to initiate two projects that can hopefully let people statically generate a website from their Nostr events with Hugo more easily and avoid pesky javascript in the browser, which I love to hate. I&rsquo;m now using those to generate my site:</p>
+<p><a href="https://github.com/straumer/huno" title="">https://github.com/straumer/huno</a></p>
+<p><a href="https://github.com/straumer/hugo-nostr" title="">https://github.com/straumer/hugo-nostr</a></p>
+  
+    
+    
+    <h2><a href="/posts/note1dvph9njqlnlt5rfx4e9fs92fyr5vs0lfaharpehr92egr3ylzuask4sj6m/">Update: 2026-01-12</a></h2>
+    <code><time datetime="2026-01-12T00:00:00&#43;00:00">January 12, 2026</time></code>
     <p>I started the new year by successfully installing the most recent OpenBSD snapshot on Raspberry Pi 5 now that I have my Rpi Debug Probe. The OpenBSD 7.8 installer would not boot, which seems to be because my Pi is model B, so that&rsquo;s why the snapshot. I&rsquo;m happy to see progress and to witness the progress going on in OpenBSD itself. The bootloader for OpenBSD, U-Boot, does not support booting via USB yet on Pi5, so I booted via the miniroot install medium via sdcard and used it to install OpenBSD to that same sdcard, which I find pretty neat that you can do that. Miniroot is tiny enough to be loaded in its entirety into the smallest memory and thus it can overwrite the sdcard it just came from. The file sets were retrieved from a USB drive with the full install medium. So now it runs, but I can&rsquo;t connect it wirelessly to the internet. It has something to do with dhcpleased not working correctly. I&rsquo;ll be monitoring for further snapshots to see if it gets fixed.</p>
 <p>For a while now, I have been getting my head deeper into the technical details of Bitcoin since I see it as the elephant in the room when it comes to empowering technology nowadays. So when I saw the Bitcoin Open Source Software (BOSS) challenge I decided to take the opportunity and participate. It&rsquo;s kicking off today: <a href="https://bosschallenge.xyz/" title="">https://bosschallenge.xyz/</a></p>
   
     
     
-    <h2><a href="/posts/note19vlcfne9pv6wkv92nn783q2tu90v0dvtqnry7rpjcrpm63n6z8fqpj4auu/">Update: note19vl:fqpj4auu</a></h2>
-    <code><time datetime="2025-12-15T20:52:03&#43;00:00">December 15, 2025</time></code>
+    <h2><a href="/posts/note1t96dxe23vmhrxfuac67l9pzc89984cc8w9c0en234vzg0mvwgtqsndfdvz/">Update: 2025-12-15</a></h2>
+    <code><time datetime="2025-12-15T00:00:00&#43;00:00">December 15, 2025</time></code>
     <p>Turns out OpenBSD 7.8 must be installed on the Raspberry Pi 5 over the serial console via the debug connector and not the GPIO pins, which I didn&rsquo;t find out until I rummaged through the OpenBSD mailing lists after the console wouldn&rsquo;t show up on boot. I thus ordered a Rpi Debug Probe which connects to the debug connector of the Rpi5 and connects to my laptop via USB. I could&rsquo;ve gotten an adaptor for the USB to TTL cable I had previously gotten, but I figured it could serve to have a more complete feature set for embedded development for possible future tinkering. I&rsquo;ll need to wait some weeks for it to arrive since people don&rsquo;t seem to be importing it to my tiny land of ice.</p>
   
     
     
-    <h2><a href="/posts/note10k83lh5w6ry2rkv9gyed6sqc63r4avk524f7gj50hnsmel0kacmqmwy39q/">Update: note10k8:mqmwy39q</a></h2>
-    <code><time datetime="2025-10-27T18:19:03&#43;00:00">October 27, 2025</time></code>
+    <h2><a href="/posts/note1w4ck84rj9gx8mk2t4epacf2h4w3dkvarsdryw52shngnhe22kw8qytrahr/">Update: 2025-10-27</a></h2>
+    <code><time datetime="2025-10-27T00:00:00&#43;00:00">October 27, 2025</time></code>
     <p>I&rsquo;ve had a bit of a pause getting updates in since I&rsquo;ve been moving, improving my home office/lab setup among other things. Feeling comfy now clickity clacking on my good old planck keyboard now that I got a proper monitor again.</p>
 <p>OpenBSD version 7.8 came out recently with preliminary support for Raspberry Pi 5. For now there&rsquo;s limited HDMI support, so I&rsquo;ll need to access the serial console port on my Pi 5 instead. I&rsquo;m waiting for the USB to TTL cable to arrive which supposedly will allow me to do that. I figured it could be useful later also for any embedded stuff that I might want to do. I really want to see how far I can push this OS to do what I want.</p>
 <p>Another thing I want to link again, just cause I&rsquo;m happy about it, is the first proper video that I&rsquo;ve seen that explains Bitcoin in Icelandic: <a href="https://youtu.be/TrnKcg-3mgM" title="">https://youtu.be/TrnKcg-3mgM</a></p>
   
     
     
-    <h2><a href="/posts/note10k83lh5w6ry2rkv9gyed6sqc63r4avk524f7gj50hnsmel0kacmqmwy39q/">Update: note10k8:mqmwy39q</a></h2>
-    <code><time datetime="2025-10-27T18:19:03&#43;00:00">October 27, 2025</time></code>
-    <p>I&rsquo;ve had a bit of a pause getting updates in since I&rsquo;ve been moving, improving my home office/lab setup among other things. Feeling comfy now clickity clacking on my good old planck keyboard now that I got a proper monitor again.</p>
-<p>OpenBSD version 7.8 came out recently with preliminary support for Raspberry Pi 5. For now there&rsquo;s limited HDMI support, so I&rsquo;ll need to access the serial console port on my Pi 5 instead. I&rsquo;m waiting for the USB to TTL cable to arrive which supposedly will allow me to do that. I figured it could be useful later also for any embedded stuff that I might want to do. I really want to see how far I can push this OS to do what I want.</p>
-<p>Another thing I want to link again, just cause I&rsquo;m happy about it, is the first proper video that I&rsquo;ve seen that explains Bitcoin in Icelandic: <a href="https://youtu.be/TrnKcg-3mgM" title="">https://youtu.be/TrnKcg-3mgM</a></p>
-  
-    
-    
-    <h2><a href="/posts/note1urvqkm2qeanwhcr469v260w80thqjgqwdza3m8x0253em65vj26skyheem/">Update: note1urv:6skyheem</a></h2>
-    <code><time datetime="2025-06-23T12:58:46&#43;00:00">June 23, 2025</time></code>
+    <h2><a href="/posts/note1fmatmes3ptkqyzhvxcgr049jxa6jqe6vqgfz4zazgqetww24m3lsjftapf/">Update: 2025-06-23</a></h2>
+    <code><time datetime="2025-06-23T00:00:00&#43;00:00">June 23, 2025</time></code>
     <p>Hope you all had a good week. One activity that I did was to publish my updates on pubstr, which includes a SOCKS5 proxy option and the generation of NIP-19 entities for events. Yes, it&rsquo;s the script I mentioned in my previous update: <a href="https://github.com/straumer/pubstr" title="">https://github.com/straumer/pubstr</a></p>
   
     
     
-    <h2><a href="/posts/note18kmf44plt2c957ccu68pkd0p0fkn93nr7rj6u8nnl5ye6uyt6pesdhjsat/">Update: note18km:esdhjsat</a></h2>
-    <code><time datetime="2025-06-16T18:36:35&#43;00:00">June 16, 2025</time></code>
+    <h2><a href="/posts/note1ulc58tr7v4m08kke9e40h86pf9ty35z7y5w3saqjynka8u9pca6q5vyns4/">Update: 2025-06-16</a></h2>
+    <code><time datetime="2025-06-16T00:00:00&#43;00:00">June 16, 2025</time></code>
     <p>I made nec, a small cli tool to convert between json and bech32 representations of NIP-19 Nostr entities. It&rsquo;s a more complete alternative to the key-convertr tool that I was using before. I used nec in a script to create more useful Nostr links on my website: <a href="https://github.com/straumer/nec" title="">https://github.com/straumer/nec</a></p>
   
     
     
-    <h2><a href="/posts/note17g9ptvpjdz5ukzydays4pdwc4wdhj3a62sctl7tpr6fjh9e57tjszm6lgl/">Update: note17g9:jszm6lgl</a></h2>
-    <code><time datetime="2025-06-02T12:19:43&#43;00:00">June 2, 2025</time></code>
+    <h2><a href="/posts/note1xxhk0fj6sm0tt36ay3tk6pcx67yev45fcg4x7nqrhk56zmzx3hpqsahegu/">Update: 2025-06-02</a></h2>
+    <code><time datetime="2025-06-02T00:00:00&#43;00:00">June 2, 2025</time></code>
     <p>About 6 months ago I had made my own rudimentary static site generator that generated my website with blogging functionality. Then I started learning more about Nostr and figured it would be more empowering to instead use Nostr as my single source of truth. I still needed a website, so I made some basic tooling and workflow to statically generate a website from my Nostr events. This time I opted to use Hugo for the site generation. Making my own generator was a nice learning experience though and definitely gives me more appreciation for the heavy lifting that Hugo can do for me now. I was also conscious that an easy and flexible way to generate a website from Nostr events is something that doesn&rsquo;t exist yet, so I&rsquo;m making a reusable Hugo module along with the development of my site: <a href="https://github.com/straumer/hugo-nostr" title="">https://github.com/straumer/hugo-nostr</a></p>
 <p>Happy to have my site up again. 😀</p>
   
     
     
-    <h2><a href="/posts/note1c4eq7vmvhca02uxvdk4rnwlhjmev6t9m7rcypgahchr4fe68cmkqgcc460/">Update: note1c4e:kqgcc460</a></h2>
+    <h2><a href="/posts/note19w6r6fawh52pj5lfr0wy99hgmukwpct0jul2pdyht84vnrzyqpcq8vppzm/">Update: 2024-11-25</a></h2>
     <code><time datetime="2024-11-25T00:00:00&#43;00:00">November 25, 2024</time></code>
     <p>Following up on my update from a month ago, I ended up getting one of those V54 NovaCustom laptops: <a href="https://novacustom.com/product/v54-series/" title="">https://novacustom.com/product/v54-series/</a>. I had 4 possible OSes in mind for this laptop, ordered by priority as OpenBSD &gt; Void Linux &gt; Parabola Linux &gt; Archlinux. The hardware is newer than that of NV41, so there was a good chance some of those OSes wouldn&rsquo;t run on it, but I was sure at least Archlinux would, which I consider good enough until the others catch up. The OpenBSD installer froze on startup and Void and Parabola have their officially supported kernel versions below the required version of 6.9, so Archlinux, which I&rsquo;ve used since 2011 is the choice for now.</p>
   
     
     
-    <h2><a href="/posts/note1etn264rcsns8ec5jaursv9vq3p77s6yckfqts9gclapzqvjyfsmskpwt33/">Update: note1etn:mskpwt33</a></h2>
+    <h2><a href="/posts/note1qh7v84zu7xhehc7yvrlc4twah23e3aux0l68hyawyrlqh5507dssg9q48d/">Update: 2024-11-18</a></h2>
     <code><time datetime="2024-11-18T00:00:00&#43;00:00">November 18, 2024</time></code>
     <p>Added an atom feed for the frontpage of each language version of my website in the footer.</p>
   
@@ -125,24 +134,24 @@
     
     <h2><a href="/posts/random-password-memorization-with-pao/">Random password memorization with PAO</a></h2>
     <code><time datetime="2024-11-12T00:00:00&#43;00:00">November 12, 2024</time></code>
-    <p>As a person who&rsquo;s quite interested in information security, I like to play mental games that involve the imagination of threats and how one could establish and improve one&rsquo;s defenses against them in case they materialize. One important case to consider is: What would happen if one loses all one&rsquo;s possessions to the point of being practically naked in the street or wherever. In this case, all of our data outside of our minds, be they digital or written, would disappear. We want to make sure that the response to this question is that nothing would happen and that we would stoically continue on like a recently arrived Terminator. Normally it&rsquo;s possible to leave data backups with third parties, but here I talk in the context of individuals that want maximum security, where they are the only ones that should have the power to access the contained data. This case requires the encryption of the data with a random password that is difficult to remember without memory techniques. To this purpose I dedicate this article where I explain my application of the <a href="https://artofmemory.com/blog/pao-system/" title="">PAO</a> memory technique for readable <a href="https://en.wikipedia.org/wiki/ASCII" title="">ASCII</a> symbols.</p>
+    As a person who&rsquo;s quite interested in information security, I like to play mental games that involve the imagination of threats and how one could establish and improve one&rsquo;s defenses against them in case they materialize. One important case to consider is: What would happen if one loses all one&rsquo;s possessions to the point of being practically naked in the street or wherever. In this case, all of our data outside of our minds, be they digital or written, would disappear. We want to make sure that the response to this question is that nothing would happen and that we would stoically continue on like a recently arrived Terminator. Normally it&rsquo;s possible to leave data backups with third parties, but here I talk in the context of individuals that want maximum security, where they are the only ones that should have the power to access the contained data. This case requires the encryption of the data with a random password that is difficult to remember without memory techniques. To this purpose I dedicate this article where I explain my application of the <a href="https://artofmemory.com/blog/pao-system/" title="">PAO</a> memory technique for readable <a href="https://en.wikipedia.org/wiki/ASCII" title="">ASCII</a> symbols.
   
     
     
-    <h2><a href="/posts/note1snxzhmft0xnh7memv82juhxuuemx8v77khv8ztmrunu5u4dayk4s5mj40d/">Update: note1snx:4s5mj40d</a></h2>
+    <h2><a href="/posts/note18uk5vzf4varqqtz99f529zjhhsc0ydy9jqv0fmxghxy8v3gt50yqc0qdtj/">Update: 2024-10-28</a></h2>
     <code><time datetime="2024-10-28T00:00:00&#43;00:00">October 28, 2024</time></code>
     <p>I find it important to continuously refine my laptop&rsquo;s security posture for myself and by extent the security of the projects that I work on for my clients. Recently I&rsquo;ve been keeping an eye out for a new laptop. Last time I did so, in 2021, I ended up with a Thinkpad X200: <a href="https://en.wikipedia.org/wiki/ThinkPad_X_series#X200_and_X200s" title="">https://en.wikipedia.org/wiki/ThinkPad_X_series#X200_and_X200s</a>. The reason I did was that it was one of the few available RYF certified laptops that Libreboot could run on, and those laptops don&rsquo;t have any Intel Management Engine (a security concern) on their chips. One reason to look at other options is that the laptop shuts down due to overheating or freezes sometimes when it&rsquo;s working hard. I could put in time to try to fix it, but it&rsquo;ll be hard to reach 100% confidence that it doesn&rsquo;t turn off in important video calls. Another reason is to get a higher end CPU, GPU and RAM capacity for local AI training that I may want to do. I still got my Thinkpad T440s for when it&rsquo;s important the computer doesn&rsquo;t crash. It&rsquo;s however not ideal for AI workloads, contains working IME and its firmware is locked with Intel Boot Guard so I can&rsquo;t replace it with a free alternative. Long-story short, I narrowed my laptop search down to NovaCustom: <a href="https://novacustom.com/cat/custom-laptop/" title="">https://novacustom.com/cat/custom-laptop/</a>. They have the option of disabling the IME and run Coreboot which seems like it could be an acceptable compromise. I want to try running OpenBSD as my main OS (I&rsquo;m currently on Parabola) and I saw a positive review on running OpenBSD on the NovaCustom NV41 laptop which bodes well: <a href="https://dataswamp.org/~solene/2024-01-03-laptop-review-novacustom-nv41.html#_OpenBSD" title="">https://dataswamp.org/~solene/2024-01-03-laptop-review-novacustom-nv41.html#_OpenBSD</a>. I&rsquo;ll mull this over some more before making a decision.</p>
   
     
     
-    <h2><a href="/posts/note1kk5vp30w05jw4c4rj5zy6ne2qgjah8nm9eyjw0tj6hrf9qyrqwnsf0tc6z/">Update: note1kk5:nsf0tc6z</a></h2>
+    <h2><a href="/posts/note1y3qny3xqzrfnzcj3ru0ehj6za5qkz6je7yrnhjx5zllxa4nr733q7gq8y9/">Update: 2024-10-21</a></h2>
     <code><time datetime="2024-10-21T00:00:00&#43;00:00">October 21, 2024</time></code>
     <p>Almost finished defining my PAO memory system for all readable ASCII characters. I&rsquo;ll use it to remember random ASCII passwords for my encrypted data backups. Been meaning to complete that for a while now. More on that later.</p>
 <p>Read chapter 11 of the Rust book.</p>
   
     
     
-    <h2><a href="/posts/note1k2upscct4ha5nnm78q5ka5q47m53n92uvpnjsq777sfznvyxngxqgaed8v/">Update: note1k2u:xqgaed8v</a></h2>
+    <h2><a href="/posts/note1f8auh895xmhycy3g4rhza5jx4qmn03wxgdukfhtd445z98aytc5qhgvg40/">Update: 2024-10-14</a></h2>
     <code><time datetime="2024-10-14T00:00:00&#43;00:00">October 14, 2024</time></code>
     <p>I went to a network security conference of the Electronic Communications Office of Iceland. I got some insight into what companies in Iceland are dealing with in that area nowadays as well as the new NIS2 EU directive that they are expected to need to comply with. Disconnect between company leadership and their IT departments was a big topic and the need for deeper collaboration between them to improve the company&rsquo;s information security posture. I think IT people really benefit from knowledge of business administration in this regard. It lets them recognize the responsibilities and perspective of the leadership in order to effectively communicate security risks and lets the leadership take responsibility for them.</p>
 <p>I&rsquo;ve been working more on my makesite static site generator alongside the updating of this site which is generated with it. Among the reasons of making it is that I thought it would be a nice project to cement my knowledge of make, m4 and the shell. Those are pretty commonly used in C/C++ build systems of projects I&rsquo;d like to participate in. The repo: <a href="https://github.com/straumer/makesite" title="">https://github.com/straumer/makesite</a></p>
@@ -150,7 +159,7 @@
   
     
     
-    <h2><a href="/posts/note1dkyd2ylkzyexs96wun996d69enwplnypusycj5luh570ae0dpd3s4ykwsl/">Update: note1dky:3s4ykwsl</a></h2>
+    <h2><a href="/posts/note1p70l4gxk3ez7uwpzx4vf4s2v9m6ksehv8xrjphjjm4zsyhhvmfcsfwz4ml/">Update: 2024-10-07</a></h2>
     <code><time datetime="2024-10-07T00:00:00&#43;00:00">October 7, 2024</time></code>
     <p>Added Services and Updates sections to this site and updated the About section.</p>
 <p>I decided to learn Rust programming, since I would like to participate in various projects that use it. Finished reading chapters 1-5 of the Rust book: <a href="https://doc.rust-lang.org/book/" title="">https://doc.rust-lang.org/book/</a>.</p>
@@ -159,7 +168,7 @@
     
     <h2><a href="/posts/free-software-comes-first/">Free software comes first</a></h2>
     <code><time datetime="2024-09-19T00:00:00&#43;00:00">September 19, 2024</time></code>
-    <p>All of us use electronic equipment to interact and let information flow between us for our benefit. The more we depend on that equipment in our activities, the more important it is to understand some fundamental aspects of the digital world in order to stay empowered in the long run. One very important aspect, the one I talk about in this article, has to do with our choice of software with respect to its license and the accessibility of its source code. Software includes applications, operating systems and other digital tools. Once we are concious of certain human dynamics in the creation of software, we can adopt principles and practices to live more empowered. This article is for users of software, not software developers, but it is necessary to mention important points from the perspective of the software developer in order to better choose our software.</p>
+    All of us use electronic equipment to interact and let information flow between us for our benefit. The more we depend on that equipment in our activities, the more important it is to understand some fundamental aspects of the digital world in order to stay empowered in the long run. One very important aspect, the one I talk about in this article, has to do with our choice of software with respect to its license and the accessibility of its source code. Software includes applications, operating systems and other digital tools. Once we are concious of certain human dynamics in the creation of software, we can adopt principles and practices to live more empowered. This article is for users of software, not software developers, but it is necessary to mention important points from the perspective of the software developer in order to better choose our software.
   
 
     </div>

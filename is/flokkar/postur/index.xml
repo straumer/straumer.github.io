@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Póstur on veldi</title>
+    <link>https://veldi.net/is/flokkar/postur/</link>
+    <description>Recent content in Póstur on veldi</description>
+    <generator>Hugo</generator>
+    <language>is</language>
+    <atom:link href="https://veldi.net/is/flokkar/postur/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

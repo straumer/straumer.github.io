@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tíðindi on veldi</title>
+    <link>https://veldi.net/is/flokkar/t%C3%AD%C3%B0indi/</link>
+    <description>Recent content in Tíðindi on veldi</description>
+    <generator>Hugo</generator>
+    <language>is</language>
+    <lastBuildDate>Mon, 09 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://veldi.net/is/flokkar/t%C3%AD%C3%B0indi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tíðindi: 2026-03-09</title>
+      <link>https://veldi.net/is/faerslur/note1ka6qkj6ulf4qlr3suwl2eu7jhx773m5eff4fcrsukwaymy3qwpjqtg6hxr/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/is/faerslur/note1ka6qkj6ulf4qlr3suwl2eu7jhx773m5eff4fcrsukwaymy3qwpjqtg6hxr/</guid>
+      <description>&lt;p&gt;Það er búið að líða allt of langur tími, en hérna er ég með smá innlegg.&lt;/p&gt;&#xA;&lt;p&gt;Ég kláraði nokkrar kóðunarkáskoranir BOSS áskorunarinnar sem ég nefndi hér áður:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Láta aðeins eina Bitcoin Core einingaprufu falla (C++)&lt;/li&gt;&#xA;&lt;li&gt;Signet Veski 1: Reikna heildarupphæð í veski sem notar p2tr vistföng (Rust)&lt;/li&gt;&#xA;&lt;li&gt;Signet Veski 2: Búa til færslu sem sendir pening á 2-af-2 multisig og aðra sem sendir þann pening og býr til OP_RETURN (Rust)&lt;/li&gt;&#xA;&lt;li&gt;Velja myntir úr veski fyrir lista af færslum sem á að gera með sendingargjaldi undir ákveðnu lágmarki (Rust)&lt;/li&gt;&#xA;&lt;li&gt;Einföld lnd lightning uppsetning og prufun á að fjármagna og senda (Shell)&lt;/li&gt;&#xA;&lt;li&gt;Búa til lightning leið þar sem gjöld og CLTV tímaskeið eru hafð í huga (Rust)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Ég er bara sáttur við það sem ég lærði þarna. Síðari hluti þessarrar dagskrár innifelur frekari lærdóm með fólki innan þessa geira, en ég fór í að byrja tvö verkefni sem vonandi gerir fólki kleift að framleiða vefsíðu úr Nostr gögnunum sínum með Hugo &amp;ldquo;static site generator&amp;rdquo; á auðveldari hátt og forðast leiðinlegt javascript í vefvafranum, sem er eitthvað sem ég elska að hata. Ég nota þau núna til að framleiða vefsíðuna mína:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/straumer/huno&#34; title=&#34;&#34;&gt;https://github.com/straumer/huno&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/straumer/hugo-nostr&#34; title=&#34;&#34;&gt;https://github.com/straumer/hugo-nostr&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tíðindi: 2026-01-12</title>
+      <link>https://veldi.net/is/faerslur/note1mtfnk2wpdq5r7wz99ay9pkytx78pylvyasfm66hc5dcn0p4aqsfq7kh609/</link>
+      <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/is/faerslur/note1mtfnk2wpdq5r7wz99ay9pkytx78pylvyasfm66hc5dcn0p4aqsfq7kh609/</guid>
+      <description>&lt;p&gt;Ég byrjaði nýja árið á að takast að setja upp síðustu OpenBSD skyndimyndina á Raspberry Pi 5 nú þegar ég er kominn með Rpi kembikanna. OpenBSD 7.8 uppsetningarforritið náði ekki að ræsa sig, sem virðist vera vegna þess að mín Pi er módel B og þessvegna notaði ég skyndimynd. Það er flott að þetta hófst loksins og að vera vitni af framförum í stýrikerfinu sjálfu. Ræsingarforrit OpenBSD, U-Boot, styður ekki við ræsingu með USB á Rpi5, þannig að ég ræsti það með miniroot uppsetningarforritinu á SD-korti og notaði það til að setja upp OpenBSD á þessu sama korti, en mér finnst nokkuð töff að hægt er að gera slíkt. Miniroot er tekur nógu lítið pláss til að passa í minnstu vinnsluminni og getur þessvegna yfirskrifað SD-kortið sem það kemur frá upprunalega. Skráarsöfnin voru tekin af USB lykli sem inniheldur fullbúið uppsetningarforrit. Þannig núna keyrir stýrikerfið en nær ekki að tengjast þráðlaust við internetið. Það hefur eitthvað með dhcpleased að gera en það er ekki að virka rétt. Ég mun fylgjast með frekari skyndimyndum til að sjá hvort það lagist.&lt;/p&gt;&#xA;&lt;p&gt;Ég hef verið að kafa dýpra í tæknilegu hlið Bitcoin fyrst að mér finnst það vera fíllinn í herberginu þegar kemur að veldiseflandi tækni. Þannig þegar ég sá Bitcoin Open Source Software áskorunina ákvað ég að taka tækifærið og taka þátt. Þetta er að byrja í dag: &lt;a href=&#34;https://bosschallenge.xyz/&#34; title=&#34;&#34;&gt;https://bosschallenge.xyz/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tíðindi: 2025-12-15</title>
+      <link>https://veldi.net/is/faerslur/note13h4vdn5s6xrnk2psf0s3t965zmhr5cdx6q7jfqwlvrdlkr00quusgswtlh/</link>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/is/faerslur/note13h4vdn5s6xrnk2psf0s3t965zmhr5cdx6q7jfqwlvrdlkr00quusgswtlh/</guid>
+      <description>&lt;p&gt;Það er víst bara hægt að setja upp OpenBSD 7.8 á Raspberry Pi 5 með því að tengja við kembitengilinn (debug connector) en ekki GPIO pinnana sem ég komst ekki að fyrr en ég skimaði í gegnum tölvupóstlista OpenBSD eftir að ég sá að stjórnborðið birtist ekki við ræsingu tölvunnar. Þannig ég pantaði kembikanna (debug probe) sem tengist við kembitengil Rpi5 og tengist við fartölvuna mína með USB. Ég hefði getað útvegað mér breytistykki fyrir USB í TTL kapalinn sem ég hafði keypti áður, en ég hugsaði að það gæti verið nytsamlegt að hafa fleirri fítusa ef ég skyldi vilja fikta eitthvað meira í ígreiptum kerfum. Ég þarf að bíða í einhverjar vikur eftir að það komi fyrst það virðist sem að fólk sé ekkert að flytja þetta inn á klakann.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tíðindi: 2025-10-27</title>
+      <link>https://veldi.net/is/faerslur/note1kxvm8mcs7hufqs87v6drg5pqw24htttvf07jsq3v846mm3pewueqc559cw/</link>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/is/faerslur/note1kxvm8mcs7hufqs87v6drg5pqw24htttvf07jsq3v846mm3pewueqc559cw/</guid>
+      <description>&lt;p&gt;Ég hef verið í smá pásu frá því að setja inn færslur fyrst ég var að flytja og betrumbæta heimaskrifstofuna mína ásamt öðru. Hér skrifa ég á gamla góða planck lyklaborðið mitt í góðu yfirlæti nú þegar ég er kominn aftur með afmennilegan tölvuskjá.&lt;/p&gt;&#xA;&lt;p&gt;OpenBSD 7.8 kom út nýlega með stuðning við Raspberry Pi 5. Eins og stendur er ekki stuðningur við HDMI þannig ég verð að tengjast stjórnborðinu með raðtengi á mínu Pi 5. Ég er að bíða eftir að USB í TTL kapall komi til mín sem virðist eiga að gera mér það kleift. Ég hugsaði að það gæti líka komið mér að gagni síðar meir ef ég vil gera eitthvað meira með ígreipt kerfi. Mig langar virkilega að sjá hversu mikið þetta stýrikerfi getur gert af því sem ég hef í huga.&lt;/p&gt;&#xA;&lt;p&gt;Hér er einn hlekkur sem mig langar að sýna aftur, bara af því að ég er ánægður með myndbandið sem hann leiðir á, en það er það fyrsta sinnar tegundar sem útskýrir vel Bitcoin á íslensku: &lt;a href=&#34;https://youtu.be/TrnKcg-3mgM&#34; title=&#34;&#34;&gt;https://youtu.be/TrnKcg-3mgM&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tíðindi: 2025-06-23</title>
+      <link>https://veldi.net/is/faerslur/note1k5jzq4chvdlmyhcxffrwnljhyveslz4h2at0t9tdk06nf9x7cz8s8eqty6/</link>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/is/faerslur/note1k5jzq4chvdlmyhcxffrwnljhyveslz4h2at0t9tdk06nf9x7cz8s8eqty6/</guid>
+      <description>&lt;p&gt;Ég vona að allir hafi átt góða viku. Eitt sem ég gerði var að birta uppfærslur á pubstr sem innihalda möguleikann á SOCKS5 staðgengli og gerð NIP-19 eininga fyrir atburði. Já, þetta er skriftan sem ég nenfdi í síðustu tíðindum: &lt;a href=&#34;https://github.com/straumer/pubstr&#34; title=&#34;&#34;&gt;https://github.com/straumer/pubstr&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tíðindi: 2025-06-16</title>
+      <link>https://veldi.net/is/faerslur/note1s4ys9qfrswasfqa50tvjrvumzllzrugmm7q5602z9qj5cjymq7qqm4vs7p/</link>
+      <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/is/faerslur/note1s4ys9qfrswasfqa50tvjrvumzllzrugmm7q5602z9qj5cjymq7qqm4vs7p/</guid>
+      <description>&lt;p&gt;Ég bjó til nec sem er lítið tól til að breyta á milli json og bech32 forma á NIP-19 Nostr einingum. Það er fullkomnara en key-convertr sem ég notaði áður fyrr. Ég notaði nec í skriftu til að búa til nytsamlegri Nostr hlekki á síðunni minni: &lt;a href=&#34;https://github.com/straumer/nec&#34; title=&#34;&#34;&gt;https://github.com/straumer/nec&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tíðindi: 2025-06-02</title>
+      <link>https://veldi.net/is/faerslur/note152a36dr4ffddjjddy7w0snh9v205m4eekutefpnx48zda6n2e5rqg62p8m/</link>
+      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/is/faerslur/note152a36dr4ffddjjddy7w0snh9v205m4eekutefpnx48zda6n2e5rqg62p8m/</guid>
+      <description>&lt;p&gt;U.þ.b. 6 mánuðum síðan bjó ég til &amp;ldquo;static site generator&amp;rdquo; sem framleiddi vefsíðuna mína með blogg virkni. Síðan lærði ég meira um Nostr og hugsaði að það væri meira valdeflandi að nota frekar Nostr sem sem mína einu sannleiksuppsprettu. Ég þurfti samt vefsíðu líka þannig að ég bjó til einföld verkfæri og ferla til að framleiða vefsíðu með Nostr atburðina mína sem inntak. Í þetta skiptið notaði ég frekar Hugo til að framleiða síðuna. Það var samt lærdómsríkt að búa til minn eiginn framleiðanda og gerir mig þakklátari fyrir þyngri vinnuna sem Hugo getur gert fyrir mig núna. Ég var líka meðvitaður um að ekki er var til auðveld og sveigjanleg leið til að framleiða vefsíðu útfrá Nostr atburðum, þannig ég er að búa til endurnýtanlega Hugo einingu samleiðis þróunar minnar á síðunni: &lt;a href=&#34;https://github.com/straumer/hugo-nostr&#34; title=&#34;&#34;&gt;https://github.com/straumer/hugo-nostr&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ég er glaður með að vera kominn með síðuna aftur í loftið. 😀&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tíðindi: 2024-11-25</title>
+      <link>https://veldi.net/is/faerslur/note1x45u7a9qpn7akvdll2x0knn95h34hs20sl5gvjs00x388qt80f6qxnke7r/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/is/faerslur/note1x45u7a9qpn7akvdll2x0knn95h34hs20sl5gvjs00x388qt80f6qxnke7r/</guid>
+      <description>&lt;p&gt;Haldandi áfram með póstinn minn frá síðasta mánuði, þá endaði ég með eina V54 NovaCustom fartölvu: &lt;a href=&#34;https://novacustom.com/product/v54-series/&#34; title=&#34;&#34;&gt;https://novacustom.com/product/v54-series/&lt;/a&gt;. Ég hafði 4 möguleg stýrikerfi í huga fyrir hana, í forgangsröð OpenBSD &amp;gt; Void Linux &amp;gt; Parabola Linux &amp;gt; Archlinux. Vélbúnaðurinn er nýrri en hjá NV41, þannig það var góður möguleiki á því að einhver þessarra stýrikerfa myndu ekki keyra á honum, en ég var viss um að Archlinux myndi gera það sem mér finnst ásættanlegt val þangað hin eru tilbúin. Uppsetningin á OpenBSD fraus og kjarnar Void og Parabola eru ekki enn komnir í útgáfu 6.9 eða hærra, þannig Archlinux sem ég hef notað síðan 2011 er valið í bili.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tíðindi: 2024-11-18</title>
+      <link>https://veldi.net/is/faerslur/note1emj4aa2lke6n0cfu4c9enxy4ujepwlk8tgth05spqh22wq9rdpss4c75cd/</link>
+      <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/is/faerslur/note1emj4aa2lke6n0cfu4c9enxy4ujepwlk8tgth05spqh22wq9rdpss4c75cd/</guid>
+      <description>&lt;p&gt;Bætti við atom feed fyrir forsíðu hverrar tungumálaútgáfu vefsíðunnar minnar í fótinn.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tíðindi: 2024-10-28</title>
+      <link>https://veldi.net/is/faerslur/note1q6s964a94rxcp8pruputvj3zt6w0rddxxnszkzcrup8wqsyj0uwqzk7xds/</link>
+      <pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/is/faerslur/note1q6s964a94rxcp8pruputvj3zt6w0rddxxnszkzcrup8wqsyj0uwqzk7xds/</guid>
+      <description>&lt;p&gt;Mér finnst mikilvægt að gera betrumbætur á öryggi fartölvunar minnar með tímanum bæði fyrir mig og öryggi þeirra verkefna sem ég vinn að fyrir mína viðskiptavini. Nýlega hef ég verið að leita að nýrri fartölvu. Síðast þegar ég gerði það, árið 2021, þá endaði ég með Thinkpad X200 í höndunum: &lt;a href=&#34;https://en.wikipedia.org/wiki/ThinkPad_X_series#X200_and_X200s&#34; title=&#34;&#34;&gt;https://en.wikipedia.org/wiki/ThinkPad_X_series#X200_and_X200s&lt;/a&gt;. Ástæðan fyrir því er að hún er ein af þeim fáu RYF vottuðu fartölvum sem Libreboot getur keyrt á, og þannig fartölvur eru án Intel stjórnunarvélarinnar (öryggisvandamál). Ein ástæða fyrir því að ég er að líta á aðra möguleika er að fartölvan slekkur á sér vegna ofhitunar eða frýs stundum þegar hún er að vinna mikið. Ég gæti gefið mér tíma í að laga þetta, en það væri erfitt að vera 100% viss um að tölvan slökkvi ekki á sér á mikilvægum fjarfundum. Önnur ástæða er að öðlast betri örgjörva, skjákort og minnisgetu til að geta þjálfað gervigreindarmódel beint í tölvunni. Ég á ennþá eina Thinkpad T440s fartölvu sem ég get notað þegar tölvan má ekki krassa. Hún er hinsvegar ekki tilvalin í gervigreindarþjálfun, notar Intel stjórnunarvélina og fastbúnaður tölvunnar er læstur þannig ekki er hægt að skipta honum út fyrir frjálsa útgáfu. Í stuttu máli þá endaði leitin á NovaCustom: &lt;a href=&#34;https://novacustom.com/cat/custom-laptop/&#34; title=&#34;&#34;&gt;https://novacustom.com/cat/custom-laptop/&lt;/a&gt;. Þessar fartölvur hafa möguleikann á því að slökkva á Intel stjórnunarvélinni og keyra Coreboot sem virðist vera ásættanleg málamiðlun. Ég vil reyna að nota OpenBSD sem aðal stýrikerfið mitt (ég nota núna Parabola) og ég sá umfjöllun um árangursríka notkun OpenBSD á NovaCustom NV41 fartölvunni, sem er góðs viti: &lt;a href=&#34;https://dataswamp.org/~solene/2024-01-03-laptop-review-novacustom-nv41.html#_OpenBSD&#34; title=&#34;&#34;&gt;https://dataswamp.org/~solene/2024-01-03-laptop-review-novacustom-nv41.html#_OpenBSD&lt;/a&gt;. Ég mun hugsa mig aðeins meira um áður en ég tek ákvörðun.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tíðindi: 2024-10-21</title>
+      <link>https://veldi.net/is/faerslur/note13m2u9llunefccghzrzl5yw2v24uf5u2vxt0refy6hsh6pgepda6ss6mqam/</link>
+      <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/is/faerslur/note13m2u9llunefccghzrzl5yw2v24uf5u2vxt0refy6hsh6pgepda6ss6mqam/</guid>
+      <description>&lt;p&gt;Hef næstum klárað að skilgreina PAO minnigarkerfið mitt fyrir öll lesanleg ASCII letur. Ég mun nota það til að muna handahófskennd ASCII lykilorð fyrir dulkóðuð afrit af gögnunum mínum. Ég hef ætlað að gera það í nokkurn tíma, en meira um það síðar.&lt;/p&gt;&#xA;&lt;p&gt;Las kafla 11 Rust bókarinnar.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tíðindi: 2024-10-14</title>
+      <link>https://veldi.net/is/faerslur/note1j7545v6ujhhcfdrje7yn2sgkc6jsmlakkwmzvr3y8597phe84xssfpgzhc/</link>
+      <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/is/faerslur/note1j7545v6ujhhcfdrje7yn2sgkc6jsmlakkwmzvr3y8597phe84xssfpgzhc/</guid>
+      <description>&lt;p&gt;Fór á Netöryggisráðstefnu Fjarskiptastofu. Þar fékk ég að kynnast því sem að fyrirtæki á Íslandi standa frammi fyrir í þessum bransa nú til dags og einnig nýju NIS2 tilskipuninni frá ES sem vænst er til að þau munu þurfa að fara eftir. Sambandsleysi milli stjórnar og upplýsingatæknideildar fyrirtækja var mikið talað um og einnig nauðsyn dýpri samskipta milli þeirra til að bæta net- og upplýsingaöryggi. Ég held að upplýsingatæknifólk hafi hag af vitneskju um fyrirtækjarekstur í þessu samhengi. Það gerir því kleift að þekkja ábyrgð og sjónarhorn stjórnarinnar til að koma upplýsingum um öryggisáhættur til hennar á áhrifaríkann hátt til að hún geti tekið ábyrgð á þeim.&lt;/p&gt;&#xA;&lt;p&gt;Hef verið að vinna í &amp;ldquo;static site generator&amp;rdquo; að nafni makesite samhliða því að ég uppfæri þessa síðu sem búin er til með því tóli. Meðal annars finnst mér þetta fínt verkefni til að fá dýpri þekkingu á make, m4 og skelinni. Þau tól eru mjög oft notuð í C/C++ hugbúnaðarsmíðarkerfum verkefna sem ég vil taka þátt í. Repoið: &lt;a href=&#34;https://github.com/straumer/makesite&#34; title=&#34;&#34;&gt;https://github.com/straumer/makesite&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Las kafla 6-10 í Rust bókinni. Mér finnst fínt að hún greinir frá öryggiseiginleikum Rust í samhengi forritunarmála eins og C, þar sem hún getur þá líka frætt mann um góðar öryggisvenjur í forritun almennt sem hægt er að tileinka sér handvirkt.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tíðindi: 2024-10-07</title>
+      <link>https://veldi.net/is/faerslur/note1m5vmqh25nrtlh97vddfnd4pehdp5ltkdygrt8fudww77af2hmzusu2d8av/</link>
+      <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/is/faerslur/note1m5vmqh25nrtlh97vddfnd4pehdp5ltkdygrt8fudww77af2hmzusu2d8av/</guid>
+      <description>&lt;p&gt;Bætti við Þjónusta og Tíðindi flipum við vefsíðuna og uppfærði Um mig flipann.&lt;/p&gt;&#xA;&lt;p&gt;Ákvað að læra Rust forritun fyrst það eru mörg forrit sem nota það sem ég vil taka þátt í að forrita. Kláraði að lesa kafla 1-5 í Rust bókinni: &lt;a href=&#34;https://doc.rust-lang.org/book/&#34; title=&#34;&#34;&gt;https://doc.rust-lang.org/book/&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
