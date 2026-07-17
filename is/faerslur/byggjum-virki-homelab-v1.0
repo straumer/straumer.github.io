@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="is" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>Byggjum virki: Homelab v1.0 | veldi</title>
+
+      <link rel="stylesheet" href="/css/main.min.8d5c924cf1c2799ff3ad3688371cac51d7f4d91d3265e6da30562760c6341a89.css" integrity="sha256-jVySTPHCeZ/zrTaINxysUdf02R0yZebaMFYnYMY0Gok=" crossorigin="anonymous">
+
+
+</head>
+<body>
+  <header>
+    <div>
+  
+  <a href="https://veldi.net/is/"><img id="header-img" src="/3cbdf3c9df8751686ed24230b72ed2ce958e5a6e46dad603a34fa41e2009eefb_3596088795995684450.webp"></a>
+  <div id="header-text">
+    <h3><a href="https://veldi.net/is/">veldi</a></h3>
+    <ul>
+      <li>Matthías Ragnarsson</li>
+      <li><a href="mailto:matti@netveldi.com">matti@netveldi.com</a> (<a href="/netveldi_email_key.asc">PGP</a>)</li>
+        <li><a href="nostr:nprofile1qqs8wtdnlp3l6etarhet8mhuv7q40p9xs7hjzm806kkq7n59dzax3dqt4yuyj">nprofile</a> / <a href="https://njump.me/nprofile1qqs8wtdnlp3l6etarhet8mhuv7q40p9xs7hjzm806kkq7n59dzax3dqt4yuyj">Njump</a></li>
+    </ul>
+  </div>
+</div>
+
+  <nav>
+    <div id="nav" class="center">
+      <ul>
+    <li>
+      <a aria-current="true" class="ancestor" href="/is/faerslur/">Færslur</a>
+    </li>
+    <li>
+      <a href="https://github.com/straumer">Kóði</a>
+    </li>
+      </ul>
+      <ul id="langs">
+
+<li><a href="/posts/lets-build-a-fort-homelab-v1.0">English</a></li>
+
+<li><a href="/es/postes/construyamos-una-fortaleza-homelab-v1.0">Español</a></li>
+
+</ul>
+
+    </div>
+  </nav>
+
+
+  </header>
+  <main>
+    <div id="main" class="center">
+      
+  <img src="/9329435bf4b0915fbfac965fc8c7b6cb2baeb0c09bdd6c61419eeab134dd414f_254221165063964400.webp">
+  <h1>Byggjum virki: Homelab v1.0</h1>
+  
+  
+  <code><time datetime="2026-07-17T00:00:00&#43;00:00">17. júlí 2026</time></code>
+  
+  <p>Í langan tíma hef ég sætt mig við að nota á heimanetinu mínu netbeina sem ég hef leigt af fjarskiptafyrirtækjum eða sem fylgt hafa þeim íbúðunum sem ég hef haldið mig til í. Slíkir beinar nota venjulega lokaðann hugbúnað með óþörfu flækjustigi, skorti á öryggisuppfærslum, takmörkuðum stillingum og svo má lengi telja. Þessir eiginleikar draga mjög úr öryggi heimanetsins sem og stjórn okkar á netumferð á milli tækja á innra netinu og á milli beinisins og internetsins. Þannig fyrirkomulag væri allt í lagi ef öryggi og stjórn á stakri tölvu væri það eina sem skipti mig máli, en nú er ég líka með raspberry pi 5 netþjón, konu mína sem ég vil vernda með VPN og öðrum aðferðum, auk fleiri netþjóna sem ég hef auga á að setja upp, eins og:</p>
+<ul>
+<li>Staðbundin gervigreindarvél þar sem netumferð er þétt stjórnað vegna þess að við vitum öll að staðbundin gervigreind er eins og óþekkt fyrirbæri sem við höfum náð í úr annarri vídd þar sem við þurfum að setja upp fullt af varnargöldrum til að ganga úr skugga um að það gegni vilja okkar en ekki öfugt.</li>
+<li>Netþjónar til að keyra eða sýna lausnir fyrir viðskiptavini sem kunna að meta öryggi, friðhelgi einkalífsins og persónuvernd og þurfa ekki líka að treysta einhverjum tilviljanakenndum skýja- eða VPS-veitum til viðbótar við sjálfan mig.</li>
+<li>Sjálfhýsing fyrir fullt af hlutum, fyrir mig og maka minn, til dæmis nettengd gagnahýsing og staðbundið spjall.</li>
+<li>Netþjónar sem snúa að almenningi í DMZ.</li>
+</ul>
+<p>Svo þessi netuppsetning er í raun upphafið að því sem við getum kallað „homelab“. Það er fyrsta útgáfa þess sem ég lýsi í þessari grein og það er því frekar einfalt eins og sést á myndinni hér að neðan, en því er ætlað að vera stækkanlegt með stýrðum annars-netlags netskipti sem ég mun skoða síðar:</p>
+<p><img src="https://cdn.nostrcheck.me/5ed4cf6ae4f4c165bdb05398f36076975197a2585c70812dc0d799d3ad10ec3b.webp" alt="uppsetning nets"></p>
+<p>Hér á eftir mun ég tala um mikilvæga þætti í netuppsetningunni. Ég hef breytt og sleppt nokkrum óþörfum atriðum í uppsetningunni minni hér, en annars er hún mjög lík þeirri sem ég nota. Til að hafa þetta í styttri kantinum sleppi ég öllum skipunum sem raunverulega virkja stillingarnar sem ég sýni. Ég geri ráð fyrir að lesandinn skoði leiðbeiningar OpenBSD og OpenWRT til að fá frekari upplýsingar ef þess þarf. Með tækin fullstillt ætti að vera nóg að endurræsa þau til að allar stillingarnar taki gildi í einu. Það hefur alltaf hjálpað mér að skoða dæmi um uppsetningar á meðan ég læri svo ég vona að þessi grein geti komið einhverjum að gagni.</p>
+<h2 id="netbeinir">Netbeinir</h2>
+<p>Ég setti eftirfarandi kröfur fyrir netbeininn:</p>
+<ul>
+<li>Keyrir OpenBSD</li>
+<li>Nógu öflugur til að vera ekki of takmarkandi fyrir skapandi notkun PF í framtíðinni (PF er eldveggur OpenBSD og fleira)</li>
+<li>Keyrir eins mikið af frjálsum hugbúnaði og hægt er í fastbúnaðinum, eins og með Coreboot</li>
+<li>Er með Intel stjórnunarvélina (IME) óvirka ef arkitektúr tölvunnar er x86</li>
+<li>Er bara tengdur með snúru, án þráðlauss vélbúnaðar</li>
+<li>Hefur 4+ nettengi</li>
+</ul>
+<p>Augljósi kosturinn eftir smá leit var einn af þessum <a href="https://protectli.com/" title="">Protectli</a> Vault Pro netbeinum og ég náði mér í VP2440 án þráðlausra parta og með <a href="https://docs.dasharo.com/unified/protectli/overview/#vp2440" title="">Dasharo Coreboot</a> sem slekkur á IME). Ég hafði reyndar mikinn áhuga á einum af þessum <a href="https://pcengines.ch/" title="">PC Engines</a> APUs, en PC Engines hafa ekki verið í viðskiptum síðastliðin þrjú ár eða svo. APUs eru ódýrari, hafa minna af óþarfa vélbúnaði sem ég þarf í raun ekki og enga IME. Þeir hafa svipaðan hlut og IME sem ég ætla að kalla verkvangsöryggisörgjörva (PSP), en það er ekki eins alvarlegt, en samt slæmt. Hei, ég vildi að vélbúnaðarframleiðendur hættu þessum bakdyrahneigðum, en allt sem ég get gert er að minnsta kosti að slökkva á því sem ég get af því. Það sem VP2440 hefur líka yfir APUin eru tvö SFP+ tengi sem leyfa 10Gb tengingu. Þó að ég þurfi aðeins 1Gb tengingu í bili fannst mér gott að hafa þann möguleika upp á framtíðina að gera.</p>
+<p>Ég setti upp OpenBSD á netbeininum án neinna X skráasetta, en hélt þýðendakráarsettinu ef skyldi vera að ég þyrfti á henni að halda á meðan ég er enn að venjast OpenBSD. Þegar ég er orðinn reyndari í þessu gæti ég mögulega sleppt því skráarsetti líka til að auka öryggi. Ég valdi hýsisnafnið <code>steelix</code>. Já, ég valdi pokémon þema fyrir hýsisnöfnin mín til að bæta smá fjöri og nostalgíu í blönduna. Ég átti einu sinni Steelix sem ég gerði nánast óstöðvandi með því að dæla í hann járni og HP ups hvenær sem ég gat. Mér finnst sú lýsing passa ágætlega við ætlun mína með þennan netbeini.</p>
+<h2 id="fjarskiptafyrirtæki-og-wan-tengi">Fjarskiptafyrirtæki og WAN tengi</h2>
+<p>Með SFP+ tengi gat ég stungið ljósleiðaranum frá ljósleiðafyrirtæki beint í netbeininn með 1Gb SFP ONTu og ég gæti farið upp í 10Gb SFP ONTu í framtíðinni ef þörf krefur. Ég þarf þessvegna ekki að hafa venjulegt ONT box lengur og netbeinirinn fær WAN IP tölu frá beint frá fjarskiptafyrirtækinu, sem einfaldar alla uppsetninguna. Hér á Íslandi fann ég bara einn ljósleiðaraheildsala sem studdi tengingu með SFP ONTu og það er <a href="https://www.mila.is/" title="">Míla</a>. Ég þurfti líka að finna fjarskiptafyrirtæki sem gefur út fasta IP-tölu og styður ljósleiðara Mílu og það sem ég fann var <a href="https://hringidan.is/" title="">Hringiðan</a>. IP-talan er bundin við PPPoE notandanafn og lykilorð sem manni er gefið. Síðan til að tengjast internetinu á netbeininum, setti ég eftirfarandi inn í <code>/etc/hostname.pppoe0</code> og skipti <code>authname</code> og <code>authkey</code> út fyrir notandanafnið og lykilorð:</p>
+<pre tabindex="0"><code>inet 0.0.0.0 255.255.255.255 NONE \
+    pppoedev ixl0 authproto chap \
+    authname &#39;authname&#39; authkey &#39;authkey&#39; up
+dest 0.0.0.1
+inet6 eui64
+!/sbin/route add default -ifp pppoe0 0.0.0.1
+!/sbin/route add -inet6 default -ifp pppoe0 fe80::%pppoe0
+</code></pre><p>Ég setti líka einfaldlega <code>up</code> í <code>/etc/hostname.ixl0</code> til að virkja innstunguna sem ljósleiðarinn og SFP ONTan eru tengd í.</p>
+<h2 id="þráðlaus-aðgangsstaður">Þráðlaus aðgangsstaður</h2>
+<p>Að hafa ekki neina þráðlausa nettengingu á netbeininum var gert vísvitandi til að auka öryggi þessa hjarta netsins. Þráðlaus nettenging eykur flækjustig og hver sem er sem er nógu nálægt netbeininum getur reynt að tengjast honum, þannig það býr til fleiri hugsanlegar leiðir til að brjótast inn á netið. Við viljum samt þráðlausa nettengingu á heimilinu í bili þannig að hugmyndin er að hafa sérstakan þráðlausan aðgangsstað (WAP) sem auðvelt er að einangra. Af því sem ég hef lært af OpenBSD er að það á það til að hafa ekki góðan stuðning fyrir þráðlausar tengingar yfir höfuð, sem er skiljanlegt þar sem það er flókið að innleiða og krefst oft meiri mannafla en tiltækur er fyrir stýrikerfi eins og þetta, og kannski er það ekki í hæsta forgangi heldur vegna öryggisáherslu þess. Þannig ég takmarkaði leitina við netbeina sem keyra <a href="https://openwrt.org/" title="">OpenWRT</a> þar sem OpenWRT og Linux almennt hafa meiri þráðlausan stuðning. OpenWRT er frekar mögur útgáfa af Linux án systemd og öðru slíku flækjustigi, svo ég lít á það sem plús varðandi öryggi.</p>
+<p>Fyrst rak ég augun í <a href="https://router.start9.com/" title="">start9 netbeininn</a>, aðallega vegna þess að hann keyrir á <a href="https://riscv.org/" title="">RISC-V</a> tölvuarkitektúr sem gerir það að verkum að vélbúnaðarframleiðendur þurfi ekki að borga gjöld fyrir að nota hann eins og annars tíðkast. Í raun dreifir notkun RISC-V framleiðslu vélbúnaðar meira, eykur stuðning við smærri framleiðendur og gefur okkur fleiri valmöguleika fyrir aðfangakeðju vélbúnaðar okkar, sem vonandi skilar sér í áreiðanlegri vélbúnaði án bakdyra. Mig vantaði hins vegar nothæfan WAP sem fyrst, svo ég ákvað að bíða með þennan netbeini. Á endanum ákvað ég að ná mér í <a href="https://openwrt.org/toh/openwrt/one" title="">OpenWRT One netbeininn</a> til að setja í hlutverk einfalds WAP. Þegar ég tala um netbeini hérna framvegis er ég að tala um VP2440.</p>
+<p>Eitt flott sem hægt er að gera með OpenWRT er að hafa mörg þráðlaus net sem þú getur tengst á einu WAP og þú getur haft hvert net á sérstöku VLAN, sem er það sem ég gerði. Þessi VLAN geta hvert og eitt haft sín eigin aðgangsréttindi sem stillt eru á netbeininum, t.d. mismunandi aðgangsréttindi fyrir gesti, fjölskylduna og svo framvegis. Ég gæti prófað að setja upp <a href="https://tollgate.me/" title="">Tollgate</a> pakka á WAPnum á sérstöku VLAN á einhverjum tímapunkti líka, því það væri gaman að vita að ég gæti rukkað einhverja ókunnuga fyrir að tengjast ef ég vildi.</p>
+<p>OpenWRT stillingin mín á WAPnum er svipuð eftirfarandi, til að byrja með <code>/etc/config/network</code>:</p>
+<pre tabindex="0"><code>config interface &#39;loopback&#39;
+        option device &#39;lo&#39;
+        option proto &#39;static&#39;
+        option ipaddr &#39;127.0.0.1&#39;
+        option netmask &#39;255.0.0.0&#39;
+
+config globals &#39;globals&#39;
+        option ula_prefix &#39;fdab:853:1fb8::/48&#39;
+
+config interface &#39;privileged&#39;
+        option type &#39;bridge&#39;
+        option stp &#39;1&#39;
+        option ifname &#39;eth0.3&#39;
+        option proto &#39;none&#39;
+        option auto &#39;1&#39;
+        option delegate &#39;0&#39;
+
+config interface &#39;family&#39;
+        option type &#39;bridge&#39;
+        option stp &#39;1&#39;
+        option ifname &#39;eth0.4&#39;
+        option proto &#39;none&#39;
+        option auto &#39;1&#39;
+        option delegate &#39;0&#39;
+
+config interface &#39;br-lan&#39;
+        option type &#39;bridge&#39;
+        option stp &#39;1&#39;
+        list ifname &#39;eth0.5&#39;
+        list ifname &#39;eth1&#39;
+        option proto &#39;none&#39;
+        option auto &#39;1&#39;
+        option delegate &#39;0&#39;
+
+config interface &#39;guest&#39;
+        option type &#39;bridge&#39;
+        option stp &#39;1&#39;
+        option ifname &#39;eth0.6&#39;
+        option proto &#39;none&#39;
+        option auto &#39;1&#39;
+        option delegate &#39;0&#39;
+</code></pre><p>Allar nema fjórar síðustu „interface“ skilgreiningarnar voru til fyrir í stillingunum. Hver þessarra fjögurra skilgreininga er með <code>list ifname 'eth0.N'</code> sem þýðir að það brúar <code>eth0</code> ethernet tengið (sem tengist andstreymis við netbeininn) með netumferðina merkta sem VLAN <code>N</code>. <code>br-lan</code> skilgreiningin brúar líka hitt ethernet tengið á WAPnum og hinar þrjár skilgreiningarnar eru notaðar fyrir viðkomandi þráðlaus net í <code>/etc/config/wireless</code>:</p>
+<pre tabindex="0"><code>config wifi-device &#39;radio0&#39;
+        option type &#39;mac80211&#39;
+        option path &#39;platform/soc/18000000.wifi&#39;
+        option band &#39;2g&#39;
+        option channel &#39;1&#39;
+        option htmode &#39;HE20&#39;
+        option num_global_macaddr &#39;7&#39;
+        option disabled &#39;0&#39;
+        option country &#39;IS&#39;
+
+config wifi-iface &#39;privileged_radio0&#39;
+        option device &#39;radio0&#39;
+        option network &#39;privileged&#39;
+        option mode &#39;ap&#39;
+        option ssid &#39;Eagle&#39;
+        option encryption &#39;psk2&#39;
+        option key &#39;some-password&#39;
+
+config wifi-iface &#39;family_radio0&#39;
+        option device &#39;radio0&#39;
+        option network &#39;family&#39;
+        option mode &#39;ap&#39;
+        option ssid &#39;Shrimp&#39;
+        option encryption &#39;psk2&#39;
+        option key &#39;some-password&#39;
+
+config wifi-iface &#39;guest_radio0&#39;
+        option device &#39;radio0&#39;
+        option network &#39;guest&#39;
+        option mode &#39;ap&#39;
+        option ssid &#39;Magpie&#39;
+        option encryption &#39;psk2&#39;
+        option key &#39;some-password&#39;
+
+config wifi-device &#39;radio1&#39;
+        option type &#39;mac80211&#39;
+        option path &#39;platform/soc/18000000.wifi+1&#39;
+        option band &#39;5g&#39;
+        option channel &#39;36&#39;
+        option htmode &#39;HE80&#39;
+        option num_global_macaddr &#39;7&#39;
+        option disabled &#39;0&#39;
+        option country &#39;IS&#39;
+
+config wifi-iface &#39;privileged_radio1&#39;
+        option device &#39;radio1&#39;
+        option network &#39;privileged&#39;
+        option mode &#39;ap&#39;
+        option ssid &#39;Eagle&#39;
+        option encryption &#39;psk2&#39;
+        option key &#39;some-password&#39;
+
+config wifi-iface &#39;family_radio1&#39;
+        option device &#39;radio1&#39;
+        option network &#39;family&#39;
+        option mode &#39;ap&#39;
+        option ssid &#39;Shrimp&#39;
+        option encryption &#39;psk2&#39;
+        option key &#39;some-password&#39;
+
+config wifi-iface &#39;guest_radio1&#39;
+        option device &#39;radio1&#39;
+        option network &#39;guest&#39;
+        option mode &#39;ap&#39;
+        option ssid &#39;Magpie&#39;
+        option encryption &#39;psk2&#39;
+        option key &#39;some-password&#39;
+</code></pre><p>Hvert „wifi-iface“ er skilgreint einu sinni fyrir hvert tíðnisvið sem hægt er að nota. Þá er allt komið sem þarf til að virkja WAPinn.</p>
+<h2 id="vpn-með-wireguard-og-rdomains">VPN með Wireguard og Rdomains</h2>
+<p>Ég vildi að sumar vélar myndu nota VPN og aðrar ekki, þannig að í stað þess að bjagast við það að setja upp VPN á hverju tæki bætti ég bara við nýju rdomain á netbeininum, en það er sérstakur netstafli sem vísar umferð út á internetið í gegnum wireguard útgang. Þannig kemst ég líka frá því takast á við vesenið við að fá tækin mín til að tala saman í gegnum innra netið ef sum þeirra eru VPN tengd. Til að setja þetta upp þannig bjó ég til <code>/etc/hostname.wg0</code>:</p>
+<pre tabindex="0"><code>rdomain 1
+wgkey &lt;private-key&gt;
+wgpeer &lt;public-key&gt; wgendpoint &lt;ip-address-1&gt; &lt;port&gt; wgaip 0.0.0.0/0
+inet &lt;ip-address-2&gt; 255.255.255.255
+!route -T1 add default -net &lt;ip-address-2&gt;
+</code></pre><p>Síðan fyllti ég út upplýsingarnar í svigunum í samræmi við VPN veituna mína.</p>
+<h2 id="lan-tengi">LAN tengi</h2>
+<p>Ég tengdi SFP-ethernet millistykki í SFP+ tengið sem eftir var og þá var ég kominn með 3 ethernet tengi fyrir LANið. Ég vildi að einn þeirra væri á VPN og annar þeirra þar sem WAP tengist. <code>Eagle</code> þráðlausa netið átti líka að vera undir VPN svo ég varð að ganga úr skugga um að VLAN 3 væri stillt þannig. Til að stilla þetta setti ég VPN LAN stillingarnar í <code>/etc/hostname.ixl1</code>:</p>
+<pre tabindex="0"><code>rdomain 1
+inet 192.168.10.1 255.255.255.0 192.168.10.255
+</code></pre><p>Ég setti venjulega LAN tengið í <code>/etc/hostname.igc0</code>:</p>
+<pre tabindex="0"><code>inet 192.168.20.1 255.255.255.0 192.168.20.255
+</code></pre><p>Fyrir WAP LAN tengið skrifaði ég einfaldlega &lsquo;up&rsquo; í &lsquo;/etc/hostname.igc1&rsquo; og bjó til VLAN netin líka, og byrjaði á VPN netinu í &lsquo;/etc/hostname.vlan0&rsquo;:</p>
+<pre tabindex="0"><code>create
+parent igc1 vnetid 3
+rdomain 1
+inet 192.168.3.1 255.255.255.0 192.168.3.255 description &#34;AP Privileged&#34;
+</code></pre><p>Síðan kemur restin af VLAN netunum, og byrjum á <code>/etc/hostname.vlan1</code>:</p>
+<pre tabindex="0"><code>create
+parent igc1 vnetid 4
+inet 192.168.4.1 255.255.255.0 192.168.4.255 description &#34;AP Family&#34;
+</code></pre><p>Síðan <code>/etc/hostname.vlan2</code>:</p>
+<pre tabindex="0"><code>create
+parent igc1 vnetid 5
+inet 192.168.5.1 255.255.255.0 192.168.5.255 description &#34;AP LAN port&#34;
+</code></pre><p>Og að lokum <code>etc/hostname.vlan3</code>:</p>
+<pre tabindex="0"><code>create
+parent igc1 vnetid 6
+inet 192.168.6.1 255.255.255.0 192.168.6.255 description &#34;AP Guest&#34;
+</code></pre><h2 id="dhcp-og-dns">DHCP og DNS</h2>
+<p>Á netbeininum nota ég <code>dhcpd</code> til að útdeila IP-tölum, sjálfgefnum leiðum og DNS-þjónum í öll tæki og <code>unbound</code> sem DNS-þjón. Ég setti þetta inn í <code>/etc/dhcpd.conf</code>:</p>
+<pre tabindex="0"><code>subnet 192.168.20.0 netmask 255.255.255.0 {
+        option domain-name-servers 192.168.20.1;
+        option routers 192.168.20.1;
+        range 192.168.20.2 192.168.20.254;
+}
+
+# Family
+subnet 192.168.4.0 netmask 255.255.255.0 {
+        option domain-name-servers 192.168.4.1;
+        option routers 192.168.4.1;
+        range 192.168.4.2 192.168.4.254;
+}
+
+# AP LAN
+subnet 192.168.5.0 netmask 255.255.255.0 {
+        option domain-name-servers 192.168.5.1;
+        option routers 192.168.5.1;
+        range 192.168.5.2 192.168.5.254;
+}
+
+# Guest
+subnet 192.168.6.0 netmask 255.255.255.0 {
+        option domain-name-servers 192.168.6.1;
+        option routers 192.168.6.1;
+        range 192.168.6.2 192.168.6.254;
+}
+</code></pre><p>og inn í „server“ hlutann í <code>/var/unbound/etc/unbound.conf</code>:</p>
+<pre tabindex="0"><code>server:
+	interface: 192.168.20.1
+	interface: 192.168.4.1
+	interface: 192.168.5.1
+	interface: 192.168.6.1
+	interface: 127.0.0.1
+	#interface: 127.0.0.1@5353	# listen on alternative port
+	interface: ::1
+	#do-ip6: no
+
+	# override the default &#34;any&#34; address to send queries; if multiple
+	# addresses are available, they are used randomly to counter spoofing
+	#outgoing-interface: 192.0.2.1
+	#outgoing-interface: 2001:db8::53
+
+	access-control: 0.0.0.0/0 refuse
+	access-control: 127.0.0.0/8 allow
+	access-control: ::0/0 refuse
+	access-control: ::1 allow
+	access-control: 192.168.20.0/24 allow
+	access-control: 192.168.4.0/24 allow
+	access-control: 192.168.5.0/24 allow
+	access-control: 192.168.6.0/24 allow
+  ...
+</code></pre><p>Ég passaði upp á að virkja þjónusturnar:</p>
+<pre tabindex="0"><code>rcctl enable dhcpd unbound
+</code></pre><p>Ofangreindar stillingar virka aðeins fyrir rdomain 0 þar sem <code>dhcpd</code> og <code>unbound</code> nota aðeins netstafla sem tengist einu rdomain í einu. Þess vegna þurfti ég að búa til annað dhcpd config <code>/etc/dhcpd1.conf</code>:</p>
+<pre tabindex="0"><code>subnet 192.168.10.0 netmask 255.255.255.0 {
+        option domain-name-servers &lt;ip-address&gt;;
+        option routers 192.168.10.1;
+        range 192.168.10.2 192.168.10.254;
+}
+
+# Privileged
+subnet 192.168.3.0 netmask 255.255.255.0 {
+        option domain-name-servers &lt;ip-address&gt;;
+        option routers 192.168.3.1;
+        range 192.168.3.2 192.168.3.254;
+}
+</code></pre><p>Ég lét IP-tölu <code>domain-name-servers</code> vera sú sem VPN-veitan gaf upp. Allt sem var eftir var svo að búa til annað tilvik af dhcpd sem notar þessa stillingu og rdomain 1:</p>
+<pre tabindex="0"><code>ln -s /etc/rc.d/dhcpd /etc/rc.d/dhcpd1
+rcctl set dhcpd1 flags -c /etc/dhcpd1.conf -l /var/db/dhcpd1.leases
+rcctl set dhcpd1 rdomain 1
+rcctl enable dhcpd1
+</code></pre><h2 id="eldveggur-og-nat">Eldveggur og NAT</h2>
+<p>Til að halda góðri stjórn á netumferðinni stillti ég PF á netbeininum. Ég byggði á nokkrum dæmum um stillingar og gerði nokkrar tilraunir þar til ég sættist á eftirfarandi stillingar í <code>/etc/pf.conf</code>:</p>
+<pre tabindex="0"><code>int_if_1 = &#34;ixl1&#34;
+int_if_2 = &#34;igc0&#34;
+wap = &#34;igc1&#34;
+int_ifs = &#34;{&#34; $int_if_1 $int_if_2 vlan &#34;}&#34;
+table &lt;int_networks&gt; const { $int_if_1:network $int_if_2:network vlan:network }
+table &lt;martians&gt; { 0.0.0.0/8 10.0.0.0/8 127.0.0.0/8 169.254.0.0/16     \
+	 	   172.16.0.0/12 192.0.0.0/24 192.0.2.0/24 224.0.0.0/3 \
+	 	   192.168.0.0/16 198.18.0.0/15 198.51.100.0/24        \
+	 	   203.0.113.0/24 }
+
+set skip on lo
+match in all scrub (no-df random-id max-mss 1440)
+match out on egress inet from ! (egress:network) to ! &lt;int_networks&gt; nat-to (egress:0)
+match out on wg0 inet from ! (wg0:network) to ! &lt;int_networks&gt; nat-to (wg0:0)
+antispoof quick for { egress $int_if_1 $int_if_2 vlan }
+block in quick on egress from &lt;martians&gt; to any
+#block return out quick on egress from any to &lt;martians&gt;
+block all
+pass out on { egress wg0 } inet
+pass out on $int_if_1 proto tcp from $int_if_2:network to port { ssh }
+pass out on vlan0 proto tcp from $int_if_2:network to vlan0:network port http
+pass in on $int_ifs inet
+pass in on $int_if_2 proto tcp to $int_if_1:network port { ssh } rtable 1
+pass in on $int_if_2 proto tcp to vlan0:network port http rtable 1
+</code></pre><p>Í stuttu máli er lokað fyrir alla umferð sem á upptök sín frá internetinu inn á netbeininn en öll umferð sem á upptök sín frá innra netinu er leyfð út á internetið. Tækin á innra netinu geta ekki átt samskipti sín á milli fyrir utan það að ég get tengst með ssh frá fartölvunni minni yfir í raspberry piið <code>raichu</code> og fengið aðgang að sumum vefviðmótum í gegnum http á Eagle þráðlausa netinu / VLAN 3. Ég keyri líka alla netumferð út á internetið í gegnum NAT.</p>
+<p>Með allar þessar stillingar á sínum stað og netbeininn og WAP endurræst og tengd eins og sýnt er á myndinni í upphafi greinarinnar, þá er „homelab“ v1.0 tilbúið!</p>
+<h2 id="niðurstaða">Niðurstaða</h2>
+<p>Þessi grunnuppsetning hefur reynst okkur mjög vel og ég mun framlengja hana smám saman og breyta eftir því sem á líður. Það að fara í gegnum þetta ferli hefur kennt mér mikið og er ég þakklátur fyrir það sem OpenBSD og OpenWRT gera okkur kleyft til að taka stjórn á netkerfum okkar. Ein áhrif þess að hafa svona mikla stjórn á netinu með öryggismiðuðu stýrikerfi eins og OpenBSD er að ég er miklu minna hikandi við að keyra hvers kyns tæki með útblásnum, blakkbox, öryggismartraðar stýrikerfum og öppum þess, vá, ég gæti jafnvel höndlað Windows box. Svo lengi sem netkerfi tækisins er undir minni stjórn, get ég höndlað það af öryggi.</p>
+<p>Ég vona að þessi grein hafi verið gagnleg eða að minnsta kosti hvetjandi og ég þakka allar athugasemdir eða spekúleringar. Sjáumst síðar!</p>
+
+  
+  <div class="push-down">
+    <ul class="nob horizontal-list">
+        <li>Tögg: </li>
+        <li><a href="/is/togg/netkerfi/">Netkerfi</a></li>
+        <li><a href="/is/togg/%C3%B6ryggi/">Öryggi</a></li>
+        <li><a href="/is/togg/homelab/">Homelab</a></li>
+        <li><a href="/is/togg/openbsd/">Openbsd</a></li>
+        <li><a href="/is/togg/openwrt/">Openwrt</a></li>
+    </ul>
+  </div>
+
+  
+    </br>
+    <h4>Komment</h4>
+    <p>Farðu á kommentasvæði færslunnar á Nostr með <a href="nostr:naddr1qqdxy7t8va482mfdwe5hy6mf945x7mt9d3skyttkxyhrqq3qwukm87rrl4jh680jk0h0ceup27z2dpa0y9kwl4dvpa8g2696dz6qxpqqqp65w3l2vuh">appi</a> eða <a href="https://njump.me/naddr1qqdxy7t8va482mfdwe5hy6mf945x7mt9d3skyttkxyhrqq3qwukm87rrl4jh680jk0h0ceup27z2dpa0y9kwl4dvpa8g2696dz6qxpqqqp65w3l2vuh">vefappi</a>.</p>
+  
+
+    </div>
+  </main>
+  <footer>
+    <div id="footer" class="center">
+      <ul>
+  <li><a href="https://veldi.net/is/index.xml">RSS Feed</a></li>
+</ul>
+
+    </div>
+  </footer>
+</body>
+</html>

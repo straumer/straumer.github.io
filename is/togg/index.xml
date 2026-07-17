@@ -6,8 +6,43 @@
     <description>Recent content in Tögg on veldi</description>
     <generator>Hugo</generator>
     <language>is</language>
-    <lastBuildDate>Mon, 09 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 15:17:45 +0000</lastBuildDate>
     <atom:link href="https://veldi.net/is/togg/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Homelab</title>
+      <link>https://veldi.net/is/togg/homelab/</link>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/is/togg/homelab/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Netkerfi</title>
+      <link>https://veldi.net/is/togg/netkerfi/</link>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/is/togg/netkerfi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Openbsd</title>
+      <link>https://veldi.net/is/togg/openbsd/</link>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/is/togg/openbsd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Openwrt</title>
+      <link>https://veldi.net/is/togg/openwrt/</link>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/is/togg/openwrt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Öryggi</title>
+      <link>https://veldi.net/is/togg/%C3%B6ryggi/</link>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/is/togg/%C3%B6ryggi/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Bitcoin</title>
       <link>https://veldi.net/is/togg/bitcoin/</link>
@@ -72,13 +107,6 @@
       <description></description>
     </item>
     <item>
-      <title>Openbsd</title>
-      <link>https://veldi.net/is/togg/openbsd/</link>
-      <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://veldi.net/is/togg/openbsd/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Raspberrypi</title>
       <link>https://veldi.net/is/togg/raspberrypi/</link>
       <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
@@ -104,13 +132,6 @@
       <link>https://veldi.net/is/togg/minnist%C3%A6kni/</link>
       <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
       <guid>https://veldi.net/is/togg/minnist%C3%A6kni/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Öryggi</title>
-      <link>https://veldi.net/is/togg/%C3%B6ryggi/</link>
-      <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://veldi.net/is/togg/%C3%B6ryggi/</guid>
       <description></description>
     </item>
   </channel>

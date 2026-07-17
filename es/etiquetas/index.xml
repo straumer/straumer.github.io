@@ -6,8 +6,43 @@
     <description>Recent content in Etiquetas on veldi</description>
     <generator>Hugo</generator>
     <language>es</language>
-    <lastBuildDate>Mon, 09 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 15:17:45 +0000</lastBuildDate>
     <atom:link href="https://veldi.net/es/etiquetas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Homelab</title>
+      <link>https://veldi.net/es/etiquetas/homelab/</link>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/es/etiquetas/homelab/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Openbsd</title>
+      <link>https://veldi.net/es/etiquetas/openbsd/</link>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/es/etiquetas/openbsd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Openwrt</title>
+      <link>https://veldi.net/es/etiquetas/openwrt/</link>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/es/etiquetas/openwrt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Red</title>
+      <link>https://veldi.net/es/etiquetas/red/</link>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/es/etiquetas/red/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Seguridad</title>
+      <link>https://veldi.net/es/etiquetas/seguridad/</link>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/es/etiquetas/seguridad/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Bitcoin</title>
       <link>https://veldi.net/es/etiquetas/bitcoin/</link>
@@ -72,13 +107,6 @@
       <description></description>
     </item>
     <item>
-      <title>Openbsd</title>
-      <link>https://veldi.net/es/etiquetas/openbsd/</link>
-      <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://veldi.net/es/etiquetas/openbsd/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Raspberrypi</title>
       <link>https://veldi.net/es/etiquetas/raspberrypi/</link>
       <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
@@ -104,13 +132,6 @@
       <link>https://veldi.net/es/etiquetas/mnemot%C3%A9cnicas/</link>
       <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
       <guid>https://veldi.net/es/etiquetas/mnemot%C3%A9cnicas/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Seguridad</title>
-      <link>https://veldi.net/es/etiquetas/seguridad/</link>
-      <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://veldi.net/es/etiquetas/seguridad/</guid>
       <description></description>
     </item>
   </channel>

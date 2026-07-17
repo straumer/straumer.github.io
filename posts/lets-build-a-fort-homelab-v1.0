@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>Let&#39;s build a fort: Homelab v1.0 | veldi</title>
+
+      <link rel="stylesheet" href="/css/main.min.8d5c924cf1c2799ff3ad3688371cac51d7f4d91d3265e6da30562760c6341a89.css" integrity="sha256-jVySTPHCeZ/zrTaINxysUdf02R0yZebaMFYnYMY0Gok=" crossorigin="anonymous">
+
+
+</head>
+<body>
+  <header>
+    <div>
+  
+  <a href="https://veldi.net/"><img id="header-img" src="/3cbdf3c9df8751686ed24230b72ed2ce958e5a6e46dad603a34fa41e2009eefb_3596088795995684450.webp"></a>
+  <div id="header-text">
+    <h3><a href="https://veldi.net/">veldi</a></h3>
+    <ul>
+      <li>Matthías Ragnarsson</li>
+      <li><a href="mailto:matt@netveldi.com">matt@netveldi.com</a> (<a href="/netveldi_email_key.asc">PGP</a>)</li>
+        <li><a href="nostr:nprofile1qqs8wtdnlp3l6etarhet8mhuv7q40p9xs7hjzm806kkq7n59dzax3dqt4yuyj">nprofile</a> / <a href="https://njump.me/nprofile1qqs8wtdnlp3l6etarhet8mhuv7q40p9xs7hjzm806kkq7n59dzax3dqt4yuyj">Njump</a></li>
+    </ul>
+  </div>
+</div>
+
+  <nav>
+    <div id="nav" class="center">
+      <ul>
+    <li>
+      <a aria-current="true" class="ancestor" href="/posts/">Posts</a>
+    </li>
+    <li>
+      <a href="https://github.com/straumer">Code</a>
+    </li>
+      </ul>
+      <ul id="langs">
+
+<li><a href="/es/postes/construyamos-una-fortaleza-homelab-v1.0">Español</a></li>
+
+<li><a href="/is/faerslur/byggjum-virki-homelab-v1.0">Íslenska</a></li>
+
+</ul>
+
+    </div>
+  </nav>
+
+
+  </header>
+  <main>
+    <div id="main" class="center">
+      
+  <img src="/9329435bf4b0915fbfac965fc8c7b6cb2baeb0c09bdd6c61419eeab134dd414f_254221165063964400.webp">
+  <h1>Let&#39;s build a fort: Homelab v1.0</h1>
+  
+  
+  <code><time datetime="2026-07-17T00:00:00&#43;00:00">July 17, 2026</time></code>
+  
+  <p>For the longest time, I have put up with random ISP rented routers on my home network or routers that came with the apartments where I happened to be staying. Such devices are usually closed-source, bloated, lacking proper security updates, of limited configurability and the list goes on. These characteristics greatly reduce our network&rsquo;s security and our control over the network traffic between devices on the internal network and between the router and the Internet. This would be alright if I just cared about the security and control over a single computer, but now I also have a raspberry pi 5 server, a significant other I want to protect with a VPN and other mechanisms, as well as more servers likely to come, such as:</p>
+<ul>
+<li>A local AI box whose network traffic is tightly controlled because we all know local AIs are like unknown entities summoned from another dimension where we need to set up plenty of magic wards to make sure it does our bidding and not the reverse.</li>
+<li>Servers to run or showcase solutions for clients that appreciate security and privacy and not having to also trust some random cloud or VPS provider in addition to myself.</li>
+<li>Self-hosting of a lot of things, for me and my partner, for example a NAS and a local Chat.</li>
+<li>Public facing servers in a DMZ.</li>
+</ul>
+<p>So this network setup is essentially the start of what we can call a homelab. This first version of the homelab I describe in this article is minimal and simple as shown in the picture below, but it is meant to be expandable with a managed layer-2 network switch which I will do at a later time:</p>
+<p><img src="https://cdn.nostrcheck.me/5ed4cf6ae4f4c165bdb05398f36076975197a2585c70812dc0d799d3ad10ec3b.webp" alt="network topology"></p>
+<p>In the following sections I will talk about each notable component of the network setup. I have changed and left out a few non-essential parts of my setup, but this should give the gist of it. To keep it brief, I skip all commands that can actually activate the configurations I share. I assume the reader consults OpenBSD&rsquo;s and OpenWRT&rsquo;s documentation for additional details. With all the configurations in place, it should be sufficient to restart the configured devices for all of them to take effect at once. It has always helped me to review example setups along with my learning so I hope this can be useful for someone.</p>
+<h2 id="router">Router</h2>
+<p>The requirements that I had for the router were the following:</p>
+<ul>
+<li>Runs OpenBSD</li>
+<li>Powerful enough to not be too limiting for future creative use of PF (OpenBSD&rsquo;s firewall and more)</li>
+<li>Runs as much free software as possible in the firmware, such as with Coreboot</li>
+<li>Has Intel Management Engine (IME) disabled if the architecture is x86</li>
+<li>Is entirely wired, with no wireless hardware</li>
+<li>Has 4+ network ports</li>
+</ul>
+<p>The obvious choice after some internet search was one of those <a href="https://protectli.com/" title="">Protectli</a> Vault Pro routers and I did go for VP2440 with no wireless chips and with <a href="https://docs.dasharo.com/unified/protectli/overview/#vp2440" title="">Dasharo Coreboot</a> which disables IME. I was actually quite interested in one of those <a href="https://pcengines.ch/" title="">PC Engines</a> APUs, but PC Engines are not in business anymore since some time ago. They are cheaper, have less of the redundant hardware I don&rsquo;t really need and no IME. They have a similar thing to IME called Platform Security Processor (PSP), but it is somewhat less severe, but still bad though. Hey, I wish hardware manufacturers stopped these backdoor shenanigans, but all I can do is at least disable what I can of it. Something more the VP2440 has over an APU are two SFP+ ports which allow for 10Gb connectivity. While I only need a 1Gb connection for now, I thought it was nice to have that possibility in the future to be more future proof.</p>
+<p>I set up OpenBSD on it without any X file sets, but kept the compilation file set just in case I might need it while I&rsquo;m still getting used to OpenBSD. Once I become more experienced, I could possibly drop that fileset as well for added security. I chose the hostname <code>steelix</code>. Yes, I chose a pokémon theme for my hostnames to add some fun and nostalgia into the mix. I once had a Steelix that I turned virtually indestructible by pumping up his defenses with iron and HP ups whenever I could. I think that description fits nicely with my intention for this router.</p>
+<h2 id="isp-and-wan-port">ISP and WAN port</h2>
+<p>Having a router with an SFP+ port, I could plug the fiber optic cable from an ISP directly into the router via a 1Gb SFP ONT and up it to a 10Gb SFP ONT in the future if need be. This eliminates the need of having the usual ONT box and lets my router get a WAN IP address from the ISP directly, overall simplifying the setup. Here in Iceland, I only got to know about one wholesale fiber optic provider that supported connecting via SFP ONT, and that is the biggest one <a href="https://www.mila.is/" title="">Míla</a>. I also needed to find an ISP that provides static IPs while connecting through Míla, and one that I found was <a href="https://hringidan.is/" title="">Hringiðan</a>. The IP is tied to the PPPoE credentials that they give you. Then to connect to the Internet on the router, I put the following into <code>/etc/hostname.pppoe0</code>, replacing <code>authname</code> and <code>authkey</code> with my credentials:</p>
+<pre tabindex="0"><code>inet 0.0.0.0 255.255.255.255 NONE \
+    pppoedev ixl0 authproto chap \
+    authname &#39;authname&#39; authkey &#39;authkey&#39; up
+dest 0.0.0.1
+inet6 eui64
+!/sbin/route add default -ifp pppoe0 0.0.0.1
+!/sbin/route add -inet6 default -ifp pppoe0 fe80::%pppoe0
+</code></pre><p>I also put a simple <code>up</code> into <code>/etc/hostname.ixl0</code>, to activate the physical interface the fiber optic cable and SFP ONT is plugged into.</p>
+<h2 id="wireless-access-point">Wireless Access Point</h2>
+<p>Not having any wireless connectivity on the router was deliberate and for heightened security of this heart of the network. Wireless connectivity is added complexity and anyone close enough can attempt to connect, which means more potential attack vectors. We still want wireless connectivity in our home for now, so the idea is to have a separate wireless access point (WAP) that is easy to contain. From what I have learned of OpenBSD is that wireless connectivity often tends to not be that well supported, which is understandable seeing as it is a complex domain that often requires more manpower than available for an OS such as this one, and maybe it is not the highest priority either due to its security focus. So I narrowed my search to routers that run <a href="https://openwrt.org/" title="">OpenWRT</a>, seeing as OpenWRT and Linux in general has more wireless support. OpenWRT is a fairly stripped down Linux distro without systemd and such complexity, so I see that as a plus for security.</p>
+<p>First I had my eyes on the <a href="https://router.start9.com/" title="">start9 router</a>, mainly because it runs on a <a href="https://riscv.org/" title="">RISC-V</a> computer architecture which frees hardware manufacturers from having to pay fees for using it, as is the norm otherwise. In effect, the use of RISC-V decentralizes manufacturing more, supporting smaller manufacturers and gives us more choices for our hardware supply chain, some of which hopefully will turn out to be more trustworthy and non-backdoored. I however really needed a usable WAP soon, so I decided to wait with that. In the end I decided to go for the <a href="https://openwrt.org/toh/openwrt/one" title="">OpenWRT One router</a> to serve as a dumb WAP. When I mention a router from here on, I am talking about VP2440.</p>
+<p>One cool thing that you can do with OpenWRT is to have multiple wireless networks you can connect to on one WAP, and you can have each network on a separate VLAN, which is what I did. Those VLANs can have separate privilege levels set on the router&rsquo;s routing tables and firewall, such as different ones for guests, the family and so on. I might try installing a <a href="https://tollgate.me/" title="">Tollgate</a> package on the WAP on a separate VLAN at some point too, because it would be cool to know that I could charge random strangers for connecting if I wanted to.</p>
+<p>My OpenWRT configuration on the WAP is similar to the following, starting with the <code>/etc/config/network</code>:</p>
+<pre tabindex="0"><code>config interface &#39;loopback&#39;
+        option device &#39;lo&#39;
+        option proto &#39;static&#39;
+        option ipaddr &#39;127.0.0.1&#39;
+        option netmask &#39;255.0.0.0&#39;
+
+config globals &#39;globals&#39;
+        option ula_prefix &#39;fdab:853:1fb8::/48&#39;
+
+config interface &#39;privileged&#39;
+        option type &#39;bridge&#39;
+        option stp &#39;1&#39;
+        option ifname &#39;eth0.3&#39;
+        option proto &#39;none&#39;
+        option auto &#39;1&#39;
+        option delegate &#39;0&#39;
+
+config interface &#39;family&#39;
+        option type &#39;bridge&#39;
+        option stp &#39;1&#39;
+        option ifname &#39;eth0.4&#39;
+        option proto &#39;none&#39;
+        option auto &#39;1&#39;
+        option delegate &#39;0&#39;
+
+config interface &#39;br-lan&#39;
+        option type &#39;bridge&#39;
+        option stp &#39;1&#39;
+        list ifname &#39;eth0.5&#39;
+        list ifname &#39;eth1&#39;
+        option proto &#39;none&#39;
+        option auto &#39;1&#39;
+        option delegate &#39;0&#39;
+
+config interface &#39;guest&#39;
+        option type &#39;bridge&#39;
+        option stp &#39;1&#39;
+        option ifname &#39;eth0.6&#39;
+        option proto &#39;none&#39;
+        option auto &#39;1&#39;
+        option delegate &#39;0&#39;
+</code></pre><p>All except the four last interface definitions were in the configuration by default. Each of those four interfaces have a <code>list ifname 'eth0.N'</code> which means it bridges the <code>eth0</code> ethernet port (which connects upstream to the router) with the traffic tagged as VLAN <code>N</code>. The <code>br-lan</code> interface bridges the second ethernet port and the other three interfaces are used for their respective wireless networks in <code>/etc/config/wireless</code>:</p>
+<pre tabindex="0"><code>config wifi-device &#39;radio0&#39;
+        option type &#39;mac80211&#39;
+        option path &#39;platform/soc/18000000.wifi&#39;
+        option band &#39;2g&#39;
+        option channel &#39;1&#39;
+        option htmode &#39;HE20&#39;
+        option num_global_macaddr &#39;7&#39;
+        option disabled &#39;0&#39;
+        option country &#39;IS&#39;
+
+config wifi-iface &#39;privileged_radio0&#39;
+        option device &#39;radio0&#39;
+        option network &#39;privileged&#39;
+        option mode &#39;ap&#39;
+        option ssid &#39;Eagle&#39;
+        option encryption &#39;psk2&#39;
+        option key &#39;some-password&#39;
+
+config wifi-iface &#39;family_radio0&#39;
+        option device &#39;radio0&#39;
+        option network &#39;family&#39;
+        option mode &#39;ap&#39;
+        option ssid &#39;Shrimp&#39;
+        option encryption &#39;psk2&#39;
+        option key &#39;some-password&#39;
+
+config wifi-iface &#39;guest_radio0&#39;
+        option device &#39;radio0&#39;
+        option network &#39;guest&#39;
+        option mode &#39;ap&#39;
+        option ssid &#39;Magpie&#39;
+        option encryption &#39;psk2&#39;
+        option key &#39;some-password&#39;
+
+config wifi-device &#39;radio1&#39;
+        option type &#39;mac80211&#39;
+        option path &#39;platform/soc/18000000.wifi+1&#39;
+        option band &#39;5g&#39;
+        option channel &#39;36&#39;
+        option htmode &#39;HE80&#39;
+        option num_global_macaddr &#39;7&#39;
+        option disabled &#39;0&#39;
+        option country &#39;IS&#39;
+
+config wifi-iface &#39;privileged_radio1&#39;
+        option device &#39;radio1&#39;
+        option network &#39;privileged&#39;
+        option mode &#39;ap&#39;
+        option ssid &#39;Eagle&#39;
+        option encryption &#39;psk2&#39;
+        option key &#39;some-password&#39;
+
+config wifi-iface &#39;family_radio1&#39;
+        option device &#39;radio1&#39;
+        option network &#39;family&#39;
+        option mode &#39;ap&#39;
+        option ssid &#39;Shrimp&#39;
+        option encryption &#39;psk2&#39;
+        option key &#39;some-password&#39;
+
+config wifi-iface &#39;guest_radio1&#39;
+        option device &#39;radio1&#39;
+        option network &#39;guest&#39;
+        option mode &#39;ap&#39;
+        option ssid &#39;Magpie&#39;
+        option encryption &#39;psk2&#39;
+        option key &#39;some-password&#39;
+</code></pre><p>Each wireless interface is defined once for each frequency band that can be used. There, that&rsquo;s all that&rsquo;s needed for a functioning WAP.</p>
+<h2 id="vpn-with-wireguard-and-rdomains">VPN with Wireguard and Rdomains</h2>
+<p>I wanted some of my connected devices to use a VPN and some not, so instead of going through the hurdle of setting up the VPN on each device, I just added a new rdomain on the router, a separate network that routes non-internal traffic through a wireguard interface. This way, I also don&rsquo;t need to deal with the complications of getting my devices to talk to each other over the LAN if some of them are VPN connected. To set this up, I created <code>/etc/hostname.wg0</code>:</p>
+<pre tabindex="0"><code>rdomain 1
+wgkey &lt;private-key&gt;
+wgpeer &lt;public-key&gt; wgendpoint &lt;ip-address-1&gt; &lt;port&gt; wgaip 0.0.0.0/0
+inet &lt;ip-address-2&gt; 255.255.255.255
+!route -T1 add default -net &lt;ip-address-2&gt;
+</code></pre><p>Then I filled in the bracketed details according to my VPN provider.</p>
+<h2 id="lan-ports">LAN ports</h2>
+<p>I plugged in an SFP-Ethernet adapter to the remaining SFP+ port so now I had 3 ethernet ports for the LAN. I wanted one of them to be on the VPN and one of them to be where the WAP connects to. The <code>Eagle</code> wireless network was supposed to be under the VPN as well so I had to make sure that VLAN 3 was configured as so. To configure this, I put the LAN port under VPN in <code>/etc/hostname.ixl1</code>:</p>
+<pre tabindex="0"><code>rdomain 1
+inet 192.168.10.1 255.255.255.0 192.168.10.255
+</code></pre><p>I put the normal LAN port in <code>/etc/hostname.igc0</code>:</p>
+<pre tabindex="0"><code>inet 192.168.20.1 255.255.255.0 192.168.20.255
+</code></pre><p>For the WAP LAN port, I simply wrote <code>up</code> in <code>/etc/hostname.igc1</code> and made the VLANs as well, starting with the VPNed VLAN in <code>/etc/hostname.vlan0</code>:</p>
+<pre tabindex="0"><code>create
+parent igc1 vnetid 3
+rdomain 1
+inet 192.168.3.1 255.255.255.0 192.168.3.255 description &#34;AP Privileged&#34;
+</code></pre><p>Then the rest of the VLANs, starting with <code>/etc/hostname.vlan1</code>:</p>
+<pre tabindex="0"><code>create
+parent igc1 vnetid 4
+inet 192.168.4.1 255.255.255.0 192.168.4.255 description &#34;AP Family&#34;
+</code></pre><p>Then <code>/etc/hostname.vlan2</code>:</p>
+<pre tabindex="0"><code>create
+parent igc1 vnetid 5
+inet 192.168.5.1 255.255.255.0 192.168.5.255 description &#34;AP LAN port&#34;
+</code></pre><p>And finally <code>etc/hostname.vlan3</code>:</p>
+<pre tabindex="0"><code>create
+parent igc1 vnetid 6
+inet 192.168.6.1 255.255.255.0 192.168.6.255 description &#34;AP Guest&#34;
+</code></pre><h2 id="dhcp-and-dns">DHCP and DNS</h2>
+<p>On the router I use <code>dhcpd</code> to hand out IPs, default routes and DNS servers to all devices and <code>unbound</code> as a DNS server. I put this into <code>/etc/dhcpd.conf</code>:</p>
+<pre tabindex="0"><code>subnet 192.168.20.0 netmask 255.255.255.0 {
+        option domain-name-servers 192.168.20.1;
+        option routers 192.168.20.1;
+        range 192.168.20.2 192.168.20.254;
+}
+
+# Family
+subnet 192.168.4.0 netmask 255.255.255.0 {
+        option domain-name-servers 192.168.4.1;
+        option routers 192.168.4.1;
+        range 192.168.4.2 192.168.4.254;
+}
+
+# AP LAN
+subnet 192.168.5.0 netmask 255.255.255.0 {
+        option domain-name-servers 192.168.5.1;
+        option routers 192.168.5.1;
+        range 192.168.5.2 192.168.5.254;
+}
+
+# Guest
+subnet 192.168.6.0 netmask 255.255.255.0 {
+        option domain-name-servers 192.168.6.1;
+        option routers 192.168.6.1;
+        range 192.168.6.2 192.168.6.254;
+}
+</code></pre><p>and into the server section of <code>/var/unbound/etc/unbound.conf</code>:</p>
+<pre tabindex="0"><code>server:
+	interface: 192.168.20.1
+	interface: 192.168.4.1
+	interface: 192.168.5.1
+	interface: 192.168.6.1
+	interface: 127.0.0.1
+	#interface: 127.0.0.1@5353	# listen on alternative port
+	interface: ::1
+	#do-ip6: no
+
+	# override the default &#34;any&#34; address to send queries; if multiple
+	# addresses are available, they are used randomly to counter spoofing
+	#outgoing-interface: 192.0.2.1
+	#outgoing-interface: 2001:db8::53
+
+	access-control: 0.0.0.0/0 refuse
+	access-control: 127.0.0.0/8 allow
+	access-control: ::0/0 refuse
+	access-control: ::1 allow
+	access-control: 192.168.20.0/24 allow
+	access-control: 192.168.4.0/24 allow
+	access-control: 192.168.5.0/24 allow
+	access-control: 192.168.6.0/24 allow
+  ...
+</code></pre><p>I made sure to enable them:</p>
+<pre tabindex="0"><code>rcctl enable dhcpd unbound
+</code></pre><p>The above configurations only work for rdomain 0 however since <code>dhcpd</code> and <code>unbound</code> use only the network stack associated with one rdomain at a time. Therefore I needed to create a second dhcpd config <code>/etc/dhcpd1.conf</code>:</p>
+<pre tabindex="0"><code>subnet 192.168.10.0 netmask 255.255.255.0 {
+        option domain-name-servers &lt;ip-address&gt;;
+        option routers 192.168.10.1;
+        range 192.168.10.2 192.168.10.254;
+}
+
+# Privileged
+subnet 192.168.3.0 netmask 255.255.255.0 {
+        option domain-name-servers &lt;ip-address&gt;;
+        option routers 192.168.3.1;
+        range 192.168.3.2 192.168.3.254;
+}
+</code></pre><p>I chose the <code>domain-name-servers</code> IP address to be the one provided by the VPN provider. Then all that was left was to create a second instance of dhcpd that uses that config and rdomain 1:</p>
+<pre tabindex="0"><code>ln -s /etc/rc.d/dhcpd /etc/rc.d/dhcpd1
+rcctl set dhcpd1 flags -c /etc/dhcpd1.conf -l /var/db/dhcpd1.leases
+rcctl set dhcpd1 rdomain 1
+rcctl enable dhcpd1
+</code></pre><h2 id="firewall-and-nat">Firewall and NAT</h2>
+<p>To keep tight control over the network traffic, I configured OpenBSD&rsquo;s PF on the router. I built upon some example configurations and did some experiments until I settled on the following configuration in <code>/etc/pf.conf</code>:</p>
+<pre tabindex="0"><code>int_if_1 = &#34;ixl1&#34;
+int_if_2 = &#34;igc0&#34;
+wap = &#34;igc1&#34;
+int_ifs = &#34;{&#34; $int_if_1 $int_if_2 vlan &#34;}&#34;
+table &lt;int_networks&gt; const { $int_if_1:network $int_if_2:network vlan:network }
+table &lt;martians&gt; { 0.0.0.0/8 10.0.0.0/8 127.0.0.0/8 169.254.0.0/16     \
+	 	   172.16.0.0/12 192.0.0.0/24 192.0.2.0/24 224.0.0.0/3 \
+	 	   192.168.0.0/16 198.18.0.0/15 198.51.100.0/24        \
+	 	   203.0.113.0/24 }
+
+set skip on lo
+match in all scrub (no-df random-id max-mss 1440)
+match out on egress inet from ! (egress:network) to ! &lt;int_networks&gt; nat-to (egress:0)
+match out on wg0 inet from ! (wg0:network) to ! &lt;int_networks&gt; nat-to (wg0:0)
+antispoof quick for { egress $int_if_1 $int_if_2 vlan }
+block in quick on egress from &lt;martians&gt; to any
+#block return out quick on egress from any to &lt;martians&gt;
+block all
+pass out on { egress wg0 } inet
+pass out on $int_if_1 proto tcp from $int_if_2:network to port { ssh }
+pass out on vlan0 proto tcp from $int_if_2:network to vlan0:network port http
+pass in on $int_ifs inet
+pass in on $int_if_2 proto tcp to $int_if_1:network port { ssh } rtable 1
+pass in on $int_if_2 proto tcp to vlan0:network port http rtable 1
+</code></pre><p>In summary, all traffic originating from the Internet to the router is blocked but all traffic originating from the LAN is allowed to the Internet. The devices on the LAN can&rsquo;t communicate with each other, except that I can ssh from my laptop into my raspberry pi <code>raichu</code> and access some interfaces through http on the Eagle wireless network / VLAN 3. I also NAT all traffic to the Internet.</p>
+<p>With all these configurations in place and the router and WAP restarted and connected as shown in the image at the start of the article, homelab v1.0 is good to go!</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>This basic setup has turned out to be quite usable for me and my partner, and I will incrementally extend it and modify as time goes on. Going through it has taught me a lot and given me greater appreciation for what OpenBSD and OpenWRT can offer to the cause of claiming real control over a network. An effect of having this much control over the network with a security focused operating system like OpenBSD is that I am much less hesitant to run any kind of bloated, black box, security nightmarish operating system and its apps on a box, hell, even Windows boxes shan&rsquo;t phase me now. As long as the box&rsquo;s networking facilities are under my control, I can safely handle it.</p>
+<p>I hope this article has been useful or at least inspiring and I appreciate any comments or thoughts. Until next time!</p>
+
+  
+  <div class="push-down">
+    <ul class="nob horizontal-list">
+        <li>Tags: </li>
+        <li><a href="/tags/network/">Network</a></li>
+        <li><a href="/tags/security/">Security</a></li>
+        <li><a href="/tags/homelab/">Homelab</a></li>
+        <li><a href="/tags/openbsd/">Openbsd</a></li>
+        <li><a href="/tags/openwrt/">Openwrt</a></li>
+    </ul>
+  </div>
+
+  
+    </br>
+    <h4>Comments</h4>
+    <p>Access the comment section for the post in Nostr via your <a href="nostr:naddr1qq0xcet5wvkkyatfd3jz6cfdvehhyapddphk6etvv93z6a339ccqygrh9kelsclav473mu4nam7x0q2hsjng0tepdnhattq0f6zk3wngkspsgqqqw4rszgp99c">default app</a> or <a href="https://njump.me/naddr1qq0xcet5wvkkyatfd3jz6cfdvehhyapddphk6etvv93z6a339ccqygrh9kelsclav473mu4nam7x0q2hsjng0tepdnhattq0f6zk3wngkspsgqqqw4rszgp99c">web app</a>.</p>
+  
+
+    </div>
+  </main>
+  <footer>
+    <div id="footer" class="center">
+      <ul>
+  <li><a href="https://veldi.net/index.xml">RSS Feed</a></li>
+</ul>
+
+    </div>
+  </footer>
+</body>
+</html>

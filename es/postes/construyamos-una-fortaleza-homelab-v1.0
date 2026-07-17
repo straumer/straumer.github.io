@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>Construyamos una fortaleza: Homelab v1.0 | veldi</title>
+
+      <link rel="stylesheet" href="/css/main.min.8d5c924cf1c2799ff3ad3688371cac51d7f4d91d3265e6da30562760c6341a89.css" integrity="sha256-jVySTPHCeZ/zrTaINxysUdf02R0yZebaMFYnYMY0Gok=" crossorigin="anonymous">
+
+
+</head>
+<body>
+  <header>
+    <div>
+  
+  <a href="https://veldi.net/es/"><img id="header-img" src="/3cbdf3c9df8751686ed24230b72ed2ce958e5a6e46dad603a34fa41e2009eefb_3596088795995684450.webp"></a>
+  <div id="header-text">
+    <h3><a href="https://veldi.net/es/">veldi</a></h3>
+    <ul>
+      <li>Matthías Ragnarsson</li>
+      <li><a href="mailto:matt@netveldi.com">matt@netveldi.com</a> (<a href="/netveldi_email_key.asc">PGP</a>)</li>
+        <li><a href="nostr:nprofile1qqs8wtdnlp3l6etarhet8mhuv7q40p9xs7hjzm806kkq7n59dzax3dqt4yuyj">nprofile</a> / <a href="https://njump.me/nprofile1qqs8wtdnlp3l6etarhet8mhuv7q40p9xs7hjzm806kkq7n59dzax3dqt4yuyj">Njump</a></li>
+    </ul>
+  </div>
+</div>
+
+  <nav>
+    <div id="nav" class="center">
+      <ul>
+    <li>
+      <a aria-current="true" class="ancestor" href="/es/postes/">Postes</a>
+    </li>
+    <li>
+      <a href="https://github.com/straumer">Código</a>
+    </li>
+      </ul>
+      <ul id="langs">
+
+<li><a href="/posts/lets-build-a-fort-homelab-v1.0">English</a></li>
+
+<li><a href="/is/faerslur/byggjum-virki-homelab-v1.0">Íslenska</a></li>
+
+</ul>
+
+    </div>
+  </nav>
+
+
+  </header>
+  <main>
+    <div id="main" class="center">
+      
+  <img src="/9329435bf4b0915fbfac965fc8c7b6cb2baeb0c09bdd6c61419eeab134dd414f_254221165063964400.webp">
+  <h1>Construyamos una fortaleza: Homelab v1.0</h1>
+  
+  
+  <code><time datetime="2026-07-17T00:00:00&#43;00:00">17 de julio de 2026</time></code>
+  
+  <p>Durante mucho tiempo, he soportado enrutadores alquilados por ISP al azar en mi red doméstica o enrutadores que venían con los apartamentos donde me hospedaba. Estos dispositivos suelen ser de código cerrado, inflados, carentes de actualizaciones de seguridad adecuadas, de configurabilidad limitada y la lista continúa. Estas características reducen en gran medida la seguridad de nuestra red y nuestro control sobre el tráfico de red entre dispositivos de la red interna y entre el enrutador y el Internet. Esto estaría bien si solo me importara la seguridad y el control de una sola computadora, pero ahora también tengo un servidor raspberry pi 5, otra persona importante que quiero proteger con una VPN y otros mecanismos, así como más servidores que probablemente vendrán, como por ejemplo:</p>
+<ul>
+<li>Una caja de IA local cuyo tráfico de red está estrictamente controlado porque todos sabemos que las IAs locales son como entidades desconocidas convocadas desde otra dimensión donde necesitamos configurar muchas barreras mágicas para asegurarnos de que cumpla nuestras órdenes y no al revés.</li>
+<li>Servidores para ejecutar o mostrar soluciones para clientes que aprecian la seguridad y la privacidad y no tener que confiar también en algún proveedor aleatorio de nube o VPN además de mí.</li>
+<li>Autohospedaje de muchas cosas, para mí y mi pareja, por ejemplo un NAS y un Chat local.</li>
+<li>Servidores públicos en una DMZ.</li>
+</ul>
+<p>Esta configuración de red es esencialmente el comienzo de lo que podemos llamar un laboratorio doméstico. Esta primera versión del laboratorio que describo en este artículo es mínima y simple, como se muestra en la imagen a continuación, pero está diseñada para ser ampliable con un conmutador de red administrado de capa 2, lo cual haré más adelante:</p>
+<p><img src="https://cdn.nostrcheck.me/5ed4cf6ae4f4c165bdb05398f36076975197a2585c70812dc0d799d3ad10ec3b.webp" alt="topología de red"></p>
+<p>En las siguientes secciones hablaré sobre cada componente notable de la configuración de la red. Cambié y omití algunas partes no esenciales de mi configuración, pero esto debería dar una idea general. Para ser breve, me salto todos los comandos que realmente pueden activar las configuraciones que comparto. Asumo que el lector consulte la documentación de OpenBSD y OpenWRT para obtener detalles adicionales. Con todas las configuraciones implementadas, debería ser suficiente reiniciar los dispositivos configurados para que todos se activan a la vez. Siempre me ha ayudado revisar configuraciones de ejemplo junto con mi aprendizaje, así que espero que esto pueda ser útil para alguien.</p>
+<h2 id="enrutador">Enrutador</h2>
+<p>Los requisitos que tenía para el enrutador fueron los siguientes:</p>
+<ul>
+<li>Ejecuta OpenBSD</li>
+<li>Lo suficientemente potente como para no ser demasiado limitante para el uso creativo de PF (el cortafuegos de OpenBSD y más) en el futuro</li>
+<li>Ejecuta tanto software libre como sea posible en el firmware, como con Coreboot</li>
+<li>Tiene Motor de Gestión Intel (IME) deshabilitado si la arquitectura es x86</li>
+<li>Está completamente cableado, sin hardware inalámbrico</li>
+<li>Tiene 4+ puertos de red</li>
+</ul>
+<p>La elección obvia después de algunas búsquedas en Internet fue uno de esos enrutadores Vault Pro de <a href="https://protectli.com/" title="">Protectli</a> y elegí el VP2440 sin chips inalámbricos y con <a href="https://docs.dasharo.com/unified/protectli/overview/#vp2440" title="">Dasharo Coreboot</a> que desactiva IME. De hecho, estaba bastante interesado en una de esas APUs de <a href="https://pcengines.ch/" title="">PC Engines</a>, pero PC Engines ya no está activo desde hace algún tiempo. Son más baratos, tienen menos hardware redundante que realmente no necesito y no tienen IME. Tienen algo similar al IME llamado Procesador de Seguridad de Plataforma (PSP), pero es algo menos severo, pero sigue siendo malo. Oye, desearía que los fabricantes de hardware detuvieran estas travesuras de puertas traseras, pero todo lo que puedo hacer es al menos desactivar lo que pueda. Algo más que tiene el VP2440 sobre una APU son dos puertos SFP+ que permiten una conectividad de 10Gb. Si bien por ahora solo necesito una conexión de 1 Gb, pensé que sería bueno tener esa posibilidad para estar más preparado para el futuro.</p>
+<p>Configuré OpenBSD sin ningún conjunto de archivos X, pero mantuve el archivo de compilación configurado en caso de que pudiera necesitarlo mientras todavía me estoy acostumbrando a OpenBSD. Una vez que tenga más experiencia, posiblemente también pueda eliminar ese conjunto de archivos para mayor seguridad. Elegí el nombre de host &ldquo;steelix&rdquo;. Sí, elegí un tema de pokémon para mis nombres de host para algo de diversión y nostalgia. Una vez tuve un Steelix que se volvió prácticamente indestructible al aumentar sus defensas con hierro y aumentos de HP cada vez que podía. Creo que esa descripción encaja muy bien con mi intención para este enrutador.</p>
+<h2 id="isp-y-puerto-wan">ISP y puerto WAN</h2>
+<p>Al tener un enrutador con un puerto SFP+, pude conectar el cable de fibra óptica de un ISP directamente al enrutador a través de una ONT SFP de 1 Gb y aumentarlo a una ONT SFP de 10 Gb en el futuro si fuera necesario. Esto elimina la necesidad de tener la caja ONT habitual y permite que mi enrutador obtenga una dirección IP WAN directamente del ISP, lo que simplifica en general la configuración. Aquí en Islandia, solo conocí un proveedor mayorista de fibra óptica que admitía la conexión a través de SFP ONT, y ese es el más grande <a href="https://www.mila.is/" title="">Míla</a>. También necesitaba encontrar un ISP que proporciona direcciones IP estáticas mientras me conectaba a través de Míla, y uno que encontré fue <a href="https://hringidan.is/" title="">Hringiðan</a>. La IP está ligada a las credenciales PPPoE que te dan. Luego, para conectarme al Internet en el enrutador, puse lo siguiente en <code>/etc/hostname.pppoe0</code>, reemplazando <code>authname</code> y <code>authkey</code> con mis credenciales:</p>
+<pre tabindex="0"><code>inet 0.0.0.0 255.255.255.255 NONE \
+    pppoedev ixl0 authproto chap \
+    authname &#39;authname&#39; authkey &#39;authkey&#39; up
+dest 0.0.0.1
+inet6 eui64
+!/sbin/route add default -ifp pppoe0 0.0.0.1
+!/sbin/route add -inet6 default -ifp pppoe0 fe80::%pppoe0
+</code></pre><p>También puse un simple <code>up</code> en <code>/etc/hostname.ixl0</code>, para activar la interfaz física a la que está conectado el cable de fibra óptica y SFP ONT.</p>
+<h2 id="punto-de-acceso-inalámbrico">Punto de acceso inalámbrico</h2>
+<p>No tener conectividad inalámbrica en el enrutador fue deliberado y para mayor seguridad de este corazón de la red. La conectividad inalámbrica añade complejidad y cualquiera que esté lo suficientemente cerca puede intentar conectarse, lo que significa más vectores de ataque potenciales. Por ahora todavía queremos conectividad inalámbrica en nuestro hogar, por lo que la idea es tener un punto de acceso inalámbrico (WAP) separado que sea fácil de contener. Lo que he aprendido de OpenBSD es que la conectividad inalámbrica a menudo tiende a no ser tan compatible, lo cual es comprensible ya que es un dominio complejo que a menudo requiere más mano de obra que hay disponible para un sistema operativo como este, y tal vez tampoco sea la máxima prioridad debido a su enfoque en la seguridad. Así que limité mi búsqueda a enrutadores que ejecutan <a href="https://openwrt.org/" title="">OpenWRT</a>, ya que OpenWRT y Linux en general tienen más soporte inalámbrico. OpenWRT es una distribución de Linux bastante simplificada sin systemd y tanta complejidad, así que lo veo como una ventaja para la seguridad.</p>
+<p>Primero tuve mis ojos en el <a href="https://router.start9.com/" title="">enrutador start9</a>, principalmente porque se ejecuta en una arquitectura de computadora <a href="https://riscv.org/" title="">RISC-V</a> que libera a los fabricantes de hardware de tener que pagar tarifas por usarlo, como es la norma en otros casos. De hecho, el uso de RISC-V descentraliza más la fabricación, brinda soporte a los fabricantes más pequeños y nos brinda más opciones para nuestra cadena de suministro de hardware, algunas de las cuales, con suerte, resultarán más confiables y sin puerta trasera. Sin embargo, realmente necesitaba pronto un WAP utilizable, así que decidí esperar con eso. Al final decidí optar por el <a href="https://openwrt.org/toh/openwrt/one" title="">enrutador OpenWRT One</a> para que sirviera como un WAP tonto. Cuándo hablo de un enrutador en adelante, estoy hablando de VP2440.</p>
+<p>Una cosa interesante que puedes hacer con OpenWRT es tener múltiples redes inalámbricas a las que puedas conectarte en un WAP, y puedes tener cada red en una VLAN separada, que es lo que hice. Esos VLANs pueden tener niveles de privilegio separados establecidos en las tablas de enrutamiento y el cortafuegos del enrutador, como niveles diferentes para invitados, la familia, etc. También podría intentar instalar un paquete <a href="https://tollgate.me/" title="">Tollgate</a> en el WAP en una VLAN separada en algún momento, porque sería genial saber que podría cobrar a extraños al azar por conectarse si quisiera.</p>
+<p>Mi configuración de OpenWRT en el WAP es similar a la siguiente, comenzando con <code>/etc/config/network</code>:</p>
+<pre tabindex="0"><code>config interface &#39;loopback&#39;
+        option device &#39;lo&#39;
+        option proto &#39;static&#39;
+        option ipaddr &#39;127.0.0.1&#39;
+        option netmask &#39;255.0.0.0&#39;
+
+config globals &#39;globals&#39;
+        option ula_prefix &#39;fdab:853:1fb8::/48&#39;
+
+config interface &#39;privileged&#39;
+        option type &#39;bridge&#39;
+        option stp &#39;1&#39;
+        option ifname &#39;eth0.3&#39;
+        option proto &#39;none&#39;
+        option auto &#39;1&#39;
+        option delegate &#39;0&#39;
+
+config interface &#39;family&#39;
+        option type &#39;bridge&#39;
+        option stp &#39;1&#39;
+        option ifname &#39;eth0.4&#39;
+        option proto &#39;none&#39;
+        option auto &#39;1&#39;
+        option delegate &#39;0&#39;
+
+config interface &#39;br-lan&#39;
+        option type &#39;bridge&#39;
+        option stp &#39;1&#39;
+        list ifname &#39;eth0.5&#39;
+        list ifname &#39;eth1&#39;
+        option proto &#39;none&#39;
+        option auto &#39;1&#39;
+        option delegate &#39;0&#39;
+
+config interface &#39;guest&#39;
+        option type &#39;bridge&#39;
+        option stp &#39;1&#39;
+        option ifname &#39;eth0.6&#39;
+        option proto &#39;none&#39;
+        option auto &#39;1&#39;
+        option delegate &#39;0&#39;
+</code></pre><p>Todas, excepto las cuatro últimas definiciones de interfaz, estaban en la configuración de forma predeterminada. Cada una de esas cuatro interfaces tiene una <code>list ifname 'eth0.N'</code>, lo que significa que conecta el puerto ethernet <code>eth0</code> (que se conecta al enrutador) con el tráfico etiquetado como VLAN <code>N</code>. La interfaz <code>br-lan</code> une el segundo puerto ethernet y las otras tres interfaces se utilizan para sus respectivas redes inalámbricas en <code>/etc/config/wireless</code>:</p>
+<pre tabindex="0"><code>config wifi-device &#39;radio0&#39;
+        option type &#39;mac80211&#39;
+        option path &#39;platform/soc/18000000.wifi&#39;
+        option band &#39;2g&#39;
+        option channel &#39;1&#39;
+        option htmode &#39;HE20&#39;
+        option num_global_macaddr &#39;7&#39;
+        option disabled &#39;0&#39;
+        option country &#39;IS&#39;
+
+config wifi-iface &#39;privileged_radio0&#39;
+        option device &#39;radio0&#39;
+        option network &#39;privileged&#39;
+        option mode &#39;ap&#39;
+        option ssid &#39;Eagle&#39;
+        option encryption &#39;psk2&#39;
+        option key &#39;some-password&#39;
+
+config wifi-iface &#39;family_radio0&#39;
+        option device &#39;radio0&#39;
+        option network &#39;family&#39;
+        option mode &#39;ap&#39;
+        option ssid &#39;Shrimp&#39;
+        option encryption &#39;psk2&#39;
+        option key &#39;some-password&#39;
+
+config wifi-iface &#39;guest_radio0&#39;
+        option device &#39;radio0&#39;
+        option network &#39;guest&#39;
+        option mode &#39;ap&#39;
+        option ssid &#39;Magpie&#39;
+        option encryption &#39;psk2&#39;
+        option key &#39;some-password&#39;
+
+config wifi-device &#39;radio1&#39;
+        option type &#39;mac80211&#39;
+        option path &#39;platform/soc/18000000.wifi+1&#39;
+        option band &#39;5g&#39;
+        option channel &#39;36&#39;
+        option htmode &#39;HE80&#39;
+        option num_global_macaddr &#39;7&#39;
+        option disabled &#39;0&#39;
+        option country &#39;IS&#39;
+
+config wifi-iface &#39;privileged_radio1&#39;
+        option device &#39;radio1&#39;
+        option network &#39;privileged&#39;
+        option mode &#39;ap&#39;
+        option ssid &#39;Eagle&#39;
+        option encryption &#39;psk2&#39;
+        option key &#39;some-password&#39;
+
+config wifi-iface &#39;family_radio1&#39;
+        option device &#39;radio1&#39;
+        option network &#39;family&#39;
+        option mode &#39;ap&#39;
+        option ssid &#39;Shrimp&#39;
+        option encryption &#39;psk2&#39;
+        option key &#39;some-password&#39;
+
+config wifi-iface &#39;guest_radio1&#39;
+        option device &#39;radio1&#39;
+        option network &#39;guest&#39;
+        option mode &#39;ap&#39;
+        option ssid &#39;Magpie&#39;
+        option encryption &#39;psk2&#39;
+        option key &#39;some-password&#39;
+</code></pre><p>Cada interfaz inalámbrica se define una vez para cada banda de frecuencia que se puede utilizar. Eso es todo lo que se necesita para que un WAP funcione.</p>
+<h2 id="vpn-con-wireguard-y-rdomains">VPN con Wireguard y Rdomains</h2>
+<p>Quería que algunos de mis dispositivos conectados usaran una VPN y otros no, así que en lugar de pasar por el obstáculo de configurar la VPN en cada dispositivo, simplemente agregué un nuevo rdomain en el enrutador, una red separada que enruta el tráfico no interno a través de una interfaz Wireguard. De esta manera, tampoco necesito lidiar con las complicaciones de lograr que mis dispositivos se comuniquen entre sí a través de la LAN si algunos de ellos están conectados a una VPN. Para configurar esto, creé <code>/etc/hostname.wg0</code>:</p>
+<pre tabindex="0"><code>rdomain 1
+wgkey &lt;private-key&gt;
+wgpeer &lt;public-key&gt; wgendpoint &lt;ip-address-1&gt; &lt;port&gt; wgaip 0.0.0.0/0
+inet &lt;ip-address-2&gt; 255.255.255.255
+!route -T1 add default -net &lt;ip-address-2&gt;
+</code></pre><p>Luego completé los detalles entre corchetes según mi proveedor de VPN.</p>
+<h2 id="puertos-lan">puertos LAN</h2>
+<p>Conecté un adaptador SFP-Ethernet al puerto SFP+ restante, y con eso tenía 3 puertos Ethernet para la LAN. Quería que uno de ellos estuviera en la VPN y el otro donde se conecta el WAP. La red inalámbrica &ldquo;Eagle&rdquo; debía también estar en la VPN, así que tuve que asegurarme de que VLAN 3 estuviera configurada así. Para configurar esto, puse el puerto LAN en la VPN en <code>/etc/hostname.ixl1</code>:</p>
+<pre tabindex="0"><code>rdomain 1
+inet 192.168.10.1 255.255.255.0 192.168.10.255
+</code></pre><p>Puse el puerto LAN normal en <code>/etc/hostname.igc0</code>:</p>
+<pre tabindex="0"><code>inet 192.168.20.1 255.255.255.0 192.168.20.255
+</code></pre><p>Para el puerto WAP LAN, simplemente escribí <code>up</code> en <code>/etc/hostname.igc1</code> e hice las VLANs también, comenzando con la VLAN en la VPN en <code>/etc/hostname.vlan0</code>:</p>
+<pre tabindex="0"><code>create
+parent igc1 vnetid 3
+rdomain 1
+inet 192.168.3.1 255.255.255.0 192.168.3.255 description &#34;AP Privileged&#34;
+</code></pre><p>Luego el resto de las VLANs, comenzando con <code>/etc/hostname.vlan1</code>:</p>
+<pre tabindex="0"><code>create
+parent igc1 vnetid 4
+inet 192.168.4.1 255.255.255.0 192.168.4.255 description &#34;AP Family&#34;
+</code></pre><p>Luego <code>/etc/hostname.vlan2</code>:</p>
+<pre tabindex="0"><code>create
+parent igc1 vnetid 5
+inet 192.168.5.1 255.255.255.0 192.168.5.255 description &#34;AP LAN port&#34;
+</code></pre><p>Y finalmente <code>etc/hostname.vlan3</code>:</p>
+<pre tabindex="0"><code>create
+parent igc1 vnetid 6
+inet 192.168.6.1 255.255.255.0 192.168.6.255 description &#34;AP Guest&#34;
+</code></pre><h2 id="dhcp-y-dns">DHCP y DNS</h2>
+<p>En el enrutador utilizo <code>dhcpd</code> para distribuir IP, rutas por defecto y servidores DNS a todos los dispositivos y <code>unbound</code> como servidor DNS. Puse esto en <code>/etc/dhcpd.conf</code>:</p>
+<pre tabindex="0"><code>subnet 192.168.20.0 netmask 255.255.255.0 {
+        option domain-name-servers 192.168.20.1;
+        option routers 192.168.20.1;
+        range 192.168.20.2 192.168.20.254;
+}
+
+# Family
+subnet 192.168.4.0 netmask 255.255.255.0 {
+        option domain-name-servers 192.168.4.1;
+        option routers 192.168.4.1;
+        range 192.168.4.2 192.168.4.254;
+}
+
+# AP LAN
+subnet 192.168.5.0 netmask 255.255.255.0 {
+        option domain-name-servers 192.168.5.1;
+        option routers 192.168.5.1;
+        range 192.168.5.2 192.168.5.254;
+}
+
+# Guest
+subnet 192.168.6.0 netmask 255.255.255.0 {
+        option domain-name-servers 192.168.6.1;
+        option routers 192.168.6.1;
+        range 192.168.6.2 192.168.6.254;
+}
+</code></pre><p>y en la sección del servidor de <code>/var/unbound/etc/unbound.conf</code>:</p>
+<pre tabindex="0"><code>server:
+	interface: 192.168.20.1
+	interface: 192.168.4.1
+	interface: 192.168.5.1
+	interface: 192.168.6.1
+	interface: 127.0.0.1
+	#interface: 127.0.0.1@5353	# listen on alternative port
+	interface: ::1
+	#do-ip6: no
+
+	# override the default &#34;any&#34; address to send queries; if multiple
+	# addresses are available, they are used randomly to counter spoofing
+	#outgoing-interface: 192.0.2.1
+	#outgoing-interface: 2001:db8::53
+
+	access-control: 0.0.0.0/0 refuse
+	access-control: 127.0.0.0/8 allow
+	access-control: ::0/0 refuse
+	access-control: ::1 allow
+	access-control: 192.168.20.0/24 allow
+	access-control: 192.168.4.0/24 allow
+	access-control: 192.168.5.0/24 allow
+	access-control: 192.168.6.0/24 allow
+  ...
+</code></pre><p>Me aseguré de habilitarlos:</p>
+<pre tabindex="0"><code>rcctl enable dhcpd unbound
+</code></pre><p>Sin embargo, las configuraciones anteriores solo funcionan para rdomain 0, ya que <code>dhcpd</code> y <code>unbound</code> usan solo la pila de red asociada con un rdomain a la vez. Por lo tanto, necesitaba crear una segunda configuración de dhcpd <code>/etc/dhcpd1.conf</code>:</p>
+<pre tabindex="0"><code>subnet 192.168.10.0 netmask 255.255.255.0 {
+        option domain-name-servers &lt;ip-address&gt;;
+        option routers 192.168.10.1;
+        range 192.168.10.2 192.168.10.254;
+}
+
+# Privileged
+subnet 192.168.3.0 netmask 255.255.255.0 {
+        option domain-name-servers &lt;ip-address&gt;;
+        option routers 192.168.3.1;
+        range 192.168.3.2 192.168.3.254;
+}
+</code></pre><p>Elegí que la dirección IP de <code>domain-name-servers</code> fuera la proporcionada por el proveedor de VPN. Luego todo lo que quedaba era crear una segunda instancia de dhcpd que use esa configuración y rdomain 1:</p>
+<pre tabindex="0"><code>ln -s /etc/rc.d/dhcpd /etc/rc.d/dhcpd1
+rcctl set dhcpd1 flags -c /etc/dhcpd1.conf -l /var/db/dhcpd1.leases
+rcctl set dhcpd1 rdomain 1
+rcctl enable dhcpd1
+</code></pre><h2 id="cortafuegos-y-nat">Cortafuegos y NAT</h2>
+<p>Para mantener un control estricto sobre el tráfico de la red, configuré PF de OpenBSD en el enrutador. Me basé en algunas configuraciones de ejemplo e hice algunos experimentos hasta que me decidí por la siguiente configuración en <code>/etc/pf.conf</code>:</p>
+<pre tabindex="0"><code>int_if_1 = &#34;ixl1&#34;
+int_if_2 = &#34;igc0&#34;
+wap = &#34;igc1&#34;
+int_ifs = &#34;{&#34; $int_if_1 $int_if_2 vlan &#34;}&#34;
+table &lt;int_networks&gt; const { $int_if_1:network $int_if_2:network vlan:network }
+table &lt;martians&gt; { 0.0.0.0/8 10.0.0.0/8 127.0.0.0/8 169.254.0.0/16     \
+	 	   172.16.0.0/12 192.0.0.0/24 192.0.2.0/24 224.0.0.0/3 \
+	 	   192.168.0.0/16 198.18.0.0/15 198.51.100.0/24        \
+	 	   203.0.113.0/24 }
+
+set skip on lo
+match in all scrub (no-df random-id max-mss 1440)
+match out on egress inet from ! (egress:network) to ! &lt;int_networks&gt; nat-to (egress:0)
+match out on wg0 inet from ! (wg0:network) to ! &lt;int_networks&gt; nat-to (wg0:0)
+antispoof quick for { egress $int_if_1 $int_if_2 vlan }
+block in quick on egress from &lt;martians&gt; to any
+#block return out quick on egress from any to &lt;martians&gt;
+block all
+pass out on { egress wg0 } inet
+pass out on $int_if_1 proto tcp from $int_if_2:network to port { ssh }
+pass out on vlan0 proto tcp from $int_if_2:network to vlan0:network port http
+pass in on $int_ifs inet
+pass in on $int_if_2 proto tcp to $int_if_1:network port { ssh } rtable 1
+pass in on $int_if_2 proto tcp to vlan0:network port http rtable 1
+</code></pre><p>En resumen, todo el tráfico que se origina desde el Internet hacia el enrutador está bloqueado, pero todo el tráfico que se origina desde la LAN está permitido hacia el Internet. Los dispositivos en la LAN no pueden comunicarse entre sí, excepto que puedo entrar por ssh desde mi computadora portátil a mi raspberry pi <code>raichu</code> y acceder a algunas interfaces a través de http en la red inalámbrica Eagle/VLAN 3. También pongo todo el tráfico por NAT antes de salir al Internet.</p>
+<p>Con todas estas configuraciones implementadas y el enrutador y WAP reiniciados y conectados como se muestra en la imagen al comienzo del artículo, ¡homelab v1.0 está listo!</p>
+<h2 id="conclusión">Conclusión</h2>
+<p>Esta configuración básica ha resultado bastante útil para mí y para mi pareja, y la ampliaré y modificaré gradualmente a medida que pase el tiempo. Pasar por esto me ha enseñado mucho y me ha dado una mayor apreciación de lo que OpenBSD y OpenWRT pueden ofrecer a la causa de reclamar un control real sobre una red. Un efecto de tener tanto control sobre la red con un sistema operativo centrado en la seguridad como OpenBSD es que soy mucho menos reacio a ejecutar cualquier tipo de sistema operativo inflado, de caja negra, de pesadilla de seguridad y sus aplicaciones en una caja, diablos, ni siquiera las cajas de Windows me afectarán ahora. Mientras que las facultades de red de la caja estén bajo mi control, puedo manejarlo con seguridad.</p>
+<p>Espero que este artículo haya sido útil o al menos inspirador y agradezco cualquier comentario o idea. ¡Hasta la próxima!</p>
+
+  
+  <div class="push-down">
+    <ul class="nob horizontal-list">
+        <li>Etiquetas: </li>
+        <li><a href="/es/etiquetas/red/">Red</a></li>
+        <li><a href="/es/etiquetas/seguridad/">Seguridad</a></li>
+        <li><a href="/es/etiquetas/homelab/">Homelab</a></li>
+        <li><a href="/es/etiquetas/openbsd/">Openbsd</a></li>
+        <li><a href="/es/etiquetas/openwrt/">Openwrt</a></li>
+    </ul>
+  </div>
+
+  
+    </br>
+    <h4>Comentarios</h4>
+    <p>Accede a la sección de comentarios del post en Nostr con su <a href="nostr:naddr1qqnkxmmwwd68yatev9kk7uedw4hxzttxdae8gctvv4axzttgdakk2mrpvgkhvvfwxqpzqaedk0ux8lt905wl9vlwl3ncz4uy56r67gtval26cr6ws45t5695qvzqqqr4guelu5x6">app por defecto</a> o <a href="https://njump.me/naddr1qqnkxmmwwd68yatev9kk7uedw4hxzttxdae8gctvv4axzttgdakk2mrpvgkhvvfwxqpzqaedk0ux8lt905wl9vlwl3ncz4uy56r67gtval26cr6ws45t5695qvzqqqr4guelu5x6">app de web</a>.</p>
+  
+
+    </div>
+  </main>
+  <footer>
+    <div id="footer" class="center">
+      <ul>
+  <li><a href="https://veldi.net/es/index.xml">RSS Feed</a></li>
+</ul>
+
+    </div>
+  </footer>
+</body>
+</html>

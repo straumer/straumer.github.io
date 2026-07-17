@@ -6,8 +6,15 @@
     <description>Recent content in Openbsd on veldi</description>
     <generator>Hugo</generator>
     <language>is</language>
-    <lastBuildDate>Mon, 12 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 15:17:45 +0000</lastBuildDate>
     <atom:link href="https://veldi.net/is/togg/openbsd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Byggjum virki: Homelab v1.0</title>
+      <link>https://veldi.net/is/faerslur/byggjum-virki-homelab-v1.0</link>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://veldi.net/is/faerslur/byggjum-virki-homelab-v1.0</guid>
+      <description>Þessi grein skoðar ástæður og aðferðir grunnuppsetningar minnar á öruggu heimaneti og „homelab“. Hún skoðar vélbúnaðarval og uppsetningu OpenBSD á netbeini og OpenWRT á þráðlausum aðgangsstað.</description>
+    </item>
     <item>
       <title>Tíðindi: 2026-01-12</title>
       <link>https://veldi.net/is/faerslur/note1mtfnk2wpdq5r7wz99ay9pkytx78pylvyasfm66hc5dcn0p4aqsfq7kh609/</link>

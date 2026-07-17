@@ -2,6 +2,205 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://veldi.net/categories/article/</loc>
+    <lastmod>2026-07-17T15:17:45+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://veldi.net/es/categorias/articulo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="is"
+                href="https://veldi.net/is/flokkar/grein/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://veldi.net/categories/article/"
+                />
+  </url><url>
+    <loc>https://veldi.net/categories/</loc>
+    <lastmod>2026-07-17T15:17:45+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://veldi.net/es/categorias/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="is"
+                href="https://veldi.net/is/flokkar/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://veldi.net/categories/"
+                />
+  </url><url>
+    <loc>https://veldi.net/tags/homelab/</loc>
+    <lastmod>2026-07-17T15:17:45+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://veldi.net/es/etiquetas/homelab/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="is"
+                href="https://veldi.net/is/togg/homelab/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://veldi.net/tags/homelab/"
+                />
+  </url><url>
+    <loc>https://veldi.net/posts/lets-build-a-fort-homelab-v1.0</loc>
+    <lastmod>2026-07-17T15:17:45+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://veldi.net/es/postes/construyamos-una-fortaleza-homelab-v1.0"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="is"
+                href="https://veldi.net/is/faerslur/byggjum-virki-homelab-v1.0"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://veldi.net/posts/lets-build-a-fort-homelab-v1.0"
+                />
+  </url><url>
+    <loc>https://veldi.net/tags/network/</loc>
+    <lastmod>2026-07-17T15:17:45+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://veldi.net/es/etiquetas/red/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="is"
+                href="https://veldi.net/is/togg/netkerfi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://veldi.net/tags/network/"
+                />
+  </url><url>
+    <loc>https://veldi.net/tags/openbsd/</loc>
+    <lastmod>2026-07-17T15:17:45+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://veldi.net/es/etiquetas/openbsd/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="is"
+                href="https://veldi.net/is/togg/openbsd/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://veldi.net/tags/openbsd/"
+                />
+  </url><url>
+    <loc>https://veldi.net/tags/openwrt/</loc>
+    <lastmod>2026-07-17T15:17:45+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://veldi.net/es/etiquetas/openwrt/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="is"
+                href="https://veldi.net/is/togg/openwrt/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://veldi.net/tags/openwrt/"
+                />
+  </url><url>
+    <loc>https://veldi.net/posts/</loc>
+    <lastmod>2026-07-17T15:17:45+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://veldi.net/es/postes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="is"
+                href="https://veldi.net/is/faerslur/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://veldi.net/posts/"
+                />
+  </url><url>
+    <loc>https://veldi.net/tags/security/</loc>
+    <lastmod>2026-07-17T15:17:45+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://veldi.net/es/etiquetas/seguridad/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="is"
+                href="https://veldi.net/is/togg/%C3%B6ryggi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://veldi.net/tags/security/"
+                />
+  </url><url>
+    <loc>https://veldi.net/tags/</loc>
+    <lastmod>2026-07-17T15:17:45+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://veldi.net/es/etiquetas/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="is"
+                href="https://veldi.net/is/togg/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://veldi.net/tags/"
+                />
+  </url><url>
+    <loc>https://veldi.net/</loc>
+    <lastmod>2026-07-17T15:17:45+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://veldi.net/es/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="is"
+                href="https://veldi.net/is/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://veldi.net/"
+                />
+  </url><url>
     <loc>https://veldi.net/tags/bitcoin/</loc>
     <lastmod>2026-03-09T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -36,24 +235,6 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="https://veldi.net/tags/c&#43;&#43;/"
-                />
-  </url><url>
-    <loc>https://veldi.net/categories/</loc>
-    <lastmod>2026-03-09T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://veldi.net/es/categorias/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="is"
-                href="https://veldi.net/is/flokkar/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://veldi.net/categories/"
                 />
   </url><url>
     <loc>https://veldi.net/tags/freesoftware/</loc>
@@ -128,24 +309,6 @@
                 href="https://veldi.net/tags/nostr/"
                 />
   </url><url>
-    <loc>https://veldi.net/posts/</loc>
-    <lastmod>2026-03-09T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://veldi.net/es/postes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="is"
-                href="https://veldi.net/is/faerslur/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://veldi.net/posts/"
-                />
-  </url><url>
     <loc>https://veldi.net/tags/programming/</loc>
     <lastmod>2026-03-09T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -200,24 +363,6 @@
                 href="https://veldi.net/tags/shell/"
                 />
   </url><url>
-    <loc>https://veldi.net/tags/</loc>
-    <lastmod>2026-03-09T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://veldi.net/es/etiquetas/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="is"
-                href="https://veldi.net/is/togg/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://veldi.net/tags/"
-                />
-  </url><url>
     <loc>https://veldi.net/categories/update/</loc>
     <lastmod>2026-03-09T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -253,42 +398,6 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="https://veldi.net/posts/note15ly04g3l694s2qsr2qptj68kxwywaamqqluccfw9g03j23krf7zszwq8es/"
-                />
-  </url><url>
-    <loc>https://veldi.net/</loc>
-    <lastmod>2026-03-09T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://veldi.net/es/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="is"
-                href="https://veldi.net/is/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://veldi.net/"
-                />
-  </url><url>
-    <loc>https://veldi.net/tags/openbsd/</loc>
-    <lastmod>2026-01-12T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://veldi.net/es/etiquetas/openbsd/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="is"
-                href="https://veldi.net/is/togg/openbsd/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://veldi.net/tags/openbsd/"
                 />
   </url><url>
     <loc>https://veldi.net/tags/raspberrypi/</loc>
@@ -527,24 +636,6 @@
                 href="https://veldi.net/posts/note1qh7v84zu7xhehc7yvrlc4twah23e3aux0l68hyawyrlqh5507dssg9q48d/"
                 />
   </url><url>
-    <loc>https://veldi.net/categories/article/</loc>
-    <lastmod>2024-11-12T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://veldi.net/es/categorias/articulo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="is"
-                href="https://veldi.net/is/flokkar/grein/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://veldi.net/categories/article/"
-                />
-  </url><url>
     <loc>https://veldi.net/tags/mnemotechnics/</loc>
     <lastmod>2024-11-12T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -580,24 +671,6 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="https://veldi.net/posts/random-password-memorization-with-pao/"
-                />
-  </url><url>
-    <loc>https://veldi.net/tags/security/</loc>
-    <lastmod>2024-11-12T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://veldi.net/es/etiquetas/seguridad/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="is"
-                href="https://veldi.net/is/togg/%C3%B6ryggi/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://veldi.net/tags/security/"
                 />
   </url><url>
     <loc>https://veldi.net/posts/note18uk5vzf4varqqtz99f529zjhhsc0ydy9jqv0fmxghxy8v3gt50yqc0qdtj/</loc>
