@@ -10,9 +10,9 @@
     <atom:link href="https://veldi.net/tags/homelab/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Let&#39;s build a fort: Homelab v1.0</title>
-      <link>https://veldi.net/posts/lets-build-a-fort-homelab-v1.0</link>
+      <link>https://veldi.net/posts/lets-build-a-fort-homelab-v1-0/</link>
       <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://veldi.net/posts/lets-build-a-fort-homelab-v1.0</guid>
+      <guid>https://veldi.net/posts/lets-build-a-fort-homelab-v1-0/</guid>
       <description>This article goes into some of the whys and hows of my foundational setup of a secure home network and homelab. It goes into the hardware choices and the configuration of OpenBSD for the router and OpenWRT for a wireless access point.</description>
     </item>
   </channel>
