@@ -10,9 +10,9 @@
     <atom:link href="https://veldi.net/is/faerslur/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Byggjum virki: Homelab v1.0</title>
-      <link>https://veldi.net/is/faerslur/byggjum-virki-homelab-v1-0/</link>
+      <link>https://veldi.net/is/faerslur/byggjum-virki-homelab-v1.0/</link>
       <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://veldi.net/is/faerslur/byggjum-virki-homelab-v1-0/</guid>
+      <guid>https://veldi.net/is/faerslur/byggjum-virki-homelab-v1.0/</guid>
       <description>Þessi grein skoðar ástæður og aðferðir grunnuppsetningar minnar á öruggu heimaneti og „homelab“. Hún skoðar vélbúnaðarval og uppsetningu OpenBSD á netbeini og OpenWRT á þráðlausum aðgangsstað.</description>
     </item>
     <item>

@@ -10,9 +10,9 @@
     <atom:link href="https://veldi.net/es/postes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Construyamos una fortaleza: Homelab v1.0</title>
-      <link>https://veldi.net/es/postes/construyamos-una-fortaleza-homelab-v1-0/</link>
+      <link>https://veldi.net/es/postes/construyamos-una-fortaleza-homelab-v1.0/</link>
       <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://veldi.net/es/postes/construyamos-una-fortaleza-homelab-v1-0/</guid>
+      <guid>https://veldi.net/es/postes/construyamos-una-fortaleza-homelab-v1.0/</guid>
       <description>Este artículo habla de algunos de los porqués y cómos de mi configuración fundamental de una red doméstica segura y un &amp;ldquo;homelab&amp;rdquo;. Habla de las opciones de hardware y la configuración de OpenBSD para el enrutador y OpenWRT para un punto de acceso inalámbrico.</description>
     </item>
     <item>
